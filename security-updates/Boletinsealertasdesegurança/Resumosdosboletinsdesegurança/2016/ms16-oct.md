@@ -5684,5 +5684,6 @@ As informações fornecidas na Base de Dados de Conhecimento Microsoft são apre
 -   V1.0 (11 de outubro de 2016): Resumo do boletim publicado.
 -   V1.1 (quarta-feira, 12 de outubro de 2016): Revisão do Resumo do Boletim para alterar a gravidade do MS16-121 para Crítica. Esta é apenas uma alteração informativa.
 -   V2.0 (quinta-feira, 27 de outubro de 2016): Revisão do Resumo do Boletim - adição de um novo boletim para o Flash MS16-128.
+-   V3.0 (12 de setembro de 2017): Para a MS16-123, revisão da tabela de softwares afetados de Sistemas Operacionais e Componentes Windows para incluir o Windows 10 Versão 1703 para sistemas de 32 bits e o Windows 10 Versão 1703 para sistemas com base em x64, pois eles são afetados pela CVE-2016-3376. A Microsoft recomenda que os clientes que executam o Windows 10 Versão 1703 instalem a atualização 4038788 para ficarem protegidos contra essa vulnerabilidade.
 
 *Página gerada em 27/10/2016 às 10:20-07:00.*
