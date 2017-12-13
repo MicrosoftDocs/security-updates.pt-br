@@ -3934,5 +3934,17 @@ As informações fornecidas na Base de Dados de Conhecimento da Microsoft são a
 ### Revisões
 
 -   V1.0 (terça-feira, 12 de julho de 2016): Resumo do boletim publicado.
+-   V1.1 (29 de julho de 2016): Para o MS16-087, adição de uma referência de Problemas conhecidos à tabela de Sinope. Se você estiver usando a impressão em rede no seu ambiente, depois de aplicar a atualização de segurança 3170005, poderá receber um aviso sobre a instalação de um driver de impressora, ou a instalação do driver pode falhar sem uma notificação. Para obter mais informações sobre a atualização e o problema conhecido, consulte o Artigo 3170005 da Base de Dados de Conhecimento Microsoft.
+-   V1.2 (17 de março de 2017) Para o MS16-084, remoção da CVE-2016-3276 do Índice de exploração porque o Internet Explorer 9, o Internet Explorer 10 e o Internet Explorer 11 não são afetados. Esta é apenas uma alteração informativa.
+-   V2.0: (12 de setembro de 2017): Para o MS16-087, para resolver problemas conhecidos com a atualização 3170455 para a CVE-2016-3238, a Microsoft disponibilizou as seguintes atualizações para as versões atualmente com suporte do Microsoft Windows:
+        -   Atualização 3170455 novamente lançada para Windows Server 2008
+    -   Pacote cumulativo mensal 4038777 e atualização de segurança 4038779 para Windows 7 e Windows Server 2008 R2
+    -   Pacote cumulativo mensal 4038799 e atualização de segurança 4038786 para Windows Server 2012
+    -   Pacote cumulativo mensal 4038792 e atualização de segurança 4038793 para Windows 8.1 e Windows Server 2012 R2
+    -   Atualização cumulativa 4038781 para Windows 10
+    -   Atualização cumulativa 4038781 para Windows 10 Versão 1511
+    -   Atualização cumulativa 4038782 para Windows 10 Versão 1607 e Windows Server 2016.  
+
+    A Microsoft recomenda que os clientes que executam o Windows Server 2008 reinstalem a atualização 3170455. A Microsoft recomenda que os clientes que executam outras versões com suporte do Windows instalem a atualização apropriada. Consulte o [Artigo 3170005 da Base de Dados de Conhecimento Microsoft](https://support.microsoft.com/pt-br/help/3170005) para obter mais informações.
 
 *Página gerada em 13/07/2016 às 10:05-07:00.*
