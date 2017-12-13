@@ -1,21 +1,21 @@
 ---
-TOCTitle: 'MS16-FEB'
-Title: Resumo do Boletim de Segurança da Microsoft para fevereiro de 2016
-ms:assetid: 'ms16-feb'
-ms:contentKeyID: 72239060
-ms:mtpsurl: 'https://technet.microsoft.com/pt-BR/library/ms16-feb(v=Security.10)'
+TOCTitle: 'MS16-MAR'
+Title: Resumo dos boletins de segurança da Microsoft de março de 2016
+ms:assetid: 'ms16-mar'
+ms:contentKeyID: 72464182
+ms:mtpsurl: 'https://technet.microsoft.com/pt-BR/library/ms16-mar(v=Security.10)'
 ---
 
 Modelo do MSRC ppDocument
 
-Resumo do Boletim de Segurança da Microsoft para fevereiro de 2016
-==================================================================
+Resumo dos boletins de segurança da Microsoft de março de 2016
+==============================================================
 
-Publicado em: 9 de fevereiro de 2016 | Atualizado em: 24 de fevereiro de 2016
+Publicado em: 8 de março de 2016 | Atualizado em: 25.03.16
 
 **Versão:** 3.1
 
-Este resumo do boletim lista boletins de segurança lançados em fevereiro de 2016.
+Este resumo de boletins lista os boletins publicados em março de 2016.
 
 Para obter informações sobre como receber notificações automáticas sempre que os boletins de segurança da Microsoft forem emitidos, visite [Notificações de Segurança Técnica da Microsoft](http://technet.microsoft.com/pt-br/security/dd252948.aspx).
 
@@ -28,8 +28,8 @@ Sinopse
 A tabela a seguir traz um resumo dos boletins de segurança deste mês em ordem de gravidade.
 
 Para obter detalhes sobre os softwares afetados, consulte a próxima seção, **Softwares afetados**.
-
-<table style="width:100%;">
+<p></p>
+<table style="width:100%;border:1px solid black;">
 <colgroup>
 <col width="16%" />
 <col width="16%" />
@@ -50,19 +50,19 @@ Conhecidos</strong></td>
 <td style="border:1px solid black;"><strong>Softwares Afetados</strong></td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-009">MS16-009</a></td>
-<td style="border:1px solid black;"><strong>Atualização de Segurança Cumulativa para o Internet Explorer (3134220)</strong> <br />
-Esta atualização de segurança resolve vulnerabilidades no Internet Explorer. A vulnerabilidade mais grave pode permitir a execução remota de código se um usuário visualizar uma página da Web criada especialmente usando o Internet Explorer. O atacante que explorar com êxito as vulnerabilidades poderá obter os mesmos direitos que o usuário ativo. Se o usuário atual estiver conectado com direitos administrativos, o atacante que explorar com êxito essa vulnerabilidade poderá obter o controle total do sistema afetado. O atacante poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário.</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-023">MS16-023</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança cumulativa para o Internet Explorer (3142015)<br />
+</strong>Esta atualização de segurança resolve vulnerabilidades no Internet Explorer. A vulnerabilidade mais grave pode permitir a execução remota de código se um usuário visualizar uma página da Web criada especialmente usando o Internet Explorer. O atacante que explorar com êxito as vulnerabilidades poderá obter os mesmos direitos que o usuário ativo. Se o usuário atual estiver conectado com direitos administrativos, o atacante que explorar com êxito essa vulnerabilidade poderá obter o controle total do sistema afetado. O atacante poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário.</td>
 <td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Crítica</a><br />
 Execução remota de código</td>
 <td style="border:1px solid black;">Exige reinicialização</td>
-<td style="border:1px solid black;"><a href="https://support.microsoft.com/pt-br/kb/3134814">3134814</a></td>
+<td style="border:1px solid black;">---------</td>
 <td style="border:1px solid black;">Microsoft Windows,<br />
 Internet Explorer</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-011">MS16-011</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança cumulativa do Microsoft Edge (3134225) <br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-024">MS16-024</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança cumulativa do Microsoft Edge (3142019) <br />
 </strong>Esta atualização de segurança elimina vulnerabilidades no Microsoft Edge. A vulnerabilidade mais grave pode permitir a execução remota de código se um usuário visualizar uma página da Web criada especialmente usando o Microsoft Edge. O atacante que explorar com êxito as vulnerabilidades poderá ganhar os mesmos direitos de usuário que o usuário em questão. Os clientes cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos.</td>
 <td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Crítica</a><br />
 Execução remota de código</td>
@@ -72,9 +72,29 @@ Execução remota de código</td>
 Microsoft Edge</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-012">MS16-012</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança para a biblioteca de PDF do Microsoft Windows para abordar a execução remota de código (3138938) <br />
-</strong>Esta atualização de segurança elimina vulnerabilidades no Microsoft Windows. A mais grave das vulnerabilidades pode permitir a execução remota de código, se a biblioteca de PDF do Microsoft Windows lidar de maneira inadequada com as chamadas da API (Interface de Programação de Aplicativo), o que poderia permitir que um atacante executasse código arbitrário no sistema do usuário. O atacante que explorar com êxito as vulnerabilidades poderá ganhar os mesmos direitos de usuário que o usuário em questão. Os clientes cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos. No entanto, um atacante não teria como forçar os usuários a baixar ou abrir um documento PDF malicioso.</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-025">MS16-025</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança para o carregamento da biblioteca do Windows para corrigir execução remota de código (3140709)</strong><br />
+Esta atualização de segurança resolve uma vulnerabilidade no Microsoft Windows. A vulnerabilidade pode permitir a execução remota de código se o Microsoft Windows não valida corretamente a entrada antes de carregar algumas bibliotecas. Entretanto, o atacante deve primeiro obter acesso ao sistema local com a capacidade para executar um aplicativo mal-intencionado.</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
+Execução remota de código</td>
+<td style="border:1px solid black;">Exige reinicialização</td>
+<td style="border:1px solid black;">---------</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-026">MS16-026</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança para fontes gráficas para corrigir a execução remota de código (3143148)</strong><br />
+Esta atualização de segurança resolve vulnerabilidades no Microsoft Windows. A vulnerabilidade mais grave pode permitir a execução remota de código se um atacante convence um usuário a abrir um documento especialmente criado ou visitar uma página da Web que contém fontes OpenType especialmente criadas incorporadas.</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Crítica</a><br />
+Execução remota de código</td>
+<td style="border:1px solid black;">Exige reinicialização</td>
+<td style="border:1px solid black;">---------</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-027">MS16-027</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança do Windows Media para corrigir a execução remota de código (3143146)</strong><br />
+Esta atualização de segurança resolve vulnerabilidades no Microsoft Windows. As vulnerabilidades podem permitir a execução remota de código se um usuário abre um conteúdo de mídia especialmente criado que está hospedado em um site.</td>
 <td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Crítica</a><br />
 Execução remota de código</td>
 <td style="border:1px solid black;">Pode exigir reinicialização</td>
@@ -82,9 +102,9 @@ Execução remota de código</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-013">MS16-013</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança para o Diário do Windows para abordar a execução remota de código (3134811)</strong><br />
-Esta atualização de segurança resolve uma vulnerabilidade no Microsoft Windows. A vulnerabilidade pode permitir a execução remota de código se um usuário abrir um arquivo de Diário especialmente criado. Os usuários cujas contas estão configuradas para ter menos direitos de usuário podem ser menos afetados do que os usuários que têm direitos de administrador.</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-028">MS16-028</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança para a Biblioteca de PDF do Microsoft Windows para corrigir a execução remota de código (3143081)</strong><br />
+Esta atualização de segurança resolve vulnerabilidades no Microsoft Windows. As vulnerabilidades podem permitir a execução remota de código se o usuário abre um arquivo .pdf especialmente criado.</td>
 <td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Crítica</a><br />
 Execução remota de código</td>
 <td style="border:1px solid black;">Pode exigir reinicialização</td>
@@ -92,54 +112,31 @@ Execução remota de código</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-014">MS16-014</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança para o Microsoft Windows para corrigir execução remota de código (3134228)</strong><br />
-Esta atualização de segurança resolve vulnerabilidades no Microsoft Windows. A mais grave destas vulnerabilidades poderá permitir a execução remota de código se um atacante conseguir iniciar sessão em um sistema de destino e executar um aplicativo especialmente criado.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
-Execução remota de código</td>
-<td style="border:1px solid black;">Exige reinicialização</td>
-<td style="border:1px solid black;"><a href="https://support.microsoft.com/pt-br/kb/3126041">3126041</a><br />
-<a href="https://support.microsoft.com/pt-br/kb/3126587">3126587</a><br />
-<a href="https://support.microsoft.com/pt-br/kb/3126593">3126593</a></td>
-<td style="border:1px solid black;">Microsoft Windows</td>
-</tr>
-<tr class="odd">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-015">MS16-015</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança para o Microsoft Office para corrigir execução remota de código (3134226)</strong><br />
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-029">MS16-029</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança para Microsoft Office para corrigir a execução remota de código (3141806)</strong><br />
 Esta atualização de segurança elimina vulnerabilidades no Microsoft Office. A mais grave das vulnerabilidades pode permitir a Execução remota de código se um usuário abrir um arquivo do Microsoft Office especialmente criado. Um atacante que tenha conseguido explorar as vulnerabilidades pode executar um código arbitrário no contexto do usuário atual. Os clientes cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Crítica</a><br />
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
 Execução remota de código</td>
 <td style="border:1px solid black;">Pode exigir reinicialização</td>
 <td style="border:1px solid black;">---------</td>
-<td style="border:1px solid black;">Microsoft Office, <br />
+<td style="border:1px solid black;">Microsoft Office,<br />
 Microsoft Office Services e Web Apps,<br />
-Microsoft Server Software </td>
+Microsoft Server Software</td>
 </tr>
-<tr class="even">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-016">MS16-016</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança do WebDAV para abordar elevação de privilégio (3136041)</strong><br />
-Esta atualização de segurança resolve uma vulnerabilidade no Microsoft Windows. A vulnerabilidade pode permitir elevação de privilégio se um atacante usa o cliente Microsoft Web Distributed Authoring and Versioning (WebDAV) para enviar entrada especialmente criada para um servidor.</td>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-030">MS16-030</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança para o Windows OLE para corrigir a execução remota de código (3143136)</strong><br />
+Esta atualização de segurança resolve vulnerabilidades no Microsoft Windows. As vulnerabilidades podem permitir a execução remota de código se o Windows OLE não valida corretamente a entrada do usuário. Um atacante poderia explorar as vulnerabilidades para executar códigos mal-intencionados. Entretanto, um atacante deve primeiro convencer um usuário a abrir um arquivo criado especialmente ou um programa de uma outra página da Web ou de uma mensagem de email.</td>
 <td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
-Elevação de privilégio</td>
-<td style="border:1px solid black;">Pode exigir reinicialização</td>
+Execução remota de código</td>
+<td style="border:1px solid black;">Exige reinicialização</td>
 <td style="border:1px solid black;">---------</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
-<tr class="odd">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-017">MS16-017</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança para driver de exibição da área de trabalho remota para abordar elevação de privilégio (3134700)</strong><br />
-Esta atualização de segurança resolve uma vulnerabilidade no Microsoft Windows. A vulnerabilidade pode permitir elevação de privilégio se um atacante autenticado faz logon no sistema alvo usando RDP e envia dados especialmente criados através da conexão. Por padrão, o RDP não está habilitado em nenhum sistema operacional Windows. Sistemas que não têm o RDP habilitado não correm risco.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
-Elevação de privilégio</td>
-<td style="border:1px solid black;">Exige reinicialização</td>
-<td style="border:1px solid black;"><a href="https://support.microsoft.com/pt-br/kb/3134700">3134700</a><br />
-<a href="https://support.microsoft.com/pt-br/kb/3126446">3126446</a></td>
-<td style="border:1px solid black;">Microsoft Windows</td>
-</tr>
 <tr class="even">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-018">MS16-018</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança dos drivers de modo kernel do Windows para corrigir elevação de privilégio (3136082)</strong><br />
-Esta atualização de segurança resolve uma vulnerabilidade no Microsoft Windows. A mais severa destas vulnerabilidades poderá permitir a elevação de privilégio se um atacante se conectar a um sistema afetado e executar um aplicativo especialmente criado.</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-031">MS16-031</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança para o Microsoft Windows para corrigir a elevação de privilégio (3140410)</strong><br />
+Esta atualização de segurança resolve uma vulnerabilidade no Microsoft Windows. A vulnerabilidade pode permitir a elevação de privilégio se um atacante pode se conectar a um sistema alvo e executar um aplicativo especialmente criado.</td>
 <td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
 Elevação de privilégio</td>
 <td style="border:1px solid black;">Exige reinicialização</td>
@@ -147,45 +144,58 @@ Elevação de privilégio</td>
 <td style="border:1px solid black;">Microsoft Windows</td>
 </tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-019">MS16-019</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança do .NET Framework para abordar negação de serviço (3137893) <br />
-</strong>Esta atualização de segurança resolve vulnerabilidades no Microsoft .NET Framework. A mais grave das vulnerabilidades pode causar negação de serviço se um atacante insere XSLT especialmente criado em uma web part XML do lado do cliente, fazendo com que o servidor compile de forma recursiva transformações XSLT.</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-032">MS16-032</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança para logon secundário para corrigir a elevação de privilégio (3143141)</strong><br />
+Esta atualização de segurança resolve uma vulnerabilidade no Microsoft Windows. A vulnerabilidade pode permitir a elevação de privilégio se o serviço de logon secundário do Windows não gerencia corretamente os identificadores da solicitação na memória.</td>
 <td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
-Negação de Serviço</td>
+Elevação de privilégio</td>
+<td style="border:1px solid black;">Exige reinicialização</td>
+<td style="border:1px solid black;">---------</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-033">MS16-033</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança para o driver de classe de armazenamento em massa USB do Windows para corrigir a elevação de privilégio (3143142)<br />
+</strong>Esta atualização de segurança resolve uma vulnerabilidade no Microsoft Windows. A vulnerabilidade pode permitir a elevação de privilégio se um atacante com acesso físico insere um dispositivo USB especialmente criado no sistema.</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
+Elevação de privilégio</td>
 <td style="border:1px solid black;">Pode exigir reinicialização</td>
 <td style="border:1px solid black;">---------</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-034">MS16-034</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança dos drivers de modo kernel do Windows para corrigir a elevação de privilégio (3143145)<br />
+</strong>Esta atualização de segurança elimina vulnerabilidades no Microsoft Windows. As vulnerabilidades podem permitir elevação de privilégio se um atacante faz logon no sistema e executar um aplicativo especialmente criado.</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
+Elevação de privilégio</td>
+<td style="border:1px solid black;">Exige reinicialização</td>
+<td style="border:1px solid black;">---------</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-035">MS16-035</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança para o .NET Framework para corrigir o bypass do recurso de segurança (3141780)</strong><br />
+Esta atualização de segurança resolve uma vulnerabilidade no Microsoft .NET Framework. O bypass do recurso de segurança existe em um componente do .NET Framework que não valida corretamente determinados elementos de um documento XML assinado.</td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
+Desvio de recurso de segurança</td>
+<td style="border:1px solid black;">Pode exigir reinicialização</td>
+<td style="border:1px solid black;"><a href="http://support.microsoft.com/pt-br/kb/3135996">3135996</a><br />
+<a href="http://support.microsoft.com/pt-br/kb/3136000">3136000</a><br />
+<a href="http://support.microsoft.com/pt-br/kb/3149737">3149737</a><br />
+<a href="https://support.microsoft.com/pt-br/kb/3148821">3148821</a></td>
 <td style="border:1px solid black;">Microsoft Windows,<br />
 Microsoft .NET Framework</td>
 </tr>
-<tr class="even">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-020">MS16-020</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança para Serviços de Federação do Active Directory para abordar negação de serviço (3134222)<br />
-</strong>Esta atualização de segurança resolve uma vulnerabilidade nos Serviços de Federação do Active Directory (ADFS). A vulnerabilidade pode permitir negação de serviço se um atacante envia determinados dados de entrada durante autenticação baseada em formulários para um servidor do ADFS, fazendo com o que servidor pare de responder.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
-Negação de Serviço</td>
-<td style="border:1px solid black;">Pode exigir reinicialização</td>
-<td style="border:1px solid black;">---------</td>
-<td style="border:1px solid black;">Microsoft Windows</td>
-</tr>
 <tr class="odd">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-021">MS16-021</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança do servidor NPS RADIUS para abordar negação de serviço (3133043) <br />
-</strong>Esta atualização de segurança resolve uma vulnerabilidade no Microsoft Windows. A vulnerabilidade pode causar negação de serviço em um NPS (Servidor de Políticas de Rede) se um atacante envia cadeias de caracteres de nome de usuário especialmente criadas para o NPS, o que poderia evitar a autenticação RADIUS no NPS.</td>
-<td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Importante</a> <br />
-Negação de Serviço</td>
-<td style="border:1px solid black;">Pode exigir reinicialização</td>
-<td style="border:1px solid black;">---------</td>
-<td style="border:1px solid black;">Microsoft Windows</td>
-</tr>
-<tr class="even">
-<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-022">MS16-022</a></td>
-<td style="border:1px solid black;"><strong>Atualização de segurança para o Adobe Flash Player (3135782)<br />
-</strong>Esta atualização de segurança resolve vulnerabilidades no Adobe Flash Player, quando instalado em todas as edições com suporte do Windows Server 2012, do Windows 8.1, do Windows Server 2012 R2, do Windows RT 8.1 e do Windows 10.</td>
+<td style="border:1px solid black;"><a href="https://technet.microsoft.com/pt-br/library/security/ms16-036">MS16-036</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança para o Adobe Flash Player (3144756)</strong><br />
+Esta atualização de segurança resolve vulnerabilidades no Adobe Flash Player quando instalado em todas as edições com suporte do Windows 8.1, do Windows Server 2012, do Windows Server 2012 R2, do Windows RT 8.1 e do Windows 10.</td>
 <td style="border:1px solid black;"><a href="http://technet.microsoft.com/pt-br/security/gg309177.aspx">Crítica</a><br />
 Execução remota de código</td>
 <td style="border:1px solid black;">Exige reinicialização</td>
 <td style="border:1px solid black;">---------</td>
-<td style="border:1px solid black;">Microsoft Windows<br />
+<td style="border:1px solid black;">Microsoft Windows,<br />
 Adobe Flash Player</td>
 </tr>
 </tbody>
@@ -204,1033 +214,861 @@ Use esta tabela para conhecer a probabilidade de execução do código e as expl
 
 Nas colunas a seguir, "Versão Mais Recente de Software" se refere ao software, e "Versões Mais Antigas de Software" se refere a todas as versões mais antigas e suportadas do software, como listado nas tabelas "Softwares Afetados" e "Softwares não afetados" do boletim.
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;">
 **ID do CVE**                    
-
 </td>
 <td style="border:1px solid black;">
 **Título da vulnerabilidade**
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 **Avaliação de exploração para  
 Versão de software mais recente**
-
 </td>
 <td style="border:1px solid black;">
 **Avaliação de exploração para  
 Versão de software mais antiga**
-
 </td>
 <td style="border:1px solid black;">
 **Negação de Serviço  
 Avaliação de exploração**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
-[**MS16-009: Atualização de segurança cumulativa para o Internet Explorer (3134220)**](https://technet.microsoft.com/pt-br/library/security/ms16-009)
-
+[**MS16-023: Atualização de segurança cumulativa para o Internet Explorer (3142015)**](https://technet.microsoft.com/pt-br/library/security/ms16-023)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0041](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0041)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de execução remota de código de carregamento de DLL
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0059](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0059)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de divulgação de informação do Internet Explorer
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-2 - Probabilidade menor de exploração
-
-</td>
-<td style="border:1px solid black;">
-2 - Probabilidade menor de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0060](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0060)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de corrupção de memória do Internet Explorer
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0061](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0061)
-
+[CVE-2016-0102](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0102)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0062](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0062)
-
+[CVE-2016-0103](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0103)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do Internet Explorer
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+4- Não afetado
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0104](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0104)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do Internet Explorer
+</td>
+<td style="border:1px solid black;" colspan="2">
+4- Não afetado
+</td>
+<td style="border:1px solid black;">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0105](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0105)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0063](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0063)
-
+[CVE-2016-0106](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0106)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do Internet Explorer
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0064](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0064)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de corrupção de memória do Internet Explorer
-
-</td>
-<td style="border:1px solid black;" colspan="2">
 4- Não afetado
-
-</td>
-<td style="border:1px solid black;">
-1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0067](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0067)
-
+[CVE-2016-0107](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0107)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do Internet Explorer
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0068](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0068)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade na Elevação de Privilégio do Internet Explorer
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0069](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0069)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade na Elevação de Privilégio do Internet Explorer
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-3 - Exploração improvável
-
-</td>
-<td style="border:1px solid black;">
-3 - Exploração improvável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0071](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0071)
-
+[CVE-2016-0108](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0108)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do Internet Explorer
-
 </td>
 <td style="border:1px solid black;" colspan="2">
-4- Não afetado
-
+1 - Probabilidade maior de exploração
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0072](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0072)
-
+[CVE-2016-0109](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0109)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do navegador da Microsoft
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0110](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0110)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do navegador da Microsoft
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0111](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0111)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do navegador da Microsoft
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0112](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0112)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do Internet Explorer
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0077](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0077)
-
+[CVE-2016-0113](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0113)
 </td>
 <td style="border:1px solid black;">
-Vulnerabilidade de falsificação do Microsoft Browser
-
+Vulnerabilidade de corrupção de memória do Internet Explorer
 </td>
 <td style="border:1px solid black;" colspan="2">
-3 - Exploração improvável
-
+1 - Probabilidade maior de exploração
 </td>
 <td style="border:1px solid black;">
-3 - Exploração improvável
-
+1 - Probabilidade maior de exploração
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0114](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0114)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do Internet Explorer
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
-[**MS16-011: Atualização de segurança cumulativa do Microsoft Edge (3134225)**](https://technet.microsoft.com/pt-br/library/security/ms16-011)
-
+[**MS16-024: Atualização de segurança cumulativa do Microsoft Edge (3142019)**](https://technet.microsoft.com/pt-br/library/security/ms16-024)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0060](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0060)
-
+[CVE-2016-0102](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0102)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0061](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0061)
-
+[CVE-2016-0105](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0105)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0062](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0062)
-
+[CVE-2016-0109](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0109)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0077](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0077)
-
+[CVE-2016-0110](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0110)
 </td>
 <td style="border:1px solid black;">
-Vulnerabilidade de falsificação do Microsoft Browser
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-3 - Exploração improvável
-
-</td>
-<td style="border:1px solid black;">
-4- Não afetado
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0080](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0080)
-
-</td>
-<td style="border:1px solid black;">
-Bypass de ASLR do Microsoft Edge
-
+Vulnerabilidade de corrupção de memória do navegador da Microsoft
 </td>
 <td style="border:1px solid black;" colspan="2">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0084](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0084)
-
+[CVE-2016-0111](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0111)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do navegador da Microsoft
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+4- Não afetado
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0116](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0116)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do Microsoft Edge
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0123](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0123)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do Microsoft Edge
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+4- Não afetado
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0124](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0124)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do Microsoft Edge
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+4- Não afetado
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0125](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0125)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de divulgação de informações no Microsoft Edge
+</td>
+<td style="border:1px solid black;" colspan="2">
+3 - Exploração improvável
+</td>
+<td style="border:1px solid black;">
+4- Não afetado
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0129](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0129)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do Microsoft Edge
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+4- Não afetado
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0130](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0130)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do Microsoft Edge
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+4- Não afetado
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
-[**MS16-012: Atualização de segurança para a biblioteca de PDF do Microsoft Windows para abordar a execução remota de código (3138938) **](https://technet.microsoft.com/pt-br/library/security/ms16-012)
-
+[**MS16-025: Atualização de segurança para o carregamento da biblioteca do Windows para corrigir execução remota de código (3140709)**](https://technet.microsoft.com/pt-br/library/security/ms16-025)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0046](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0046)
-
+[CVE-2016-0100](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0100)
 </td>
 <td style="border:1px solid black;">
-Vulnerabilidade do Leitor do Microsoft Windows
-
+Vulnerabilidade de execução remota de código do carregamento da biblioteca de validação de entrada
 </td>
 <td style="border:1px solid black;" colspan="2">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;" colspan="6">
+[**MS16-026: Atualização de segurança para fontes gráficas para corrigir a execução remota de código (3143148)**](https://technet.microsoft.com/pt-br/library/security/ms16-026)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0058](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0058)
-
+[CVE-2016-0120](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0120)
 </td>
 <td style="border:1px solid black;">
-Vulnerabilidade de estouro de buffer da biblioteca de PDF da Microsoft
-
+Vulnerabilidade de análise de Fonte OpenType
+</td>
+<td style="border:1px solid black;" colspan="2">
+3 - Exploração improvável
+</td>
+<td style="border:1px solid black;">
+3 - Exploração improvável
+</td>
+<td style="border:1px solid black;">
+Permanente
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0121](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0121)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de análise de Fonte OpenType
+</td>
+<td style="border:1px solid black;" colspan="2">
+2 - Probabilidade menor de exploração
+</td>
+<td style="border:1px solid black;">
+2 - Probabilidade menor de exploração
+</td>
+<td style="border:1px solid black;">
+Permanente
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;" colspan="6">
+[**MS16-027: Atualização de segurança do Windows Media para corrigir a execução remota de código (3143146)**](https://technet.microsoft.com/pt-br/library/security/ms16-027)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0098](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0098)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de execução remota de código de análise do Windows Media
 </td>
 <td style="border:1px solid black;" colspan="2">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;" colspan="6">
-[**MS16-013: Atualização de segurança para o Diário do Windows para abordar a execução remota de código (3134811)**](https://technet.microsoft.com/pt-br/library/security/ms16-013)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0038](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0038)
-
+[CVE-2016-0101](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0101)
 </td>
 <td style="border:1px solid black;">
-Vulnerabilidade de corrupção de memória do Diário do Windows
-
+Vulnerabilidade de execução remota de código de análise do Windows Media
 </td>
 <td style="border:1px solid black;" colspan="2">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
-[**MS16-014: Atualização de segurança para o Microsoft Windows para corrigir execução remota de código (3134228)**](https://technet.microsoft.com/pt-br/library/security/ms16-014)
-
+[**MS16-028: Atualização de segurança para a biblioteca de PDF do Microsoft Windows para abordar a execução remota de código (3143081)**](https://technet.microsoft.com/pt-br/library/security/ms16-028)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0040](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0040)
-
+[CVE-2016-0117](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0117)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de execução remota de código do Windows
+</td>
+<td style="border:1px solid black;">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0118](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0118)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de execução remota de código do Windows
+</td>
+<td style="border:1px solid black;">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;" colspan="6">
+[**MS16-029: Atualização de segurança para o Microsoft Office para corrigir a execução remota de código (3141806)**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0021](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0021)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do Microsoft Office
+</td>
+<td style="border:1px solid black;" colspan="2">
+4- Não afetado
+</td>
+<td style="border:1px solid black;">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0057](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0057)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de bypass do recurso de segurança do Microsoft Office
+</td>
+<td style="border:1px solid black;" colspan="2">
+3 - Exploração improvável
+</td>
+<td style="border:1px solid black;">
+3 - Exploração improvável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0134](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0134)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de corrupção de memória do Microsoft Office
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;" colspan="6">
+[**MS16-030: Atualização de segurança para o Windows OLE para corrigir a execução remota de código (3143136)**](https://technet.microsoft.com/pt-br/library/security/ms16-030)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0091](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0091)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de execução remota de código da memória do Windows OLE
+</td>
+<td style="border:1px solid black;" colspan="2">
+2 - Probabilidade menor de exploração
+</td>
+<td style="border:1px solid black;">
+2 - Probabilidade menor de exploração
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0092](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0092)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de execução remota de código da memória do Windows OLE
+</td>
+<td style="border:1px solid black;" colspan="2">
+2 - Probabilidade menor de exploração
+</td>
+<td style="border:1px solid black;">
+2 - Probabilidade menor de exploração
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;" colspan="6">
+[**MS16-031: Atualização de segurança para o Microsoft Windows para corrigir a elevação de privilégio (3140410)**](https://technet.microsoft.com/pt-br/library/security/ms16-031)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0087](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0087)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do Windows
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0041](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0041)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de execução remota de código de carregamento de DLL
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-2 - Probabilidade menor de exploração
-
-</td>
-<td style="border:1px solid black;">
-2 - Probabilidade menor de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0042](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0042)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de execução remota de código de carregamento de DLL do Windows
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0044](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0044)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de negação de serviço de carregamento DLL no Windows
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-4- Não afetado
-
-</td>
-<td style="border:1px solid black;">
-3 - Exploração improvável
-
-</td>
-<td style="border:1px solid black;">
-Permanente
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0049](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0049)
-
-</td>
-<td style="border:1px solid black;">
-Desvio de Recurso de Segurança do Kerberos do Windows
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-2 - Probabilidade menor de exploração
-
-</td>
-<td style="border:1px solid black;">
-2 - Probabilidade menor de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
-[**MS16-015: Atualização de segurança para o Microsoft Office para corrigir execução remota de código (3134226)**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-032: Atualização de segurança para logon secundário para corrigir a elevação de privilégio (3143141)**](https://technet.microsoft.com/pt-br/library/security/ms16-032)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0022](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0022)
-
+[CVE-2016-0099](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0099)
 </td>
 <td style="border:1px solid black;">
-Vulnerabilidade de corrupção de memória do Microsoft Office
-
-</td>
-<td style="border:1px solid black;">
-1 - Probabilidade maior de exploração
-
+Vulnerabilidade de elevação de privilégio de logon secundário
 </td>
 <td style="border:1px solid black;" colspan="2">
-1 - Probabilidade maior de exploração
-
+2 - Probabilidade menor de exploração
+</td>
+<td style="border:1px solid black;">
+2 - Probabilidade menor de exploração
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0039](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0039)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de XSS no Microsoft SharePoint
-
-</td>
-<td style="border:1px solid black;">
-3 - Exploração improvável
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-4- Não afetado
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0052](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0052)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de corrupção de memória do Microsoft Office
-
-</td>
-<td style="border:1px solid black;">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0053](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0053)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de corrupção de memória do Microsoft Office
-
-</td>
-<td style="border:1px solid black;">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0054](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0054)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de corrupção de memória do Microsoft Office
-
-</td>
-<td style="border:1px solid black;">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0055](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0055)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de corrupção de memória do Microsoft Office
-
-</td>
-<td style="border:1px solid black;">
-4- Não afetado
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0056](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0056)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de corrupção de memória do Microsoft Office
-
-</td>
-<td style="border:1px solid black;">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-1 - Probabilidade maior de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
-[**MS16-016: Atualização de segurança do WebDAV para abordar elevação de privilégio (3136041)**](https://technet.microsoft.com/pt-br/library/security/ms16-016)
-
+[**MS16-033: Atualização de segurança para o driver de classe de armazenamento em massa USB do Windows para corrigir a elevação de privilégio (3143142)**](https://technet.microsoft.com/pt-br/library/security/ms16-033)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0051](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0051)
-
+[CVE-2016-0133](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0133)
 </td>
 <td style="border:1px solid black;">
-Vulnerabilidade de elevação de privilégio do WebDAV
-
+Vulnerabilidade de elevação de privilégio de armazenamento em massa USB
 </td>
 <td style="border:1px solid black;" colspan="2">
-3 - Exploração improvável
-
+2 - Probabilidade menor de exploração
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
-[**MS16-017: Atualização de segurança para driver de exibição da área de trabalho remota para abordar elevação de privilégio (3134700)**](https://technet.microsoft.com/pt-br/library/security/ms16-017)
-
+[**MS16-034: Atualização de segurança dos drivers de modo kernel do Windows para corrigir elevação de privilégio (3143145)**](https://technet.microsoft.com/pt-br/library/security/ms16-034)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0036](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0036)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de elevação de privilégio para protocolo RDP
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-2 - Probabilidade menor de exploração
-
-</td>
-<td style="border:1px solid black;">
-2 - Probabilidade menor de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;" colspan="6">
-[**MS16-018: Atualização de segurança dos drivers de modo kernel do Windows para corrigir elevação de privilégio (3136082)**](https://technet.microsoft.com/pt-br/library/security/ms16-018)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0048](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0048)
-
+[CVE-2016-0093](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0093)
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do Win32k
-
 </td>
 <td style="border:1px solid black;" colspan="2">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Permanente
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;" colspan="6">
-[**MS16-019: Atualização de segurança do .NET Framework para abordar negação de serviço (3137893)**](https://technet.microsoft.com/pt-br/library/security/ms16-019)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0033](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0033)
-
+[CVE-2016-0094](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0094)
 </td>
 <td style="border:1px solid black;">
-Vulnerabilidade de negação de serviço de excedente de pilha do. NET Framework
-
+Vulnerabilidade de elevação de privilégio do Win32k
 </td>
 <td style="border:1px solid black;" colspan="2">
-3 - Exploração improvável
-
+2 - Probabilidade menor de exploração
 </td>
 <td style="border:1px solid black;">
-3 - Exploração improvável
-
+2 - Probabilidade menor de exploração
 </td>
 <td style="border:1px solid black;">
 Permanente
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0047](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0047)
-
+[CVE-2016-0095](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0095)
 </td>
 <td style="border:1px solid black;">
-Vulnerabilidade de divulgação de informações de formulários do Windows
-
+Vulnerabilidade de elevação de privilégio do Win32k
 </td>
 <td style="border:1px solid black;" colspan="2">
-2 - Probabilidade menor de exploração
-
-</td>
-<td style="border:1px solid black;">
-2 - Probabilidade menor de exploração
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;" colspan="6">
-[**MS16-020: Atualização de segurança para Serviços de Federação do Active Directory para abordar negação de serviço (3134222)**](https://technet.microsoft.com/pt-br/library/security/ms16-020)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-[CVE-2016-0037](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0037)
-
-</td>
-<td style="border:1px solid black;">
-Vulnerabilidade de negação de serviço de Serviços de Federação do Microsoft Active Directory
-
-</td>
-<td style="border:1px solid black;" colspan="2">
-3 - Exploração improvável
-
-</td>
-<td style="border:1px solid black;">
 4- Não afetado
-
+</td>
+<td style="border:1px solid black;">
+1 - Probabilidade maior de exploração
 </td>
 <td style="border:1px solid black;">
 Permanente
-
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+[CVE-2016-0096](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0096)
+</td>
+<td style="border:1px solid black;">
+Vulnerabilidade de elevação de privilégio do Win32k
+</td>
+<td style="border:1px solid black;" colspan="2">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+1 - Probabilidade maior de exploração
+</td>
+<td style="border:1px solid black;">
+Permanente
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
-[**MS16-021: Atualização de segurança do servidor NPS RADIUS para abordar negação de serviço (3133043)**](https://technet.microsoft.com/pt-br/library/security/ms16-021)
-
+[**MS16-035: Atualização de segurança para o .NET Framework para corrigir o bypass do recurso de segurança (3141780)**](https://technet.microsoft.com/pt-br/library/security/ms16-035)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[CVE-2016-0050](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0050)
-
+[CVE-2016-0132](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0132)
 </td>
 <td style="border:1px solid black;">
-Vulnerabilidade da negação de serviço da implementação do Network Policy Server RADIUS
-
+Bypass do recurso de validação de segurança do XML .NET
 </td>
 <td style="border:1px solid black;" colspan="2">
 3 - Exploração improvável
-
 </td>
 <td style="border:1px solid black;">
 3 - Exploração improvável
-
 </td>
 <td style="border:1px solid black;">
-Permanente
-
+Não Aplicável
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
-[**MS16-022: Atualização de segurança para o Adobe Flash Player (3135782)**](https://technet.microsoft.com/pt-br/library/security/ms16-022)
-
+[**MS16-036: Atualização de segurança para o Adobe Flash Player (3144756)**](https://technet.microsoft.com/pt-br/library/security/ms16-036)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
-[APSB16-04](https://helpx.adobe.com/br/security/products/flash-player/apsb16-04.html)
-
+[APSB16-08](https://helpx.adobe.com/br/security/products/flash-player/apsb16-08.html)
 </td>
 <td style="border:1px solid black;">
-Consulte o [Boletim de segurança da Adobe APSB16-04](https://helpx.adobe.com/br/security/products/flash-player/apsb16-04.html) para classificações da prioridade da atualização e gravidade da vulnerabilidade.
-
+Consulte o [Boletim de segurança da Adobe APSB16-08](https://helpx.adobe.com/br/security/products/flash-player/apsb16-08.html) para classificações da prioridade da atualização e gravidade da vulnerabilidade.
 </td>
 <td style="border:1px solid black;" colspan="2">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 </table>
@@ -1250,1564 +1088,1333 @@ Use as tabelas para aprender sobre as atualizações de segurança que você tal
 
 ### Sistemas operacionais do Windows e componentes (Tabela 1 de 2)
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
-<td style="border:1px solid black;" colspan="7">
+<td style="border:1px solid black;" colspan="8">
 **Windows Vista**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-009**](https://technet.microsoft.com/pt-br/library/security/ms16-009)
-
+[**MS16-023**](https://technet.microsoft.com/pt-br/library/security/ms16-023)
 </td>
 <td style="border:1px solid black;">
-[**MS16-011**](https://technet.microsoft.com/pt-br/library/security/ms16-011)
-
+[**MS16-024**](https://technet.microsoft.com/pt-br/library/security/ms16-024)
 </td>
 <td style="border:1px solid black;">
-[**MS16-012**](https://technet.microsoft.com/pt-br/library/security/ms16-012)
-
+[**MS16-025**](https://technet.microsoft.com/pt-br/library/security/ms16-025)
 </td>
 <td style="border:1px solid black;">
-[**MS16-013**](https://technet.microsoft.com/pt-br/library/security/ms16-013)
-
+[**MS16-026**](https://technet.microsoft.com/pt-br/library/security/ms16-026)
 </td>
 <td style="border:1px solid black;">
-[**MS16-014**](https://technet.microsoft.com/pt-br/library/security/ms16-014)
-
+[**MS16-027**](https://technet.microsoft.com/pt-br/library/security/ms16-027)
 </td>
 <td style="border:1px solid black;">
-[**MS16-016**](https://technet.microsoft.com/pt-br/library/security/ms16-016)
-
+[**MS16-028**](https://technet.microsoft.com/pt-br/library/security/ms16-028)
+</td>
+<td style="border:1px solid black;">
+[**MS16-030**](https://technet.microsoft.com/pt-br/library/security/ms16-030)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 9  
-(3134814)  
+(3139929)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Windows Vista Service Pack 2  
+(3140709)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Vista Service Pack 2  
+(3140735)  
+(Crítica)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2  
-(3115858)  
-(Crítica)
-
-</td>
-<td style="border:1px solid black;">
-Windows Vista Service Pack 2  
-(3126587)  
-(Importante)  
-Windows Vista Service Pack 2  
-(3126593)  
-(Importante)  
-Windows Vista Service Pack 2  
-(3126041)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows Vista Service Pack 2  
-(3124280)  
-(Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 9  
-(3134814)  
+(3139929)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Windows Vista x64 Edition Service Pack 2  
+(3140709)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Vista x64 Edition Service Pack 2  
+(3140735)  
+(Crítica)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2  
-(3115858)  
-(Crítica)
-
-</td>
-<td style="border:1px solid black;">
-Windows Vista x64 Edition Service Pack 2  
-(3126587)  
-(Importante)  
-Windows Vista x64 Edition Service Pack 2  
-(3126593)  
-(Importante)  
-Windows Vista x64 Edition Service Pack 2  
-(3126041)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows Vista x64 Edition Service Pack 2  
-(3124280)  
-(Importante)
-
 </td>
 </tr>
 <tr>
-<td style="border:1px solid black;" colspan="7">
+<td style="border:1px solid black;" colspan="8">
 **Windows Server 2008**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-009**](https://technet.microsoft.com/pt-br/library/security/ms16-009)
-
+[**MS16-023**](https://technet.microsoft.com/pt-br/library/security/ms16-023)
 </td>
 <td style="border:1px solid black;">
-[**MS16-011**](https://technet.microsoft.com/pt-br/library/security/ms16-011)
-
+[**MS16-024**](https://technet.microsoft.com/pt-br/library/security/ms16-024)
 </td>
 <td style="border:1px solid black;">
-[**MS16-012**](https://technet.microsoft.com/pt-br/library/security/ms16-012)
-
+[**MS16-025**](https://technet.microsoft.com/pt-br/library/security/ms16-025)
 </td>
 <td style="border:1px solid black;">
-[**MS16-013**](https://technet.microsoft.com/pt-br/library/security/ms16-013)
-
+[**MS16-026**](https://technet.microsoft.com/pt-br/library/security/ms16-026)
 </td>
 <td style="border:1px solid black;">
-[**MS16-014**](https://technet.microsoft.com/pt-br/library/security/ms16-014)
-
+[**MS16-027**](https://technet.microsoft.com/pt-br/library/security/ms16-027)
 </td>
 <td style="border:1px solid black;">
-[**MS16-016**](https://technet.microsoft.com/pt-br/library/security/ms16-016)
-
+[**MS16-028**](https://technet.microsoft.com/pt-br/library/security/ms16-028)
+</td>
+<td style="border:1px solid black;">
+[**MS16-030**](https://technet.microsoft.com/pt-br/library/security/ms16-030)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Moderada**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 9  
-(3134814)  
+(3139929)  
 (Moderado)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
-(3115858)  
+(3140709)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
+(3140735)  
 (Crítica)
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
-(3126587)  
-(Importante)  
-Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
-(3126593)  
-(Importante)  
-Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
-(3126041)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
-(3124280)  
-(Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas baseados em x64
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 9  
-(3134814)  
+(3139929)  
 (Moderado)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
-(3115858)  
+(3140709)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
+(3140735)  
 (Crítica)
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
-(3126587)  
-(Importante)  
-Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
-(3126593)  
-(Importante)  
-Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
-(3126041)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
-(3124280)  
-(Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 para sistemas baseados em Itanium Service Pack 2
-
-</td>
-<td style="border:1px solid black;">
-Internet Explorer 9  
-(3134814)  
-(Moderado)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 para sistemas baseados em Itanium Service Pack 2  
-(3126587)  
-(Importante)  
-Windows Server 2008 para sistemas baseados em Itanium Service Pack 2  
-(3126593)  
-(Importante)  
-Windows Server 2008 para sistemas baseados em Itanium Service Pack 2  
-(3126041)  
+(3140709)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas baseados em Itanium Service Pack 2  
+(3140735)  
+(Crítica)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas baseados em Itanium Service Pack 2  
+(3139940)  
+(Importante)
 </td>
 </tr>
 <tr>
-<td style="border:1px solid black;" colspan="7">
+<td style="border:1px solid black;" colspan="8">
 **Windows 7**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-009**](https://technet.microsoft.com/pt-br/library/security/ms16-009)
-
+[**MS16-023**](https://technet.microsoft.com/pt-br/library/security/ms16-023)
 </td>
 <td style="border:1px solid black;">
-[**MS16-011**](https://technet.microsoft.com/pt-br/library/security/ms16-011)
-
+[**MS16-024**](https://technet.microsoft.com/pt-br/library/security/ms16-024)
 </td>
 <td style="border:1px solid black;">
-[**MS16-012**](https://technet.microsoft.com/pt-br/library/security/ms16-012)
-
+[**MS16-025**](https://technet.microsoft.com/pt-br/library/security/ms16-025)
 </td>
 <td style="border:1px solid black;">
-[**MS16-013**](https://technet.microsoft.com/pt-br/library/security/ms16-013)
-
+[**MS16-026**](https://technet.microsoft.com/pt-br/library/security/ms16-026)
 </td>
 <td style="border:1px solid black;">
-[**MS16-014**](https://technet.microsoft.com/pt-br/library/security/ms16-014)
-
+[**MS16-027**](https://technet.microsoft.com/pt-br/library/security/ms16-027)
 </td>
 <td style="border:1px solid black;">
-[**MS16-016**](https://technet.microsoft.com/pt-br/library/security/ms16-016)
-
+[**MS16-028**](https://technet.microsoft.com/pt-br/library/security/ms16-028)
+</td>
+<td style="border:1px solid black;">
+[**MS16-030**](https://technet.microsoft.com/pt-br/library/security/ms16-030)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+</td>
+<td style="border:1px solid black;">
+[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 para sistemas de 32 bits Service Pack 1
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
-(3134814)  
+(3139929)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 para sistemas de 32 bits Service Pack 1  
-(3115858)  
+(3140735)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 para sistemas de 32 bits Service Pack 1  
-(3126587)  
-(Importante)  
+(3138910)  
+(Crítica)  
 Windows 7 para sistemas de 32 bits Service Pack 1  
-(3126593)  
-(Importante)
-
+(3138962)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows 7 para sistemas de 32 bits Service Pack 1  
-(3124280)  
+(3139940)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 para sistemas baseados em x64 Service Pack 1
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
-(3134814)  
+(3139929)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 para sistemas baseados em x64 Service Pack 1  
-(3115858)  
+(3140735)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 para sistemas baseados em x64 Service Pack 1  
-(3126587)  
-(Importante)  
+(3138910)  
+(Crítica)  
 Windows 7 para sistemas baseados em x64 Service Pack 1  
-(3126593)  
-(Importante)
-
+(3138962)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows 7 para sistemas baseados em x64 Service Pack 1  
-(3124280)  
+(3139940)  
 (Importante)
-
 </td>
 </tr>
 <tr>
-<td style="border:1px solid black;" colspan="7">
+<td style="border:1px solid black;" colspan="8">
 **Windows Server 2008 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-009**](https://technet.microsoft.com/pt-br/library/security/ms16-009)
-
+[**MS16-023**](https://technet.microsoft.com/pt-br/library/security/ms16-023)
 </td>
 <td style="border:1px solid black;">
-[**MS16-011**](https://technet.microsoft.com/pt-br/library/security/ms16-011)
-
+[**MS16-024**](https://technet.microsoft.com/pt-br/library/security/ms16-024)
 </td>
 <td style="border:1px solid black;">
-[**MS16-012**](https://technet.microsoft.com/pt-br/library/security/ms16-012)
-
+[**MS16-025**](https://technet.microsoft.com/pt-br/library/security/ms16-025)
 </td>
 <td style="border:1px solid black;">
-[**MS16-013**](https://technet.microsoft.com/pt-br/library/security/ms16-013)
-
+[**MS16-026**](https://technet.microsoft.com/pt-br/library/security/ms16-026)
 </td>
 <td style="border:1px solid black;">
-[**MS16-014**](https://technet.microsoft.com/pt-br/library/security/ms16-014)
-
+[**MS16-027**](https://technet.microsoft.com/pt-br/library/security/ms16-027)
 </td>
 <td style="border:1px solid black;">
-[**MS16-016**](https://technet.microsoft.com/pt-br/library/security/ms16-016)
-
+[**MS16-028**](https://technet.microsoft.com/pt-br/library/security/ms16-028)
+</td>
+<td style="border:1px solid black;">
+[**MS16-030**](https://technet.microsoft.com/pt-br/library/security/ms16-030)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Moderada**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+</td>
+<td style="border:1px solid black;">
+[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
-(3134814)  
+(3139929)  
 (Moderado)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
-(3115858)  
+(3140735)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
-(3126587)  
-(Importante)  
+(3138910)  
+(Crítica)  
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
-(3126593)  
-(Importante)
-
+(3138962)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
-(3124280)  
+(3139940)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas baseados em Itanium
-
-</td>
-<td style="border:1px solid black;">
-Internet Explorer 11  
-(3134814)  
-(Moderado)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas baseados em Itanium  
-(3126587)  
-(Importante)  
+(3140735)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas baseados em Itanium  
-(3126593)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
-<td style="border:1px solid black;" colspan="7">
-**Windows 8,1**
-
+<td style="border:1px solid black;" colspan="8">
+**Windows 8.1**
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-009**](https://technet.microsoft.com/pt-br/library/security/ms16-009)
-
+[**MS16-023**](https://technet.microsoft.com/pt-br/library/security/ms16-023)
 </td>
 <td style="border:1px solid black;">
-[**MS16-011**](https://technet.microsoft.com/pt-br/library/security/ms16-011)
-
+[**MS16-024**](https://technet.microsoft.com/pt-br/library/security/ms16-024)
 </td>
 <td style="border:1px solid black;">
-[**MS16-012**](https://technet.microsoft.com/pt-br/library/security/ms16-012)
-
+[**MS16-025**](https://technet.microsoft.com/pt-br/library/security/ms16-025)
 </td>
 <td style="border:1px solid black;">
-[**MS16-013**](https://technet.microsoft.com/pt-br/library/security/ms16-013)
-
+[**MS16-026**](https://technet.microsoft.com/pt-br/library/security/ms16-026)
 </td>
 <td style="border:1px solid black;">
-[**MS16-014**](https://technet.microsoft.com/pt-br/library/security/ms16-014)
-
+[**MS16-027**](https://technet.microsoft.com/pt-br/library/security/ms16-027)
 </td>
 <td style="border:1px solid black;">
-[**MS16-016**](https://technet.microsoft.com/pt-br/library/security/ms16-016)
-
+[**MS16-028**](https://technet.microsoft.com/pt-br/library/security/ms16-028)
+</td>
+<td style="border:1px solid black;">
+[**MS16-030**](https://technet.microsoft.com/pt-br/library/security/ms16-030)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+</td>
+<td style="border:1px solid black;">
+[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-[**Moderada**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
-(3134814)  
+(3139929)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
-(3123294)  
+(3140735)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
-(3115858)  
+(3138910)  
+(Crítica)  
+Windows 8.1 para sistemas de 32 bits  
+(3138962)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
-(3126587)  
-(Importante)  
+(3137513)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
-(3126593)  
-(Importante)  
-Windows 8.1 para sistemas de 32 bits  
-(3126041)  
-(Importante)  
-Windows 8.1 para sistemas de 32 bits  
-(3126434)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows 8.1 para sistemas de 32 bits  
-(3124280)  
-(Moderado)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas baseados em x64
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
-(3134814)  
+(3139929)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas baseados em x64  
-(3123294)  
+(3140735)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas baseados em x64  
-(3115858)  
+(3138910)  
+(Crítica)  
+Windows 8.1 para sistemas baseados em x64  
+(3138962)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas baseados em x64  
-(3126587)  
-(Importante)  
+(3137513)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
 Windows 8.1 para sistemas baseados em x64  
-(3126593)  
-(Importante)  
-Windows 8.1 para sistemas baseados em x64  
-(3126041)  
-(Importante)  
-Windows 8.1 para sistemas baseados em x64  
-(3126434)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows 8.1 para sistemas baseados em x64  
-(3124280)  
-(Moderado)
-
 </td>
 </tr>
 <tr>
-<td style="border:1px solid black;" colspan="7">
+<td style="border:1px solid black;" colspan="8">
 **Windows Server 2012 e Windows Server 2012 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-009**](https://technet.microsoft.com/pt-br/library/security/ms16-009)
-
+[**MS16-023**](https://technet.microsoft.com/pt-br/library/security/ms16-023)
 </td>
 <td style="border:1px solid black;">
-[**MS16-011**](https://technet.microsoft.com/pt-br/library/security/ms16-011)
-
+[**MS16-024**](https://technet.microsoft.com/pt-br/library/security/ms16-024)
 </td>
 <td style="border:1px solid black;">
-[**MS16-012**](https://technet.microsoft.com/pt-br/library/security/ms16-012)
-
+[**MS16-025**](https://technet.microsoft.com/pt-br/library/security/ms16-025)
 </td>
 <td style="border:1px solid black;">
-[**MS16-013**](https://technet.microsoft.com/pt-br/library/security/ms16-013)
-
+[**MS16-026**](https://technet.microsoft.com/pt-br/library/security/ms16-026)
 </td>
 <td style="border:1px solid black;">
-[**MS16-014**](https://technet.microsoft.com/pt-br/library/security/ms16-014)
-
+[**MS16-027**](https://technet.microsoft.com/pt-br/library/security/ms16-027)
 </td>
 <td style="border:1px solid black;">
-[**MS16-016**](https://technet.microsoft.com/pt-br/library/security/ms16-016)
-
+[**MS16-028**](https://technet.microsoft.com/pt-br/library/security/ms16-028)
+</td>
+<td style="border:1px solid black;">
+[**MS16-030**](https://technet.microsoft.com/pt-br/library/security/ms16-030)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Moderada**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+</td>
+<td style="border:1px solid black;">
+[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-[**Moderada**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 10  
-(3134814)  
+(3139929)  
 (Moderado)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
-(3123294)  
+(3140735)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
-(3115858)  
+(3138910)  
+(Crítica)  
+Windows Server 2012  
+(3138962)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
-(3126587)  
-(Importante)  
+(3137513)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
 Windows Server 2012  
-(3126593)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows Server 2012  
-(3124280)  
-(Moderado)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
-(3134814)  
+(3139929)  
 (Moderado)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
-(3123294)  
+(3140735)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
-(3115858)  
+(3138910)  
+(Crítica)  
+Windows Server 2012 R2  
+(3138962)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
-(3126587)  
-(Importante)  
+(3137513)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
 Windows Server 2012 R2  
-(3126593)  
-(Importante)  
-Windows Server 2012 R2  
-(3126041)  
-(Importante)  
-Windows Server 2012 R2  
-(3126434)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows Server 2012 R2  
-(3124280)  
-(Moderado)
-
 </td>
 </tr>
 <tr>
-<td style="border:1px solid black;" colspan="7">
+<td style="border:1px solid black;" colspan="8">
 **Windows RT 8.1**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-009**](https://technet.microsoft.com/pt-br/library/security/ms16-009)
-
+[**MS16-023**](https://technet.microsoft.com/pt-br/library/security/ms16-023)
 </td>
 <td style="border:1px solid black;">
-[**MS16-011**](https://technet.microsoft.com/pt-br/library/security/ms16-011)
-
+[**MS16-024**](https://technet.microsoft.com/pt-br/library/security/ms16-024)
 </td>
 <td style="border:1px solid black;">
-[**MS16-012**](https://technet.microsoft.com/pt-br/library/security/ms16-012)
-
+[**MS16-025**](https://technet.microsoft.com/pt-br/library/security/ms16-025)
 </td>
 <td style="border:1px solid black;">
-[**MS16-013**](https://technet.microsoft.com/pt-br/library/security/ms16-013)
-
+[**MS16-026**](https://technet.microsoft.com/pt-br/library/security/ms16-026)
 </td>
 <td style="border:1px solid black;">
-[**MS16-014**](https://technet.microsoft.com/pt-br/library/security/ms16-014)
-
+[**MS16-027**](https://technet.microsoft.com/pt-br/library/security/ms16-027)
 </td>
 <td style="border:1px solid black;">
-[**MS16-016**](https://technet.microsoft.com/pt-br/library/security/ms16-016)
-
+[**MS16-028**](https://technet.microsoft.com/pt-br/library/security/ms16-028)
+</td>
+<td style="border:1px solid black;">
+[**MS16-030**](https://technet.microsoft.com/pt-br/library/security/ms16-030)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+[**Crítica**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Crítica**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Críticas**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Críticas**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-[**Moderada**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows RT 8.1
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
-(3134814)  
+(3139929)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows RT 8.1  
-(3126587)  
-(Importante)  
+(3140735)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
 Windows RT 8.1  
-(3126593)  
-(Importante)  
+(3138910)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
 Windows RT 8.1  
-(3126434)  
+(3137513)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Windows RT 8.1  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows RT 8.1  
-(3124280)  
-(Moderado)
-
 </td>
 </tr>
 <tr>
-<td style="border:1px solid black;" colspan="7">
+<td style="border:1px solid black;" colspan="8">
 **Windows 10**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-009**](https://technet.microsoft.com/pt-br/library/security/ms16-009)
-
+[**MS16-023**](https://technet.microsoft.com/pt-br/library/security/ms16-023)
 </td>
 <td style="border:1px solid black;">
-[**MS16-011**](https://technet.microsoft.com/pt-br/library/security/ms16-011)
-
+[**MS16-024**](https://technet.microsoft.com/pt-br/library/security/ms16-024)
 </td>
 <td style="border:1px solid black;">
-[**MS16-012**](https://technet.microsoft.com/pt-br/library/security/ms16-012)
-
+[**MS16-025**](https://technet.microsoft.com/pt-br/library/security/ms16-025)
 </td>
 <td style="border:1px solid black;">
-[**MS16-013**](https://technet.microsoft.com/pt-br/library/security/ms16-013)
-
+[**MS16-026**](https://technet.microsoft.com/pt-br/library/security/ms16-026)
 </td>
 <td style="border:1px solid black;">
-[**MS16-014**](https://technet.microsoft.com/pt-br/library/security/ms16-014)
-
+[**MS16-027**](https://technet.microsoft.com/pt-br/library/security/ms16-027)
 </td>
 <td style="border:1px solid black;">
-[**MS16-016**](https://technet.microsoft.com/pt-br/library/security/ms16-016)
-
+[**MS16-028**](https://technet.microsoft.com/pt-br/library/security/ms16-028)
+</td>
+<td style="border:1px solid black;">
+[**MS16-030**](https://technet.microsoft.com/pt-br/library/security/ms16-030)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+[**Críticas**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+[**Críticas**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+[**Críticas**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Críticas**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Críticas**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-[**Moderada**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
-(3135174)  
+(3140745)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Edge  
-(3135174)  
+(3140745)  
 (Crítica)
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
-(3135174)  
+(3140745)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
-(3135174)  
+(3140745)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
-(3135174)  
+(3140745)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Windows 10 para sistemas de 32 bits  
+(3140745)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows 10 para sistemas de 32 bits  
-(3135174)  
-(Moderado)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas baseados em x64
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
-(3135174)  
+(3140745)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Edge  
-(3135174)  
+(3140745)  
 (Crítica)
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas baseados em x64  
-(3135174)  
+(3140745)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas baseados em x64  
-(3135174)  
+(3140745)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas baseados em x64  
-(3135174)  
+(3140745)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Windows 10 para sistemas baseados em x64  
+(3140745)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows 10 para sistemas baseados em x64  
-(3135174)  
-(Moderado)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
-(3135173)  
+(3140768)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Edge  
-(3135173)  
+(3140768)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits  
-(3135173)  
+(3140768)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits  
-(3135173)  
+(3140768)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Windows 10 Versão 1511 para sistemas de 32 bits  
+(3140768)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Windows 10 Versão 1511 para sistemas de 32 bits  
+(3140768)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows 10 Versão 1511 para sistemas de 32 bits  
-(3135173)  
-(Moderado)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas baseados em x64
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
-(3135173)  
+(3140768)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Edge  
-(3135173)  
+(3140768)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas baseados em x64  
-(3135173)  
+(3140768)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas baseados em x64  
-(3135173)  
+(3140768)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Windows 10 Versão 1511 para sistemas baseados em x64  
+(3140768)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Windows 10 Versão 1511 para sistemas baseados em x64  
+(3140768)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows 10 Versão 1511 para sistemas baseados em x64  
-(3135173)  
-(Moderado)
-
 </td>
 </tr>
 <tr>
-<td style="border:1px solid black;" colspan="7">
+<td style="border:1px solid black;" colspan="8">
 **Opção de instalação Server Core**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-009**](https://technet.microsoft.com/pt-br/library/security/ms16-009)
-
+[**MS16-023**](https://technet.microsoft.com/pt-br/library/security/ms16-023)
 </td>
 <td style="border:1px solid black;">
-[**MS16-011**](https://technet.microsoft.com/pt-br/library/security/ms16-011)
-
+[**MS16-024**](https://technet.microsoft.com/pt-br/library/security/ms16-024)
 </td>
 <td style="border:1px solid black;">
-[**MS16-012**](https://technet.microsoft.com/pt-br/library/security/ms16-012)
-
+[**MS16-025**](https://technet.microsoft.com/pt-br/library/security/ms16-025)
 </td>
 <td style="border:1px solid black;">
-[**MS16-013**](https://technet.microsoft.com/pt-br/library/security/ms16-013)
-
+[**MS16-026**](https://technet.microsoft.com/pt-br/library/security/ms16-026)
 </td>
 <td style="border:1px solid black;">
-[**MS16-014**](https://technet.microsoft.com/pt-br/library/security/ms16-014)
-
+[**MS16-027**](https://technet.microsoft.com/pt-br/library/security/ms16-027)
 </td>
 <td style="border:1px solid black;">
-[**MS16-016**](https://technet.microsoft.com/pt-br/library/security/ms16-016)
-
+[**MS16-028**](https://technet.microsoft.com/pt-br/library/security/ms16-028)
+</td>
+<td style="border:1px solid black;">
+[**MS16-030**](https://technet.microsoft.com/pt-br/library/security/ms16-030)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
-</td>
-<td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Críticas**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
+</td>
+<td style="border:1px solid black;">
+[**Críticas**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits (instalação Server Core)  
-(3126587)  
-(Importante)  
-Windows Server 2008 Service Pack 2 para sistemas de 32 bits (instalação Server Core)  
-(3126593)  
-(Importante)  
-Windows Server 2008 Service Pack 2 para sistemas de 32 bits (instalação Server Core)  
-(3126041)  
+(3140709)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas de 32 bits (instalação Server Core)  
+(3140735)  
+(Crítica)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas de 32 bits (instalação Server Core)  
+(3139940)  
+(Importante)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas baseados em x64 (instalação Server Core)  
-(3126587)  
-(Importante)  
-Windows Server 2008 Service Pack 2 para sistemas baseados em x64 (instalação Server Core)  
-(3126593)  
-(Importante)  
-Windows Server 2008 Service Pack 2 para sistemas baseados em x64 (instalação Server Core)  
-(3126041)  
+(3140709)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas baseados em x64 (instalação Server Core)  
+(3140735)  
+(Crítica)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas baseados em x64 (instalação Server Core)  
+(3139940)  
+(Importante)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1 (instalação Server Core)  
-(3126587)  
-(Importante)  
+(3140735)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1 (instalação Server Core)  
-(3126593)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012  
 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 (instalação Server Core)  
-(3126587)  
-(Importante)  
+(3140735)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
 Windows Server 2012 (instalação Server Core)  
-(3126593)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
-Windows Server 2012 R2  
-(instalação Server Core)  
-(3123294)  
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Windows Server 2012 R2 (instalação Server Core)  
+(3140735)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2 (instalação Server Core)  
-(3126587)  
-(Importante)  
+(3137513)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
 Windows Server 2012 R2 (instalação Server Core)  
-(3126593)  
-(Importante)  
-Windows Server 2012 R2 (instalação Server Core)  
-(3126041)  
+(3139940)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 </table>
@@ -2816,1686 +2423,1377 @@ Não Aplicável
 
 ### Sistemas operacionais do Windows e componentes (Tabela 2 de 2)
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="7">
 **Windows Vista**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-017**](https://technet.microsoft.com/pt-br/library/security/ms16-017)
-
+[**MS16-031**](https://technet.microsoft.com/pt-br/library/security/ms16-031)
 </td>
 <td style="border:1px solid black;">
-[**MS16-018**](https://technet.microsoft.com/pt-br/library/security/ms16-018)
-
+[**MS16-032**](https://technet.microsoft.com/pt-br/library/security/ms16-032)
 </td>
 <td style="border:1px solid black;">
-[**MS16-019**](https://technet.microsoft.com/pt-br/library/security/ms16-019)
-
+[**MS16-033**](https://technet.microsoft.com/pt-br/library/security/ms16-033)
 </td>
 <td style="border:1px solid black;">
-[**MS16-020**](https://technet.microsoft.com/pt-br/library/security/ms16-020)
-
+[**MS16-034**](https://technet.microsoft.com/pt-br/library/security/ms16-034)
 </td>
 <td style="border:1px solid black;">
-[**MS16-021**](https://technet.microsoft.com/pt-br/library/security/ms16-021)
-
+[**MS16-035**](https://technet.microsoft.com/pt-br/library/security/ms16-035)
 </td>
 <td style="border:1px solid black;">
-[**MS16-022**](https://technet.microsoft.com/pt-br/library/security/ms16-022)
-
+[**MS16-036**](https://technet.microsoft.com/pt-br/library/security/ms16-036)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
-</td>
-<td style="border:1px solid black;">
-**Nenhuma **
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2  
-(3134214)  
+(3140410)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Vista Service Pack 2  
+(3139914)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Vista Service Pack 2  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Vista Service Pack 2  
+(3139852)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 2,0 Service Pack 2  
-(3122646)  
+(3135982)  
 (Importante)  
-Microsoft .NET Framework 2,0 Service Pack 2  
-(3127219)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3122656)  
+Microsoft .NET Framework 3.0 Service Pack 2  
+(3135987)  
 (Importante)  
 Microsoft .NET Framework 4.5.2  
-(3127229)  
+(3135996)  
 (Importante)  
 Microsoft .NET Framework 4.6  
-(3122661)  
-(Importante)  
-Microsoft .NET Framework 4.6  
-(3127233)  
+(3136000)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2  
-(3134214)  
+(3140410)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
-Microsoft .NET Framework 2,0 Service Pack 2  
-(3122646)  
+Windows Vista x64 Edition Service Pack 2  
+(3139914)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Vista x64 Edition Service Pack 2  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Vista x64 Edition Service Pack 2  
+(3139852)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 2.0 Service Pack 2  
+(3135982)  
 (Importante)  
-Microsoft .NET Framework 2,0 Service Pack 2  
-(3127219)  
+Microsoft .NET Framework 3.0 Service Pack 2  
+(3135987)  
 (Importante)  
 Microsoft .NET Framework 4.5.2  
-(3122656)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127229)  
+(3135996)  
 (Importante)  
 Microsoft .NET Framework 4.6  
-(3122661)  
-(Importante)  
-Microsoft .NET Framework 4.6  
-(3127233)  
+(3136000)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="7">
 **Windows Server 2008**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-017**](https://technet.microsoft.com/pt-br/library/security/ms16-017)
-
+[**MS16-031**](https://technet.microsoft.com/pt-br/library/security/ms16-031)
 </td>
 <td style="border:1px solid black;">
-[**MS16-018**](https://technet.microsoft.com/pt-br/library/security/ms16-018)
-
+[**MS16-032**](https://technet.microsoft.com/pt-br/library/security/ms16-032)
 </td>
 <td style="border:1px solid black;">
-[**MS16-019**](https://technet.microsoft.com/pt-br/library/security/ms16-019)
-
+[**MS16-033**](https://technet.microsoft.com/pt-br/library/security/ms16-033)
 </td>
 <td style="border:1px solid black;">
-[**MS16-020**](https://technet.microsoft.com/pt-br/library/security/ms16-020)
-
+[**MS16-034**](https://technet.microsoft.com/pt-br/library/security/ms16-034)
 </td>
 <td style="border:1px solid black;">
-[**MS16-021**](https://technet.microsoft.com/pt-br/library/security/ms16-021)
-
+[**MS16-035**](https://technet.microsoft.com/pt-br/library/security/ms16-035)
 </td>
 <td style="border:1px solid black;">
-[**MS16-022**](https://technet.microsoft.com/pt-br/library/security/ms16-022)
-
+[**MS16-036**](https://technet.microsoft.com/pt-br/library/security/ms16-036)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
-</td>
-<td style="border:1px solid black;">
-**Nenhuma **
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-**Nenhuma **
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
-(3134214)  
+(3140410)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft .NET Framework 2,0 Service Pack 2  
-(3122646)  
-(Importante)  
-Microsoft .NET Framework 2,0 Service Pack 2  
-(3127219)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3122656)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127229)  
-(Importante)  
-Microsoft .NET Framework 4.6  
-(3122661)  
-(Importante)  
-Microsoft .NET Framework 4.6  
-(3127233)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
-(3133043)  
+(3139914)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
+(3139852)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 2.0 Service Pack 2  
+(3135982)  
+(Importante)  
+Microsoft .NET Framework 3.0 Service Pack 2  
+(3135987)  
+(Importante)  
+Microsoft .NET Framework 4.5.2  
+(3135996)  
+(Importante)  
+Microsoft .NET Framework 4.6  
+(3136000)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas baseados em x64
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
-(3134214)  
+(3140410)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft .NET Framework 2,0 Service Pack 2  
-(3122646)  
-(Importante)  
-Microsoft .NET Framework 2,0 Service Pack 2  
-(3127219)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3122656)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127229)  
-(Importante)  
-Microsoft .NET Framework 4.6  
-(3122661)  
-(Importante)  
-Microsoft .NET Framework 4.6  
-(3127233)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
-(3133043)  
+(3139914)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
+(3139852)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 2.0 Service Pack 2  
+(3135982)  
+(Importante)  
+Microsoft .NET Framework 3.0 Service Pack 2  
+(3135987)  
+(Importante)  
+Microsoft .NET Framework 4.5.2  
+(3135996)  
+(Importante)  
+Microsoft .NET Framework 4.6  
+(3136000)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 para sistemas baseados em Itanium Service Pack 2
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 para sistemas baseados em Itanium Service Pack 2  
-(3134214)  
+(3140410)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
-Microsoft .NET Framework 2,0 Service Pack 2  
-(3122646)  
-(Importante)  
-Microsoft .NET Framework 2,0 Service Pack 2  
-(3127219)  
+Windows Server 2008 para sistemas baseados em Itanium Service Pack 2  
+(3139914)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas baseados em Itanium Service Pack 2  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas baseados em Itanium Service Pack 2  
+(3139852)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 2.0 Service Pack 2  
+(3135982)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="7">
 **Windows 7**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-017**](https://technet.microsoft.com/pt-br/library/security/ms16-017)
-
+[**MS16-031**](https://technet.microsoft.com/pt-br/library/security/ms16-031)
 </td>
 <td style="border:1px solid black;">
-[**MS16-018**](https://technet.microsoft.com/pt-br/library/security/ms16-018)
-
+[**MS16-032**](https://technet.microsoft.com/pt-br/library/security/ms16-032)
 </td>
 <td style="border:1px solid black;">
-[**MS16-019**](https://technet.microsoft.com/pt-br/library/security/ms16-019)
-
+[**MS16-033**](https://technet.microsoft.com/pt-br/library/security/ms16-033)
 </td>
 <td style="border:1px solid black;">
-[**MS16-020**](https://technet.microsoft.com/pt-br/library/security/ms16-020)
-
+[**MS16-034**](https://technet.microsoft.com/pt-br/library/security/ms16-034)
 </td>
 <td style="border:1px solid black;">
-[**MS16-021**](https://technet.microsoft.com/pt-br/library/security/ms16-021)
-
+[**MS16-035**](https://technet.microsoft.com/pt-br/library/security/ms16-035)
 </td>
 <td style="border:1px solid black;">
-[**MS16-022**](https://technet.microsoft.com/pt-br/library/security/ms16-022)
-
+[**MS16-036**](https://technet.microsoft.com/pt-br/library/security/ms16-036)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 para sistemas de 32 bits Service Pack 1
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 para sistemas de 32 bits Service Pack 1  
-(3126446)  
+(3140410)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 para sistemas de 32 bits Service Pack 1  
-(3134214)  
+(3139914)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows 7 para sistemas de 32 bits Service Pack 1  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows 7 para sistemas de 32 bits Service Pack 1  
+(3139852)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
-(3122648)  
+(3135983)  
 (Importante)  
 Microsoft .NET Framework 3.5.1  
-(3127220)  
+(3135988)  
 (Importante)  
 Microsoft .NET Framework 4.5.2  
-(3122656)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127229)  
+(3135996)  
 (Importante)  
 Microsoft .NET Framework 4.6/4.6.1  
-(3122661)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3127233)  
+(3136000)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 para sistemas baseados em x64 Service Pack 1
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 para sistemas baseados em x64 Service Pack 1  
-(3126446)  
+(3140410)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 para sistemas baseados em x64 Service Pack 1  
-(3134214)  
+(3139914)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows 7 para sistemas baseados em x64 Service Pack 1  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows 7 para sistemas baseados em x64 Service Pack 1  
+(3139852)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
-(3122648)  
+(3135983)  
 (Importante)  
 Microsoft .NET Framework 3.5.1  
-(3127220)  
+(3135988)  
 (Importante)  
 Microsoft .NET Framework 4.5.2  
-(3122656)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127229)  
+(3135996)  
 (Importante)  
 Microsoft .NET Framework 4.6/4.6.1  
-(3122661)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3127233)  
+(3136000)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="7">
 **Windows Server 2008 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-017**](https://technet.microsoft.com/pt-br/library/security/ms16-017)
-
+[**MS16-031**](https://technet.microsoft.com/pt-br/library/security/ms16-031)
 </td>
 <td style="border:1px solid black;">
-[**MS16-018**](https://technet.microsoft.com/pt-br/library/security/ms16-018)
-
+[**MS16-032**](https://technet.microsoft.com/pt-br/library/security/ms16-032)
 </td>
 <td style="border:1px solid black;">
-[**MS16-019**](https://technet.microsoft.com/pt-br/library/security/ms16-019)
-
+[**MS16-033**](https://technet.microsoft.com/pt-br/library/security/ms16-033)
 </td>
 <td style="border:1px solid black;">
-[**MS16-020**](https://technet.microsoft.com/pt-br/library/security/ms16-020)
-
+[**MS16-034**](https://technet.microsoft.com/pt-br/library/security/ms16-034)
 </td>
 <td style="border:1px solid black;">
-[**MS16-021**](https://technet.microsoft.com/pt-br/library/security/ms16-021)
-
+[**MS16-035**](https://technet.microsoft.com/pt-br/library/security/ms16-035)
 </td>
 <td style="border:1px solid black;">
-[**MS16-022**](https://technet.microsoft.com/pt-br/library/security/ms16-022)
-
+[**MS16-036**](https://technet.microsoft.com/pt-br/library/security/ms16-036)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
-</td>
-<td style="border:1px solid black;">
-**Nenhuma **
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-**Nenhuma **
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
-(3134214)  
+(3140410)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft .NET Framework 3.5.1  
-(3122648)  
-(Importante)  
-Microsoft .NET Framework 3.5.1  
-(3127220)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3122656)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127229)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3122661)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3127233)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
-(3133043)  
+(3139914)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
+(3139852)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 3.5.1  
+(3135983)  
+(Importante)  
+Microsoft .NET Framework 3.5.1  
+(3135988)  
+(Importante)  
+Microsoft .NET Framework 4.5.2  
+(3135996)  
+(Importante)  
+Microsoft .NET Framework 4.6/4.6.1  
+(3136000)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas baseados em Itanium
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas baseados em Itanium  
-(3134214)  
+(3140410)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 R2 Service Pack 1 para sistemas baseados em Itanium  
+(3139914)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 R2 Service Pack 1 para sistemas baseados em Itanium  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 R2 Service Pack 1 para sistemas baseados em Itanium  
+(3139852)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
-(3122648)  
-(Importante)  
-Microsoft .NET Framework 3.5.1  
-(3127220)  
+(3135983)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="7">
-**Windows 8,1**
-
+**Windows 8.1**
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-017**](https://technet.microsoft.com/pt-br/library/security/ms16-017)
-
+[**MS16-031**](https://technet.microsoft.com/pt-br/library/security/ms16-031)
 </td>
 <td style="border:1px solid black;">
-[**MS16-018**](https://technet.microsoft.com/pt-br/library/security/ms16-018)
-
+[**MS16-032**](https://technet.microsoft.com/pt-br/library/security/ms16-032)
 </td>
 <td style="border:1px solid black;">
-[**MS16-019**](https://technet.microsoft.com/pt-br/library/security/ms16-019)
-
+[**MS16-033**](https://technet.microsoft.com/pt-br/library/security/ms16-033)
 </td>
 <td style="border:1px solid black;">
-[**MS16-020**](https://technet.microsoft.com/pt-br/library/security/ms16-020)
-
+[**MS16-034**](https://technet.microsoft.com/pt-br/library/security/ms16-034)
 </td>
 <td style="border:1px solid black;">
-[**MS16-021**](https://technet.microsoft.com/pt-br/library/security/ms16-021)
-
+[**MS16-035**](https://technet.microsoft.com/pt-br/library/security/ms16-035)
 </td>
 <td style="border:1px solid black;">
-[**MS16-022**](https://technet.microsoft.com/pt-br/library/security/ms16-022)
-
+[**MS16-036**](https://technet.microsoft.com/pt-br/library/security/ms16-036)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
-</td>
-<td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits
-
-</td>
-<td style="border:1px solid black;">
-Windows 8.1 para sistemas de 32 bits  
-(3126446)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows 8.1 para sistemas de 32 bits  
-(3134214)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft .NET Framework 3,5  
-(3122651)  
-(Importante)  
-Microsoft .NET Framework 3,5  
-(3127222)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3122654)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127226)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3122660)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3127231)  
-(Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
-Não Aplicável
-
+Windows 8.1 para sistemas de 32 bits  
+(3139914)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows 8.1 para sistemas de 32 bits  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows 8.1 para sistemas de 32 bits  
+(3139852)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 3.5  
+(3135985)  
+(Importante)  
+Microsoft .NET Framework 3.5  
+(3135991)  
+(Importante)  
+Microsoft .NET Framework 4.5.2  
+(3135994)  
+(Importante)  
+Microsoft .NET Framework 4.6/4.6.1  
+(3135998)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
-(3135782)  
+(3144756)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas baseados em x64
-
-</td>
-<td style="border:1px solid black;">
-Windows 8.1 para sistemas baseados em x64  
-(3126446)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows 8.1 para sistemas baseados em x64  
-(3134214)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft .NET Framework 3,5  
-(3122651)  
-(Importante)  
-Microsoft .NET Framework 3,5  
-(3127222)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3122654)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127226)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3122660)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3127231)  
-(Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
-Não Aplicável
-
+Windows 8.1 para sistemas baseados em x64  
+(3139914)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows 8.1 para sistemas baseados em x64  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows 8.1 para sistemas baseados em x64  
+(3139852)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 3.5  
+(3135985)  
+(Importante)  
+Microsoft .NET Framework 3.5  
+(3135991)  
+(Importante)  
+Microsoft .NET Framework 4.5.2  
+(3135994)  
+(Importante)  
+Microsoft .NET Framework 4.6/4.6.1  
+(3135998)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
-(3135782)  
+(3144756)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="7">
 **Windows Server 2012 e Windows Server 2012 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-017**](https://technet.microsoft.com/pt-br/library/security/ms16-017)
-
+[**MS16-031**](https://technet.microsoft.com/pt-br/library/security/ms16-031)
 </td>
 <td style="border:1px solid black;">
-[**MS16-018**](https://technet.microsoft.com/pt-br/library/security/ms16-018)
-
+[**MS16-032**](https://technet.microsoft.com/pt-br/library/security/ms16-032)
 </td>
 <td style="border:1px solid black;">
-[**MS16-019**](https://technet.microsoft.com/pt-br/library/security/ms16-019)
-
+[**MS16-033**](https://technet.microsoft.com/pt-br/library/security/ms16-033)
 </td>
 <td style="border:1px solid black;">
-[**MS16-020**](https://technet.microsoft.com/pt-br/library/security/ms16-020)
-
+[**MS16-034**](https://technet.microsoft.com/pt-br/library/security/ms16-034)
 </td>
 <td style="border:1px solid black;">
-[**MS16-021**](https://technet.microsoft.com/pt-br/library/security/ms16-021)
-
+[**MS16-035**](https://technet.microsoft.com/pt-br/library/security/ms16-035)
 </td>
 <td style="border:1px solid black;">
-[**MS16-022**](https://technet.microsoft.com/pt-br/library/security/ms16-022)
-
+[**MS16-036**](https://technet.microsoft.com/pt-br/library/security/ms16-036)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-<td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+[**Moderada**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012
-
-</td>
-<td style="border:1px solid black;">
-Windows Server 2012  
-(3126446)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows Server 2012  
-(3134214)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft .NET Framework 3,5  
-(3122649)  
-(Importante)  
-Microsoft .NET Framework 3,5  
-(3127221)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3122655)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127227)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3122658)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3127230)  
-(Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
-(3133043)  
+(3139914)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2012  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2012  
+(3139852)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 3.5  
+(3135984)  
+(Importante)  
+Microsoft .NET Framework 3.5  
+(3135989)  
+(Importante)  
+Microsoft .NET Framework 4.5.2  
+(3135995)  
+(Importante)  
+Microsoft .NET Framework 4.6/4.6.1  
+(3135997)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
-(3135782)  
-(Crítica)
-
+(3144756)  
+(Moderado)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
-(3126446)  
+(3139914)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
-(3134214)  
+(3139398)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
-Microsoft .NET Framework 3,5  
-(3122651)  
+Windows Server 2012 R2  
+(3139852)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 3.5  
+(3135985)  
 (Importante)  
-Microsoft .NET Framework 3,5  
-(3127222)  
+Microsoft .NET Framework 3.5  
+(3135991)  
 (Importante)  
 Microsoft .NET Framework 4.5.2  
-(3122654)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127226)  
+(3135994)  
 (Importante)  
 Microsoft .NET Framework 4.6/4.6.1  
-(3122660)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3127231)  
+(3135998)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Serviços de Federação do Active Directory 3,0  
-(3134222)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows Server 2012 R2  
-(3133043)  
-(Importante)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
-(3135782)  
-(Crítica)
-
+(3144756)  
+(Moderado)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="7">
 **Windows RT 8.1**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-017**](https://technet.microsoft.com/pt-br/library/security/ms16-017)
-
+[**MS16-031**](https://technet.microsoft.com/pt-br/library/security/ms16-031)
 </td>
 <td style="border:1px solid black;">
-[**MS16-018**](https://technet.microsoft.com/pt-br/library/security/ms16-018)
-
+[**MS16-032**](https://technet.microsoft.com/pt-br/library/security/ms16-032)
 </td>
 <td style="border:1px solid black;">
-[**MS16-019**](https://technet.microsoft.com/pt-br/library/security/ms16-019)
-
+[**MS16-033**](https://technet.microsoft.com/pt-br/library/security/ms16-033)
 </td>
 <td style="border:1px solid black;">
-[**MS16-020**](https://technet.microsoft.com/pt-br/library/security/ms16-020)
-
+[**MS16-034**](https://technet.microsoft.com/pt-br/library/security/ms16-034)
 </td>
 <td style="border:1px solid black;">
-[**MS16-021**](https://technet.microsoft.com/pt-br/library/security/ms16-021)
-
+[**MS16-035**](https://technet.microsoft.com/pt-br/library/security/ms16-035)
 </td>
 <td style="border:1px solid black;">
-[**MS16-022**](https://technet.microsoft.com/pt-br/library/security/ms16-022)
-
+[**MS16-036**](https://technet.microsoft.com/pt-br/library/security/ms16-036)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
-</td>
-<td style="border:1px solid black;">
-[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows RT 8.1
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows RT 8.1  
-(3134214)  
+(3139914)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows RT 8.1  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows RT 8.1  
+(3139852)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.5.2  
-(3122654)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127226)  
+(3135994)  
 (Importante)  
 Microsoft .NET Framework 4.6/4.6.1  
-(3122660)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3127231)  
+(3135998)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
-(3135782)  
+(3144756)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="7">
 **Windows 10**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-017**](https://technet.microsoft.com/pt-br/library/security/ms16-017)
-
+[**MS16-031**](https://technet.microsoft.com/pt-br/library/security/ms16-031)
 </td>
 <td style="border:1px solid black;">
-[**MS16-018**](https://technet.microsoft.com/pt-br/library/security/ms16-018)
-
+[**MS16-032**](https://technet.microsoft.com/pt-br/library/security/ms16-032)
 </td>
 <td style="border:1px solid black;">
-[**MS16-019**](https://technet.microsoft.com/pt-br/library/security/ms16-019)
-
+[**MS16-033**](https://technet.microsoft.com/pt-br/library/security/ms16-033)
 </td>
 <td style="border:1px solid black;">
-[**MS16-020**](https://technet.microsoft.com/pt-br/library/security/ms16-020)
-
+[**MS16-034**](https://technet.microsoft.com/pt-br/library/security/ms16-034)
 </td>
 <td style="border:1px solid black;">
-[**MS16-021**](https://technet.microsoft.com/pt-br/library/security/ms16-021)
-
+[**MS16-035**](https://technet.microsoft.com/pt-br/library/security/ms16-035)
 </td>
 <td style="border:1px solid black;">
-[**MS16-022**](https://technet.microsoft.com/pt-br/library/security/ms16-022)
-
+[**MS16-036**](https://technet.microsoft.com/pt-br/library/security/ms16-036)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
+</td>
+<td style="border:1px solid black;">
+**Nenhuma**
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
-</td>
-<td style="border:1px solid black;">
-**Nenhuma **
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 <td style="border:1px solid black;">
 [**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
-(3135174)  
+(3140745)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
-(3135174)  
+(3140745)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
-Microsoft .NET Framework 3,5  
-(3135174)  
+Windows 10 para sistemas de 32 bits  
+(3140745)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 3.5  
+(3140745)  
 (Importante)  
-Microsoft .NET Framework 4.6  
-(3135174)  
+Microsoft .NET Framework 4.6/4.6.1  
+(3140745)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
-(3135782)  
+(3144756)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas baseados em x64
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas baseados em x64  
-(3135174)  
+(3140745)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas baseados em x64  
-(3135174)  
+(3140745)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
-Microsoft .NET Framework 3,5  
-(3135174)  
+Windows 10 para sistemas baseados em x64  
+(3140745)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 3.5  
+(3140745)  
 (Importante)  
-Microsoft .NET Framework 4.6  
-(3135174)  
+Microsoft .NET Framework 4.6/4.6.1  
+(3140745)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
-(3135782)  
+(3144756)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits  
-(3135173)  
+(3140768)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
-Microsoft .NET Framework 3,5  
-(3135173)  
+Windows 10 Versão 1511 para sistemas de 32 bits  
+(3140768)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows 10 Versão 1511 para sistemas de 32 bits  
+(3140768)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 3.5  
+(3140768)  
 (Importante)  
 Microsoft .NET Framework 4.6.1  
-(3135173)  
+(3140768)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
-(3135782)  
+(3144756)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas baseados em x64
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas baseados em x64  
-(3135173)  
+(3140768)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
-Microsoft .NET Framework 3,5  
-(3135173)  
+Windows 10 Versão 1511 para sistemas baseados em x64  
+(3140768)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows 10 Versão 1511 para sistemas baseados em x64  
+(3140768)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 3.5  
+(3140768)  
 (Importante)  
 Microsoft .NET Framework 4.6.1  
-(3135173)  
+(3140768)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
-(3135782)  
+(3144756)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="7">
 **Opção de instalação Server Core**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-017**](https://technet.microsoft.com/pt-br/library/security/ms16-017)
-
+[**MS16-031**](https://technet.microsoft.com/pt-br/library/security/ms16-031)
 </td>
 <td style="border:1px solid black;">
-[**MS16-018**](https://technet.microsoft.com/pt-br/library/security/ms16-018)
-
+[**MS16-032**](https://technet.microsoft.com/pt-br/library/security/ms16-032)
 </td>
 <td style="border:1px solid black;">
-[**MS16-019**](https://technet.microsoft.com/pt-br/library/security/ms16-019)
-
+[**MS16-033**](https://technet.microsoft.com/pt-br/library/security/ms16-033)
 </td>
 <td style="border:1px solid black;">
-[**MS16-020**](https://technet.microsoft.com/pt-br/library/security/ms16-020)
-
+[**MS16-034**](https://technet.microsoft.com/pt-br/library/security/ms16-034)
 </td>
 <td style="border:1px solid black;">
-[**MS16-021**](https://technet.microsoft.com/pt-br/library/security/ms16-021)
-
+[**MS16-035**](https://technet.microsoft.com/pt-br/library/security/ms16-035)
 </td>
 <td style="border:1px solid black;">
-[**MS16-022**](https://technet.microsoft.com/pt-br/library/security/ms16-022)
-
+[**MS16-036**](https://technet.microsoft.com/pt-br/library/security/ms16-036)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 <td style="border:1px solid black;">
-**Nenhuma **
-
+**Nenhuma**
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
 (instalação Server Core)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
 (instalação Server Core)  
-(3134214)  
+(3140410)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
 (instalação Server Core)  
-(3133043)  
+(3139914)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
+(instalação Server Core)  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
+(instalação Server Core)  
+(3139852)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
 (instalação Server Core)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
 (instalação Server Core)  
-(3134214)  
+(3140410)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
 (instalação Server Core)  
-(3133043)  
+(3139914)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
+(instalação Server Core)  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 Service Pack 2 para sistemas baseados em x64  
+(instalação Server Core)  
+(3139852)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
 (instalação Server Core)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
 (instalação Server Core)  
-(3134214)  
+(3140410)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
+(instalação Server Core)  
+(3139914)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
+(instalação Server Core)  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
+(instalação Server Core)  
+(3139852)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
-(3122648)  
+(3135983)  
 (Importante)  
 Microsoft .NET Framework 3.5.1  
-(3127220)  
+(3135988)  
 (Importante)  
 Microsoft .NET Framework 4.5.2  
-(3122656)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127229)  
+(3135996)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
-</td>
-<td style="border:1px solid black;">
-Windows Server 2008 R2 para Sistemas baseados em x64 Service Pack 1  
-(instalação Server Core)  
-(3133043)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012  
 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
-Windows Server 2012 (instalação Server Core)  
-(3126446)  
-(Importante)
-
+Não Aplicável
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
 (instalação Server Core)  
-(3134214)  
+(3139914)  
 (Importante)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft .NET Framework 3,5  
-(3122649)  
-(Importante)  
-Microsoft .NET Framework 3,5  
-(3127221)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3122655)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127227)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3122658)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3127230)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Não Aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
 (instalação Server Core)  
-(3133043)  
+(3139398)  
 (Importante)
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2012  
+(instalação Server Core)  
+(3139852)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 3.5  
+(3135984)  
+(Importante)  
+Microsoft .NET Framework 3.5  
+(3135989)  
+(Importante)  
+Microsoft .NET Framework 4.5.2  
+(3135995)  
+(Importante)  
+Microsoft .NET Framework 4.6/4.6.1  
+(3135997)  
+(Importante)
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 (instalação Server Core)
-
-</td>
-<td style="border:1px solid black;">
-Windows Server 2012 R2 (instalação Server Core)  
-(3126446)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows Server 2012 R2  
-(instalação Server Core)  
-(3134214)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Microsoft .NET Framework 3,5  
-(3122651)  
-(Importante)  
-Microsoft .NET Framework 3,5  
-(3127222)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3122654)  
-(Importante)  
-Microsoft .NET Framework 4.5.2  
-(3127226)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3122660)  
-(Importante)  
-Microsoft .NET Framework 4.6/4.6.1  
-(3127231)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Serviços de Federação do Active Directory 3,0  
-(3134222)  
-(Importante)
-
-</td>
-<td style="border:1px solid black;">
-Windows Server 2012 R2  
-(instalação Server Core)  
-(3133043)  
-(Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não Aplicável
-
+</td>
+<td style="border:1px solid black;">
+Windows Server 2012 R2  
+(instalação Server Core)  
+(3139914)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2012 R2  
+(instalação Server Core)  
+(3139398)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Windows Server 2012 R2  
+(instalação Server Core)  
+(3139852)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Microsoft .NET Framework 3.5  
+(3135985)  
+(Importante)  
+Microsoft .NET Framework 3.5  
+(3135991)  
+(Importante)  
+Microsoft .NET Framework 4.5.2  
+(3135994)  
+(Importante)  
+Microsoft .NET Framework 4.6/4.6.1  
+(3135998)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
 </td>
 </tr>
 </table>
@@ -4504,391 +3802,358 @@ Não Aplicável
 
 ### Microsoft Office Suites e software
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Office 2007**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2007 Service Pack 3
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office 2007 Service Pack 3  
-(3114742)  
+(2956110)  
 (Importante)  
-Microsoft Excel 2007 Service Pack 3  
-(3114741)  
+Microsoft InfoPath 2007 Service Pack 3  
+(3114426)  
+(Importante)  
+Microsoft Outlook 2007 Service Pack 3  
+(2880510)  
 (Importante)  
 Microsoft Word 2007 Service Pack 3  
-(3114748)  
-(Crítica)
-
+(3114901)  
+(Importante)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Office 2010**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2010 Service Pack 2 (edições de 32 bits)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office 2010 Service Pack 2 (edições de 32 bits)  
-(3114752)  
+(2956063)  
 (Importante)  
-Microsoft Excel 2010 Service Pack 2 (edições de 32 bits)  
-(3114759)  
+Microsoft Office 2010 Service Pack 2 (edições de 32 bits)  
+(3114873)  
+(Importante)  
+Microsoft InfoPath 2010 Service Pack 2 (edições de 32 bits)  
+(3114414)  
+(Importante)  
+Microsoft Outlook 2010 Service Pack 2 (edições de 32 bits)  
+(3114883)  
 (Importante)  
 Microsoft Word 2010 Service Pack 2 (edições de 32 bits)  
-(3114755)  
-(Crítica)
-
+(3114878)  
+(Importante)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2010 Service Pack 2 (edições de 64 bits)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office 2010 Service Pack 2 (edições de 64 bits)  
-(3114752)  
+(3114873)  
 (Importante)  
-Microsoft Excel 2010 Service Pack 2 (edições de 64 bits)  
-(3114759)  
+Microsoft InfoPath 2010 Service Pack 2 (edições de 64 bits)  
+(3114414)  
+(Importante)  
+Microsoft Outlook 2010 Service Pack 2 (edições de 64 bits)  
+(3114883)  
 (Importante)  
 Microsoft Word 2010 Service Pack 2 (edições de 64 bits)  
-(3114755)  
-(Crítica)
-
+(3114878)  
+(Importante)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Office 2013**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2013 Service Pack 1 (edições de 32 bits)
-
 </td>
 <td style="border:1px solid black;">
-Microsoft Excel 2013 Service Pack 1 (edições de 32 bits)  
-(3114734)  
+Microsoft Office 2013 Service Pack 1 (edições de 32 bits)  
+(3039746)  
+(Importante)  
+Microsoft InfoPath 2013 Service Pack 1 (edições de 32 bits)  
+(3114833)  
+(Importante)  
+Microsoft Outlook 2013 Service Pack 1 (edições de 32 bits)  
+(3114829)  
 (Importante)  
 Microsoft Word 2013 Service Pack 1 (edições de 32 bits)  
-(3114724)  
-(Crítica)
-
+(3114824)  
+(Importante)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2013 Service Pack 1 (edições de 64 bits)
-
 </td>
 <td style="border:1px solid black;">
-Microsoft Excel 2013 Service Pack 1 (edições de 64 bits)  
-(3114734)  
+Microsoft InfoPath 2013 Service Pack 1 (edições de 64 bits)  
+(3114833)  
+(Importante)  
+Microsoft Outlook 2013 Service Pack 1 (edições de 64 bits)  
+(3114829)  
 (Importante)  
 Microsoft Word 2013 Service Pack 1 (edições de 64 bits)  
-(3114724)  
-(Crítica)
-
+(3114824)  
+(Importante)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Office 2013 RT**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2013 RT Service Pack 1
-
 </td>
 <td style="border:1px solid black;">
-Microsoft Excel 2013 RT Service Pack 1  
-(3114734)  
+Microsoft Outlook 2013 RT Service Pack 1  
+(3114829)  
 (Importante)  
 Microsoft Word 2013 RT Service Pack 1  
-(3114724)  
-(Crítica)
-
+(3114824)  
+(Importante)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Office 2016**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2016 (edição de 32 bits)
-
 </td>
 <td style="border:1px solid black;">
-Microsoft Excel 2016 (edição de 32 bits)  
-(3114698)  
+Microsoft Office 2016 (edição de 32 bits)  
+(3114690)  
+(Importante)  
+Microsoft Outlook 2016 (edição de 32 bits)  
+(3114861)  
 (Importante)  
 Microsoft Word 2016 (edição de 32 bits):  
-(3114702)  
-(Crítica)
-
+(3114855)  
+(Importante)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2016 (edição de 64 bits)
-
 </td>
 <td style="border:1px solid black;">
-Microsoft Excel 2016 (edição de 64 bits)  
-(3114698)  
+Microsoft Outlook 2016 (edição de 64 bits)  
+(3114861)  
 (Importante)  
 Microsoft Word 2016 (edição de 64 bits):  
-(3114702)  
-(Crítica)
-
+(3114855)  
+(Importante)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**Microsoft Office para Mac**
-
+**Microsoft Office para Mac 2011**
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
-[**Críticoº**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office para Mac 2011
-
 </td>
 <td style="border:1px solid black;">
-Microsoft Excel para Mac 2011  
-(3137721)  
-(Importante)  
 Microsoft Word para Mac 2011  
-(3137721)  
-(Crítica)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-Microsoft Office 2016 para Mac
-
-</td>
-<td style="border:1px solid black;">
-Microsoft Excel 2016 para Mac  
-(3134241)  
-(Importante)  
-Microsoft Word 2016 para Mac  
-(3134241)  
-(Crítica)
-
+(3138328)<sup>[1]</sup>
+(Importante)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**Outros softwares do Office**
-
+**Microsoft Office 2016 para Mac**
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2016 para Mac
+</td>
+<td style="border:1px solid black;">
+Microsoft Word 2016 para Mac  
+(3138327)<sup>[1]</sup>
+(Importante)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;" colspan="2">
+**Outros softwares do Office**
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Classificação de gravidade agregada**
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Pacote de compatibilidade do Microsoft Office Service Pack 3
-
 </td>
 <td style="border:1px solid black;">
 Pacote de compatibilidade do Microsoft Office Service Pack 3  
-(3114548)  
-(Importante)  
-Pacote de compatibilidade do Microsoft Office Service Pack 3  
-(3114745)  
+(3114900)  
 (Importante)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-Microsoft Excel Viewer
-
-</td>
-<td style="border:1px solid black;">
-Microsoft Excel Viewer  
-(3114747)  
-(Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Word Viewer
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Word Viewer  
-(3114773)  
+(3114812)  
 (Importante)
-
 </td>
 </tr>
 </table>
  
-**Observação para MS16-015**
+**Notas para MS16-029**
+
+<sup>[1]</sup>Desde 16 de março de 2016, a atualização 3138327 está disponível para o Microsoft Office 2016 para Mac e a atualização 3138328 está disponível para o Microsoft Office para Mac 2011. Observe que a atualização 3138327 para o Microsoft Outlook 2016 para Mac não foi lançada em 16 de março. Esta atualização será liberada logo que estiver disponível e os usuários serão notificados por meio de um boletim revisado. Para obter mais informações, consulte o [Artigo 3138327 da Base de Dados de Conhecimento da Microsoft](https://support.microsoft.com/pt-br/kb/3138327) e o [Artigo 3138328 da Base de Dados de Conhecimento Microsoft](https://support.microsoft.com/pt-br/kb/3138328).
 
 Este boletim abrange mais de uma categoria de software. Consulte as outras tabelas nesta seção para saber quais softwares foram afetados.
 
@@ -4896,306 +4161,139 @@ Este boletim abrange mais de uma categoria de software. Consulte as outras tabel
 
 ### Microsoft Office Services e Web Apps
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**Microsoft SharePoint Server 2007**
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-**Identificador do boletim**
-
-</td>
-<td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-**Classificação de gravidade agregada**
-
-</td>
-<td style="border:1px solid black;">
-[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-Microsoft SharePoint Server 2007 Service Pack 3 (edições de 32 bits)
-
-</td>
-<td style="border:1px solid black;">
-Excel Services  
-(3114432)  
-(Importante)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-Microsoft SharePoint Server 2007 Service Pack 3 (edições de 64 bits)
-
-</td>
-<td style="border:1px solid black;">
-Excel Services  
-(3114432)  
-(Importante)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;" colspan="2">
 **Microsoft SharePoint Server 2010**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft SharePoint Server 2010 Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
-Excel Services  
-(3114401)  
+Serviços de Automação do Word  
+(3114866)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft SharePoint Server 2013**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft SharePoint Server 2013 Service Pack 1
-
 </td>
 <td style="border:1px solid black;">
-Excel Services  
-(3114335)  
-(Importante)  
 Serviços de Automação do Word  
-(3114481)  
+(3114814)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Office Web Apps 2010**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office Web Apps 2010 Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office Web Apps 2010 Service Pack 2  
-(3114407)  
+(3114880)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Office Web Apps 2013**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
+[**MS16-029**](https://technet.microsoft.com/pt-br/library/security/ms16-029)
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office Web Apps 2013 Service Pack 1
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office Web Apps Server 2013 Service Pack 1  
-(3114338)  
+(3114821)  
 (Importante)
-
 </td>
 </tr>
 </table>
  
-**Observação para MS16-015**
+**Nota para MS16-029**
 
 Este boletim abrange mais de uma categoria de software. Consulte as outras tabelas nesta seção para saber quais softwares foram afetados.
 
  
-
-### Microsoft Server Software
-
- 
-<table style="border:1px solid black;">
-<tr>
-<td style="border:1px solid black;" colspan="2">
-**Microsoft SharePoint Server 2013**
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-**Identificador do boletim**
-
-</td>
-<td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-**Classificação de gravidade agregada**
-
-</td>
-<td style="border:1px solid black;">
-[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-Microsoft SharePoint Server 2013 Service Pack 1
-
-</td>
-<td style="border:1px solid black;">
-Microsoft SharePoint Server 2013 Service Pack 1  
-(3039768)  
-(Importante)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;" colspan="2">
-**Microsoft SharePoint Foundation 2013**
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-**Identificador do boletim**
-
-</td>
-<td style="border:1px solid black;">
-[**MS16-015**](https://technet.microsoft.com/pt-br/library/security/ms16-015)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-**Classificação de gravidade agregada**
-
-</td>
-<td style="border:1px solid black;">
-[**Importante**](http://technet.microsoft.com/pt-br/security/gg309177.aspx)
-
-</td>
-</tr>
-<tr>
-<td style="border:1px solid black;">
-Microsoft SharePoint Foundation 2013 Service Pack 1
-
-</td>
-<td style="border:1px solid black;">
-Microsoft SharePoint Foundation 2013 Service Pack 1  
-(3114733)  
-(Importante)
-
-</td>
-</tr>
-</table>
- 
-**Observação para MS16-015**
-
-Este boletim abrange mais de uma categoria de software. Consulte as outras tabelas nesta seção para saber quais softwares foram afetados.
 
 Orientação e ferramentas de detecção e implantação
 --------------------------------------------------
@@ -5260,7 +4358,7 @@ O software afetado listado foi testado para determinar quais versões são afeta
 
 Soluções de segurança para profissionais de TI: [Suporte e Solução de Problemas de Segurança do TechNet](http://technet.microsoft.com/pt-br/security/bb980617)
 
-Ajuda a proteger seu computador executando o Windows contra vírus e malware: [Central de Segurança e Solução contra Vírus](http://support.microsoft.com/contactus/cu_sc_virsec_master?ln=pt-br)
+Ajuda a proteger seu computador executando o Windows contra vírus e malware: [Central de segurança e solução contra vírus](http://support.microsoft.com/contactus/cu_sc_virsec_master?ln=pt-br)
 
 Suporte local de acordo com seu país: [Suporte internacional](http://support.microsoft.com/common/international.aspx?ln=pt-br)
 
@@ -5270,9 +4368,11 @@ As informações fornecidas na Base de Dados de Conhecimento da Microsoft são a
 
 ### Revisões
 
--   V1.0 (09.02.16): Resumo do boletim publicado.
--   V2.0 (10 de fevereiro de 2016): Para o MS16-014, o Resumo do Boletim foi revisado para informar a disponibilidade da atualização 3126041 para o Microsoft Windows Vista, Windows Server 2008, Windows Server 2008 para os sistemas com base em processadores Itanium, Windows 8.1 e Windows Server 2012 R2. Os clientes devem aplicar as atualizações aplicáveis para estarem protegidos das vulnerabilidades abordadas neste boletim. A maioria dos clientes tem o recurso de atualizações automáticas habilitado e não precisará tomar nenhuma providência porque as atualizações serão baixadas e instaladas automaticamente. Para o MS16-021 foi corrigida a Avaliação da Capacidade de exploração para CVE-2016-0050.
--   V3.0 (16 de fevereiro de 2016): Para o MS16-015, foi adicionada a atualização 3134241 para o Microsoft Office 2016 para Mac e a atualização 3137721 para o Microsoft Office para Mac 2011, que estão disponíveis a partir de 16 de fevereiro de 2016. Para obter mais informações, consulte o [artigo 3134241 da Base de Dados de Conhecimento Microsoft](https://support.microsoft.com/pt-br/kb/3134241) e o [artigo 3137721 da Base de Dados de Conhecimento Microsoft](https://support.microsoft.com/pt-br/kb/3137721).
--   V3.1 (24 de fevereiro de 2016) : Adicionada uma referência de problemas conhecidos à tabela de sinopses para o MS16-014. Para obter mais informações, consulte o [artigo 3126041 da Base de Dados de Conhecimento Microsoft](https://support.microsoft.com/pt-br/kb/3126041). Observe também que um segundo problema conhecido, que inclui soluções alternativas, foi adicionado ao [artigo 3126587 da Base de Dados de Conhecimento Microsoft](https://support.microsoft.com/pt-br/kb/3126587).
+-   V1.0 (8 de março de 2016): Resumo do boletim publicado.
+-   V2.0 (10 de março de 2016): Resumo do boletim revisado para documentar a versão fora de banda do MS16-036.
+-   V2.1 (10 de março de 2016): Adicionada uma referência de problemas conhecidos à tabela de sinopses para o MS16-035. Para obter mais informações, consulte o [artigo 3148821 da Base de dados de Conhecimento Microsoft](https://support.microsoft.com/pt-br/kb/3148821).
+-   V2.2 (15.03.16): Referências de problemas conhecidos foram adicionadas à tabela Sinopse do MS16-035. Para obter mais informações, consulte o [Artigo 3135996 da Base de Dados de Conhecimento Microsoft](http://support.microsoft.com/pt-br/kb/3135996), [Artigo 3136000 da Base de Dados de Conhecimento Microsoft](http://support.microsoft.com/pt-br/kb/3136000) e [Artigo 3149737 da Base de Dados de Conhecimento Microsoft](http://support.microsoft.com/pt-br/kb/3149737).
+-   V3.0 (16.03.16): Para o MS16-029, foi adicionada a atualização 3138327 para o Microsoft Office 2016 para Mac e a atualização 3138328 para o Microsoft Office para Mac 2011, que estão disponíveis desde 16 de março de 2016. Observe que a atualização 3138327 para o Microsoft Outlook 2016 para Mac não foi lançada em 16 de março. Esta atualização será liberada logo que estiver disponível e os usuários serão notificados por meio de um boletim revisado. Para obter mais informações, consulte o [Artigo 3138327 da Base de Dados de Conhecimento da Microsoft](https://support.microsoft.com/pt-br/kb/3138327) e o [Artigo 3138328 da Base de Dados de Conhecimento Microsoft](https://support.microsoft.com/pt-br/kb/3138328).
+-   V3.1 (25.03.16) : Para MS16-028, o Windows Server 2012 (instalação Server Core) foi removido dos Sistemas operacionais do Windows e componentes (Tabela 1 de 2), pois ele não foi afetado. Esta é apenas uma alteração informativa.
 
-*Página gerada em 24/02/2016 às 13:45-08:00.*
+*Página gerada 25.03.16 11:32:00-07:00.*
