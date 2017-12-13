@@ -29,6 +29,7 @@ A tabela a seguir traz um resumo dos boletins de segurança deste mês em ordem 
 
 Para obter detalhes sobre os Software afetado, consulte a próxima seção, **Software afetado**.
 
+<p></p>
 <table style="width:100%;">
 <colgroup>
 <col width="16%" />
@@ -198,1109 +199,863 @@ Use esta tabela para conhecer a probabilidade de execução do código e as expl
 
 Nas colunas a seguir, "Versão mais recente de software" se refere ao software e "Versões mais antigas de software" se refere a todas as versões mais antigas do software compatíveis, conforme listado nas tabelas "Softwares afetados" e "Softwares não afetados" do boletim.
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;">
 **ID do CVE**                    
-
 </td>
 <td style="border:1px solid black;">
 **Título da vulnerabilidade**
-
 </td>
 <td style="border:1px solid black;">
 **Avaliação da capacidade de exploração da  
 última versão de software**
-
 </td>
 <td style="border:1px solid black;">
 **Avaliação da capacidade de exploração de  
 versão mais antiga de software**
-
 </td>
 <td style="border:1px solid black;">
 **Avaliação do risco de exploração  
 para negação de serviço**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
 [**MS16-118: Atualização de segurança cumulativa para o Internet Explorer (3192887)**](http://go.microsoft.com/fwlink/?linkid=827591)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3267](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3267)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de divulgação de informações no navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3298](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3298)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de divulgação de informações no navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;">
 0 - Exploração detectada
-
 </td>
 <td style="border:1px solid black;">
 0 - Exploração detectada
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3331](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3331)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3382](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3382)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção da memória do mecanismo de script
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3383](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3383)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do Internet Explorer
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3384](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3384)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do Internet Explorer
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3385](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3385)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção da memória do mecanismo de script
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3387](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3387)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3388](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3388)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3390](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3390)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção da memória do mecanismo de script
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3391](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de divulgação de informações no navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;">
 3 - Exploração improvável
-
 </td>
 <td style="border:1px solid black;">
 3 - Exploração improvável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
 [**MS16-119: Atualização de segurança cumulativa do Microsoft Edge (3192890)**](http://go.microsoft.com/fwlink/?linkid=827592)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3267](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3267)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de divulgação de informações no navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3331](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3331)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3382](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3382)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção da memória do mecanismo de script
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3386](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3386)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção da memória do mecanismo de script
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3387](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3387)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3388](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3388)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3389](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3389)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção da memória do mecanismo de script
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3390](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3390)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção da memória do mecanismo de script
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3391](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3391)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de divulgação de informações no navegador da Microsoft
-
 </td>
 <td style="border:1px solid black;">
 3 - Exploração improvável
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3392](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3392)
-
 </td>
 <td style="border:1px solid black;">
 Bypass do recurso de segurança do Microsoft Edge
-
 </td>
 <td style="border:1px solid black;">
 3 - Exploração improvável
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-7189](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7189)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de execução remota de código do mecanismo de script
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-7190](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7190)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção da memória do mecanismo de script
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-7194](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7194)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção da memória do mecanismo de script
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
 [**MS16-120: Atualização de segurança para o componente gráfico da Microsoft (3192884)**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3209](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3209)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de divulgação não autorizada de informações de análise de fontes True Type
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3262](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3262)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de divulgação não autorizada de informações de GDI+
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3263](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3263)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de divulgação não autorizada de informações de GDI+
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Temporário
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3270](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3270)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do Win32k
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3393](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3393)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade RCE dos componentes gráficos do Windows
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 0 - Exploração detectada
-
 </td>
 <td style="border:1px solid black;">
 Permanente
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3396](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3396)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de execução remota de código do GDI+
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-7182](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7182)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégios de análise de fontes True Type
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
 [**MS16-121: Atualização de segurança para o Microsoft Office (3194063)**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-7193](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7193)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de corrupção de memória do Microsoft Office
-
 </td>
 <td style="border:1px solid black;">
 0 - Exploração detectada
-
 </td>
 <td style="border:1px solid black;">
 0 - Exploração detectada
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
 [**MS16-122: Atualização de segurança para o Microsoft Video Control (3195360)**](http://go.microsoft.com/fwlink/?linkid=829051)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-0142](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0142)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de execução remota de código do Microsoft Video Control
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
 [**MS16-123: Atualização de segurança para drivers do modo Kernel do Windows (3192892)**](http://go.microsoft.com/fwlink/?linkid=827595)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3266](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3266)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do Win32k
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3341](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3341)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do Gerenciador de transações do Windows
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3376](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3376)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do Win32k
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-7185](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7185)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do Win32k
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Permanente
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-7211](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7211)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de elevação de privilégio do Win32k
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
 [**MS16-124: Atualização de segurança para o Registro do Windows (3193227)**](http://go.microsoft.com/fwlink/?linkid=827821)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-0070](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0070)
-
 </td>
 <td style="border:1px solid black;">
 Elevação de privilégio local de kernel do Windows
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-0073](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0073)
-
 </td>
 <td style="border:1px solid black;">
 Elevação de privilégio local de kernel do Windows
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-0075](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0075)
-
 </td>
 <td style="border:1px solid black;">
 Elevação de privilégio local de kernel do Windows
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-0079](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-0079)
-
 </td>
 <td style="border:1px solid black;">
 Elevação de privilégio local de kernel do Windows
-
 </td>
 <td style="border:1px solid black;">
 2 - Probabilidade menor de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
 [**MS16-125: Atualização de segurança para o Hub de Diagnóstico (3193229)**](http://go.microsoft.com/fwlink/?linkid=827822)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-7188](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-7188)
-
 </td>
 <td style="border:1px solid black;">
 Elevação de privilégio do Hub de Diagnóstico do Windows
-
 </td>
 <td style="border:1px solid black;">
 1 - Probabilidade maior de exploração
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
 [**MS16-126: Atualização de segurança para a API do Microsoft Internet Messaging (3196067)**](http://go.microsoft.com/fwlink/?linkid=829052)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [CVE-2016-3298](http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2016-3298)
-
 </td>
 <td style="border:1px solid black;">
 Vulnerabilidade de divulgação de informação do Internet Explorer
-
 </td>
 <td style="border:1px solid black;">
 4- Não afetado
-
 </td>
 <td style="border:1px solid black;">
 0 - Exploração detectada
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
 [**MS16-127: Atualização de segurança para o Adobe Flash Player (3194343)**](http://go.microsoft.com/fwlink/?linkid=829053)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [APSB16-32](http://helpx.adobe.com/br/security/products/flash-player/apsb16-32.html)
-
 </td>
 <td style="border:1px solid black;">
 Consulte o Boletim de segurança da Adobe [APSB16-32](http://helpx.adobe.com/br/security/products/flash-player/apsb16-32.html) para ver classificações de prioridade da atualização e de gravidade da vulnerabilidade.
-
 </td>
 <td style="border:1px solid black;">
 -------------
-
 </td>
 <td style="border:1px solid black;">
 -------------
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="5">
 [**MS16-128: Atualização de segurança para o Adobe Flash Player (3201860)**](http://go.microsoft.com/fwlink/?linkid=832634)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 [APSB16-36](https://helpx.adobe.com/pt-br/security/products/flash-player/apsb16-36)
-
 </td>
 <td style="border:1px solid black;">
 Consulte o Boletim de segurança da Adobe [APSB16-32](http://helpx.adobe.com/br/security/products/flash-player/apsb16-32.html) para ver classificações de prioridade da atualização e de gravidade da vulnerabilidade.
-
 </td>
 <td style="border:1px solid black;">
 -------------
-
 </td>
 <td style="border:1px solid black;">
 -------------
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 </table>
@@ -1318,92 +1073,74 @@ Use as tabelas para aprender sobre as atualizações de segurança que você tal
 
 ### Sistemas operacionais do Windows e componentes (Tabela 1 de 2)
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows Vista**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-118**](http://go.microsoft.com/fwlink/?linkid=827591)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-119**](http://go.microsoft.com/fwlink/?linkid=827592)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-122**](http://go.microsoft.com/fwlink/?linkid=829051)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-123**](http://go.microsoft.com/fwlink/?linkid=827595)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 9  
 (3191492)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2  
 (3191203)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2  
 (3190847)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2  
@@ -1411,35 +1148,29 @@ Windows Vista Service Pack 2
 (Importante)  
 Windows Vista Service Pack 2  
 (3183431) (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 9  
 (3191492)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2  
 (3191203)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2  
 (3190847)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2  
@@ -1447,91 +1178,72 @@ Windows Vista x64 Edition Service Pack 2
 (Importante)  
 Windows Vista x64 Edition Service Pack 2  
 (3183431) (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows Server 2008**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-118**](http://go.microsoft.com/fwlink/?linkid=827591)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-119**](http://go.microsoft.com/fwlink/?linkid=827592)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-122**](http://go.microsoft.com/fwlink/?linkid=829051)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-123**](http://go.microsoft.com/fwlink/?linkid=827595)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Moderada**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 9  
 (3191492)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
 (3191203)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
@@ -1539,33 +1251,27 @@ Windows Server 2008 Service Pack 2 para sistemas de 32 bits
 (Importante)  
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
 (3183431) (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 9  
 (3191492)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64  
 (3191203)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64  
@@ -1573,31 +1279,25 @@ Windows Server 2008 Service Pack 2 para sistemas com base em x64
 (Importante)  
 Windows Server 2008 Service Pack 2 para sistemas com base em x64  
 (3183431) (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em Itanium
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em Itanium  
 (3191203)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em Itanium  
@@ -1605,1229 +1305,994 @@ Windows Server 2008 Service Pack 2 para sistemas com base em Itanium
 (Importante)  
 Windows Server 2008 Service Pack 2 para sistemas com base em Itanium  
 (3183431) (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows 7**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-118**](http://go.microsoft.com/fwlink/?linkid=827591)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-119**](http://go.microsoft.com/fwlink/?linkid=827592)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-122**](http://go.microsoft.com/fwlink/?linkid=829051)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-123**](http://go.microsoft.com/fwlink/?linkid=827595)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3192391)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 (3192391)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 (3192391)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 (3192391)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3185330)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 (3185330)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 (3185330)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 (3185330)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3192391)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 (3192391)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 (3192391)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 (3192391)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3185330)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 (3185330)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 (3185330)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 (3185330)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows Server 2008 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-118**](http://go.microsoft.com/fwlink/?linkid=827591)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-119**](http://go.microsoft.com/fwlink/?linkid=827592)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-122**](http://go.microsoft.com/fwlink/?linkid=829051)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-123**](http://go.microsoft.com/fwlink/?linkid=827595)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Moderada**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3192391)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 (3192391)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 (3192391)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3185330)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 (3185330)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 (3185330)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 (3192391)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 (3192391)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 (3185330)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 (3185330)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows 8.1**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-118**](http://go.microsoft.com/fwlink/?linkid=827591)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-119**](http://go.microsoft.com/fwlink/?linkid=827592)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-122**](http://go.microsoft.com/fwlink/?linkid=829051)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-123**](http://go.microsoft.com/fwlink/?linkid=827595)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3192392)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 (3192392)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 (3192392)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 (3192392)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3185331)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 (3185331)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 (3185331)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 (3185331)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3192392)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 (3192392)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 (3192392)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 (3192392)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3185331)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 (3185331)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 (3185331)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 (3185331)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows Server 2012 e Windows Server 2012 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-118**](http://go.microsoft.com/fwlink/?linkid=827591)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-119**](http://go.microsoft.com/fwlink/?linkid=827592)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-122**](http://go.microsoft.com/fwlink/?linkid=829051)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-123**](http://go.microsoft.com/fwlink/?linkid=827595)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Moderada**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 10  
 (3192393)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
 (3192393)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
 (3192393)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 10  
 (3185332)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
 (3185332)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
 (3185332)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3192392)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 (3192392)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 (3192392)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3185331)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 (3185331)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 (3185331)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows RT 8.1**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-118**](http://go.microsoft.com/fwlink/?linkid=827591)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-119**](http://go.microsoft.com/fwlink/?linkid=827592)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-122**](http://go.microsoft.com/fwlink/?linkid=829051)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-123**](http://go.microsoft.com/fwlink/?linkid=827595)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows RT 8.1  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3185331)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows RT 8.1  
 (3185331)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows RT 8.1  
 (3185331)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows RT 8.1  
 (3185331)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows 10**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-118**](http://go.microsoft.com/fwlink/?linkid=827591)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-119**](http://go.microsoft.com/fwlink/?linkid=827592)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-122**](http://go.microsoft.com/fwlink/?linkid=829051)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-123**](http://go.microsoft.com/fwlink/?linkid=827595)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3192440)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Edge  
 (3192440)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
 (3192440)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
 (3192440)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
 (3192440)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3192440)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Edge  
 (3192440)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas com base em x64  
 (3192440)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas com base em x64  
 (3192440)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas com base em x64  
 (3192440)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3192441)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Edge  
 (3192441)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits  
 (3192441)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits  
 (3192441)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits  
 (3192441)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3192441)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Edge  
 (3192441)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas com base em x64  
 (3192441)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas com base em x64  
 (3192441)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas com base em x64  
 (3192441)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3194798)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Edge  
 (3194798)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64  
 (3194798)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64  
 (3194798)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64  
 (3194798)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Internet Explorer 11  
 (3194798)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Edge  
 (3194798)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64  
 (3194798)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64  
 (3194798)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64  
 (3194798)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Opção de instalação Server Core**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-118**](http://go.microsoft.com/fwlink/?linkid=827591)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-119**](http://go.microsoft.com/fwlink/?linkid=827592)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-122**](http://go.microsoft.com/fwlink/?linkid=829051)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-123**](http://go.microsoft.com/fwlink/?linkid=827595)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits (instalação Server Core)  
 (3191203)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits (instalação Server Core)  
@@ -2835,32 +2300,26 @@ Windows Server 2008 Service Pack 2 para sistemas de 32 bits (instalação Server
 (Importante)  
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits (instalação Server Core)  
 (3183431) (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64  
 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64 (instalação Server Core)  
 (3191203)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64 (instalação Server Core)  
@@ -2868,7 +2327,6 @@ Windows Server 2008 Service Pack 2 para sistemas com base em x64 (instalação S
 (Importante)  
 Windows Server 2008 Service Pack 2 para sistemas com base em x64 (instalação Server Core)  
 (3183431) (Importante)
-
 </td>
 </tr>
 <tr>
@@ -2876,62 +2334,50 @@ Windows Server 2008 Service Pack 2 para sistemas com base em x64 (instalação S
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 (instalação Server Core)  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64 (instalação Server Core)  
 (3192391)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64 (instalação Server Core)  
 (3192391)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64 (instalação Server Core)  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64 (instalação Server Core)  
 (3185330)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64 (instalação Server Core)  
 (3185330)  
 (Importante)
-
 </td>
 </tr>
 <tr>
@@ -2939,31 +2385,25 @@ Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64 (instalaçã
 Windows Server 2012  
 (instalação Server Core)  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 (instalação Server Core)  
 (3192393)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 (instalação Server Core)  
 (3192393)  
 (Importante)
-
 </td>
 </tr>
 <tr>
@@ -2971,31 +2411,25 @@ Windows Server 2012 (instalação Server Core)
 Windows Server 2012  
 (instalação Server Core)  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 (instalação Server Core)  
 (3185332)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 (instalação Server Core)  
 (3185332)  
 (Importante)
-
 </td>
 </tr>
 <tr>
@@ -3003,31 +2437,25 @@ Windows Server 2012 (instalação Server Core)
 Windows Server 2012 R2  
 (instalação Server Core)  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2 (instalação Server Core)  
 (3192392)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2 (instalação Server Core)  
 (3192392)  
 (Importante)
-
 </td>
 </tr>
 <tr>
@@ -3035,1500 +2463,1197 @@ Windows Server 2012 R2 (instalação Server Core)
 Windows Server 2012 R2  
 (instalação Server Core)  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2 (instalação Server Core)  
 (3185331)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2 (instalação Server Core)  
 (3185331)  
 (Importante)
-
 </td>
 </tr>
 </table>
  
 ### Sistemas operacionais do Windows e componentes (Tabela 2 de 2)
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows Vista**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-124**](http://go.microsoft.com/fwlink/?linkid=827821)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-125**](http://go.microsoft.com/fwlink/?linkid=827822)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-126**](http://go.microsoft.com/fwlink/?linkid=829052)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-127**](http://go.microsoft.com/fwlink/?linkid=829053)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-128**](http://go.microsoft.com/fwlink/?linkid=832634)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Moderada**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2  
 (3191256)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2  
 (3193515)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2  
 (3191256)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2  
 (3193515)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows Server 2008**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-124**](http://go.microsoft.com/fwlink/?linkid=827821)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-125**](http://go.microsoft.com/fwlink/?linkid=827822)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-126**](http://go.microsoft.com/fwlink/?linkid=829052)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-127**](http://go.microsoft.com/fwlink/?linkid=829053)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-128**](http://go.microsoft.com/fwlink/?linkid=832634)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Baixa**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
 (3191256)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
 (3193515)  
 (Baixa)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64  
 (3191256)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64  
 (3193515)  
 (Baixa)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em Itanium
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em Itanium  
 (3191256)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em Itanium  
 (3193515)  
 (Baixa)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows 7**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-124**](http://go.microsoft.com/fwlink/?linkid=827821)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-125**](http://go.microsoft.com/fwlink/?linkid=827822)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-126**](http://go.microsoft.com/fwlink/?linkid=829052)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-127**](http://go.microsoft.com/fwlink/?linkid=829053)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-128**](http://go.microsoft.com/fwlink/?linkid=832634)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Moderada**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 (3192391)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 (3192391)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 (3185330)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits  
 (3185330)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 (3192391)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 (3192391)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 (3185330)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64  
 (3185330)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows Server 2008 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-124**](http://go.microsoft.com/fwlink/?linkid=827821)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-125**](http://go.microsoft.com/fwlink/?linkid=827822)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-126**](http://go.microsoft.com/fwlink/?linkid=829052)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-127**](http://go.microsoft.com/fwlink/?linkid=829053)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-128**](http://go.microsoft.com/fwlink/?linkid=832634)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Baixa**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 (3192391)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 (3192391)  
 (Baixa)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 (3185330)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 (3185330)  
 (Baixa)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 (3192391)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 (3192391)  
 (Baixa)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 (3185330)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium  
 (3185330)  
 (Baixa)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows 8.1**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-124**](http://go.microsoft.com/fwlink/?linkid=827821)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-125**](http://go.microsoft.com/fwlink/?linkid=827822)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-126**](http://go.microsoft.com/fwlink/?linkid=829052)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-127**](http://go.microsoft.com/fwlink/?linkid=829053)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-128**](http://go.microsoft.com/fwlink/?linkid=832634)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 (3192392)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3194343)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3201860)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits  
 (3185331)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 (3192392)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3194343)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3201860)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64  
 (3185331)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows Server 2012 e Windows Server 2012 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-124**](http://go.microsoft.com/fwlink/?linkid=827821)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-125**](http://go.microsoft.com/fwlink/?linkid=827822)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-126**](http://go.microsoft.com/fwlink/?linkid=829052)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-127**](http://go.microsoft.com/fwlink/?linkid=829053)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-128**](http://go.microsoft.com/fwlink/?linkid=832634)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Moderada**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Moderada**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
 (3192393)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3194343)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3201860)  
 (Moderada)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012  
 (3185332)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 (3192392)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3194343)  
 (Moderada)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3201860)  
 (Moderada)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2  
 (3185331)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows RT 8.1**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-124**](http://go.microsoft.com/fwlink/?linkid=827821)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-125**](http://go.microsoft.com/fwlink/?linkid=827822)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-126**](http://go.microsoft.com/fwlink/?linkid=829052)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-127**](http://go.microsoft.com/fwlink/?linkid=829053)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-128**](http://go.microsoft.com/fwlink/?linkid=832634)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows RT 8.1  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows RT 8.1  
 (3185331)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3194343)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3201860)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Windows 10**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-124**](http://go.microsoft.com/fwlink/?linkid=827821)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-125**](http://go.microsoft.com/fwlink/?linkid=827822)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-126**](http://go.microsoft.com/fwlink/?linkid=829052)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-127**](http://go.microsoft.com/fwlink/?linkid=829053)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-128**](http://go.microsoft.com/fwlink/?linkid=832634)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
 (3192440)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
 (3192440)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3194343)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3201860)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas com base em x64  
 (3192440)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 para sistemas com base em x64  
 (3192440)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3194343)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3201860)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits  
 (3192441)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas de 32 bits  
 (3192441)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3194343)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3201860)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas com base em x64  
 (3192441)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1511 para sistemas com base em x64  
 (3192441)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3194343)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3201860)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64  
 (3194798)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64  
 (3194798)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3194343)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3201860)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64  
 (3194798)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Windows 10 Versão 1607 para sistemas com base em x64  
 (3194798)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3194343)  
 (Crítica)
-
 </td>
 <td style="border:1px solid black;">
 Adobe Flash Player  
 (3201860)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="6">
 **Opção de instalação Server Core**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim                                                 **
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-124**](http://go.microsoft.com/fwlink/?linkid=827821)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-125**](http://go.microsoft.com/fwlink/?linkid=827822)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-126**](http://go.microsoft.com/fwlink/?linkid=829052)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-127**](http://go.microsoft.com/fwlink/?linkid=829053)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-128**](http://go.microsoft.com/fwlink/?linkid=832634)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits  
 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits (instalação Server Core)  
 (3191256)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64  
 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64 (instalação Server Core)  
 (3191256)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
@@ -4536,58 +3661,46 @@ Não aplicável
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64  
 (instalação Server Core)  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64 (instalação Server Core)  
 (3192391)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64 (instalação Server Core)  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64 (instalação Server Core)  
 (3185330)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
@@ -4595,29 +3708,23 @@ Não aplicável
 Windows Server 2012  
 (instalação Server Core)  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 (instalação Server Core)  
 (3192393)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
@@ -4625,29 +3732,23 @@ Não aplicável
 Windows Server 2012  
 (instalação Server Core)  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 (instalação Server Core)  
 (3185332)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
@@ -4655,29 +3756,23 @@ Não aplicável
 Windows Server 2012 R2  
 (instalação Server Core)  
 Apenas segurança
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2 (instalação Server Core)  
 (3192392)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 <tr>
@@ -4685,29 +3780,23 @@ Não aplicável
 Windows Server 2012 R2  
 (instalação Server Core)  
 Pacote cumulativo mensal
-
 </td>
 <td style="border:1px solid black;">
 Windows Server 2012 R2 (instalação Server Core)  
 (3185331)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 </tr>
 </table>
@@ -4716,570 +3805,471 @@ Não aplicável
 
 ### Microsoft .NET Framework – Lançamento Apenas segurança
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft .NET Framework**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows Vista  
 Atualizações do Microsoft .NET Framework para 3.0, 4.5.2 e 4.6 para Vista e Server 2008 (KB3188736)**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.0 Service Pack 2  
 (3188726)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.5.2  
 (3189039)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.6  
 (3189040)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.0 Service Pack 2  
 (3188726)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.5.2  
 (3189039)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.6  
 (3189040)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows Server 2008  
 Atualizações do Microsoft .NET Framework para 3.0, 4.5.2 e 4.6 para Vista e Server 2008 (KB3188736)**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.0 Service Pack 2  
 (3188726)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.5.2  
 (3189039)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.6  
 (3189040)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.0 Service Pack 2  
 (3188726)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.5.2  
 (3189039)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.6  
 (3189040)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows 7**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
 (3188730)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
 (3188730)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows Server 2008 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
 (3188730)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
 (3188730)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows 8.1**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188732)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188732)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows Server 2012 e Windows Server 2012 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188731)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188732)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows 10**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
 (3192440)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas com base em x64  
 (3192440)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 versão 1511 para sistemas de 32 bits  
 (3192441)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 versão 1511 para sistemas com base em x64  
 (3192441)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 versão 1607 para sistemas de 32 bits  
 (3194798)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 versão 1607 para sistemas com base em x64  
 (3194798)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Opção de instalação Server Core**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
 (3188730)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188731)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188732)  
 (Importante)
-
 </td>
 </tr>
 </table>
@@ -5288,570 +4278,471 @@ Microsoft .NET Framework 3.5
 
 ### Microsoft .NET Framework – Lançamento do pacote cumulativo mensal
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft .NET Framework**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows Vista  
 Atualizações do Microsoft .NET Framework para 3.0, 4.5.2 e 4.6 para Vista e Server 2008 (KB3188744)**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.0 Service Pack 2  
 (3188735)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.5.2  
 (3189051)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.6  
 (3189052)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.0 Service Pack 2  
 (3188735)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.5.2  
 (3189051)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Vista x64 Edition Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.6  
 (3189052)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows Server 2008  
 Atualizações do Microsoft .NET Framework para 3.0, 4.5.2 e 4.6 para Vista e Server 2008 (KB3188744)**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.0 Service Pack 2  
 (3188735)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.5.2  
 (3189051)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.6  
 (3189052)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.0 Service Pack 2  
 (3188735)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.5.2  
 (3189051)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 Service Pack 2 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 4.6  
 (3189052)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows 7**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
 (3188740)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 7 Service Pack 1 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
 (3188740)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows Server 2008 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
 (3188740)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em Itanium
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
 (3188740)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows 8.1**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas de 32 bits
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188743)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 8.1 para sistemas com base em x64
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188743)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows Server 2012 e Windows Server 2012 R2**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188741)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188743)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Windows 10**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas de 32 bits  
 (3192440)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 para sistemas com base em x64  
 (3192440)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 versão 1511 para sistemas de 32 bits  
 (3192441)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 versão 1511 para sistemas com base em x64  
 (3192441)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 versão 1607 para sistemas de 32 bits  
 (3194798)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows 10 versão 1607 para sistemas com base em x64  
 (3194798)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Opção de instalação Server Core**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2008 R2 Service Pack 1 para sistemas com base em x64 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5.1  
 (3188740)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188741)  
 Importante
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Windows Server 2012 R2 (instalação Server Core)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft .NET Framework 3.5  
 (3188743)  
 Importante
-
 </td>
 </tr>
 </table>
@@ -5860,278 +4751,232 @@ Importante
 
 ### Software e Plataformas do Microsoft Communications
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Skype for Business 2016**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Skype for Business 2016 (edições de 32 bits)
-
 </td>
 <td style="border:1px solid black;">
 Skype for Business 2016 (edições de 32 bits)  
 (3118327)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Skype for Business Basic 2016 (edições de 32 bits)
-
 </td>
 <td style="border:1px solid black;">
 Skype for Business Basic 2016 (edições de 32 bits)  
 (3118327)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Skype for Business 2016 (edições de 64 bits)
-
 </td>
 <td style="border:1px solid black;">
 Skype for Business 2016 (edições de 64 bits)  
 (3118327)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Skype for Business Basic 2016 (edições de 64 bits)
-
 </td>
 <td style="border:1px solid black;">
 Skype for Business Basic 2016 (edições de 64 bits)  
 (3118327)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Lync 2013**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Lync 2013 Service Pack 1 (32 bits)  
 (Skype for Business)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Lync 2013 Service Pack 1 (32 bits)  
 (Skype for Business)  
 (3118348)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Lync Basic 2013 Service Pack 1 (32 bits)  
 (Skype for Business Basic)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Lync Basic 2013 Service Pack 1 (32 bits)  
 (Skype for Business Basic)  
 (3118348)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Lync 2013 Service Pack 1 (64 bits)  
 (Skype for Business)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Lync 2013 Service Pack 1 (64 bits)  
 (Skype for Business)  
 (3118348)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Lync Basic 2013 Service Pack 1 (64 bits)  
 (Skype for Business Basic)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Lync Basic 2013 Service Pack 1 (64 bits)  
 (Skype for Business Basic)  
 (3118348)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Lync 2010**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Lync 2010 (32 bits)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Lync 2010 (32 bits)  
 (3188397)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Lync 2010 (64 bits)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Lync 2010 (64 bits)  
 (3188397)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Lync 2010 Attendee  
 (instalação em nível de usuário)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Lync 2010 Attendee  
 (instalação em nível de usuário)  
 (3188399)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Lync 2010 Attendee  
 (instalação de nível administrativo)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Lync 2010 Attendee  
 (instalação de nível administrativo)  
 (3188400)  
 (Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Live Meeting 2007 Console**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Live Meeting 2007 Console
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Live Meeting 2007 Console  
 (3189647)  
 (Importante)
-
 </td>
 </tr>
 </table>
@@ -6140,104 +4985,87 @@ Microsoft Live Meeting 2007 Console
 
 ### Ferramentas e softwares para desenvolvedores Microsoft
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Silverlight**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 quando instalado no Mac
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 quando instalado no Mac  
 (3193713)**  
 (**Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 Developer Runtime quando instalado no Mac
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 Developer Runtime quando instalado no Mac  
 (3193713)**  
 (**Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 quando instalado em todas as versões com suporte de clientes Microsoft Windows
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 quando instalado em todas as versões com suporte de clientes Microsoft Windows  
 (3193713)**  
 (**Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 Developer Runtime quando instalado em todas as versões com suporte de clientes Microsoft Windows
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 Developer Runtime quando instalado em todas as versões com suporte de clientes Microsoft Windows  
 (3193713)**  
 (**Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 quando instalado em todas as versões com suporte de servidores Microsoft Windows
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 quando instalado em todas as versões com suporte de servidores Microsoft Windows  
 (3193713)**  
 (**Importante)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 Developer Runtime quando instalado em todas as versões com suporte de servidores Microsoft Windows
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Silverlight 5 Developer Runtime quando instalado em todas as versões com suporte de servidores Microsoft Windows  
 (3193713)**  
 (**Importante)
-
 </td>
 </tr>
 </table>
@@ -6246,104 +5074,85 @@ Microsoft Silverlight 5 Developer Runtime quando instalado em todas as versões 
 
 ### Microsoft Office Suites e software
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="3">
 **Microsoft Office 2007**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2007 Service Pack 3
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office 2007 Service Pack 3  
 (3118301)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Word 2007 Service Pack 3  
 (3118308)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="3">
 **Microsoft Office 2010**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2010 Service Pack 2 (edições de 32 bits)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office 2010 Service Pack 2 (edições de 32 bits)  
 (3118317)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office 2010 Service Pack 2 (edições de 32 bits)  
@@ -6352,19 +5161,16 @@ Microsoft Office 2010 Service Pack 2 (edições de 32 bits)
 Microsoft Word 2010 Service Pack 2 (edições de 32 bits)  
 (3118312)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2010 Service Pack 2 (edições de 64 bits)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office 2010 Service Pack 2 (edições de 64 bits)  
 (3118317)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office 2010 Service Pack 2 (edições de 64 bits)  
@@ -6373,357 +5179,287 @@ Microsoft Office 2010 Service Pack 2 (edições de 64 bits)
 Microsoft Word 2010 Service Pack 2 (edições de 64 bits)  
 (3118312)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="3">
 **Microsoft Office 2013**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2013 Service Pack 1 (edições de 32 bits)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Word 2013 Service Pack 1 (edições de 32 bits)  
 (3118345)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2013 Service Pack 1 (edições de 64 bits)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Word 2013 Service Pack 1 (edições de 64 bits)  
 (3118345)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="3">
 **Microsoft Office 2013 RT**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2013 RT Service Pack 1
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Word 2013 RT Service Pack 1  
 (3118345)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="3">
 **Microsoft Office 2016**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2016 (edição de 32 bits)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Word 2016 (edição de 32 bits)  
 (3118331)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2016 (edição de 64 bits)
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Word 2016 (edição de 64 bits)  
 (3118331)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="3">
 **Microsoft Office para Mac 2011**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office para Mac 2011
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Word para Mac 2011  
 (3193442)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="3">
 **Microsoft Office 2016 para Mac**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 **Nenhuma**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office 2016 para Mac
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Word 2016 para Mac  
 (3193438)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="3">
 **Outros softwares do Office**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-120**](http://go.microsoft.com/fwlink/?linkid=827590)
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Pacote de compatibilidade do Microsoft Office Service Pack 3
-
 </td>
 <td style="border:1px solid black;">
 Não aplicável
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office Compatibility Pack Service Pack 3  
 (3118307)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Word Viewer
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Word Viewer  
 (3118394)  
 (Importante)
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Word Viewer  
 (3127898)  
 (Crítica)
-
 </td>
 </tr>
 </table>
@@ -6732,170 +5468,140 @@ Microsoft Word Viewer
 
 ### Microsoft Office Services e Web Apps
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft SharePoint Server 2010**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft SharePoint Server 2010 Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Serviços de Automação do Word  
 (3118377)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft SharePoint Server 2013**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft SharePoint Server 2013 Service Pack 1
-
 </td>
 <td style="border:1px solid black;">
 Serviços de Automação do Word  
 (3118352)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Office Web Apps 2010**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office Web Apps 2010 Service Pack 2
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office Web Apps 2010 Service Pack 2  
 (3118384)  
 (Crítica)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
 **Microsoft Office Web Apps 2013**
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Identificador do boletim**
-
 </td>
 <td style="border:1px solid black;">
 [**MS16-121**](http://go.microsoft.com/fwlink/?linkid=828158)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 **Classificação de gravidade agregada**
-
 </td>
 <td style="border:1px solid black;">
 [**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Microsoft Office Web Apps Server 2013 Service Pack 1
-
 </td>
 <td style="border:1px solid black;">
 Microsoft Office Web Apps Server 2013 Service Pack 1  
 (3118360)  
 (Crítico)
-
 </td>
 </tr>
 <tr>
 <td style="border:1px solid black;">
 Servidor do Office Online
-
 </td>
 <td style="border:1px solid black;">
 Servidor do Office Online  
 (3127897)  
 (Crítica)
-
 </td>
 </tr>
 </table>
