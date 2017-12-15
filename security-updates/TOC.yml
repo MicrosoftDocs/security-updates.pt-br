@@ -1,4 +1,4 @@
-- name: Segurança e Atualizações
+- name: Boletins e alertas de segurança
   href: index.md
   items:
 - name: Comunicados de segurança
@@ -39,7 +39,7 @@
     - name: 3152550
       href: ./SecurityAdvisories/2016/3152550    
 - name: Resumos do boletim de segurança
-  href: ./SecurityBulletinSummaries/securitybulletinsummaries.md
+  href: ./SecurityBulletinSummaries/securitybulletinsummaries
   items:
   - name: 2017
     href: 
@@ -78,7 +78,7 @@
     - name: ms16-dec
       href: ./SecurityBulletinSummaries/2016/MS16-DEC
 - name: Boletins de segurança
-  href: /SecurityBulletins/securitybulletins.md
+  href: /SecurityBulletins/securitybulletins
   items:
   - name: 2017
     href: 
