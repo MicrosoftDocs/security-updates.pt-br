@@ -78,7 +78,7 @@
     - name: ms16-dec
       href: ./SecurityBulletinSummaries/2016/MS16-DEC
 - name: Boletins de segurança
-  href: /SecurityBulletins/securitybulletins
+  href: ./SecurityBulletins/securitybulletins
   items:
   - name: 2017
     href: 
