@@ -37,11 +37,11 @@ Os recursos de segurança abordados neste guia foram desenvolvidos com o uso de 
 
 ##### Nesta página
 
-[](#egaa)[Quem deve ler este guia?](#egaa)
-[](#efaa)[Conteúdo dos capítulos](#efaa)
-[](#eeaa)[Convenções de estilo](#eeaa)
-[](#edaa)[Mais informações](#edaa)
-[](#ecaa)[Suporte e comentários](#ecaa)
+[](#egaa)[Quem deve ler este guia?](#egaa)  
+[](#efaa)[Conteúdo dos capítulos](#efaa)  
+[](#eeaa)[Convenções de estilo](#eeaa)  
+[](#edaa)[Mais informações](#edaa)  
+[](#ecaa)[Suporte e comentários](#ecaa)  
 [](#ebaa)[Agradecimentos](#ebaa)
 
 ### Quem deve ler este guia?

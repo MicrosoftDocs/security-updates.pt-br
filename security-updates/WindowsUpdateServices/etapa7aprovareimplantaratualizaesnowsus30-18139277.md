@@ -27,9 +27,8 @@ Nesta etapa, você aprovará uma atualização para qualquer computador cliente 
 
 5.  Você verá uma nova janela, **Progresso da Aprovação**, que mostra o progresso das diferentes tarefas que afetam a aprovação das atualizações. Quando a aprovação for concluída, clique em **Fechar** para fechar a janela.
 
-| ![](images/Cc708475.note(WS.10).gif)Observação                                                |
-|----------------------------------------------------------------------------------------------------------------------------|
-| Muitas opções são associadas à aprovação de atualizações, como a configuração de prazos e a desinstalação de atualizações. |
+> [!NOTE]  
+> Muitas opções são associadas à aprovação de atualizações, como a configuração de prazos e a desinstalação de atualizações. 
 
 Depois de 24 horas, você poderá usar o recurso de relatórios do WSUS para determinar se essas atualizações foram implantadas nos computadores.
 

@@ -32,7 +32,7 @@ You can roll up computer and update status from replica servers to their upstrea
 
 2.  Select the **Roll up status from replica downstream servers** check box, and then click **OK**.
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

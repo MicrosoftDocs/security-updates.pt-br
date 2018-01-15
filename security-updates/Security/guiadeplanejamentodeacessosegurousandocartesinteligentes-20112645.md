@@ -39,12 +39,12 @@ As organizações podem fornecer uma importante camada adicional de segurança s
 
 ##### Nesta página
 
-[](#ehaa)[O desafio comercial](#ehaa)
-[](#egaa)[Os benefícios comerciais](#egaa)
-[](#efaa)[Quem deve ler este guia](#efaa)
-[](#eeaa)[Pré-requisitos do leitor](#eeaa)
-[](#edaa)[Visão geral do Guia de Planejamento](#edaa)
-[](#ecaa)[Recursos relacionados](#ecaa)
+[](#ehaa)[O desafio comercial](#ehaa)  
+[](#egaa)[Os benefícios comerciais](#egaa)  
+[](#efaa)[Quem deve ler este guia](#efaa)  
+[](#eeaa)[Pré-requisitos do leitor](#eeaa)  
+[](#edaa)[Visão geral do Guia de Planejamento](#edaa)  
+[](#ecaa)[Recursos relacionados](#ecaa)  
 [](#ebaa)[Faça seus comentários](#ebaa)
 
 ### O desafio comercial
