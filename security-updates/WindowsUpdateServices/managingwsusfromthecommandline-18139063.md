@@ -356,9 +356,8 @@ At the command line *%drive%*\\Program Files\\Update Services\\Tools&gt;, type:
   
 **wsusutil deleteunneededrevisions**
   
-| ![](images/Cc720466.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                      |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Before running this command, you must stop the World Wide Web publishing service in IIS. You must restart it only after you have finished running this command. To stop or start the IIS service, open IIS, navigate to and then right-click the Web site where WSUS is is installed (by default this is the Default Web Site), and then click **Stop** or **Start**. |
+> [!IMPORTANT]  
+> Before running this command, you must stop the World Wide Web publishing service in IIS. You must restart it only after you have finished running this command. To stop or start the IIS service, open IIS, navigate to and then right-click the Web site where WSUS is is installed (by default this is the Default Web Site), and then click **Stop** or **Start**. |
   
 #### Listinactiveapprovals
   
