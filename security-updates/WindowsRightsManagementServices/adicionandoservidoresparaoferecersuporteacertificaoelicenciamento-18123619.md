@@ -37,9 +37,8 @@ Adicionar servidores a clusters de certificação e licenciamento requer que o s
 -   Se você estiver configurando um servidor de licenciamento separado, especifique um banco de dados de configuração, uma conta de serviço RMS, uma URL de cluster e informações de proteção de chave particular do mesmo modo que você especificou essas informações para um servidor raiz de certificação. No entanto, você não especifica uma diretiva de revogação de certificado de licenciante para servidor; essa diretiva é controlada pelo servidor raiz de certificação.
 -   Se você estiver configurando um servidor como membro do cluster, as únicas informações que você precisa especificar durante a configuração são a conta de serviço RMS, o banco de dados de configuração e a senha para proteção de chave particular (ou usar o mesmo CSP \[provedor de serviços de criptografia\] e chave particular do cluster existente). Todos os servidores que estão em um cluster compartilham o mesmo certificado de licenciante para servidor e par de chaves do servidor.
 
-| ![](images/Cc720189.Important(WS.10).gif)Importante                                                                                                                   |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Só inicie a instalação do RMS em outros servidores quando você tiver concluído a instalação do RMS no primeiro servidor, incluindo a instalação propriamente dita e a configuração desse servidor. |
+> [!Important]  
+> Só inicie a instalação do RMS em outros servidores quando você tiver concluído a instalação do RMS no primeiro servidor, incluindo a instalação propriamente dita e a configuração desse servidor. 
 
 Depois de você ter instalado e configurado um servidor adicional, ele será automaticamente configurado como um membro do cluster. Entretanto, se você implementou o balanceamento de carga, será necessário configurar o software de balanceamento de carga para trabalhar com o novo servidor.
 
