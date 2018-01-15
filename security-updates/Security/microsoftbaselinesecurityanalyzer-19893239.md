@@ -48,10 +48,10 @@ A ferramenta de terceiros fornecida no link acima é fabricada por uma empresa i
 
 ### Links adicionais
 
--   [Grupos de notícias do MBSA](http://www.microsoft.com/communities/newsgroups/en-us/default.aspx?dg=microsoft.public.security.baseline_analyzer)
-    Servidor: news.microsoft.com
-    Grupo: microsoft.public.security.baseline\_analyzer
--   [Ferramentas de gerenciamento de atualização de segurança](https://technet.microsoft.com/pt-br/cc297183.aspx)
+-   [Grupos de notícias do MBSA](http://www.microsoft.com/communities/newsgroups/en-us/default.aspx?dg=microsoft.public.security.baseline_analyzer)    
+    Servidor: news.microsoft.com    
+    Grupo: microsoft.public.security.baseline\_analyzer    
+-   [Ferramentas de gerenciamento de atualização de segurança](https://technet.microsoft.com/pt-br/cc297183.aspx)     
 
  
 

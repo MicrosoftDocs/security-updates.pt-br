@@ -11,13 +11,13 @@ Guia de Planejamento para Conformidade com o Padrão de Segurança de Dados do S
 
 ##### On This Page
 
-[![Introdução](images/Bb821241.arrow_px_down(pt-br,TechNet.10).gif)](#ecaa)[Introdução](#ecaa)
-[![Atendendo aos requisitos do PCI DSS](images/Bb821241.arrow_px_down(pt-br,TechNet.10).gif)](#ebaa)[Atendendo aos requisitos do PCI DSS](#ebaa)
+[![Introdução](images/Bb821241.arrow_px_down(pt-br,TechNet.10).gif)](#ecaa)[Introdução](#ecaa)   
+[![Atendendo aos requisitos do PCI DSS](images/Bb821241.arrow_px_down(pt-br,TechNet.10).gif)](#ebaa)[Atendendo aos requisitos do PCI DSS](#ebaa)   
 [![Apêndices](images/Bb821241.arrow_px_down(pt-br,TechNet.10).gif)](#eaaa)[Apêndices](#eaaa)
 
 ### Introdução
 
-O *Guia de Planejamento para Conformidade com o Padrão de Segurança de Dados do Setor de Cartões de Pagamento* foi criado para atender aos requisitos do PCI DSS (padrão de segurança de dados do setor de cartões de pagamento). Especificamente, este guia tem como alvo os comerciantes que aceitam cartões de pagamento, as instituições financeiras que processam transações com cartões de pagamento e os prestadores de serviços — empresas terceirizadas que fornecem serviços de processamento de cartões de pagamento ou de armazenamento de dados. As soluções de TI para cada um desses grupos devem atender a todos os requisitos do PCI DSS. O objetivo deste guia é ampliar o [*guia de planejamento para conformidade com os regulamentos*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true) (em inglês), que apresenta uma abordagem baseada em estruturas para criação de controles de TI como parte de seus esforços para estar em conformidade com diversos regulamentos e padrões. Também descreve as soluções de produtos e tecnologias Microsoft que podem ser usados para implementar uma série de controles de TI para ajudar a atender aos requisitos do PCI DSS, bem como qualquer outra obrigação regulamentar que a sua organização possa ter.
+O *Guia de Planejamento para Conformidade com o Padrão de Segurança de Dados do Setor de Cartões de Pagamento* foi criado para atender aos requisitos do PCI DSS (padrão de segurança de dados do setor de cartões de pagamento). Especificamente, este guia tem como alvo os comerciantes que aceitam cartões de pagamento, as instituições financeiras que processam transações com cartões de pagamento e os prestadores de serviços — empresas terceirizadas que fornecem serviços de processamento de cartões de pagamento ou de armazenamento de dados. As soluções de TI para cada um desses grupos devem atender a todos os requisitos do PCI DSS. O objetivo deste guia é ampliar o [guia de planejamento para conformidade com os regulamentos](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true) (em inglês), que apresenta uma abordagem baseada em estruturas para criação de controles de TI como parte de seus esforços para estar em conformidade com diversos regulamentos e padrões. Também descreve as soluções de produtos e tecnologias Microsoft que podem ser usados para implementar uma série de controles de TI para ajudar a atender aos requisitos do PCI DSS, bem como qualquer outra obrigação regulamentar que a sua organização possa ter.
 
 **Observação**   Se a sua organização oferece caixas eletrônicos como parte de seus serviços, a Microsoft fornece orientação de arquitetura e segurança para softwares, sistemas e redes com suporte para caixas eletrônicos. Para obter mais informações, consulte a página do [centro de downloads do setor bancário](http://msdn2.microsoft.com/en-us/architecture/86e3451d-8219-46af-bf99-4a610e4bf1f4.aspx) da Microsoft no site do MSDN.
 
@@ -45,7 +45,7 @@ Três questões tornam essa situação complexa: A primeira é que estar em conf
 
 -   O *Guia de Planejamento para Conformidade com o Padrão de Segurança de Dados do Setor de Cartões de Pagamento* é orientado aos gerentes de TI responsáveis por atender às obrigações do PCI DSS de suas empresas. O objetivo deste guia é ajudar os gerentes de TI a entender como podem começar a atender a muitos dos requisitos de controle de TI que se aplicam às suas organizações, incluindo os requisitos para conformidade com o PCI DSS. Para alcançar esse objetivo, este guia fornece informações sobre soluções que você pode usar nesse processo.
 
--   Para obter uma descrição mais abrangente sobre como estar em conformidade com os diversos padrões regulamentares, consulte o [*guia de planejamento para conformidade com os regulamentos*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
+-   Para obter uma descrição mais abrangente sobre como estar em conformidade com os diversos padrões regulamentares, consulte o [guia de planejamento para conformidade com os regulamentos](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
 
 **Importante**   Este guia de planejamento não fornece aconselhamento jurídico. Ele fornece apenas informações baseadas em fatos e técnicas sobre conformidade com regulamentos. Não dependa exclusivamente deste guia para obter aconselhamento sobre como atender aos seus requisitos de regulamentação. Para perguntas específicas, consulte seu consultor jurídico ou auditor.
 
@@ -139,7 +139,7 @@ Não é nem eficiente nem econômico criar sozinho suas soluções para conformi
 
 **Observação**   Se a sua organização é uma empresa multinacional, você precisa estar em conformidade com os regulamentos de todas as nações em que sua empresa está presente. A Microsoft sugere que você consulte seu departamento jurídico para ter conhecimento de todos os regulamentos dos locais onde sua empresa opera.
 
-Para obter mais informações sobre o planejamento dos esforços em relação à conformidade com todos esses regulamentos, consulte o [*guia de planejamento para conformidade com os regulamentos*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
+Para obter mais informações sobre o planejamento dos esforços em relação à conformidade com todos esses regulamentos, consulte o [guia de planejamento para conformidade com os regulamentos](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
 
 As soluções de conformidade com o PCI DSS criadas pela sua organização devem ser desenvolvidas com conhecimento total dos seguintes itens:
 
@@ -171,7 +171,7 @@ Para obter mais informações sobre como atender aos requisitos de regulamentaç
 
 #### O processo de auditoria do PCI DSS
 
-O processo de auditoria para conformidade com o PCI DSS é muito semelhante ao processo definido no [*guia de planejamento para conformidade com os regulamentos*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true). Entretanto, existem alguns detalhes específicos à auditoria do PCI DSS que você deve saber.
+O processo de auditoria para conformidade com o PCI DSS é muito semelhante ao processo definido no [guia de planejamento para conformidade com os regulamentos](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true). Entretanto, existem alguns detalhes específicos à auditoria do PCI DSS que você deve saber.
 
 As verificações de auditoria do PCI DSS são realizadas por dois tipos de empresas de terceiros, conhecidas como QSAs (Qualified Security Assessors, assessores de segurança qualificados) e ASVs (Approved Scanning Vendors, agentes de verificação aprovados). Os QSAs se encarregam da parte local da auditoria, enquanto os ASVs realizam as verificações de vulnerabilidade dos ambientes de Internet da sua organização. As empresas que se tornam QSAs e ASVs precisam ser examinadas e aprovadas pelo PCI Data Security Council (PCI DSC) anualmente.
 
@@ -191,7 +191,7 @@ Cada empresa de cartão de pagamento possui regras e procedimentos de conformida
 
 Esta seção detalha as soluções tecnológicas da Microsoft que a sua organização pode considerar ao planejar a conformidade com o PCI DSS. Você deve incorporar as soluções que escolher nas operações diárias da sua organização. Conforme mencionado na seção Planejando a conformidade com o PCI DSS, as diretivas organizacionais, os procedimentos e as soluções tecnológicas devem levar em consideração a conformidade com regulamentos em toda a organização e você deve considerar como a conformidade com o PCI DSS afetará todas as partes da sua empresa.
 
-Para obter uma descrição detalhada sobre as considerações envolvidas no mapeamento dos controles de TI em relação às soluções tecnológicas, consulte o [*guia de planejamento para conformidade com os regulamentos*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
+Para obter uma descrição detalhada sobre as considerações envolvidas no mapeamento dos controles de TI em relação às soluções tecnológicas, consulte o [guia de planejamento para conformidade com os regulamentos](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
 
 #### Gerenciamento de documentos
 
@@ -201,7 +201,7 @@ As soluções de gerenciamento de documentos combinam softwares e processos para
 
 A implementação de soluções de gerenciamento de documentos ajuda na conformidade com o PCI DSS de duas formas. Primeiro, usar essas soluções para gerenciar documentos que contêm dados de titulares de cartão pode ajudar a atender aos requisitos do PCI DSS relacionados a acesso, gerenciamento e proteção de dados. Especificamente, você pode usar as soluções de gerenciamento de documentos para atender ao requisito 7 e ao sub-requisito 10.2.1. Segundo, você pode usar os sistemas de gerenciamento de documentos para manter e publicar diretivas como as exigidas nas seções 3.6, 6.4, 9.2 e 12.  
 
-Para obter o texto completo desses requisitos, consulte o [*PCI DSS (Payment Card Industry Data Security Stantard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo desses requisitos, consulte o [PCI DSS (Payment Card Industry Data Security Stantard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -244,7 +244,7 @@ Avaliação de riscos é o processo pelo qual a sua organização identifica e p
 
 A avaliação de riscos pode ajudar a atender aos requisitos do PCI DSS de várias maneiras. Permite identificar as áreas da sua rede que precisam ser atualizadas para entrar em conformidade. Mesmo depois de ter obtido uma conformidade inicial, a avaliação de riscos é importante para determinar se a sua organização continua em conformidade com o passar do tempo. Como a avaliação de riscos pode ser usada para lidar com alguns problemas potenciais, ela também pode ajudá-lo a entrar em conformidade com vários requisitos do PCI DSS, incluindo os requisitos 1, 3, 4, 5, 6, 7, 8 e 11.
 
-Para obter o texto completo desses requisitos, consulte o [*PCI DSS (Payment Card Industry Data Security Stantard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo desses requisitos, consulte o [PCI DSS (Payment Card Industry Data Security Stantard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -262,7 +262,7 @@ A Microsoft oferece algumas tecnologias que você pode usar em conjunto e separa
 
     Para obter mais informações, consulte a página sobre os serviços de coleta de auditoria em <http://technet.microsoft.com/en-us/library/bb381258.aspx> (pode estar em inglês).
 
--   **Windows Server Update Services**.** **O Windows Server Update Services com Service Pack 1 permite que a sua organização implante muitas das últimas atualizações de produto da Microsoft publicadas no site Microsoft Update. O Windows Server Update Services é um componente de atualização do Windows Server e oferece um modo eficaz e rápido de ajudar a manter os sistemas atualizados. O WSUS oferece uma infra-estrutura de avaliação de riscos que consiste no seguinte:
+-   **Windows Server Update Services**. O Windows Server Update Services com Service Pack 1 permite que a sua organização implante muitas das últimas atualizações de produto da Microsoft publicadas no site Microsoft Update. O Windows Server Update Services é um componente de atualização do Windows Server e oferece um modo eficaz e rápido de ajudar a manter os sistemas atualizados. O WSUS oferece uma infra-estrutura de avaliação de riscos que consiste no seguinte:
 
     -   **Microsoft Update**. O site da Microsoft ao qual os componentes do WSUS se conectam para baixar atualizações de produtos da Microsoft.
 
@@ -302,7 +302,7 @@ Por exemplo, o sistema de uma organização pode ter um banco de dados para auxi
 
 O gerenciamento de alterações é fundamental para a conformidade com o PCI DSS, assim como para quaisquer outros esforços em relação à conformidade com regulamentos. Se a sua organização não sabe quais alterações foram feitas ao seu ambiente de TI, é difícil afirmar que o ambiente é seguro. O controle das alterações na rede, nos sistemas, nas diretivas e nos procedimentos ajuda a atender aos requisitos 6 e 11 do PCI DSS.
 
-Para obter o texto completo desses requisitos, consulte o [*PCI DSS (Payment Card Industry Data Security Stantard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo desses requisitos, consulte o [PCI DSS (Payment Card Industry Data Security Stantard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -340,7 +340,7 @@ Entretanto, você deve considerar fazer alterações em algumas das tecnologias 
 
 O padrão de segurança de dados do setor de cartões de pagamento é muito claro em relação à necessidade de estabelecer redes seguras em toda a organização para estar em conformidade. A diretiva 1 afirma que para estar em conformidade, uma organização deve criar e manter uma rede segura. O requisito 1 afirma que as organizações devem instalar e manter uma configuração de firewall para proteger os dados de titulares de cartão. O requisito 2 afirma que as organizações devem alterar as configurações padrão do fornecedor para senhas de sistema e outros parâmetros de segurança. As soluções de segurança de rede também ajudam a sua organização a atender aos requisitos 4 e 10, que exigem que você criptografe a transmissão de dados de titulares de cartão em toda a rede e que controle e monitore todos os acessos de rede, respectivamente.
 
-Para obter o texto completo desses requisitos, consulte o [*PCI DSS (Payment Card Industry Data Security Stantard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo desses requisitos, consulte o [PCI DSS (Payment Card Industry Data Security Stantard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -406,7 +406,7 @@ As soluções de controle de host controlam os sistemas operacionais nos servido
 
 As soluções de controle de host podem ajudá-lo a atender aos requisitos do PCI DSS mantendo os sistemas operacionais atualizados e com configuração segura. Especificamente, o controle de host pode ajudá-lo a estar em conformidade com os requisitos 6 e 11 do PCI DSS.
 
-Para obter o texto completo desses requisitos, consulte o [*PCI DSS (Payment Card Industry Data Security Stantard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo desses requisitos, consulte o [PCI DSS (Payment Card Industry Data Security Stantard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -416,7 +416,7 @@ A Microsoft oferece algumas tecnologias que você pode usar em conjunto e separa
 
     Para obter mais informações, consulte a página sobre o Microsoft Baseline Security Analyzer em <http://www.microsoft.com/technet/security/tools/mbsahome.mspx> (pode estar em inglês).
 
--   **Windows Server Update Services da Microsoft**.** **O Windows Server Update Services (WSUS) da Microsoft com Service Pack 1 permite que a sua organização implante muitas das últimas atualizações de vários produtos Microsoft publicadas no site do Microsoft Update. O WSUS é um componente de atualização do Windows Server que oferece um modo eficaz e rápido de ajudar a manter os sistemas atualizados. O WSUS oferece uma infra-estrutura de gerenciamento que consiste em:
+-   **Windows Server Update Services da Microsoft**. O Windows Server Update Services (WSUS) da Microsoft com Service Pack 1 permite que a sua organização implante muitas das últimas atualizações de vários produtos Microsoft publicadas no site do Microsoft Update. O WSUS é um componente de atualização do Windows Server que oferece um modo eficaz e rápido de ajudar a manter os sistemas atualizados. O WSUS oferece uma infra-estrutura de gerenciamento que consiste em:
 
     -   **Microsoft Update**. O site da Microsoft ao qual os componentes do WSUS se conectam para baixar atualizações de produtos da Microsoft.
 
@@ -442,7 +442,7 @@ A Microsoft oferece algumas tecnologias que você pode usar em conjunto e separa
 
     O Microsoft Desktop Optimization Pack está disponível apenas para clientes com cobertura Software Assurance em seus desktops. Para obter mais informações, consulte a página sobre como otimizar a área de trabalho do Windows em <http://www.microsoft.com/windows/products/windowsvista/buyorupgrade/optimizeddesktop.mspx> (pode estar em inglês).
 
-Para obter links para orientações e procedimentos específicos sobre segurança de host para vários produtos Microsoft, consulte a seção sobre controle de host do [*guia de planejamento para conformidade com os regulamentos*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
+Para obter links para orientações e procedimentos específicos sobre segurança de host para vários produtos Microsoft, consulte a seção sobre controle de host do [guia de planejamento para conformidade com os regulamentos](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
 
 #### Prevenção contra software mal-intencionado
 
@@ -452,7 +452,7 @@ As soluções de prevenção contra software mal-intencionado são elementos fun
 
 As soluções de prevenção contra software mal-intencionado que você escolher podem ajudar a atender aos requisitos 5 e 6 do PCI DSS.
 
-Para obter o texto completo desses requisitos, consulte o [*PCI DSS (Payment Card Industry Data Security Stantard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo desses requisitos, consulte o [PCI DSS (Payment Card Industry Data Security Stantard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -482,7 +482,7 @@ Para atender aos requisitos do PCI DSS, considere as soluções de segurança de
 
 Desenvolver e manter aplicativos seguros, com base na Web ou no Windows, é uma etapa importante nas tarefas em relação à conformidade com o PCI DSS. Em particular, essas soluções de tecnologia permitem atender ao requisito 6.
 
-Para obter o texto completo do requisito, consulte o [*PCI DSS (Payment Card Industry Data Security Standard) versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo do requisito, consulte o [PCI DSS (Payment Card Industry Data Security Standard) versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -522,7 +522,7 @@ A Microsoft oferece orientações e ferramentas específicas para o desenvolvime
 
     Para obter mais informações, consulte a página de detalhes sobre o Security Development Lifecycle da Microsoft em [http://msdn.microsoft.com/msdnmag/issues/05/11/SDL/](http://msdn.microsoft.com/msdnmag/issues/05/11/sdl/) (pode estar em inglês).
 
--   **Siga as orientações de segurança do produto**. A Microsoft oferece orientações de segurança para muitos de seus produtos. O interesse específico das organizações de médio e grande portes são as orientações de segurança para o Exchange Server, Systems Management Server e SQL Server. Para obter mais informações sobre as orientações de segurança para esses produtos, consulte a seção de segurança de aplicativos do [*guia de planejamento para conformidade com os regulamentos*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
+-   **Siga as orientações de segurança do produto**. A Microsoft oferece orientações de segurança para muitos de seus produtos. O interesse específico das organizações de médio e grande portes são as orientações de segurança para o Exchange Server, Systems Management Server e SQL Server. Para obter mais informações sobre as orientações de segurança para esses produtos, consulte a seção de segurança de aplicativos do [guia de planejamento para conformidade com os regulamentos](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
 
 #### Serviço de mensagens e colaboração
 
@@ -532,7 +532,7 @@ Para atender aos requisitos do PCI DSS, é preciso verificar se todos os softwar
 
 Os métodos comuns para ajudar a evitar as violações de segurança em mensagens incluem gateways, servidores seguros e filtro de conteúdo para mensagens. Tanto os gateways quanto os filtros de conteúdo para os sistemas de mensagens encaminham as mensagens para um aplicativo de software especializado. Esse aplicativo pode usar diversos métodos para isolar uma determinada seqüência de caracteres, números, padrões ou outros itens, dependendo do modo como a solução foi desenvolvida. As mensagens que contêm tais palavras-chave ou seqüências podem ser colocadas em quarentena até que as informações suspeitas das mensagens sejam verificadas ou a solução pode simplesmente excluir e limpar a mensagem. Esses métodos podem ajudá-lo a manter a segurança de todos os dados dos titulares de cartão quando forem enviados por email ou por documentos em um ambiente de colaboração. Todas essas técnicas e soluções podem ajudá-lo a atender ao requisito 4 do PCI DSS.
 
-Para obter o texto completo do requisito, consulte o [*PCI DSS (Payment Card Industry Data Security Standard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo do requisito, consulte o [PCI DSS (Payment Card Industry Data Security Standard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -589,7 +589,7 @@ As soluções de classificação e proteção de dados são elementos essenciais
 
 As soluções de classificação e proteção de dados ajudam a cumprir os requisitos do PCI DSS, oferecendo segurança aos dados dos titulares de cartão quando armazenados em um banco de dados, transmitidos de um servidor para outro ou quando são transmitidos dentro de sua rede no momento em que o titular do cartão faz uma compra. O uso dessas soluções permite atender aos requisitos 3 e 7 do PCI DSS.
 
-Para obter o texto completo desses requisitos, consulte o [*PCI DSS (Payment Card Industry Data Security Stantard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo desses requisitos, consulte o [PCI DSS (Payment Card Industry Data Security Stantard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -624,7 +624,7 @@ O gerenciamento de identidade é um elemento importante para estar em conformida
 
 O uso das soluções de gerenciamento de identidade pode permitir que você atenda ao requisito 8 do PCI DSS, ajudando-o a criar e atribuir uma identificação exclusiva para cada pessoa que tenha acesso a um computador em sua organização. Essas soluções também podem ajudar a restringir o acesso aos dados de titulares de cartão com base na identificação exclusiva, o princípio do requisito 7 do PCI DSS.
 
-Para obter o texto completo do requisito, consulte o [*PCI DSS (Payment Card Industry Data Security Standard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo do requisito, consulte o [PCI DSS (Payment Card Industry Data Security Standard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -668,13 +668,13 @@ A Microsoft oferece várias tecnologias para ajudá-lo a atender aos requisitos 
 
 Autenticação é o processo de identificação de um usuário. Em ambientes de TI, normalmente a autenticação envolve um nome de usuário e uma senha, mas ela pode incluir métodos adicionais para verificar a identidade, como, por exemplo, cartão inteligente, verificação de retina, reconhecimento de voz ou impressões digitais. O objetivo da autorização é determinar se a identidade autenticada tem permissão para acessar os recursos solicitados. Você pode escolher entre conceder ou negar o acesso com base em diversos critérios, como o endereço de rede do cliente, o período do dia ou o navegador que a pessoa usa.
 
-Ao planejar a autenticação, a autorização e a estratégia de controle de acesso, também será preciso desenvolver uma estratégia para conceder permissões à conta de usuário para todos os recursos da rede. Para obter mais informações, consulte [*Aplicando o princípio de contas de usuário sem privilégios administrativos no Windows XP *](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/luawinxp.mspx) (a página pode estar em inglês).
+Ao planejar a autenticação, a autorização e a estratégia de controle de acesso, também será preciso desenvolver uma estratégia para conceder permissões à conta de usuário para todos os recursos da rede. Para obter mais informações, consulte [Aplicando o princípio de contas de usuário sem privilégios administrativos no Windows XP ](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/luawinxp.mspx) (a página pode estar em inglês).
 
 ##### Requisitos do PCI DSS atendidos
 
 A autenticação, a autorização e o controle de acesso são peças-chave de sua estratégia de segurança dos dados de titulares de cartão, especialmente em combinação com a classificação e a proteção de dados e as soluções de gerenciamento de identidade. Nesse contexto, as soluções de autenticação, autorização e controle de acesso podem ajudar sua organização a atender aos requisitos 6, 7 e 8 do PCI DSS.
 
-Para obter o texto completo desses requisitos, consulte o [*PCI DSS (Payment Card Industry Data Security Stantard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo desses requisitos, consulte o [PCI DSS (Payment Card Industry Data Security Stantard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -698,7 +698,7 @@ A Microsoft oferece várias tecnologias que podem ajudá-lo a criar e integrar a
 
     Para obter mais informações, consulte a página do Windows Firewall em <http://www.microsoft.com/technet/network/wf/default.mspx> (pode estar em inglês).
 
-Para obter os links que o conduzirá às informações conceituais e ao guia de planejamentos sobre autenticação, autorização e controle de acesso, consulte a seção sobre autenticação, autorização e controle de acesso do [*guia de planejamento para conformidade com os regulamentos*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
+Para obter os links que o conduzirá às informações conceituais e ao guia de planejamentos sobre autenticação, autorização e controle de acesso, consulte a seção sobre autenticação, autorização e controle de acesso do [guia de planejamento para conformidade com os regulamentos](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true).
 
 #### Identificação de vulnerabilidade
 
@@ -708,7 +708,7 @@ As soluções de identificação de vulnerabilidade fornecem ferramentas que pod
 
 As soluções de vulnerabilidades permitem que sua organização atenda ao requisito 11 do PCI DSS, que testa regularmente os sistemas e procedimentos de segurança.
 
-Para obter o texto completo do requisito, consulte o [*PCI DSS (Payment Card Industry Data Security Standard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
+Para obter o texto completo do requisito, consulte o [PCI DSS (Payment Card Industry Data Security Standard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf).
 
 ##### Tecnologias disponíveis
 
@@ -802,7 +802,7 @@ R: Existem três motivos para que sua organização trabalhe para estar em confo
 
 R: A situação de cada organização é diferente e este guia pretende ser o mais abrangente possível. A Microsoft pode desenvolver orientações específicas para mercados verticais. Você também pode entrar em contato com o seu representante de vendas da Microsoft para obter as orientações. Como definido anteriormente, você pode obter melhores resultados comerciais se observar esse ponto não apenas como um projeto para conformidade, mas sim como uma forma de melhorar seus processos de controle e gerenciamento de informações dos clientes.
 
-**P: Este informe descreve muitas tecnologias que ajudam a estar em conformidade com o PCI DSS,** **mas muito poucas soluções de conformidade. Por quê?**
+**P: Este informe descreve muitas tecnologias que ajudam a estar em conformidade com o PCI DSS,* *mas muito poucas soluções de conformidade. Por quê?**
 
 R: Cada situação é exclusiva e, por isso, não é possível propor uma solução única que possa se ajustar a todos. A Microsoft se compromete a oferecer à sua organização informações mais detalhadas, conforme mencionado no resumo.
 
@@ -886,21 +886,21 @@ As tecnologias de proteção de dados da Microsoft não ligam as chaves de descr
   
 #### Recursos adicionais
   
-[*PCI DSS (Payment Card Industry Data Security Standard),* *versão 1.1*](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf)
+[PCI DSS (Payment Card Industry Data Security Standard), versão 1.1](https://www.pcisecuritystandards.org/pdfs/pci_dss_v1-1.pdf)   
   
-[*Guia de planejamento para conformidade com os regulamentos (em inglês)*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true)
+[Guia de planejamento para conformidade com os regulamentos (em inglês)](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true)    
   
-[*Questionário de auto-avaliação do PCI DSS (em inglês)*](https://www.pcisecuritystandards.org/pdfs/pci_saq_v1-0.pdf)
+[Questionário de auto-avaliação do PCI DSS (em inglês)](https://www.pcisecuritystandards.org/pdfs/pci_saq_v1-0.pdf)    
   
-[*Procedimentos de auditoria de PCI DSS do QSA (em inglês)*](https://www.pcisecuritystandards.org/pdfs/pci_audit_procedures_v1-1.pdf)
+[Procedimentos de auditoria de PCI DSS do QSA (em inglês)](https://www.pcisecuritystandards.org/pdfs/pci_audit_procedures_v1-1.pdf)   
   
-[*Procedimentos de verificação de PCI DSS do ASV (em inglês)*](https://www.pcisecuritystandards.org/pdfs/pci_scanning_procedures_v1-1.pdf)** **
+[Procedimentos de verificação de PCI DSS do ASV (em inglês)](https://www.pcisecuritystandards.org/pdfs/pci_scanning_procedures_v1-1.pdf)   
   
-[*Aplicando o princípio de contas de usuário sem privilégios administrativos no Windows XP (em inglês) *](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/luawinxp.mspx)* *
+[Aplicando o princípio de contas de usuário sem privilégios administrativos no Windows XP (em inglês) ](http://www.microsoft.com/technet/prodtechnol/winxppro/maintain/luawinxp.mspx)    
+
+[Práticas recomendadas para delegar a administração do Active Directory (em inglês)](http://www.microsoft.com/downloads/details.aspx?familyid=631747a3-79e1-48fa-9730-dae7c0a1d6d3&displaylang=en)    
   
-[*Práticas recomendadas para delegar a administração do Active Directory (em inglês)*](http://www.microsoft.com/downloads/details.aspx?familyid=631747a3-79e1-48fa-9730-dae7c0a1d6d3&displaylang=en)
-  
-[Centro de downloads do setor bancári*o*](http://msdn2.microsoft.com/en-us/architecture/86e3451d-8219-46af-bf99-4a610e4bf1f4.aspx)
+[Centro de downloads do setor bancári*o](http://msdn2.microsoft.com/en-us/architecture/86e3451d-8219-46af-bf99-4a610e4bf1f4.aspx)   
   
 #### Comentários
   
