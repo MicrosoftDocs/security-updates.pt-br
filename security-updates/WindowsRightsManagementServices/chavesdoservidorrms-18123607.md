@@ -26,8 +26,7 @@ Por padrão, durante a configuração, a chave particular do servidor é criada 
     -ou-
 -   Usar um CSP (provedor de serviços de criptografia) para software não-Microsoft que você instalou no servidor.
 
-| ![](images/Cc720280.note(WS.10).gif)Observação                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se desejar usar um módulo de segurança de hardware, certifique-se de selecionar um provedor de serviços de criptografia que ofereça suporte a módulos de segurança de hardware. |
+> [!Note]  
+> Se desejar usar um módulo de segurança de hardware, certifique-se de selecionar um provedor de serviços de criptografia que ofereça suporte a módulos de segurança de hardware. 
 
 Se você optar por proteger a chave particular do servidor usando um CSP, o RMS armazenará o nome do provedor e o nome do recipiente da chave que está no banco de dados de configuração.

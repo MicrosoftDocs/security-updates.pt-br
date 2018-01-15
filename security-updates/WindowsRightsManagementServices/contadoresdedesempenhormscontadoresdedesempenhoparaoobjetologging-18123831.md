@@ -13,7 +13,7 @@ A tabela a seguir lista os contadores de desempenho disponíveis para o RMS: Log
 
 ###  
 
- 
+<p></p> 
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

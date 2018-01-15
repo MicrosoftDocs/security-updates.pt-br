@@ -31,6 +31,7 @@ The keys and their value ranges are listed in the following table.
 ### Windows Update registry keys
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -104,6 +105,7 @@ The keys and their value ranges are listed in the following table.
 ### Automatic Updates Configuration Registry Keys
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -290,6 +292,7 @@ When the admin creates and sets the **NoAutoRebootWithLoggedOnUsers** registry k
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -364,15 +367,16 @@ The following table shows the difference in behavior with **NoAutoRebootWithLogg
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <tr>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 Scenario following a scheduled installation  
 </th>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 With NoAutoRebootWithLoggedOnUsers enabled  
 </th>
-<th colspan="2">
+<th colspan="2" style="border:1px solid black;">
 With NoAutoRebootWithLoggedOnUsers disabled or not configured  
 </th>
 </tr>

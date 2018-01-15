@@ -11,9 +11,8 @@ Desinstalando e desconfigurando o RMS
 
 Por vários motivos, poderá ser necessário remover o RMS de um servidor. Para um servidor raiz de certificação, a primeira etapa é desconfigurar o RMS no servidor. Isso pode ser feito na **página Administração Global** do servidor que você deseja desconfigurar, clicando em **Remover o RMS deste site**. Você não precisa desconfigurar um servidor de licenciamento antes de desinstalar o RMS.
 
-| ![](images/Cc747753.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Quando você desconfigura o último servidor raiz de certificação em uma floresta do Active Directory, o objeto do ponto de conexão do serviço é removido do Active Directory. Se você não desconfigurar esse servidor antes de desinstalar o RMS, só poderá configurar um novo servidor raiz de certificação naquela floresta depois de remover o objeto do ponto de conexão de serviço manualmente do Active Directory. |
+> [!Note]  
+> Quando você desconfigura o último servidor raiz de certificação em uma floresta do Active Directory, o objeto do ponto de conexão do serviço é removido do Active Directory. Se você não desconfigurar esse servidor antes de desinstalar o RMS, só poderá configurar um novo servidor raiz de certificação naquela floresta depois de remover o objeto do ponto de conexão de serviço manualmente do Active Directory.
 
 Em seguida, desinstale o RMS.
 

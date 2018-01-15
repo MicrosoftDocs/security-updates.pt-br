@@ -38,6 +38,6 @@ A **Home Page de Administração** exibe informações sobre o cluster, como a U
 
 Os tópicos restantes desta seção descrevem como usar esses recursos. Para obter instruções detalhadas, consulte a seção “[Como ...](https://technet.microsoft.com/82032075-f361-438f-a2c4-93ab29ae6cff)” mais adiante neste tema
 
-| ![](images/Cc720290.note(WS.10).gif)Observação                                                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| O site Administração do RMS usa janelas pop-up para a configuração de alguns recursos. Se você estiver usando um bloqueador de pop-ups com o navegador da Web, deve definir as configurações do navegador para permitir pop-ups do site Administração do RMS. |
+
+> [!NOTE]  
+> O site Administração do RMS usa janelas pop-up para a configuração de alguns recursos. Se você estiver usando um bloqueador de pop-ups com o navegador da Web, deve definir as configurações do navegador para permitir pop-ups do site Administração do RMS.

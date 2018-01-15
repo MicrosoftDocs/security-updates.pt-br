@@ -17,6 +17,7 @@ Simple WSUS deployment
 The most basic WSUS deployment consists of a server inside the corporate firewall that serves client computers on a private intranet, as shown in the "Simple WSUS Deployment" illustration below. The WSUS server connects to Microsoft Update to download updates. This is known as synchronization. During synchronization, WSUS determines if any new updates have been made available since the last time you synchronized. If it is your first time synchronizing WSUS, all updates are made available for download.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -56,6 +57,7 @@ You can move computers from the Unassigned Computers group to a group you create
 One benefit of creating computer groups is that it enables you to test updates. The "Simple WSUS Deployment with Computer Groups" illustration depicts two custom groups named Test and Accounting, as well as the All Computers group. The Test group contains a small number of computers representative of all the computers contained in the Accounting group. Updates are approved first for the Test group. If the testing goes well, you can roll out the updates to the Accounting group. There is no limit to the number of custom groups you can create. There are instructions for creating custom computer groups in [Create the Computer Groups](https://technet.microsoft.com/39bf2e0a-bae7-45db-af8b-5be23013a128) later in this guide.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -98,6 +100,7 @@ The downstream server must always synchronize to an upstream server, as in the "
 When you set up a WSUS server hierarchy, you should point Automatic Updates on all WSUS servers to the farthest downstream WSUS server in the hierarchy. This shields the entire chain from server-to-server protocol-breaking changes, because the downstream WSUS server can be used to update the broken upstream WSUS servers via Automatic Updates.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

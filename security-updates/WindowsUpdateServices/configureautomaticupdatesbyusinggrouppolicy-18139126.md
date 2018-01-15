@@ -49,7 +49,6 @@ If the computer you are using to configure Group Policy does not have the latest
 
 5.  In the **Add/Remove Templates** dialog box, click **Close**.
 
-<span id="WUS_ConfigureAutomaticUpdates"></span>
 Configure Automatic Updates
 ---------------------------
 

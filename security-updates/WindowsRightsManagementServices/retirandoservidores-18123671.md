@@ -22,14 +22,14 @@ Antes de retirar um servidor, faça backup de todos os bancos de dados do RMS us
 Depois de fazer backup dos bancos de dados, você pode remover o servidor. Os requisitos para remover um servidor RMS dependem da função do servidor e da topologia da instalação do RMS:
 
 -   **Removendo um servidor de um cluster**. Se o servidor RMS a ser retirado estiver em um cluster no qual outros servidores RMS ainda são ativos e necessários, a remoção de um servidor RMS individual do cluster exigirá que você desconfigure e desinstale o RMS no servidor a ser retirado, remova o hardware do cluster e arquive os bancos de dados.
-    | ![](images/Cc747568.note(WS.10).gif)Observação                                                                                                     |
-    |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Somente servidores no cluster raiz de certificação precisam ser desconfigurados antes da desinstalação do RMS. Este processo não é necessário para servidores de licenciamento. |
+
+> [!NOTE]  
+> Somente servidores no cluster raiz de certificação precisam ser desconfigurados antes da desinstalação do RMS. Este processo não é necessário para servidores de licenciamento.
 
 -   **Retirando um servidor autônomo**. Se o servidor RMS que você deseja retirar estiver em um servidor RMS autônomo (isto é, que não faça parte de um cluster de vários servidores) que será substituído por um novo servidor, execute as seguintes etapas: Desconfigure e desinstale o servidor RMS existente, remova-o da rede e, em seguida, instale e configure imediatamente o RMS no servidor substituto. Configure o novo servidor RMS para usar a mesma URL e banco de dados de configuração que o servidor RMS retirado. Lembre-se de que, antes de o servidor substituto ser instalado e configurado, os usuários não poderão consumir conteúdo publicado pelo servidor retirado.
-    | ![](images/Cc747568.Important(WS.10).gif)Importante                                                                                                                                                                                                      |
-    |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Se o servidor RMS que está sendo substituído usar um módulo de segurança de hardware, você deve transferir o ambiente de segurança para o novo servidor antes de instalar e configurar o RMS nele. Para obter instruções, consulte a documentação do módulo de segurança de hardware. |
+
+>[!IMPORTANT]  
+> Se o servidor RMS que está sendo substituído usar um módulo de segurança de hardware, você deve transferir o ambiente de segurança para o novo servidor antes de instalar e configurar o RMS nele. Para obter instruções, consulte a documentação do módulo de segurança de hardware.
 
 -   **Substituindo uma instalação do RMS por outra instalação existente**. Em algumas circunstâncias, talvez seja necessário retirar uma instalação do RMS e substituí-la por outra instalação existente, por exemplo, no caso de uma fusão de empresas em que as duas empresas estão executando o RMS.
 
