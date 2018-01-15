@@ -13,9 +13,8 @@ Depois de configurar a conexão de rede, você pode obter as atualizações. Por
 
 A sincronização envolve o contato do servidor do WSUS com o Microsoft Update. Depois desse contato, o WSUS determina se existe alguma nova atualização disponível desde a última vez em que foi feita a sincronização. Como esta é a primeira vez que você está sincronizando o servidor do WSUS, todas as atualizações estarão disponíveis e prontas para sua aprovação para instalação.
 
-| ![](images/Cc708523.note(WS.10).gif)Observação                                                                                                                                                                                                                                                 |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Este documento descreve a sincronização usando as configurações padrão, mas o WSUS inclui opções que permitem minimizar o uso da largura de banda durante a sincronização. Para obter mais informações, consulte o informe oficial “Deploying Microsoft Windows Server Update Services” (o documento pode estar em inglês). |
+> [!NOTE]  
+> Este documento descreve a sincronização usando as configurações padrão, mas o WSUS inclui opções que permitem minimizar o uso da largura de banda durante a sincronização. Para obter mais informações, consulte o informe oficial “Deploying Microsoft Windows Server Update Services” (o documento pode estar em inglês). 
 
 **Para sincronizar o servidor do WSUS**
 1.  Na barra de ferramentas do console do WSUS, clique em **Opções** e em **Opções de Sincronização**.
