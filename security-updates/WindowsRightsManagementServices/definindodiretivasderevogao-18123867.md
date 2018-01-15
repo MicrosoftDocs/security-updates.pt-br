@@ -18,9 +18,8 @@ Como o Microsoft Enrollment Service é o emissor do certificado de licenciante p
 
 Além do Serviço de Inscrição da Microsoft, é possível especificar um terceiro que possa revogar o certificado de licenciante servidor do seu servidor RMS. Esse terceiro pode ser uma entidade externa ou um par de chaves públicas ou particulares que o administrador gera em nome da organização. A chave particular do terceiro especificado pode assinar uma lista de revogação que revoga o certificado de licenciante servidor. Esse terceiro é especificado por sua chave pública durante a configuração do RMS. Os modelos de diretiva de direitos de seu servidor também podem ser configurados para permitir que terceiros revoguem o conteúdo, manifestos de aplicativos, licenças e certificados que foram emitidos por sua instalação do RMS. Para obter mais informações, consulte "[Criando e modificando modelos de diretiva de direitos](https://technet.microsoft.com/6014176f-ef71-4d29-b3e3-da129c18563d)", mais adiante neste tema.
 
-| ![](images/Cc747782.Important(WS.10).gif)Importante                                                                                                         |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se você decidir gerar seu próprio par de chaves para uso para revogação do certificado de licenciante do servidor raiz de certificação, certifique-se de mantê-lo em um local protegido. |
+> [!Important]  
+> Se você decidir gerar seu próprio par de chaves para uso para revogação do certificado de licenciante do servidor raiz de certificação, certifique-se de mantê-lo em um local protegido.
 
 A revogação de um certificado do licenciante servidor é uma decisão importante, porque todos os certificados e licenças emitidos por sua instalação do RMS se tornam inválidos quando esse certificado é revogado. Para obter mais informações sobre como revogar certificados de licenciante para servidor, consulte a seção "[Revogando certificados de licenciante para servidor](https://technet.microsoft.com/8020861d-d196-4431-8282-044675ef5616)".
 

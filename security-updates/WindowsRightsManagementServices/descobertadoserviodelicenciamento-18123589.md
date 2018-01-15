@@ -23,6 +23,5 @@ http://*nome\_do\_servidor*/\_wmcs/Licensing/License.asmx
 
 O local de serviço é o servidor RMS ou a conta do .NET Passport que emitiu a licença de publicação; a URL é incluída na licença de publicação.
 
-| ![](images/Cc720269.note(WS.10).gif)Observação                 |
-|---------------------------------------------------------------------------------------------|
-| Se você habilitou a SSL no servidor RMS, essas URLs usarão o protocolo de conexão https://. |
+> [!Note]  
+> Se você habilitou a SSL no servidor RMS, essas URLs usarão o protocolo de conexão https://.
