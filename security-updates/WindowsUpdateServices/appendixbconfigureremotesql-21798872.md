@@ -18,6 +18,7 @@ Setting up WSUS for remote SQL is a three-step process:
 3.  Install WSUS 3.0 on the front-end computer, and configure it to use the database on the back-end computer.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -78,6 +79,7 @@ Install a SQL Server 2005 database on the back-end computer and enable remote c
 If you plan to run the SQL Server service remotely under a domain account, you will need to register a service principal name (SPN) for this server. For more information about adding an SPN, please see [How to make sure that you are using Kerberos authentication when you create a remote connection to an instance of SQL Server 2005](http://go.microsoft.com/fwlink/?linkid=85942) (http://go.microsoft.com/fwlink/?LinkId=85942).
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -129,6 +131,7 @@ Run WSUS Setup from the command line, using the **SQLINSTANCE\_NAME=***servernam
 2.  You will see the **Welcome** page of the installation wizard. Continue installing WSUS as in the procedure given in [Run WSUS 3.0 Server Setup](https://technet.microsoft.com/3bc2933c-8d26-4594-b989-e64b406f3147).
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

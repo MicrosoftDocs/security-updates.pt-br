@@ -24,6 +24,7 @@ Use the **Update Files** section to determine whether update files will be store
 3.  If you want to store updates in WSUS, select the **Store update files locally on this server** check box. If you want clients to connect to the Internet to get updates, then select the **Do not store updates locally; computers install updates from Microsoft Update** check box**.**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -82,6 +83,7 @@ Use the **Languages** section to select the language of the updates to synchroni
     -   **Download updates only in these languages**: This means that only updates targeted to the languages you select will be downloaded during synchronization. If you choose this option, you must also choose each language you want from the list of those available.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

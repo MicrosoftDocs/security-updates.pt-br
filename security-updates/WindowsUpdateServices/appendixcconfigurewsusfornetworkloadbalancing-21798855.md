@@ -14,6 +14,7 @@ Network load balancing (NLB) is a strategy that can keep networks running even i
 Confirm that you have completed WSUS setup and configured your SQL Server 2005 or SQL Server 2008 database as a failover cluster before configuring the NLB cluster. For more information about how to set up an NLB cluster, see [Network Load Balancing Clusters](http://go.microsoft.com/fwlink/?linkid=76491) at http://go.microsoft.com/fwlink/?LinkId=76491.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -33,6 +34,7 @@ Confirm that you have completed WSUS setup and configured your SQL Server 2005 
  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -71,6 +73,7 @@ In this step you will install WSUS on the other front-end WSUS servers without c
 2.  You will see the **Welcome** page of the installation wizard. Continue installing WSUS using the procedure in [Run WSUS 3.0 Server Setup](https://technet.microsoft.com/3bc2933c-8d26-4594-b989-e64b406f3147).
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -107,6 +110,7 @@ Step 4: Set up a DFS share
 You should create a single file location that is available to all the front-end WSUS servers. Even if you do not store updates locally, you will need a location for End User License Agreement files. You may choose to store them on a Distributed File System share.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -151,6 +155,7 @@ This step explains how to set up DFS on one of the servers in your cluster on a 
     After you install a WSUS update, verify the NTFS permissions on the WSUSContent folder. The NTFS permissions on the WSUSContent folder may be reset to the default values by the installer.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -248,6 +253,7 @@ Step 9: Configure WSUS clients to sync from the DFS share
 Instructions for configuring WSUS client machines are given in [Update and Configure the Automatic Updates Client](https://technet.microsoft.com/d3d56210-9f71-49b7-b0d1-a04fb52d4e53). However, in the case of WSUS on NLB clusters, you should specify the virtual address of the NLB cluster rather than one of the individual servers. For example, if you are setting up your clients with a Group Policy object or Local Group Policy object, the setting for the **Specify intranet Microsoft update service location** setting should be the virtual Web address.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -270,6 +276,7 @@ Upgrading NLB
 -------------
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
