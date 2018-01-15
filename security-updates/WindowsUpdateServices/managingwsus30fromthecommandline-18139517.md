@@ -165,7 +165,7 @@ Sets the values for detect and refresh intervals. If the detect interval is 0, t
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**DiskSpaceInMegabytes* **\[ErrorLevel\] \[WarningLevel\]*
+**DiskSpaceInMegabytes** *\[ErrorLevel\] \[WarningLevel\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">

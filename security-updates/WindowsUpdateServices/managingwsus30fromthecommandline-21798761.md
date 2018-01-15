@@ -255,7 +255,7 @@ Sets the maximum percentage of target computers reporting to this server below w
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckAcls*** on|off*
+**CheckAcls** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -265,7 +265,7 @@ If on, health monitoring should check ACLs on the relevant directories.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForLowDiskSpace*** on|off*
+**CheckForLowDiskSpace** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -275,7 +275,7 @@ If on, health monitoring should check for low disk space.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForCatalogSyncFailures*** on|off*
+**CheckForCatalogSyncFailures** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -285,7 +285,7 @@ If on, health monitoring should check for catalog synchronization failures.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForContentSyncFailures*** on|off*
+**CheckForContentSyncFailures** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -295,7 +295,7 @@ If on, health monitoring should check for content synchronization failures.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForEmailNotificationFailures*** on|off*
+**CheckForEmailNotificationFailures** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -305,7 +305,7 @@ If on, health monitoring should check for e-mail notification failures.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckSelfUpdate*** on|off*
+**CheckSelfUpdate** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -315,7 +315,7 @@ If on, health monitoring should check for client self-update failures.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckClientsExist*** on|off*
+**CheckClientsExist** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -325,7 +325,7 @@ If on, health monitoring should check whether this server has any clients.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForUpdateInstallFailures*** on|off*
+**CheckForUpdateInstallFailures** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -335,7 +335,7 @@ If on, health monitoring should check for update installation failures.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForInventoryFailures*** on|off*
+**CheckForInventoryFailures** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -345,7 +345,7 @@ If on, health monitoring should check for clients failing to report inventory..
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForSilentClients*** on|off*
+**CheckForSilentClients** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -355,7 +355,7 @@ If on, health monitoring should check for clients that have failed to report to 
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckForTooManyClients*** on|off*
+**CheckForTooManyClients** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -365,7 +365,7 @@ If on, health monitoring should check whether the number of clients is approachi
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckReportingWebService*** on|off*
+**CheckReportingWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -375,7 +375,7 @@ If on, health monitoring should check the Reporting Web service.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckApiRemotingWebService*** on|off*
+**CheckApiRemotingWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -385,7 +385,7 @@ If on, health monitoring should check the API Remoting Web service.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckServerSyncWebService*** on|off*
+**CheckServerSyncWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -395,7 +395,7 @@ If on, health monitoring should check the Server Synchronization Web service.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckClientWebService*** on|off*
+**CheckClientWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -405,7 +405,7 @@ If on, health monitoring should check the client Web service.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckSimpleAuthWebService*** on|off*
+**CheckSimpleAuthWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -415,7 +415,7 @@ If on, health monitoring should check the Simple Authentication Web service.
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CheckDssAuthWebService*** on|off*
+**CheckDssAuthWebService** *on|off*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
