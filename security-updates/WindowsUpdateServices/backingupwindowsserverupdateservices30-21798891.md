@@ -61,6 +61,7 @@ Although WSUS does not provide a built-in backup tool, you can use the Backup Ut
 8.  When the message appears that informs you that restoring is complete, click **Close**.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

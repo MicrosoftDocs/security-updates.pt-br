@@ -16,6 +16,7 @@ In a simple environment, you link the GPO with the WSUS settings to the domain. 
 After you set up a client computer, it will take a few minutes before it appears on the **Computers** page in the WSUS console. For client computers configured with an Active Directory-based GPO, it will take about 20 minutes after Group Policy refreshes (that is, applies any new settings to the client computer). By default, Group Policy refreshes in the background every 90 minutes, with a random offset of 0–30 minutes.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -42,6 +43,7 @@ Before you can set any Group Policy options for WSUS, you must ensure that the l
 If the computer you are using to configure Group Policy has the latest version of wuau.adm, you do not need to load the file to configure settings. The new version of wuau.adm is available on Windows XP with Service Pack 2. Administrative template files are stored by default in the *%windir%*\\Inf directory.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -63,6 +65,7 @@ If the computer you are using to configure Group Policy has the latest version o
 If the computer you are using to configure Group Policy does not have the latest version of wuau.adm, you must first load it by using the following procedure.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -92,7 +95,6 @@ If the computer you are using to configure Group Policy does not have the latest
 
 5.  In the **Add/Remove Templates** dialog box, click **Close**.
 
-<span id="WSUS_ConfigureAutomaticUpdates"></span>
 Configure Automatic Updates
 ---------------------------
 
@@ -147,6 +149,7 @@ If the status is set to **Disabled** or **Not Configured**, no computer group in
 4.  Click **OK**.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -195,6 +198,7 @@ If the status is set to **Enabled**, Automatic Updates will not restart a comput
 If the status is set to **Disabled** or **Not Configured**, Automatic Updates will notify the user that the computer will automatically restart in five minutes to complete the installation. This policy applies only when Automatic Updates is configured to perform scheduled installations of updates. If the [Configure Automatic Updates](#wsus_configureautomaticupdates) policy is disabled, this policy has no effect.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -301,6 +305,7 @@ If the status is set to **Disabled** or **Not Configured**, Automatic Updates wi
 3.  Click **OK**.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

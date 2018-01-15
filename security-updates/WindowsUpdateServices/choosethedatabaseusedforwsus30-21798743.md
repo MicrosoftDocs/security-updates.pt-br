@@ -18,6 +18,7 @@ The WSUS database stores the following types of information:
 -   Information about client computers, updates, and client interaction with updates
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

@@ -23,6 +23,5 @@ Quando um servidor de licenciamento solicita o serviço de sub-registro, ele acr
 
 http://nome\_do\_servidor/\_wmcs/Certification/SubEnrollService.asmx
 
-| ![](images/Cc747641.note(WS.10).gif)Observação                 |
-|---------------------------------------------------------------------------------------------|
-| Se você habilitou a SSL no servidor RMS, essas URLs usarão o protocolo de conexão https://. |
+> [!Note]  
+> Se você habilitou a SSL no servidor RMS, essas URLs usarão o protocolo de conexão https://.

@@ -32,9 +32,8 @@ Excluindo aplicativos ou parando de excluir aplicativos
 
     Para excluir um aplicativo (ou componente) da lista de exclusão, selecione o nome do arquivo e clique em **Excluir aplicativos selecionados da lista de exclusão**.
 
-    | ![](images/Cc720262.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                                   |
-    |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | O RMS exige que a versão do aplicativo seja especificada em um formato de 4 dígitos delimitados por pontos (\#.\#.\#.\# ). No entanto, alguns aplicativos especificam sua versão com números de 2 ou 3 dígitos delimitados por pontos. Nesse caso, você deve acrescentar um .0, se necessário, para fazer com que o número da versão corresponda ao formato exigido pelo RMS. |
+    > [!Note]  
+    > O RMS exige que a versão do aplicativo seja especificada em um formato de 4 dígitos delimitados por pontos (\#.\#.\#.\# ). No entanto, alguns aplicativos especificam sua versão com números de 2 ou 3 dígitos delimitados por pontos. Nesse caso, você deve acrescentar um .0, se necessário, para fazer com que o número da versão corresponda ao formato exigido pelo RMS.
 
 #### Parar de excluir aplicativos
 

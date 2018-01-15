@@ -26,6 +26,7 @@ Limiting bandwidth on all Web sites
 5.  Click **OK**.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -59,6 +60,7 @@ Limiting bandwidth on a specific Web site
 5.  Click **OK**.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
