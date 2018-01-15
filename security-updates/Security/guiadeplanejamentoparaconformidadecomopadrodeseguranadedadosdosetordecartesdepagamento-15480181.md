@@ -11,10 +11,10 @@ Guia de Planejamento para Conformidade com o Padrão de Segurança de Dados do S
 
 ##### On This Page
 
-[![Introdução](images/Bb821241.arrow_px_down(pt-br,TechNet.10).gif)](#ecaa)[Introdução](#ec)  
-[]([![Atendendo aos requisitos do PCI DSS](images/Bb821241.arrow_px_down(pt-br,TechNet.10).gif)](#ebaa)[Atendendo aos requisitos do PCI DSS](#eb)  
-[]([![Apêndices](images/Bb821241.arrow_px_down(pt-br,TechNet.10).gif)](#eaaa)[Apêndices](#ea)  
-[](
+[![Introdução](images/Bb821241.arrow_px_down(pt-br,TechNet.10).gif)](#ecaa)[Introdução](#ecaa)
+[![Atendendo aos requisitos do PCI DSS](images/Bb821241.arrow_px_down(pt-br,TechNet.10).gif)](#ebaa)[Atendendo aos requisitos do PCI DSS](#ebaa)
+[![Apêndices](images/Bb821241.arrow_px_down(pt-br,TechNet.10).gif)](#eaaa)[Apêndices](#eaaa)
+
 ### Introdução
 
 O *Guia de Planejamento para Conformidade com o Padrão de Segurança de Dados do Setor de Cartões de Pagamento* foi criado para atender aos requisitos do PCI DSS (padrão de segurança de dados do setor de cartões de pagamento). Especificamente, este guia tem como alvo os comerciantes que aceitam cartões de pagamento, as instituições financeiras que processam transações com cartões de pagamento e os prestadores de serviços — empresas terceirizadas que fornecem serviços de processamento de cartões de pagamento ou de armazenamento de dados. As soluções de TI para cada um desses grupos devem atender a todos os requisitos do PCI DSS. O objetivo deste guia é ampliar o [*guia de planejamento para conformidade com os regulamentos*](http://www.microsoft.com/technet/security/guidance/complianceandpolicies/compliance/rcguide/default.mspx?mfr=true) (em inglês), que apresenta uma abordagem baseada em estruturas para criação de controles de TI como parte de seus esforços para estar em conformidade com diversos regulamentos e padrões. Também descreve as soluções de produtos e tecnologias Microsoft que podem ser usados para implementar uma série de controles de TI para ajudar a atender aos requisitos do PCI DSS, bem como qualquer outra obrigação regulamentar que a sua organização possa ter.

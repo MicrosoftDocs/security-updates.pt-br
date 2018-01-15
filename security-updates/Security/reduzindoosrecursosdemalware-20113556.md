@@ -17,9 +17,9 @@ Atualmente, estamos desenvolvendo o conteúdo para esta Trilha do Aprendizado. [
 
 ##### Nesta página
 
-[](#ebaa)[Recursos](#eb)  
-[]([](#eaaa)[Tipo de Conteúdo e Definições de Níveis](#ea)  
-[](
+[](#ebaa)[Recursos](#ebaa)  
+[](#eaaa)[Tipo de Conteúdo e Definições de Níveis](#eaaa)
+
 ### Recursos
 
  

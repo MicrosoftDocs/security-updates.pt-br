@@ -37,13 +37,13 @@ Os recursos de segurança abordados neste guia foram desenvolvidos com o uso de 
 
 ##### Nesta página
 
-[](#egaa)[Quem deve ler este guia?](#eg)  
-[]([](#efaa)[Conteúdo dos capítulos](#ef)  
-[]([](#eeaa)[Convenções de estilo](#ee)  
-[]([](#edaa)[Mais informações](#ed)  
-[]([](#ecaa)[Suporte e comentários](#ec)  
-[]([](#ebaa)[Agradecimentos](#eb)  
-[](
+[](#egaa)[Quem deve ler este guia?](#egaa)  
+[](#efaa)[Conteúdo dos capítulos](#efaa)  
+[](#eeaa)[Convenções de estilo](#eeaa)  
+[](#edaa)[Mais informações](#edaa)  
+[](#ecaa)[Suporte e comentários](#ecaa)  
+[](#ebaa)[Agradecimentos](#ebaa)
+
 ### Quem deve ler este guia?
 
 Este guia foi formulado para atender a especialistas em segurança responsáveis por tomar decisões e fornecer recomendações sobre diretivas e tecnologias relacionadas a dezenas ou até milhares de computadores clientes, principalmente laptops. A tecnologia em si e as ameaças relacionadas em geral não se aplicam a um usuário ou rede doméstica. Você deve ler este guia se for de sua responsabilidade:

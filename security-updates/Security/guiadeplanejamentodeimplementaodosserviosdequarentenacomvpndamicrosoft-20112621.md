@@ -31,12 +31,12 @@ Este guia descreve os desafios do planejamento e da implementação dos serviço
 
 ##### Nesta página
 
-[](#eeaa)[O desafio comercial](#ee)  
-[]([](#edaa)[Os benefícios comerciais](#ed)  
-[]([](#ecaa)[A quem este guia se destina](#ec)  
-[]([](#ebaa)[Pré-requisitos do leitor](#eb)  
-[]([](#eaaa)[Visão geral do Guia de Planejamento](#ea)  
-[](
+[](#eeaa)[O desafio comercial](#eeaa)  
+[](#edaa)[Os benefícios comerciais](#edaa)  
+[](#ecaa)[A quem este guia se destina](#ecaa)  
+[](#ebaa)[Pré-requisitos do leitor](#ebaa)  
+[](#eaaa)[Visão geral do Guia de Planejamento](#eaaa)
+
 ### O desafio comercial
 
 As organizações enfrentam vários desafios ao conceder acesso remoto através de conexões VPN. Esses desafios variam de acordo com os serviços fornecidos, a estrutura normativa em que a empresa funciona e o ambiente de segurança. Os desafios comuns incluem como:

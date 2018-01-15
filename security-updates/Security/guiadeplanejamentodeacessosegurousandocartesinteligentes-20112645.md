@@ -39,14 +39,14 @@ As organizações podem fornecer uma importante camada adicional de segurança s
 
 ##### Nesta página
 
-[](#ehaa)[O desafio comercial](#eh)  
-[]([](#egaa)[Os benefícios comerciais](#eg)  
-[]([](#efaa)[Quem deve ler este guia](#ef)  
-[]([](#eeaa)[Pré-requisitos do leitor](#ee)  
-[]([](#edaa)[Visão geral do Guia de Planejamento](#ed)  
-[]([](#ecaa)[Recursos relacionados](#ec)  
-[]([](#ebaa)[Faça seus comentários](#eb)  
-[](
+[](#ehaa)[O desafio comercial](#ehaa)  
+[](#egaa)[Os benefícios comerciais](#egaa)  
+[](#efaa)[Quem deve ler este guia](#efaa)  
+[](#eeaa)[Pré-requisitos do leitor](#eeaa)  
+[](#edaa)[Visão geral do Guia de Planejamento](#edaa)  
+[](#ecaa)[Recursos relacionados](#ecaa)  
+[](#ebaa)[Faça seus comentários](#ebaa)
+
 ### O desafio comercial
 
 A violação de credenciais de conta de administrador em computadores associados a um domínio pode prejudicar a integridade do domínio inteiro, da floresta na qual reside o domínio e de outras florestas e domínios que tenham relações de confiança com essa floresta. A violação de contas de acesso remoto pode resultar no acesso a informações confidenciais através de conexões dial-up ou VPN por invasores externos.
