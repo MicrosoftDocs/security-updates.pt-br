@@ -11,9 +11,8 @@ Leiame do Windows Server Update Services
 
 Este documento descreve problemas conhecidos que afetam o WSUS. Inclui recomendações e requisitos de instalação do WSUS.
 
-| ![](images/Cc720505.note(WS.10).gif)Observação                                                                                                                |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uma cópia deste documento está disponível para download no Centro de Download da Microsoft [(http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126)). |
+> [!NOTE]  
+> Uma cópia deste documento está disponível para download no Centro de Download da Microsoft [(http://go.microsoft.com/fwlink/?LinkId=48126](http://go.microsoft.com/fwlink/?linkid=48126)).
 
 Antes de iniciar
 ----------------
@@ -200,9 +199,8 @@ Problemas conhecidos
 
 Se você estiver executando os Serviços de Informações da Internet (IIS) em um computador com o Windows 2000 Server, instale a versão mais recente do Assistente de Bloqueio do IIS (que inclui o URLScan) disponível na página da Ferramenta de Bloqueio do IIS, no Microsoft TechNet. A Microsoft recomenda enfaticamente que você instale essa ferramenta para ajudar a manter os servidores do IIS protegidos. O Assistente de Bloqueio do IIS funciona desativando os recursos desnecessários do IIS, reduzindo assim a exposição a riscos de segurança.
 
-| ![](images/Cc720505.note(WS.10).gif)Observação                                                                                                                                                                 |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A instalação do WSUS não instala esses componentes. É necessário instalá-los manualmente. Você não precisa instalar o Bloqueio do IIS em computadores com o Windows Server 2003 em execução, porque a funcionalidade já está presente nele. |
+> [!NOTE]  
+> A instalação do WSUS não instala esses componentes. É necessário instalá-los manualmente. Você não precisa instalar o Bloqueio do IIS em computadores com o Windows Server 2003 em execução, porque a funcionalidade já está presente nele. 
 
 #### Problema 2: não é permitido alterar a configuração do WSUS diretamente no banco de dados
 

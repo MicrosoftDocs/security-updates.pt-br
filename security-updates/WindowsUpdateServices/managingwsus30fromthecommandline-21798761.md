@@ -12,22 +12,8 @@ Managing WSUS 3.0 from the Command Line
 The **wsusutil** command-line utility is used in managing WSUS servers and is located in the *WSUSInstallDir*\\Tools folder of WSUS servers. The table below summarizes the different parameters that can be used with this utility, and later sections explain the syntax and usage of each parameter.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Observação</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> You can also use Windows® PowerShell® to access the WSUS 3.0 APIs from the command line. 
  
 
 Using the wsusutil utility
@@ -171,22 +157,8 @@ This command sets and gets the different parameters for WSUS health monitoring.
 **Wsusutil healthmonitoring ***parameterName*
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Observação</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You may set or get only one parameter at a time.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> You may set or get only one parameter at a time. 
  
 
 ###  
@@ -507,22 +479,8 @@ For more information about exporting and importing updates, see "Set Up a Discon
 </table>
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Observação</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Exporting from a WSUS 2.0 server to a WSUS 3.0 server (or from a WSUS 3.0 server to a WSUS 2.0 server) is not supported.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Exporting from a WSUS 2.0 server to a WSUS 3.0 server (or from a WSUS 3.0 server to a WSUS 2.0 server) is not supported. 
  
 
 ### Import
@@ -560,22 +518,8 @@ For background and procedural information about exporting and importing updates,
 </table>
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Observação</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Importing from a WSUS 2.0 server to a WSUS 3.0 server (or from a WSUS 3.0 server to a WSUS 2.0 server) is not supported.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Importing from a WSUS 2.0 server to a WSUS 3.0 server (or from a WSUS 3.0 server to a WSUS 2.0 server) is not supported. 
  
 
 ### Movecontent
@@ -589,22 +533,8 @@ When you run this command, **wsusutil** does the following:
 The destination folder to which update files are moved must be on an NTFS partition. The utility will not try to copy update files if they already exist in the destination folder. The destination folder will have the same permissions that were set on the original folder.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.note(WS.10).gif" />Observação</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You can use <strong>xcopy</strong>, the Backup utility, or other methods to copy update files from the old location to the new one. If you copy the files by using a method other than <strong>wsusutil</strong>, you still need to run <strong>wsusutil</strong> to perform the second part of the move, using the -<strong>skipcopy</strong> parameter. See the &quot;Syntax&quot; section for more information.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> You can use <strong>xcopy</strong>, the Backup utility, or other methods to copy update files from the old location to the new one. If you copy the files by using a method other than <strong>wsusutil</strong>, you still need to run <strong>wsusutil</strong> to perform the second part of the move, using the -<strong>skipcopy</strong> parameter. See the &quot;Syntax&quot; section for more information. 
  
 
 There are two scenarios in which you might move update files from one WSUS drive to another:
