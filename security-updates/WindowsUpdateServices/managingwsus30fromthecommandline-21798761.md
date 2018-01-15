@@ -22,18 +22,8 @@ Using the wsusutil utility
 You must be an administrator to run the **wsusutil** utility. This utility is installed only on WSUS server machines, not on console-only installations.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Tip(WS.10).gif" />Dica</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">To see all <strong>wsusutil</strong> parameters, type <strong>wsusutil help</strong> on the command line. To see usage for each of the parameters, type <strong>wsusutil help</strong><em>parameterName</em>.
+> [!Tip]  
+> To see all <strong>wsusutil</strong> parameters, type <strong>wsusutil help</strong> on the command line. To see usage for each of the parameters, type <strong>wsusutil help</strong><em>parameterName</em>.
 </td>
 </tr>
 </tbody>
