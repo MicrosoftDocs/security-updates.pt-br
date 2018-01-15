@@ -69,9 +69,9 @@ As chamadas da interface de programação de aplicativo (API) do WSUS entrarão 
 Quando você atualizar o WSUS aplicando o WSUS com SP1, talvez tenha de desabilitar programas antivírus para poder executar a atualização ou aplicar o service pack com êxito. Após desabilitar os programas antivírus, reinicie o computador com o Windows Server antes de aplicar a atualização ou o service pack. Este procedimento evita o bloqueio dos arquivos necessários para a atualização. Depois que a instalação for concluída, habilite novamente o programa antivírus. Visite o site do fornecedor do antivírus para conhecer as etapas exatas necessárias para desabilitar e reabilitar a versão e o programa antivírus.
 
 > [!CAUTION]  
-| Esta solução alternativa pode tornar o computador ou a rede mais vulneráveis a ataques de usuários ou softwares mal-intencionados, como vírus. Não recomendamos esta solução alternativa, mas damos essa informação para que você possa implementar esta alternativa a seu critério. Use esta solução alternativa por sua conta e risco. 
+> Esta solução alternativa pode tornar o computador ou a rede mais vulneráveis a ataques de usuários ou softwares mal-intencionados, como vírus. Não recomendamos esta solução alternativa, mas damos essa informação para que você possa implementar esta alternativa a seu critério. Use esta solução alternativa por sua conta e risco. 
 
-> ![NOTE]  
+> [!NOTE]  
 > Um programa antivírus tem a finalidade de proteger seu computador contra vírus. Você não deve baixar nem abrir arquivos de fontes não confiáveis, visitar sites em que não confia ou abrir anexos de email quando o programa antivírus estiver desabilitado. 
 
 #### Problema 6: Se você estiver usando um servidor proxy, a atualização do SP1 poderá apagar o nome de usuário e a senha da configuração do proxy
