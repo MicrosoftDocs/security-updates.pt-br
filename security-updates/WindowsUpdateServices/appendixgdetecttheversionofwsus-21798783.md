@@ -28,6 +28,7 @@ has an InstallType subkey with the following possible values:
 **FullInstall = 128**
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
