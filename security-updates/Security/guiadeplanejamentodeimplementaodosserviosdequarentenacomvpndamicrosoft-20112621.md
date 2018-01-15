@@ -31,10 +31,10 @@ Este guia descreve os desafios do planejamento e da implementação dos serviço
 
 ##### Nesta página
 
-[](#eeaa)[O desafio comercial](#eeaa)
-[](#edaa)[Os benefícios comerciais](#edaa)
-[](#ecaa)[A quem este guia se destina](#ecaa)
-[](#ebaa)[Pré-requisitos do leitor](#ebaa)
+[](#eeaa)[O desafio comercial](#eeaa)  
+[](#edaa)[Os benefícios comerciais](#edaa)  
+[](#ecaa)[A quem este guia se destina](#ecaa)  
+[](#ebaa)[Pré-requisitos do leitor](#ebaa)  
 [](#eaaa)[Visão geral do Guia de Planejamento](#eaaa)
 
 ### O desafio comercial

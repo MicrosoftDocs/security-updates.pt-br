@@ -23,12 +23,12 @@ Este guia inclui os seguintes documentos:
 
 ##### Nesta página
 
-[](#egaa)[Visão geral da série Gerenciamento de identidade e acessos da Microsoft](#egaa)
-[](#efaa)[Parte I – A base do gerenciamento de identidade e acessos](#efaa)
-[](#eeaa)[Parte II – Gerenciamento do ciclo de vida de identidades](#eeaa)
-[](#edaa)[Parte III – Gerenciamento de acessos e logon único](#edaa)
-[](#ecaa)[Soluções complementares da Microsoft](#ecaa)
-[](#ebaa)[Recursos relacionados](#ebaa)
+[](#egaa)[Visão geral da série Gerenciamento de identidade e acessos da Microsoft](#egaa)  
+[](#efaa)[Parte I – A base do gerenciamento de identidade e acessos](#efaa)  
+[](#eeaa)[Parte II – Gerenciamento do ciclo de vida de identidades](#eeaa)  
+[](#edaa)[Parte III – Gerenciamento de acessos e logon único](#edaa)  
+[](#ecaa)[Soluções complementares da Microsoft](#ecaa)  
+[](#ebaa)[Recursos relacionados](#ebaa)  
 [](#eaaa)[Envie seus comentários](#eaaa)
 
 ### Visão geral da série Gerenciamento de identidade e acessos da Microsoft
