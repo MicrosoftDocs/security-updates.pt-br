@@ -79,10 +79,8 @@ A tabela a seguir lista as entradas que controlam o comportamento do cache na me
 </tbody>
 </table>
   
-| ![](images/Cc747586.Caution(WS.10).gif)Cuidado                                                                                   |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Editar o Registro incorretamente pode causar sérios danos ao sistema. Antes de alterar o Registro, faça backup dos dados importantes que estão no computador. |
+> [!Caution]  
+> Editar o Registro incorretamente pode causar sérios danos ao sistema. Antes de alterar o Registro, faça backup dos dados importantes que estão no computador. 
   
-| ![](images/Cc747586.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                     |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| As entradas do Registro **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** e **ContactMembersofGroupCacheExpireMinutes** também controlam o vencimento do cache no cache local do Active Directory, armazenado no banco de dados de serviços de diretório no servidor do seu banco de dados. |
+> [!Note]  
+> As entradas do Registro **PrincipalCacheExpireMinutes**, **GroupIDCacheExpireMinutes**, **GroupMembershipCacheExpireMinutes** e **ContactMembersofGroupCacheExpireMinutes** também controlam o vencimento do cache no cache local do Active Directory, armazenado no banco de dados de serviços de diretório no servidor do seu banco de dados. 

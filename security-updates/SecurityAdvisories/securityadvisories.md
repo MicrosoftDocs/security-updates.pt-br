@@ -6,8 +6,6 @@ ms:contentKeyID: 62231179
 ms:mtpsurl: 'https://technet.microsoft.com/pt-BR/library/Dn631936(v=Security.10)'
 ---
 
-Modelo do MSRC ppDocument
-
 Comunicados de segurança
 ========================
 

@@ -13,9 +13,8 @@ Esta seção fornece informações para ajudá-lo a instalar o Microsoft® Windo
 
 Você pode instalar o RMS com SP2 sem remover a instalação existente do RMS com SP1. O programa de instalação para o RMS com SP2 detecta que o RMS com SP1 está instalado e inclui os recursos e configurações adicionais, conforme a necessidade.
 
-| ![](images/Cc720225.note(WS.10).gif)Observação                                                                                                                                                                                                                                            |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Não há suporte para um caminho de atualização do servidor RMS sem service pack para o RMS com SP2. Se estiver usando o servidor RMS sem service pack, você deverá atualizar para o RMS com SP1 antes de atualizar para o RMS com SP2. O cliente do RMS pode ser atualizado de qualquer versão anterior do cliente RMS. |
+> [!Note]  
+> Não há suporte para um caminho de atualização do servidor RMS sem service pack para o RMS com SP2. Se estiver usando o servidor RMS sem service pack, você deverá atualizar para o RMS com SP1 antes de atualizar para o RMS com SP2. O cliente do RMS pode ser atualizado de qualquer versão anterior do cliente RMS. 
 
 **Neste tema**
 

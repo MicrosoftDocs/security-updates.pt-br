@@ -136,6 +136,5 @@ A tabela a seguir lista as entradas que podem ser adicionadas para substituir as
 </tbody>
 </table>
   
-| ![](images/Cc747660.Caution(WS.10).gif)Cuidado                                                                                   |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Editar o Registro incorretamente pode causar sérios danos ao sistema. Antes de alterar o Registro, faça backup dos dados importantes que estão no computador. |
+> [!Caution]  
+> Editar o Registro incorretamente pode causar sérios danos ao sistema. Antes de alterar o Registro, faça backup dos dados importantes que estão no computador. 

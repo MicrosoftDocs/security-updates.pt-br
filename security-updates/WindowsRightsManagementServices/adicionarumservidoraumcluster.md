@@ -26,15 +26,13 @@ Adicionando um servidor a um cluster
 
 2.  Próximo ao site em que deseja configurar o RMS, clique em **Adicionar este servidor a um cluster**. É possível selecionar o site padrão ou outro site que você tenha criado no IIS (Serviços de Informações da Internet) para esse fim.
 
-    | ![](images/Cc747690.Warning(WS.10).gif)Aviso                                                                                                                                                                                          |
-    |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Não há suporte para executar qualquer site ou serviço adicionais no mesmo servidor como RMS. Isso poderia resultar na execução de vários aplicativos e serviços sob a mesma conta como o RMS, o que poderia expor as chaves particulares a operações sem garantia. |
+    > [!Warning]  
+    > Não há suporte para executar qualquer site ou serviço adicionais no mesmo servidor como RMS. Isso poderia resultar na execução de vários aplicativos e serviços sob a mesma conta como o RMS, o que poderia expor as chaves particulares a operações sem garantia. 
 
 3.  Na área **Conta de serviço RMS**, digite o nome da conta na forma nome\_domínio\\nome\_usuário e a senha da conta de serviço RMS sob as quais o RMS será executado na maioria das operações normais. Ela deve ser uma conta do domínio. Todos os servidores em um cluster devem ser executados sob a mesma conta de serviço RMS.
 
-    | ![](images/Cc747690.Important(WS.10).gif)Importante                                                                                                                                                                                               |
-    |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Por razões de segurança, recomenda-se a criação de uma conta de usuário especial para usar como conta de serviço RMS e a não concessão de permissões especiais. A conta de serviço RMS não pode ser a mesma conta do domínio utilizada para instalar o RMS com Service Pack 1. |
+    > [!Important]  
+    > Por razões de segurança, recomenda-se a criação de uma conta de usuário especial para usar como conta de serviço RMS e a não concessão de permissões especiais. A conta de serviço RMS não pode ser a mesma conta do domínio utilizada para instalar o RMS com Service Pack 1. 
 
 4.  Na área **Banco de dados de configuração**, especifique o nome do servidor de banco de dados e o nome do banco de dados de configuração para esse cluster. O banco de dados selecionado determina o cluster ao qual esse servidor é adicionado.
 
