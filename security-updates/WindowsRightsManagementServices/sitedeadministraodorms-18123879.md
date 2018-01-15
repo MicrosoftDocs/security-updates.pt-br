@@ -13,7 +13,7 @@ Cada cluster raiz e somente de licenciamento hospeda um site de Administração 
 
 Este tópico descreve capacidades do site de administração. As instruções sobre como usar o site para administrar o RMS são fornecidas em "RMS: Como ..." e "Gerenciando o RMS" em "RMS: operações" nesta coleção de documentos.
 
-**Observação   **A configuração de clusters é global. Você pode gerenciar a configuração de um cluster no site de administração em qualquer servidor que esteja no cluster.
+**Observação** A configuração de clusters é global. Você pode gerenciar a configuração de um cluster no site de administração em qualquer servidor que esteja no cluster.
 
 Abra a página **Administração Global** para executar as seguintes tarefas:
 
