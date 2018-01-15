@@ -21,9 +21,8 @@ Os usuários que não possuírem outro aplicativo habilitado para RMS disponíve
 
 O complemento do RMS para o Internet Explorer está disponível para download no [site da Microsoft](http://go.microsoft.com/fwlink/?linkid=14450) (http://go.microsoft.com/fwlink/?LinkId=14450).
 
-| ![](images/Cc720231.note(WS.10).gif)Observação                                                                                                                                               |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se você estiver usando o complemento do Rights Management para Internet Explorer com o Windows XP Service Pack 2, a configuração avançada de segurança poderá causar alguns problemas de compatibilidade nos aplicativos. |
+> [!Note]  
+> Se você estiver usando o complemento do Rights Management para Internet Explorer com o Windows XP Service Pack 2, a configuração avançada de segurança poderá causar alguns problemas de compatibilidade nos aplicativos. 
 
 Se a URL de conexão da extranet de cada domínio da organização não for adicionada aos sites de Intranet local no Internet Explorer, os usuários que estiverem usando o complemento do RMS para Internet Explorer receberão mensagens repetidamente, perguntando se realmente desejam se conectar aos sites. Uma resposta incorreta a essas mensagens poderia fazer com que o cliente do RMS obtivesse um novo certificado de conta de direitos para a conta do usuário.
 
