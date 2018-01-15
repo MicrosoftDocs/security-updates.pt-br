@@ -40,9 +40,10 @@ Quando você atualiza da versão RTM do WSUS, a instalação do WSUS com SP1 aut
 
 **Para determinar se há espaço em disco suficiente**
 1.  Abra o Windows Explorer e navegue até a pasta em que o banco de dados do WSUS está armazenado. Por padrão, o WSUS instala o banco de dados aqui:
-
     
-        ```
+    ```
+        <DriveLetter>:\WSUS\MSSQL$WSUS\Data\
+    ```
 2.  Pressione e mantenha pressionada a tecla **CTRL**, selecione **SUSDB.MDF** e **SUSDB\_log.LDF** e clique com o botão direito do mouse para selecionar **Propriedades**.
 
 3.  Na caixa de diálogo **Arquivos**, leia o valor de **Tamanho em disco**. O disco deve ter pelo menos essa quantidade de espaço livre para que você possa instalar o WSUS com SP1.
@@ -67,13 +68,11 @@ As chamadas da interface de programação de aplicativo (API) do WSUS entrarão 
 
 Quando você atualizar o WSUS aplicando o WSUS com SP1, talvez tenha de desabilitar programas antivírus para poder executar a atualização ou aplicar o service pack com êxito. Após desabilitar os programas antivírus, reinicie o computador com o Windows Server antes de aplicar a atualização ou o service pack. Este procedimento evita o bloqueio dos arquivos necessários para a atualização. Depois que a instalação for concluída, habilite novamente o programa antivírus. Visite o site do fornecedor do antivírus para conhecer as etapas exatas necessárias para desabilitar e reabilitar a versão e o programa antivírus.
 
-| ![](images/Cc708486.Caution(WS.10).gif)Cuidado                                                                                                                                                                                                                                                              |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Esta solução alternativa pode tornar o computador ou a rede mais vulneráveis a ataques de usuários ou softwares mal-intencionados, como vírus. Não recomendamos esta solução alternativa, mas damos essa informação para que você possa implementar esta alternativa a seu critério. Use esta solução alternativa por sua conta e risco. |
+> [!CAUTION]  
+| Esta solução alternativa pode tornar o computador ou a rede mais vulneráveis a ataques de usuários ou softwares mal-intencionados, como vírus. Não recomendamos esta solução alternativa, mas damos essa informação para que você possa implementar esta alternativa a seu critério. Use esta solução alternativa por sua conta e risco. 
 
-| ![](images/Cc708486.note(WS.10).gif)Observação                                                                                                                                                                                  |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Um programa antivírus tem a finalidade de proteger seu computador contra vírus. Você não deve baixar nem abrir arquivos de fontes não confiáveis, visitar sites em que não confia ou abrir anexos de email quando o programa antivírus estiver desabilitado. |
+> ![NOTE]  
+> Um programa antivírus tem a finalidade de proteger seu computador contra vírus. Você não deve baixar nem abrir arquivos de fontes não confiáveis, visitar sites em que não confia ou abrir anexos de email quando o programa antivírus estiver desabilitado. 
 
 #### Problema 6: Se você estiver usando um servidor proxy, a atualização do SP1 poderá apagar o nome de usuário e a senha da configuração do proxy
 
@@ -147,10 +146,18 @@ Se você alterar o nome do computador depois de instalar a versão RTM do WSUS e
 
 Use o seguinte script para remover e adicionar novamente os grupos Administradores do ASP.NET e do WSUS. Em seguida, execute a atualização novamente.
 
-        ```
-| ![](images/Cc708486.note(WS.10).gif)Observação                                                       |
-|-----------------------------------------------------------------------------------------------------------------------------------|
-| Talvez seja necessário substituir &lt;Diretório\_de\_conteúdo&gt; na última linha pelo caminho do armazenamento de conteúdo real. |
+```
+    osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp_revokedbaccess @asplogin"
+    osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp_revokedbaccess @wsusadminslogin"
+ 
+    osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST_NAME()+'\ASPNET' EXEC sp_grantlogin @asplogin EXEC sp_grantdbaccess @asplogin EXEC sp_addrolemember webService,@asplogin"
+    osql.exe -S %computername%\WSUS -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST_NAME()+'\WSUS Administrators' EXEC sp_grantlogin @wsusadminslogin EXEC sp_grantdbaccess @wsusadminslogin EXEC sp_addrolemember webService,@wsusadminslogin"
+ 
+    osql.exe -S %computername%\WSUS -E -Q "backup database SUSDB to disk=N'<ContentDirectory>\SUSDB.Dat' with init"
+```
+
+> [!NOTE]
+> Talvez seja necessário substituir &lt;Diretório\_de\_conteúdo&gt; na última linha pelo caminho do armazenamento de conteúdo real.
 
 Conteúdo original do Leiame do WSUS
 -----------------------------------
@@ -340,9 +347,8 @@ Problemas conhecidos
 
 Se você estiver executando os Serviços de Informações da Internet (IIS) em um computador com o Windows 2000 Server, instale a versão mais recente do Assistente de Bloqueio do IIS (que inclui o URLScan) disponível na página da Ferramenta de Bloqueio do IIS, no Microsoft TechNet (a página pode estar em inglês). A Microsoft recomenda enfaticamente que você instale essa ferramenta para ajudar a manter os servidores do IIS protegidos. O Assistente de Bloqueio do IIS funciona desativando os recursos desnecessários do IIS, reduzindo assim a exposição a riscos de segurança.
 
-| ![](images/Cc708486.note(WS.10).gif)Observação                                                                                                                                                                 |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A instalação do WSUS não instala esses componentes. É necessário instalá-los manualmente. Você não precisa instalar o Bloqueio do IIS em computadores com o Windows Server 2003 em execução, porque a funcionalidade já está presente nele. |
+> [!NOTE]  
+> A instalação do WSUS não instala esses componentes. É necessário instalá-los manualmente. Você não precisa instalar o Bloqueio do IIS em computadores com o Windows Server 2003 em execução, porque a funcionalidade já está presente nele. 
 
 #### Problema 2: Não é permitido alterar a configuração do WSUS diretamente no banco de dados
 
