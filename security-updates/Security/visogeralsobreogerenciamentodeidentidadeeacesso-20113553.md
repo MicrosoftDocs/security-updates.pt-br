@@ -11,12 +11,12 @@ Visão Geral sobre o Gerenciamento de Identidade e Acesso
 
 ##### Nesta página
 
-[](#eeaa)[Webcasts Apresentados ao Vivo](#eeaa)
-[](#edaa)[Escopo](#edaa)
-[](#ecaa)[Objetivo](#ecaa)
-[](#ebaa)[Objetivos de Aprendizagem](#ebaa)
-[](#eaaa)[Iniciando](#eaaa)
-
+[](#eeaa)[Webcasts Apresentados ao Vivo](#ee)  
+[]([](#edaa)[Escopo](#ed)  
+[]([](#ecaa)[Objetivo](#ec)  
+[]([](#ebaa)[Objetivos de Aprendizagem](#eb)  
+[]([](#eaaa)[Iniciando](#ea)  
+[](
 ### Webcasts Apresentados ao Vivo
 
  
