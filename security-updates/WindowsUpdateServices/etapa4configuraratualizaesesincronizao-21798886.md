@@ -68,24 +68,8 @@ Nos procedimentos da etapa 3, você concluiu a configuração do servidor upstre
 
 4.  Clique em **Concluir**.
 
- 
-    <table style="border:1px solid black;">
-    <colgroup>
-    <col width="100%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th style="border:1px solid black;" ><img src="images/Dd939924.Important(WS.10).gif" />Importante</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td style="border:1px solid black;">Não é possível salvar as alterações de configuração feitas durante a sincronização do servidor. Aguarde até que a sincronização seja concluida e faça suas alterações.
-    </td>
-    </tr>
-    </tbody>
-    </table>
- 
+   > [!IMPORTANT]  
+   > Não é possível salvar as alterações de configuração feitas durante a sincronização do servidor. Aguarde até que a sincronização seja concluida e faça suas alterações.
 
 Se você estiver usando o Console de Administração WSUS
 ------------------------------------------------------

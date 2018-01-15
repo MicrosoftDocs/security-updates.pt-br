@@ -16,9 +16,8 @@ O procedimento a seguir usa as opções de instalação padrão do WSUS para o W
 **Para instalar o WSUS no Windows Server 2003**
 1.  Clique duas vezes no arquivo de instalação **WSUSSetup.exe**.
 
-    | ![](images/Cc708622.note(WS.10).gif)Observação                                                                                                                                                                               |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A versão mais recente do arquivo WSUSSetup.exe está disponível no [site da Microsoft](http://go.microsoft.com/fwlink/?linkid=47374) de Windows Server Update Services em http://go.microsoft.com/fwlink/?LinkId=47374 (o documento pode estar em inglês). |
+   > [!NOTE]  
+   > A versão mais recente do arquivo WSUSSetup.exe está disponível no [site da Microsoft](http://go.microsoft.com/fwlink/?linkid=47374) de Windows Server Update Services em http://go.microsoft.com/fwlink/?LinkId=47374 (o documento pode estar em inglês). |
 
 2.  Na página de **Bem-vindo** do assistente, clique em **Avançar**.
 
