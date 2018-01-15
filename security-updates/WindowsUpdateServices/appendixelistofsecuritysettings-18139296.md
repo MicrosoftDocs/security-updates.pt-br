@@ -431,9 +431,8 @@ Configure Windows Server 2003 security settings to help ensure optional securit
 </tbody>
 </table>
   
-| ![](images/Cc708490.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                                                         |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| The WSUS subdirectories UpdateServicesPackages, WsusContent, and WsusTemp created as shared directories (for WSUS Administrators and the Network Service account) as part of WSUS setup. These directories can be found by default under the WSUS directory at the root of the largest partition on the WSUS server. Sharing of these directories may be disabled if you are not using local publishing. |
+> [!IMPORTANT]  
+> The WSUS subdirectories UpdateServicesPackages, WsusContent, and WsusTemp created as shared directories (for WSUS Administrators and the Network Service account) as part of WSUS setup. These directories can be found by default under the WSUS directory at the root of the largest partition on the WSUS server. Sharing of these directories may be disabled if you are not using local publishing.
   
 #### Event log settings
   
@@ -1116,8 +1115,8 @@ Remove all stored procedures that are unnecessary and that have the ability to c
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;">Delete stored procedures by using the following command:
-<strong>use master exec sp_dropextendedproc</strong> <em>stored procedure</em>
+<td style="border:1px solid black;">Delete stored procedures by using the following command:<br/><br/>
+<strong>use master exec sp_dropextendedproc</strong> <em>stored procedure</em><br/><br/>
 where <em>stored procedure</em> is the name of the stored procedure to be deleted.</td>
 <td style="border:1px solid black;"><ul>
 <li>Sp_OACreate<br />
