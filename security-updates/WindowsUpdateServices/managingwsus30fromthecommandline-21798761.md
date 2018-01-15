@@ -120,7 +120,7 @@ The following command updates the host headers, if any:
   
 The following command updates the server certificateName:
   
-**wsusutil configuressl ***ServerCertificateName***//sets the server certificate name**
+**wsusutil configuressl** *ServerCertificateName* **//sets the server certificate name**
   
 ###  
 
@@ -154,7 +154,7 @@ This command sets and gets the different parameters for WSUS health monitoring.
   
 #### Syntax
   
-**Wsusutil healthmonitoring ***parameterName*
+**Wsusutil healthmonitoring** *parameterName*
 
  
 > [!NOTE]
@@ -175,7 +175,7 @@ Description
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**IntervalsInMinutes*** \[DetectInterval\] \[RefreshInterval\]*
+**IntervalsInMinutes** *\[DetectInterval\] \[RefreshInterval\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -185,7 +185,7 @@ Sets the values for detect and refresh intervals. If the detect interval is 0, t
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**DiskSpaceInMegabytes ***\[ErrorLevel\] \[WarningLevel\]*
+**DiskSpaceInMegabytes** *\[ErrorLevel\] \[WarningLevel\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -195,7 +195,7 @@ Sets the amount of available disk space (in megabytes) at which a low disk space
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**CatalogSyncIntervalInDays*** \[Days\]*
+**CatalogSyncIntervalInDays** *\[Days\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -205,7 +205,7 @@ Sets the number of days that should have passed after synchronization before a w
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**InstallUpdatesInPercent*** \[WarningPercent\]\[ErrorPercent\]*
+**InstallUpdatesInPercent** *\[WarningPercent\]\[ErrorPercent\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -225,7 +225,7 @@ Sets the percentage of inventory reporting failures at which a warning or error 
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**SilentClientsInPercent*** \[WarningPercent\]\[ErrorPercent\]*
+**SilentClientsInPercent** *\[WarningPercent\]\[ErrorPercent\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -235,7 +235,7 @@ Sets the percentage of clients not reporting to the server at which a warning or
 </tr>
 <tr>
 <td style="border:1px solid black;" colspan="2">
-**SilentClientsInDays*** \[Days\]*
+**SilentClientsInDays** *\[Days\]*
 
 </td>
 <td style="border:1px solid black;" colspan="2">
@@ -554,7 +554,7 @@ If the drive where WSUS stores update files is full, you can do one of the follo
 If the hard disk fails, you must do the following:
 
 1.  Install the new disk on your computer, and then restore the update files from your backup files. Note: If you have not backed up your update files, WSUSutil.exe downloads the missing files at the end of the content move operation.
-2.  Run **wsusutil movecontent ***newLocation*, specifying the location for the new disk. In addition, you specify the -**skipcopy** parameter, because you are either putting the files in the new folder through the backup utility or the source folder does not exist; the update files will be downloaded at the end of this process.
+2.  Run **wsusutil movecontent** *newLocation*, specifying the location for the new disk. In addition, you specify the -**skipcopy** parameter, because you are either putting the files in the new folder through the backup utility or the source folder does not exist; the update files will be downloaded at the end of this process.
 3.  When the move operation is complete, all the missing files are downloaded.
 
 #### Syntax
@@ -626,22 +626,8 @@ This command deletes the given front-end server.
 </table>
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">This command removes the front-end server from the database only. You will need to run <strong>wsussetup /u</strong> on the front-end server to uninstall WSUS.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> This command removes the front-end server from the database only. You will need to run <strong>wsussetup /u</strong> on the front-end server to uninstall WSUS. 
  
 
 ### checkhealth
@@ -681,60 +667,18 @@ See the explanation above for a description of situations in which you might nee
 If you set this value to **true**, WSUS Setup will use port 8530 for its Default Web site. If you set it to **false**, WSUS will use port 80.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">You must use this command before you configure SSL.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> You must use this command before you configure SSL. 
  
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">If you are installing SharePoint on the same machine as WSUS, the value of <strong>usecustomwebsite</strong> should be set to <strong>true</strong> before the install.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> If you are installing SharePoint on the same machine as WSUS, the value of <strong>usecustomwebsite</strong> should be set to <strong>true</strong> before the install. 
  
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939838.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Using this command after running WSUS Setup will fail if the index of the default Web site is set to a value other than 1.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]
+> Using this command after running WSUS Setup will fail if the index of the default Web site is set to a value other than 1. 
  
 
 #### Syntax
