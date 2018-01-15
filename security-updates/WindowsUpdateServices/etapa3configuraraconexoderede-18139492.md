@@ -44,7 +44,10 @@ A Etapa 3 é composta pelos seguintes procedimentos:
 -   No servidor do WSUS, clique em **Iniciar**, aponte para **Todos os Programas**, aponte para **Ferramentas Administrativas** e, depois, clique em **Microsoft Windows Server Update Services**.
 
 > [!NOTE]  
-> Você deve ser membro dos grupos de segurança Administradores do WSUS ou Administradores locais no servidor no qual o WSUS está instalado para usar o console do WSUS. Se você não adicionar **http://&lt;***nome do site do WSUS***&gt;** à lista de sites na zona de Intranet Local do Internet Explorer no Windows Server 2003, pode ser que as credenciais sejam solicitadas sempre que você abrir o console do WSUS. Se você alterar a atribuição de porta no IIS após a instalação do WSUS, será preciso atualizar manualmente o atalho no menu **Iniciar**. Também é possível abrir o console do WSUS no Internet Explorer ou em qualquer servidor ou computador na rede digitando a seguinte URL: **http://***nome do servidor do WSUS***/WSUSAdmin** 
+> Você deve ser membro dos grupos de segurança Administradores do WSUS ou Administradores locais no servidor no qual o WSUS está instalado para usar o console do WSUS.  
+Se você não adicionar **http://&lt;***nome do site do WSUS***&gt;** à lista de sites na zona de Intranet Local do Internet Explorer no Windows Server 2003, pode ser que as credenciais sejam solicitadas sempre que você abrir o console do WSUS.  
+Se você alterar a atribuição de porta no IIS após a instalação do WSUS, será preciso atualizar manualmente o atalho no menu **Iniciar**.  
+Também é possível abrir o console do WSUS no Internet Explorer ou em qualquer servidor ou computador na rede digitando a seguinte URL: **http://***nome do servidor do WSUS***/WSUSAdmin** 
 
 **Para especificar um servidor proxy**
 1.  Na barra de ferramentas do console do WSUS, clique em **Opções** e, em seguida, clique em **Opções de Sincronização**.
