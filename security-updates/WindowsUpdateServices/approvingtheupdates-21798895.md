@@ -23,6 +23,7 @@ You can approve the installation of updates for all the computers in your WSUS n
 -   Remove an installed update if that update supports removal.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -42,6 +43,7 @@ You can approve the installation of updates for all the computers in your WSUS n
  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -94,6 +96,7 @@ You can approve the installation of updates for all the computers in your WSUS n
 8.  Click **OK** after setting all your approvals**.** The **Approval Progress** window will display the progress toward completing the approval. When the process is complete, the **Close** button will be available. Click **Close**.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -146,6 +149,7 @@ Approving Updates for Removal
 You can approve an update for removal (that is, to uninstall an already-installed update). This option is available only if the update is already installed and supports removal. You can specify a deadline for the update to be uninstalled, or specify a past date for the deadline if you want to remove the update immediately (the next time client computers contact the WSUS server).
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -200,6 +204,7 @@ You can create rules that your WSUS server will automatically apply during synch
 6.  Click **OK**.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -224,6 +229,7 @@ Automatically Approving Revisions to Updates and Declining Expired Updates
 The **Automatic Approvals** section of the **Options** pane contains a default option to automatically approve revisions to approved updates. You can also set your WSUS server to automatically decline expired updates. If you choose not to approve the revised version of an update automatically, your WSUS server will use the older revision, and you must manually approve the update revision.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />
@@ -250,6 +256,7 @@ The **Automatic Approvals** section of the **Options** pane contains a default o
 3.  Click **OK**.
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="100%" />

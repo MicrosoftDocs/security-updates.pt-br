@@ -32,6 +32,7 @@ However, if you are aware of and want to protect computers against immediate sec
 ### Policies for Configuring Automatic Updates Behavior
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
