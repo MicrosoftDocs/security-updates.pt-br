@@ -13,6 +13,5 @@ Durante a configuração, o RMS cria sua chave particular para o servidor. A cha
 
 Se o servidor tiver sido usado para proteger conteúdo, todos os proprietários de conteúdo deverão ser notificados, e o conteúdo deverá ser republicado usando-se o servidor RMS com a nova chave particular. Quaisquer cópias do conteúdo protegido pela chave particular afetada deverão ser destruídas, pois não poderão ser consideradas adequadamente protegidas.
 
-| ![](images/Cc747765.Important(WS.10).gif)Importante                                                                                                                                                                                                 |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Independentemente de o servidor ter sido inscrito com o Serviço de Inscrição da Microsoft, ele deverá repetir o processo de configuração para obter uma nova chave particular. Se você apenas tentar reinscrever um servidor RMS, a chave particular anterior do RMS será usada. |
+> [!Important]  
+> Independentemente de o servidor ter sido inscrito com o Serviço de Inscrição da Microsoft, ele deverá repetir o processo de configuração para obter uma nova chave particular. Se você apenas tentar reinscrever um servidor RMS, a chave particular anterior do RMS será usada. 
