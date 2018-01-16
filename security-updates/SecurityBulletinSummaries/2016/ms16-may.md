@@ -6,7 +6,7 @@ ms:contentKeyID: 72979856
 ms:mtpsurl: 'https://technet.microsoft.com/pt-BR/library/ms16-may(v=Security.10)'
 ---
 
-Modelo do MSRC ppDocument
+ 
 
 Resumo do Boletim de Segurança da Microsoft de maio de 2016
 ===========================================================
@@ -24,11 +24,13 @@ A Microsoft também fornece informações para ajudar os clientes a priorizar as
 Sinopse
 -------
 
-<span id="sectionToggle0"></span>
+ 
 A tabela a seguir traz um resumo dos boletins de segurança deste mês em ordem de gravidade.
 
 Para obter detalhes sobre os softwares afetados, consulte a próxima seção, **Softwares afetados**.
 <p></p>
+<p></p>
+
 <table style="width:100%;border:1px solid black;">
 <colgroup>
 <col width="16%" />
@@ -216,20 +218,25 @@ Divulgação não autorizada de informação</td>
 </tr>
 </tbody>
 </table>
+
+<p></p>
+
   
 Índice de exploração  
 --------------------
   
-<span id="sectionToggle1"></span>
+ 
 A tabela a seguir fornece uma avaliação de exploração de cada uma das vulnerabilidades abordadas este mês. As vulnerabilidade são listadas em ordem de ID do boletim, depois de ID do CVE. Só serão incluídas as vulnerabilidades que tiverem uma classificação de gravidade Crítica ou Importante nos boletins.
   
-**Como devo usar a tabela?**
+**Como devo usar a tabela?**  
   
 Use esta tabela para conhecer a probabilidade de execução do código e as explorações de negação de serviço dentro de 30 dias a partir do lançamento do boletim de segurança, para cada uma das atualizações de segurança que você possa precisar instalar. Revise cada uma das avaliações abaixo, de acordo com sua configuração específica, para dar prioridade à implantação das atualizações deste mês. Para obter mais informações sobre o que estas avaliações significam e como são determinadas, consulte o [Índice de Exploração da Microsoft](http://technet.microsoft.com/pt-br/security/cc998259).
   
 Nas colunas a seguir, "Versão Mais Recente de Software" se refere ao software, e "Versões Mais Antigas de Software" se refere a todas as versões mais antigas e suportadas do software, como listado nas tabelas "Softwares Afetados" e "Softwares não afetados" do boletim.
 
 <p></p> 
+<p></p>
+
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;">
@@ -961,12 +968,15 @@ Não Aplicável
 </td>
 </tr>
 </table>
+
+<p></p>
+
  
 
 Softwares Afetados
 ------------------
 
-<span id="sectionToggle2"></span>
+ 
 As tabelas a seguir listam os boletins em ordem de categoria de software e gravidade.
 
 Use as tabelas para aprender sobre as atualizações de segurança que você talvez precise instalar. Você deve examinar cada programa ou componente de software listado para verificar se alguma atualização de segurança se aplica à sua instalação. Se um programa de software ou componente estiver listado, a classificação de gravidade da atualização do software também estará listada.
@@ -978,6 +988,8 @@ Use as tabelas para aprender sobre as atualizações de segurança que você tal
 ### Sistemas operacionais do Windows e componentes (Tabela 1 de 2)
 
 <p></p> 
+<p></p>
+
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="9">
@@ -2496,12 +2508,17 @@ Não Aplicável
 </td>
 </tr>
 </table>
+
+<p></p>
+
  
  
 
 ### Sistemas operacionais do Windows e componentes (Tabela 2 de 2)
 
 <p></p> 
+<p></p>
+
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="8">
@@ -4012,12 +4029,17 @@ Windows Server 2012 R2
 </td>
 </tr>
 </table>
+
+<p></p>
+
  
  
 
 ### Microsoft Office Suites e software
 
 <p></p> 
+<p></p>
+
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="2">
@@ -4347,6 +4369,9 @@ Microsoft Word Viewer
 </td>
 </tr>
 </table>
+
+<p></p>
+
  
 **Observação para MS16-054**
 
@@ -4355,6 +4380,8 @@ Este boletim abrange mais de uma categoria de software. Consulte outras tabelas 
 ### Microsoft Office Services e Web Apps
 
 <p></p> 
+<p></p>
+
 <table style="border:1px solid black;">
 <tr>
 <td style="border:1px solid black;" colspan="2">
@@ -4419,6 +4446,9 @@ Microsoft Office Web Apps 2010 Service Pack 2
 </td>
 </tr>
 </table>
+
+<p></p>
+
  
 **Observação para MS16-054**
 
@@ -4427,7 +4457,7 @@ Este boletim abrange mais de uma categoria de software. Consulte outras tabelas 
 Orientação e ferramentas de detecção e implantação
 --------------------------------------------------
 
-<span id="sectionToggle3"></span>
+ 
 Vários recursos estão disponíveis para ajudar administradores a implantar atualizações de segurança.
 
 O MBSA (Microsoft Baseline Security Analyzer) permite aos administradores pesquisar, em sistemas locais e remotos, atualizações de segurança ausentes e problemas de configuração de segurança comuns.
@@ -4441,13 +4471,13 @@ Para obter mais informações sobre essas e outras ferramentas disponíveis, con
 Agradecimentos
 --------------
 
-<span id="sectionToggle4"></span>
+ 
 A Microsoft reconhece os esforços dos membros da comunidade de segurança que nos ajudam a proteger os consumidores graças à divulgação responsável de vulnerabilidades. Consulte [Agradecimentos](https://technet.microsoft.com/pt-br/library/security/mt674627.aspx) para obter mais informações.
 
 Outras informações
 ------------------
 
-<span id="sectionToggle5"></span>
+ 
 ### Ferramenta de Remoção de Software Mal-Intencionado do Microsoft Windows
 
 Em relação ao lançamento de boletins que ocorre na segunda terça-feira do mês, a Microsoft lançou uma versão atualizada da Ferramenta de Remoção de Software Mal-intencionado do Microsoft Windows no Windows Update, Microsoft Update, Windows Server Update Services e Centro de Download. Nenhuma versão atualizada da Ferramenta de Remoção de Software Mal-intencionado do Microsoft Windows está disponível para os lançamentos de boletins de segurança desvinculados.

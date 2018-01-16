@@ -55,9 +55,9 @@ As organizações que implementam serviços de quarentena VPN eficientes podem p
 
 -   **Acesso mais seguro a ativos corporativos**. A quarentena VPN aumenta a segurança do acesso à rede através da conformidade com os requisitos de atualização antivírus e de segurança.
 
--   **Administração simplificada e manutenção de serviços**.** **As organizações podem padronizar a implementação VPN com base nas tecnologias mais atualizadas e seguras. Elas podem remover as implementações VPN de hardware, como sistemas de computadores para acesso remoto especializado na infra-estrutura de rede e, desse modo, simplificar as ferramentas de suporte, a documentação e os processos de conexão. Essa simplificação melhora o suporte operacional diário da solução de acesso VPN e compensa os custos de gerenciamento da implementação de uma solução de quarentena.
+-   **Administração simplificada e manutenção de serviços**. As organizações podem padronizar a implementação VPN com base nas tecnologias mais atualizadas e seguras. Elas podem remover as implementações VPN de hardware, como sistemas de computadores para acesso remoto especializado na infra-estrutura de rede e, desse modo, simplificar as ferramentas de suporte, a documentação e os processos de conexão. Essa simplificação melhora o suporte operacional diário da solução de acesso VPN e compensa os custos de gerenciamento da implementação de uma solução de quarentena.
 
--   **Previsibilidade e aplicação mais abrangentes do acesso remoto**.** **A segurança e a aplicação mais abrangentes estimulam os funcionários a usar o serviço VPN, proporcionando maior confiança na proteção de trabalhos importantes e recursos corporativos essenciais.
+-   **Previsibilidade e aplicação mais abrangentes do acesso remoto**. A segurança e a aplicação mais abrangentes estimulam os funcionários a usar o serviço VPN, proporcionando maior confiança na proteção de trabalhos importantes e recursos corporativos essenciais.
 
 -   **TCO (custo total de propriedade) reduzido**. Se os computadores remotos forem forçados a atender às diretivas rígidas para computadores confiáveis, os custos gerais de administração e suporte serão reduzidos. Essa economia resulta da redução das ligações para o suporte e do menor tempo gasto no tratamento de ataques de vírus e worms.
 

@@ -24,11 +24,10 @@ Instalando o Microsoft SQL Server 2000 Desktop Engine (MSDE 2000) para oferecer 
 
 5.  Digite o seguinte comando para configurar o aplicativo Microsoft SQL Server 2000 Desktop Engine com a configuração correta para trabalhar com o RMS e substitua a *senha* por uma senha segura de sua escolha:
 
-    **Setup.exe /i setup\\sqlrun10.msi INSTANCENAME=RMS DISABLEAGENTSTARTUP=1 SAPWD=***senha*
+    **Setup.exe /i setup\\sqlrun10.msi INSTANCENAME=RMS DISABLEAGENTSTARTUP=1 SAPWD=** *senha*
 
-    | ![](images/Cc747667.Important(WS.10).gif)Importante                                                                                                                                                                                                                                    |
-    |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | O serviço do MSDE deve ser iniciado após a sua instalação. Você pode iniciá-lo em **Serviços**, no **Painel de Controle**. É recomendável que o serviço seja configurado para ter início automático, a fim de assegurar que o banco de dados do MSDE esteja sempre disponível quando o RMS estiver sendo executado. |
+    > [!Important]  
+    > O serviço do MSDE deve ser iniciado após a sua instalação. Você pode iniciá-lo em **Serviços**, no **Painel de Controle**. É recomendável que o serviço seja configurado para ter início automático, a fim de assegurar que o banco de dados do MSDE esteja sempre disponível quando o RMS estiver sendo executado. 
 
 Não configure o RMS em um servidor até ter um banco de dados instalado para dar suporte ao banco de dados de configuração do RMS.
 

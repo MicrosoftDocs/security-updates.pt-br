@@ -45,9 +45,8 @@ Se você baixar o pacote de lista de revogação em um servidor RMS, o pacote se
 
 2.  Baixe o pacote de lista de revogação da Microsoft e implante-o em todos os computadores clientes da organização, usando um método como Diretiva de Grupo ou SMS (Systems Management Server ). Como alternativa, você pode copiar entradas da lista de revogação Microsoft na lista de revogação organizacional e implantar somente a lista de revogação organizacional.
 
-| ![](images/Cc747702.Caution(WS.10).gif)Cuidado                                                                                                                                                                                                                                                                                                                                                                            |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A Microsoft é uma entidade na cadeia de confiança de todos os certificados e licenças que são emitidos pelo RMS. Portanto, uma lista de revogação emitida pela Microsoft tem efeito para todas as solicitações de vinculação para as quais a licença de uso seja obtida com base em um modelo de diretiva de direitos que exija a lista de revogação organizacional. Além disso, a lista de revogação da Microsoft é registrada no computador cliente. |
+> [!Caution]  
+> A Microsoft é uma entidade na cadeia de confiança de todos os certificados e licenças que são emitidos pelo RMS. Portanto, uma lista de revogação emitida pela Microsoft tem efeito para todas as solicitações de vinculação para as quais a licença de uso seja obtida com base em um modelo de diretiva de direitos que exija a lista de revogação organizacional. Além disso, a lista de revogação da Microsoft é registrada no computador cliente. 
 
 **Para implantar somente uma lista de revogação da Microsoft**
 1.  Baixe a lista de revogação da Microsoft.
