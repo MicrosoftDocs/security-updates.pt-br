@@ -366,7 +366,8 @@ Esta tabela mostra as propriedades de linha de comando do WSUS 3.0 SP2.
 ### Exemplo de Uso
   
 ```  
-    WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instala em modo silencioso usando a porta 8530) WSUSSetup.exe /q /u (desinstala o WSUS)  
+    WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instala em modo silencioso usando a porta 8530) 
+    WSUSSetup.exe /q /u (desinstala o WSUS)  
 ```
 
 Problemas Conhecidos
