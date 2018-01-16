@@ -390,10 +390,10 @@ Se você modificar o nome do computador após a instalação do WSUS 2.0 e antes
   
 Use o script a seguir para remover e readicionar os grupos de administradores ASPNET e WSUS. Em seguida execute novamente a atualização.
   
-Será necessário substituir *&lt;DBLocation&gt;* pela pasta onde o banco de dados está instalado e *&lt;ContentDirectory&gt;* pela pasta de armazenamento local.
+Será necessário substituir *<DBLocation>* pela pasta onde o banco de dados está instalado e *<ContentDirectory>* pela pasta de armazenamento local.
   
 ```  
-    sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE  SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB  DECLARE @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE  SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,  @wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "backup database SUSDB to disk=N'*&lt;ContentDirectory&gt;*\\SUSDB.Dat' with init"  
+    sqlcmd.exe -S *<DBLocation>* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *<DBLocation>* -E -Q "USE  SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *<DBLocation>* -E -Q "USE SUSDB  DECLARE @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *<DBLocation>* -E -Q "USE  SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,  @wsusadminslogin"   sqlcmd.exe -S *<DBLocation>* -E -Q "backup database SUSDB to disk=N'*<ContentDirectory>*\\SUSDB.Dat' with init"  
 ```
   
 #### A configuração substituirá um backup de banco de dados anterior
@@ -459,7 +459,7 @@ Se configurar os IIS para usarem SSL instalando um certificado, ainda será poss
   
 #### A importação de site de catálogo pode falhar sem permissões de leitura/gravação para a pasta %windir%\\TEMP
   
-Ao executar uma importação de site de catálogo, se a conta Serviços de Rede não tiver permissão de leitura/gravação para a pasta %windir%\\TEMP, a importação poderá falhar com uma mensagem de erro como a seguinte: O servidor não pôde processar a solicitação. ---&gt; Não foi possível encontrar o arquivo "C:\\WINDOWS\\TEMP\\*tempFileName*.dll".
+Ao executar uma importação de site de catálogo, se a conta Serviços de Rede não tiver permissão de leitura/gravação para a pasta %windir%\\TEMP, a importação poderá falhar com uma mensagem de erro como a seguinte: O servidor não pôde processar a solicitação. ---> Não foi possível encontrar o arquivo "C:\\WINDOWS\\TEMP\\*tempFileName*.dll".
   
 #### O desempenho pode ficar lento na sincronização entre o WSUS 3.0 SP1 e um servidor de réplica downstream executando o WSUS 2.0
   

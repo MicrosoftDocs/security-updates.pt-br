@@ -361,7 +361,8 @@ Esta tabela mostra as propriedades de linha de comando para o WSUS 3.0.
 #### Exemplo de Uso
   
 ```  
-    WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
+    WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530)  
+    WSUSSetup.exe /q /u (uninstall WSUS)  
 ```
 
 > [!IMPORTANT]
