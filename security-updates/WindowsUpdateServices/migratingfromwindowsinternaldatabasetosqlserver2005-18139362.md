@@ -92,12 +92,12 @@ This step will enable you to use the SQL Server Enterprise Manager on FE.
 #### Step 3 [on FE]: Detach the WSUS database.
 
 ```
-    sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query 
-    use master
-    alter database SUSDB set single_user with rollback immediate
-    go
-    sp_detach_db ‘SUSDB’
-    go
+    sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query  
+    use master  
+    alter database SUSDB set single_user with rollback immediate  
+    go  
+    sp_detach_db ‘SUSDB’  
+    go  
 ```
 
 #### Step 4: Copy the SUSDB.mdf and SUSDB\_log.ldf files from FE to BE.
