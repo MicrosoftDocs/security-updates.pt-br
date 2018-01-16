@@ -16,9 +16,8 @@ Grant users permissions for WSUS console access
 
 If users do not have appropriate permissions for the WSUS console, they receive an "access denied" message when trying to access the WSUS console. You must be a member of the Administrators group or the WSUS Administrators group on the server on which WSUS is installed in order to use the WSUS console.
 
-| ![](images/Cc720470.note(WS.10).gif)Observação                                            |
-|------------------------------------------------------------------------------------------------------------------------|
-| If WSUS is installed on a domain controller, only a member of the Domain Administrator group can use the WSUS console. |
+> [!NOTE]  
+> If WSUS is installed on a domain controller, only a member of the Domain Administrator group can use the WSUS console.
 
 **To add a user to the WSUS Administrators group**
 1.  On the WSUS server, click **Start**, click **Administrative Tools**, and then click **Computer Management**.
@@ -67,13 +66,13 @@ The workaround is to give read access for IWAM and ASP.NET accounts to the follo
 
 7.  In the **Locations** dialog box, select the local computer, and then click **OK**.
 
-8.  In the **Select Users, Computers, or Groups box**, type *computer\_name***\\ASPNET** and *computer\_name***\\IWAM\_***computer\_name* in the **Enter the object name to select (examples)** box. Use a semicolon to separate names. For example, type *computer\_name***\\ASPNET;***computer\_name***\\IWAM\_***computer\_name*
+8.  In the **Select Users, Computers, or Groups box**, type *computer\_name***\\ASPNET** and *computer\_name***\\IWAM\_\***computer\_name* in the **Enter the object name to select (examples)** box. Use a semicolon to separate names. For example, type *computer\_name***\\ASPNET;***computer\_name***\\IWAM\_\***computer\_name*
 
     where *computer\_name* is the name of the computer.
 
 9.  Select *computer\_name***\\ASPNET**, and click the **Read** box in the **Allow** column.
 
-10. Select *computer\_name***\\IWAM\_***computer\_name*, and click the **Read** box in the **Allow** column, and then click **OK**.
+10. Select *computer\_name***\\IWAM\_\***computer\_name*, and click the **Read** box in the **Allow** column, and then click **OK**.
 
 Promoting the WSUS server to a domain controller might disrupt your ability to access the WSUS console
 ------------------------------------------------------------------------------------------------------
@@ -105,8 +104,8 @@ If you cannot access the WSUS administrative console and you are using Windows 
 **To give read access for the IWAM account on Windows 2000 Server configured as a domain controller**
 -   At the command prompt, type the following, and then press ENTER:
 
-    **cacls** *%windir%***\\assembly /e /t /p IWAM\_***xxxx***:R**
+    **cacls** *%windir%***\\assembly /e /t /p IWAM\_\xxxx:R
 
-    where *%windir%* is the Windows directory of the computer and where IWAM\_*xxxx* is the IWAM computer account.
+    where *%windir%* is the Windows directory of the computer and where IWAM\_\xxxx is the IWAM computer account.
 
 For details, see the Knowledge Base article at [http://support.microsoft.com/default.aspx?scid=kb;\[LN\];317012](http://support.microsoft.com/default.aspx?scid=kb;%5Bln%5D;317012)

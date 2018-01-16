@@ -20,7 +20,7 @@ A instalação do RMS executa as seguintes tarefas:
 -   Cria um pool de aplicativos, WMCSProvisioningAppPool, e o associa ao site de Administração do RMS. A conta de serviço que é usada por esse pool de aplicativos é a conta de serviços de rede.
 -   Instala contadores de desempenho.
 -   Fornece permissões de Leitura e Execução ao Grupo de Serviço RMS para a seguinte chave do registro.
-    Em computadores que executam a versão de 32 bits do Windows Server 2003
-    `HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0`
-    Em computadores que executam a versão de 64 bits do Windows Server 2003
+    Em computadores que executam a versão de 32 bits do Windows Server 2003  
+    `HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0`  
+    Em computadores que executam a versão de 64 bits do Windows Server 2003  
     `HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0`

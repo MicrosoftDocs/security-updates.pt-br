@@ -34,6 +34,7 @@ WSUS Setup accepts the following command-line parameters.
 ### WSUS Setup Command-line Parameters
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -94,6 +95,7 @@ Use the following properties to configure WSUS by using the command-line paramet
 ### WSUS Setup Properties
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -127,14 +129,14 @@ The default is <em>drive</em><strong>:\WSUS</strong>, where <em>drive</em> is th
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">RETAIN_DATA</td>
-<td style="border:1px solid black;">This option is used during uninstallation to define what data should be left.
-RETAIN_DATA=0 - Delete everything.
-RETAIN_DATA=1 – Leave the database.
-RETAIN_DATA=2 – Leave logs.
-RETAIN_DATA=3 - Leave the database and logs.
-RETAIN_DATA=4 – Leave content.
-RETAIN_DATA=5 - Leave the database and content.
-RETAIN_DATA=6 – Leave logs and content.
+<td style="border:1px solid black;">This option is used during uninstallation to define what data should be left.<br/>
+RETAIN_DATA=0 - Delete everything.<br/>
+RETAIN_DATA=1 – Leave the database.<br/>
+RETAIN_DATA=2 – Leave logs.<br/>
+RETAIN_DATA=3 - Leave the database and logs.<br/>
+RETAIN_DATA=4 – Leave content.<br/>
+RETAIN_DATA=5 - Leave the database and content.<br/>
+RETAIN_DATA=6 – Leave logs and content.<br/>
 RETAIN_DATA=7 - Leave everything (default).</td>
 </tr>
 <tr class="even">
@@ -158,6 +160,7 @@ Use the following properties in combination with the **/l** option.
 ### Language Variables
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

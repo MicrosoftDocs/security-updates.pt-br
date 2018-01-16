@@ -18,6 +18,5 @@ O Microsoft WSUS (Windows Server Update Services) 3.0 fornece uma solução abra
 
 Embora o WSUS 3.0 seja uma solução de gerenciamento de atualizações completa, esse guia oferece apenas uma maneira de realizar todas essas tarefas. Quando houver opções para executar uma tarefa de maneiras diferentes, as abordagens alternativas serão indicadas.
 
-| ![](images/Cc708519.note(WS.10).gif)Observação                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Para baixar uma cópia desse documento, consulte [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) (em inglês). |
+> [!NOTE]  
+> Para baixar uma cópia desse documento, consulte [http://go.microsoft.com/fwlink/?LinkId=71190](http://go.microsoft.com/fwlink/?linkid=71190) (em inglês). 

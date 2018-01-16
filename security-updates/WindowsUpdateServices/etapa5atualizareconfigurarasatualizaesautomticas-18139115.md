@@ -11,9 +11,8 @@ Etapa 5: atualizar e configurar as Atualizações Automáticas
 
 Os computadores cliente do WSUS exigem uma versão compatível das Atualizações Automáticas. A instalação do WSUS configura automaticamente o IIS para distribuir a versão mais recente das Atualizações Automáticas para cada computador cliente que contata o servidor do WSUS.
 
-| ![](images/Cc720533.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Embora a maioria das versões de Atualizações Automáticas possa ser direcionada ao servidor do WSUS e ser atualizada automaticamente com a versão compatível do WSUS, a versão de Atualizações Automáticas incluída no Windows XP sem service packs não é capaz de se atualizar automaticamente. Se o Windows XP estiver instalado sem service packs no ambiente e se você nunca tiver usado o Software Update Services (SUS), consulte o informe oficial “Deploying Microsoft Windows Server Update Services” (o documento pode estar em inglês) para obter instruções. |
+> [!NOTE]  
+> Embora a maioria das versões de Atualizações Automáticas possa ser direcionada ao servidor do WSUS e ser atualizada automaticamente com a versão compatível do WSUS, a versão de Atualizações Automáticas incluída no Windows XP sem service packs não é capaz de se atualizar automaticamente. Se o Windows XP estiver instalado sem service packs no ambiente e se você nunca tiver usado o Software Update Services (SUS), consulte o informe oficial “Deploying Microsoft Windows Server Update Services” (o documento pode estar em inglês) para obter instruções. 
 
 A melhor maneira de configurar as Atualizações Automáticas depende do seu ambiente de rede. Em um ambiente do Active Directory, você pode usar um objeto de Diretiva de Grupo (GPO) baseado no Active Directory. Em um ambiente que não seja do Active Directory, use o GPO local. Se você usar o GPO local ou um GPO armazenado em um controlador de domínio, será preciso direcionar os computadores cliente para o servidor do WSUS e configurar as Atualizações Automáticas.
 
@@ -55,9 +54,8 @@ Realize os três procedimentos a seguir em um objeto de Diretiva de Grupo basead
 
 4.  Clique em **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Observação                                                                                                          |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A opção **Permitir que o administrador local escolha a configuração** somente será exibida se as Atualizações Automáticas tiverem se atualizado para a versão compatível com o WSUS. |
+> [!NOTE]  
+> A opção **Permitir que o administrador local escolha a configuração** somente será exibida se as Atualizações Automáticas tiverem se atualizado para a versão compatível com o WSUS. 
 
 **Para direcionar o computador cliente ao servidor do WSUS**
 1.  No Editor do Objeto de Diretiva de Grupo, expanda **Configuração do Computador**, expanda **Modelos Administrativos**, expanda **Componentes do Windows** e clique em **Windows Update**.
@@ -68,9 +66,8 @@ Realize os três procedimentos a seguir em um objeto de Diretiva de Grupo basead
 
 4.  Clique em **OK**.
 
-| ![](images/Cc720533.note(WS.10).gif)Observação                                                                                                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se você estiver usando o GPO local para direcionar esse computador ao WSUS, essa configuração entrará em vigor imediatamente e esse computador será exibido no console administrativo do WSUS em aproximadamente 20 minutos. Você pode agilizar esse processo iniciando manualmente um ciclo de detecção. |
+> [!NOTE]  
+> Se você estiver usando o GPO local para direcionar esse computador ao WSUS, essa configuração entrará em vigor imediatamente e esse computador será exibido no console administrativo do WSUS em aproximadamente 20 minutos. Você pode agilizar esse processo iniciando manualmente um ciclo de detecção. 
 
 Depois de definir um computador cliente, serão necessários alguns minutos até que ele apareça na página **Computadores** no console do WSUS. Nos computadores cliente configurados com um GPO baseado no Active Directory, esse tempo será de aproximadamente 20 minutos depois que a Diretiva de Grupo for atualizada (ou seja, aplicar todas as configurações novas ao computador cliente). Por padrão, a Diretiva de Grupo é atualizada em segundo plano a cada 90 minutos, com uma diferença aleatória entre 0 e 30 minutos. Se você desejar atualizar a Diretiva de Grupo antes, vá para o prompt de comando no computador cliente e digite: **gpupdate /force**.
 

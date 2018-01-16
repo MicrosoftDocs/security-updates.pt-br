@@ -11,9 +11,9 @@ Substituindo a descoberta de serviços do Active Directory
 
 Os serviços e clientes do RMS descobrem a localização de serviços procurando primeiro no Registro local. Se determinadas chaves do Registro não tiverem um valor, os serviços e clientes do RMS procurarão o ponto de conexão de serviço (SCP) no Active Directory. Isso significa que você poderá substituir a configuração de descoberta padrão do Active Directory se digitar determinadas chaves no Registro do servidor ou do cliente.
 
-| ![](images/Cc747614.note(WS.10).gif)Observação                                                                                                                  |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se o cluster raiz do RMS estiver configurado de modo que o SCP não seja publicado no Active Directory, você poderá usar essas chaves para indicar aos clientes do RMS a localização correta. |
+
+>[!NOTE]  
+> Se o cluster raiz do RMS estiver configurado de modo que o SCP não seja publicado no Active Directory, você poderá usar essas chaves para indicar aos clientes do RMS a localização correta.
 
 Esta seção descreve as entradas do Registro e fornece detalhes sobre como você pode criá-las.
 
@@ -76,9 +76,8 @@ Substituindo a descoberta de serviços do lado cliente para publicação
   
 Se os usuários publicarem conteúdo de seus computadores, talvez você deseje substituir os locais dos servidores usados para publicação dependendo da topologia usada na empresa. Os locais dos servidores usados para publicação normalmente são descobertos pelo cliente por meio do Active Directory. Se você adicionar as chaves do Registro adequadas nos computadores cliente, os clientes ignorarão esses métodos e, em vez disso, usarão as URLs que especificar no valor da entrada do Registro.
   
-| ![](images/Cc747614.note(WS.10).gif)Observação                                                                                                          |  
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| As substituições de cliente listadas nessas seções devem ser criadas como chaves, não como entradas individuais. O valor das chaves deve ser criado na entrada padrão de cada chave. |
+> [!NOTE]  
+> As substituições de cliente listadas nessas seções devem ser criadas como chaves, não como entradas individuais. O valor das chaves deve ser criado na entrada padrão de cada chave.
   
 #### Descrições de chaves do Registro
   
@@ -132,10 +131,10 @@ A tabela a seguir lista as chaves do Registro que você pode adicionar a um comp
 </table>
   
 É recomendável aplicar essas chaves do Registro usando o SMS ou a Diretiva de Grupo para garantir que todos os clientes da empresa usem os servidores de publicação corretos.
-  
-| ![](images/Cc747614.Caution(WS.10).gif)Cuidado                                                                               |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| A edição incorreta do Registro pode causar danos graves ao sistema. Antes de alterar o Registro, faça backup de todos os dados importantes do computador. |
+
+
+>[!CAUTION]  
+> A edição incorreta do Registro pode causar danos graves ao sistema. Antes de alterar o Registro, faça backup de todos os dados importantes do computador.
   
 Um exemplo do arquivo do Registro (.reg) pode ser usado para importar as chaves do Registro corretas para cada servidor RMS no cluster.
   

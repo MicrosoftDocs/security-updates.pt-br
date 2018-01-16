@@ -83,7 +83,6 @@ For more information about hardware, hard disk, and software requirements, see [
 
 7.  If the final page confirms that WSUS installation was successfully completed, click **Finish**.
 
-<span id="WUS_InstallWUSBackendComputer"></span>
 Step 2: Install WSUS on the Back-end Computer
 ---------------------------------------------
 
@@ -145,10 +144,14 @@ From this file you need the value for two keys:
 -   At the command prompt, type one of the following commands, depending on how you set up the front-end computer:
 
     -   If you chose local storage on the front-end computer, type:
+
         **"***%programfiles%\\***update services\\tools\\osql\\osql.exe" -S** *SQLServerName* **-E -b -n -Q "USE SUSDB UPDATE dbo.tbConfigurationA SET HostOnMu = '0' UPDATE dbo.tbConfigurationB SET LocalContentCacheLocation = N'***LocalContentCacheLocation Value***'"**
-        where*SQLServerName* is the name of the SQL Server instance that holds the SUSDB database; where *%programfiles%* is the location of the Program Files folder on the front-end computer; and where *LocalContentCacheLocation Value* is the actual string used to identify where in the file system of the front-end computer to store content, with **\\WSUSContent** appended to the end. For example, if you used C:\\WSUS on the front-end computer, you would type **C:\\WSUS\\WSUSContent**. Do not use a network location or a UNC path. Do not add a trailing backslash (\\).
+
+        where *SQLServerName* is the name of the SQL Server instance that holds the SUSDB database; where *%programfiles%* is the location of the Program Files folder on the front-end computer; and where *LocalContentCacheLocation Value* is the actual string used to identify where in the file system of the front-end computer to store content, with **\\WSUSContent** appended to the end. For example, if you used C:\\WSUS on the front-end computer, you would type **C:\\WSUS\\WSUSContent**. Do not use a network location or a UNC path. Do not add a trailing backslash (\\).
+
     -   If you chose remote storage on Microsoft Update, type the following:
         **"***%programfiles%***\\update services\\tools\\osql\\osql.exe" -S** *SQLServerName* **-E -b -n -Q "USE SUSDB UPDATE dbo.tbConfigurationA SET HostOnMu = '1' UPDATE dbo.tbConfigurationB SET LocalContentCacheLocation = N'***%programfiles%***\\Update Services\\WsusContent'"**
+
         where *SQLServerName* is the name of the SQL Server instance on the back-end computer; and where *%programfiles%* is the location of the Program Files folder on the front-end computer.
 
 #### Set Permissions on Windows Server 2003
@@ -228,7 +231,6 @@ If your back-end computer is running Windows 2000 Server, use the following proc
 
 7.  In the **WSUS Administrators Properties** dialog box, click **OK**.
 
-<span id="WUS_ConfigureFrontendComputer"></span>
 Step 3: Configure the Front-end Computer to Use the Back-end Computer
 ---------------------------------------------------------------------
 
