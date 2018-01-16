@@ -82,8 +82,7 @@ Use the following steps to migrate the WSUS database from a Windows Internal Dat
 
 13. Verify that the database migration was successful by opening the WSUS administrative console. (Click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0**.)
 
- 
-    > [!NOTE]
+    > [!NOTE]  
     > You might have to restart the server for these settings to take effect.
     
 
@@ -127,6 +126,7 @@ Back end server starting configuration:
         sp_detach_db ‘SUSDB’
         go
     ```
+4.  On the front end server: copy the SUSDB.mdf and SUSDB_log.ldf files from the front end server to the back end server.
 5.  On the back end server:
     1.  To attach **SUSDB** to the destination instance of SQL server, under the instance node, right-click **Databases**, select **Properties**, and then click **Attach**.
     2.  In the **Attach Databases** box, under **Databases to attach**, locate the susdb.mdf file (by default this is **C:\\WSUS\\UpdateServicesDbFiles** if you installed Windows Internal Database), and then click **OK**.
@@ -149,8 +149,8 @@ Back end server starting configuration:
     3.  Right-click **Update Services**, and then click **Start**.
 9.  On the front end server: Verify that the database migration was successful by opening the WSUS administrative console. (Click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0**).
 
-    > [!NOTE]
-    > You might have to restart the front end server in order for these settings to take effect.
+        > [!NOTE]
+        > You might have to restart the front end server in order for these settings to take effect.
     
     For more information about the databases that you can use with WSUS, see the following:
     -   In this guide, see [Managing the Databases](https://technet.microsoft.com/d99cdd74-fbf4-4706-b2a2-a58728beef22).
