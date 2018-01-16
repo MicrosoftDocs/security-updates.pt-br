@@ -32,8 +32,7 @@ Excluindo versões do cofre
 
 6.  Em **Cofre RM mínimo necessário**, cole o número da versão e clique em **Atualizar**.
 
-    | ![](images/Cc720270.note(WS.10).gif)Observação        |
-    |------------------------------------------------------------------------------------|
-    | Para desabilitar a exclusão baseada na versão do cofre, clique em **Desabilitar**. |
+    > [!Note]  
+    > Para desabilitar a exclusão baseada na versão do cofre, clique em **Desabilitar**.
 
 Para obter mais informações sobre a execução desse procedimento, consulte "[Excluindo versões do cofre](https://technet.microsoft.com/e287f026-aab2-43ab-93bc-48087da82f36)", já mencionado neste tema.

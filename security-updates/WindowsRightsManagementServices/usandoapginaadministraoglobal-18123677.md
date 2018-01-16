@@ -29,6 +29,6 @@ Se você acessar a página **Administração Global** de um servidor que já foi
 -   **Alterar a conta de serviço RMS.** Clique neste link para especificar uma conta de serviço RMS diferente sob a qual o RMS será executado. Para obter mais informações, consulte a seção "[Alterando a conta de serviço RMS](https://technet.microsoft.com/f257d66d-b823-41e4-bcb7-7c90eb295238)", mais adiante neste tema.
 -   **Remover o RMS deste site.**Clique neste link para desconfigurar o RMS. Quando você desconfigura o RMS, os diretórios virtuais e os aplicativos dele são removidos deste servidor, mas o RMS não é desinstalado. Para obter mais informações, consulte "[Desinstalar o RMS](https://technet.microsoft.com/885e3b4f-ea32-466f-9f7f-d8440b0f7c28)", mais adiante neste tema.
 
-| ![](images/Cc747575.note(WS.10).gif)Observação                                                                                                                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| O site Administração do RMS usa janelas pop-up para a configuração de alguns recursos. Se você estiver usando um bloqueador de pop-ups com o navegador da Web, deve definir as configurações do navegador para permitir pop-ups do site Administração do RMS. |
+
+> [!NOTE]  
+> O site Administração do RMS usa janelas pop-up para a configuração de alguns recursos. Se você estiver usando um bloqueador de pop-ups com o navegador da Web, deve definir as configurações do navegador para permitir pop-ups do site Administração do RMS.

@@ -23,6 +23,7 @@ Enable audit events to ensure that adequate logs are collected for system activi
 ### Audit policy settings
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -92,6 +93,7 @@ Configure Windows Server 2003 security settings to help ensure optional securit
 ### Security options settings
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -429,9 +431,8 @@ Configure Windows Server 2003 security settings to help ensure optional securit
 </tbody>
 </table>
   
-| ![](images/Cc708490.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                                                         |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| The WSUS subdirectories UpdateServicesPackages, WsusContent, and WsusTemp created as shared directories (for WSUS Administrators and the Network Service account) as part of WSUS setup. These directories can be found by default under the WSUS directory at the root of the largest partition on the WSUS server. Sharing of these directories may be disabled if you are not using local publishing. |
+> [!IMPORTANT]  
+> The WSUS subdirectories UpdateServicesPackages, WsusContent, and WsusTemp created as shared directories (for WSUS Administrators and the Network Service account) as part of WSUS setup. These directories can be found by default under the WSUS directory at the root of the largest partition on the WSUS server. Sharing of these directories may be disabled if you are not using local publishing.
   
 #### Event log settings
   
@@ -440,6 +441,7 @@ Configure Event Log settings to help ensure an adequate level of activity monito
 ### Event log settings
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -524,6 +526,7 @@ Enable only services that are required for WSUS.
 ### Enabled operating system services
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -830,6 +833,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -854,6 +858,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -878,6 +883,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -902,6 +908,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -926,6 +933,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -950,6 +958,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -974,6 +983,7 @@ Microsoft recommends that you harden the TCP/IP interface for WSUS servers.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1060,6 +1070,7 @@ Use access control permissions to secure the SQL Server 2005 registry keys.
 ###  
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -1088,6 +1099,7 @@ Remove all stored procedures that are unnecessary and that have the ability to c
 ### Unnecessary SQL Server 2005 stored procedures
 
  
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />
@@ -1103,8 +1115,8 @@ Remove all stored procedures that are unnecessary and that have the ability to c
 </thead>
 <tbody>
 <tr class="odd">
-<td style="border:1px solid black;">Delete stored procedures by using the following command:
-<strong>use master exec sp_dropextendedproc</strong> <em>stored procedure</em>
+<td style="border:1px solid black;">Delete stored procedures by using the following command:<br/><br/>
+<strong>use master exec sp_dropextendedproc</strong> <em>stored procedure</em><br/><br/>
 where <em>stored procedure</em> is the name of the stored procedure to be deleted.</td>
 <td style="border:1px solid black;"><ul>
 <li>Sp_OACreate<br />

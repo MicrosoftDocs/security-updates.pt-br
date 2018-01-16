@@ -1,0 +1,994 @@
+---
+TOCTitle: 'MS07-MAY'
+Title: Resumo do Boletim de Segurança da Microsoft de maio 2007
+ms:assetid: 'ms07-may'
+ms:contentKeyID: 61233630
+ms:mtpsurl: 'https://technet.microsoft.com/pt-BR/library/ms07-may(v=Security.10)'
+---
+
+ 
+
+Resumo do Boletim de Segurança da Microsoft de maio 2007
+========================================================
+
+Publicado: terça-feira, 8 de maio de 2007
+
+**Versão:** 1.0
+
+Este resumo do boletim lista boletins de segurança lançados para maio de 2007.
+
+**Central de Segurança:** A Microsoft oferece informações sobre como você pode proteger seu computador nos seguintes locais:
+
+-   Os consumidores podem visitar [Segurança em Casa](http://go.microsoft.com/fwlink/?linkid=85102), onde essa informação também está disponível, clicando em “Atualizações de Segurança mais Recentes”.
+-   Os profissionais de TI podem visitar o site [TechNet Security Center](http://www.microsoft.com/brasil/security/guidance) (em inglês).
+
+**Estratégias de Gerenciamento de Atualização:** O site [Orientações de Segurança para Gerenciamento de Patches](http://go.microsoft.com/fwlink/?linkid=21168) oferece informações adicionais sobre as práticas recomendadas pela Microsoft para a aplicação de atualizações de segurança.
+
+**Comunidade da Zona de Segurança de Profissionais de TI:** Aprenda a aumentar a segurança e a otimizar a infra-estrutura de TI e participe de discussões sobre os tópicos de segurança com outros profissionais de TI no site [IT Pro Security Community](http://www.microsoft.com/brasil/technet/seguranca) (em inglês).
+
+**Servico de Notificacao de Seguranca Microsoft:** Para receber notificações automáticas por email sempre que um Boletim de segurança da Microsoft for publicado, inscreva-se para receber as [notificações de segurança técnica da Microsoft](http://www.microsoft.com/brasil/security/alertas.mspx).
+
+#### Resumo
+
+Este resumo do boletim inclui atualizações de segurança para vulnerabilidades descobertas recentemente. Seus boletins de segurança, em ordem de gravidade, são:
+
+Crítica (7)
+-----------
+
+ 
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS07-023                                                                                                                    |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidades no Microsoft Excel podem permitir a execução remota de código (934233)**](http://technet.microsoft.com/security/bulletin/ms07-023)        |
+| **Sinopse**                           | Esta atualização elimina vulnerabilidades no Microsoft Excel que podem permitir a execução remota de código.                                                  |
+| **Classificação Máxima de Gravidade** | [Crítica](http://www.microsoft.com/brasil/security/boletins/rating.mspx)                                                                                      |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                     |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização pode requerer uma reinicialização. |
+| **Softwares afetados**                | **Office**. Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                          |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS07-024                                                                                                                    |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidades no Microsoft Word podem permitir a execução remota de código (934232)**](http://technet.microsoft.com/security/bulletin/ms07-024)         |
+| **Sinopse**                           | Esta atualização elimina vulnerabilidades no Microsoft Word que podem permitir a execução remota de código.                                                   |
+| **Classificação Máxima de Gravidade** | [Crítica](http://www.microsoft.com/brasil/security/boletins/rating.mspx)                                                                                      |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                     |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização pode requerer uma reinicialização. |
+| **Softwares afetados**                | **Office**. Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                          |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS07-025                                                                                                                    |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidade no Microsoft Office pode permitir a execução remota de código (934873)**](http://technet.microsoft.com/security/bulletin/ms07-025)         |
+| **Sinopse**                           | Esta atualização elimina uma vulnerabilidade no Microsoft Office que pode permitir a execução remota de código.                                               |
+| **Classificação Máxima de Gravidade** | [Crítica](http://www.microsoft.com/brasil/security/boletins/rating.mspx)                                                                                      |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                     |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização pode requerer uma reinicialização. |
+| **Softwares afetados**                | **Office**. Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                          |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS07-026                                                                                                                    |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidades no Microsoft Exchange podem permitir a execução remota de código (931832)**](http://technet.microsoft.com/security/bulletin/ms07-026)     |
+| **Sinopse**                           | Esta atualização elimina vulnerabilidades no Microsoft Exchange que podem permitir a execução remota de código.                                               |
+| **Classificação Máxima de Gravidade** | [Crítica](http://www.microsoft.com/brasil/security/boletins/rating.mspx)                                                                                      |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                     |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização pode requerer uma reinicialização. |
+| **Softwares afetados**                | **Exchange**. Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                        |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS07-027                                                                                                                    |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Atualização de segurança cumulativa para o Internet Explorer (931768)**](http://technet.microsoft.com/security/bulletin/ms07-027)                          |
+| **Sinopse**                           | Esta atualização elimina vulnerabilidades no Internet Explorer que podem permitir a execução remota de código.                                                |
+| **Classificação Máxima de Gravidade** | [Crítica](http://www.microsoft.com/brasil/security/boletins/rating.mspx)                                                                                      |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                     |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização pode requerer uma reinicialização. |
+| **Softwares afetados**                | **Internet Explorer**. Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                               |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS07-028                                                                                                                    |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidade no CAPICOM pode permitir a execução remota de código (931906)**](http://technet.microsoft.com/security/bulletin/ms07-028)                  |
+| **Sinopse**                           | Esta atualização elimina uma vulnerabilidade no CAPICOM (Cryptographic API Component Object Model) que pode permitir a execução remota de código.             |
+| **Classificação Máxima de Gravidade** | [Crítica](http://www.microsoft.com/brasil/security/boletins/rating.mspx)                                                                                      |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                     |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização pode requerer uma reinicialização. |
+| **Softwares afetados**                | **CAPICOM, BizTalk**. Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS07-029                                                                                                                          |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidade no RPC no servidor DNS do Windows pode permitir a execução remota de código (935966)**](http://technet.microsoft.com/security/bulletin/ms07-029) |
+| **Sinopse**                           | Esta atualização elimina uma vulnerabilidade no RPC no servidor DNS do Windows que pode permitir a execução remota de código.                                       |
+| **Classificação Máxima de Gravidade** | [Crítica](http://www.microsoft.com/brasil/security/boletins/rating.mspx)                                                                                            |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                           |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização requer reinicialização.                  |
+| **Softwares afetados**                | **Windows**. Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                               |
+
+Softwares afetados e Locais de download
+---------------------------------------
+
+ 
+**Como devo usar a tabela?**  
+
+Use esta tabela para aprender sobre as atualizações de segurança que você talvez precise instalar. Você deve examinar cada programa ou componente de software listado para verificar se alguma atualização de segurança é necessária. Se houver um programa ou um componente de software listado, o impacto da vulnerabilidade estará relacionado e também haverá um hiperlink para a atualização de software disponível.
+
+Na tabela, um número entre colchetes \[x\] indica que há uma anotação que explica mais a questão. Estas anotações estão localizadas na parte inferior da tabela.
+
+**Softwares afetados e Locais de download**
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<colgroup>
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+<col width="12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" ></th>
+<th style="border:1px solid black;" >Detalhes        </th>
+<th style="border:1px solid black;" >Detalhes        </th>
+<th style="border:1px solid black;" >Detalhes        </th>
+<th style="border:1px solid black;" >Detalhes        </th>
+<th style="border:1px solid black;" >Detalhes        </th>
+<th style="border:1px solid black;" >Detalhes        </th>
+<th style="border:1px solid black;" >Detalhes        </th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><strong>Identificador do Boletim</strong></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms07-023"><strong>MS07-023</strong></a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms07-024"><strong>MS07-024</strong></a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms07-025"><strong>MS07-025</strong></a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms07-026"><strong>MS07-026</strong></a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms07-027"><strong>MS07-027</strong></a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms07-028"><strong>MS07-028</strong></a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms07-029"><strong>MS07-029</strong></a></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><strong>Classificação Máxima de Gravidade</strong></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/brasil/security/boletins/rating.mspx"><strong>Crítica</strong></a></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/brasil/security/boletins/rating.mspx"><strong>Crítica</strong></a></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/brasil/security/boletins/rating.mspx"><strong>Crítica</strong></a></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/brasil/security/boletins/rating.mspx"><strong>Crítica</strong></a></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/brasil/security/boletins/rating.mspx"><strong>Crítica</strong></a></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/brasil/security/boletins/rating.mspx"><strong>Crítica</strong></a></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/brasil/security/boletins/rating.mspx"><strong>Crítica</strong></a></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><strong>Softwares do Windows Afetados:</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Windows 2000 Service Pack 4</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Windows 2000 Server Service Pack 4</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d9de0480-5fa9-4974-a82f-5d89056484c4">Crítica</a></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Windows XP Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Windows XP Professional x64 Edition</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Windows XP Professional x64 Edition Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Windows Server 2003 Service Pack 1</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=dfb5eaca-788b-475c-9817-491f0b7cf295">Crítica</a></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Windows Server 2003 Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=dfb5eaca-788b-475c-9817-491f0b7cf295">Crítica</a></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Microsoft Windows Server 2003 com SP1 para sistemas baseados no Itanium</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d4ce0aa8-46ac-446c-b1e3-ff76f1311610">Crítica</a></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Windows Server 2003 com SP2 para sistemas baseados no Itanium</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d4ce0aa8-46ac-446c-b1e3-ff76f1311610">Crítica</a></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Windows Server 2003 x64 Edition Service Pack 1</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e7a7b46b-775d-4912-8119-3ab9a95d775a">Crítica</a></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Microsoft Windows Server 2003 x64 Edition Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=e7a7b46b-775d-4912-8119-3ab9a95d775a">Crítica</a></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Windows Vista</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Windows Vista x64 Edition</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[1]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><strong>Componentes do Sistema Operacional Windows Afetados:</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Internet Explorer 5.01 Service Pack 4 no Windows 2000 Service Pack 4</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=67ae3381-16b2-4b34-b95c-69ee7d58b357">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Internet Explorer 6 Service Pack 1 quando instalado no Windows 2000 Service Pack 4</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=03fc8e0c-dec5-48d1-9a34-3b639f185f7d">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Internet Explorer 6 para Windows XP Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=efc6be04-0d6b-4639-8485-da1525f6bc52">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Internet Explorer 6 para Windows XP Professional x64 Edition</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a077be20-c379-4386-b478-80197a4a4abc">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Internet Explorer 6 para Windows XP Professional x64 Edition Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a077be20-c379-4386-b478-80197a4a4abc">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Internet Explorer 6 para Windows Server 2003 Service Pack 1 e Windows Server 2003 Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d249089d-bb8e-4b86-ab8e-18c52844acb2">Moderada</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Internet Explorer 6 para Microsoft Windows Server 2003 com SP1 para sistemas baseados no Itanium e Windows Server 2003 com SP2 para sistemas baseados no Itanium</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=d52c0afd-cc3a-4a5c-b91b-e006d497bc26">Moderada</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Internet Explorer 6 para Windows Server 2003 x64 Edition Service Pack 1 e Windows Server 2003 x64 Edition Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=94b83bdd-2bd1-43e4-babf-68135d253293">Moderada</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Internet Explorer 7 para Windows XP Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=7a778d93-9d85-4217-8cc0-5c494d954ca0">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Internet Explorer 7 para Windows XP Professional x64 Edition</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=29938ed4-f8bb-4793-897c-966ba7f4830c">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Internet Explorer 7 para Windows XP Professional x64 Edition Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=29938ed4-f8bb-4793-897c-966ba7f4830c">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Windows Internet Explorer 7 para Windows Server 2003 Service Pack 1 e Windows Server 2003 Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0f173d60-6fd0-4c92-bb2a-a7a78707e35f">Moderada</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Internet Explorer 7 para Microsoft Windows Server 2003 com SP1 para sistemas baseados no Itanium e Windows Server 2003 com SP2 para sistemas baseados no Itanium</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1944bcfa-b0bc-4bd5-9089-a618ea43ea49">Moderada</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Internet Explorer 7 para Windows Server 2003 x64 Edition Service Pack 1 e Windows Server 2003 x64 Edition Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=404a48a2-5765-4afa-94bf-e97212aa14ef">Moderada</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Windows Internet Explorer 7 no Windows Vista</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0c65fad3-baae-46c4-b453-84cf28b15f50">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Windows Internet Explorer 7 no Windows Vista x64 Edition</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=74afea3d-79df-4b64-bf30-b8e5c55cab2b">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><strong>Softwares do Office Afetados:</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Office 2000 Service Pack 3</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a693c271-4b94-4541-953a-0a2db4587b23">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Office XP Service Pack 3</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=cb291ad9-348a-4c28-bec7-53d2f35d0b72">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Office 2003 Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=819857cc-3777-4e4a-9cc3-685fc079a254">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Microsoft Office System 2007</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=a3dc8e3f-90dd-4d0c-88b8-2ec88ff3a588">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Excel 2000 Service Pack 3</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5f101d03-c0a7-41e0-95a4-a12afb356d5f">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Excel 2002 Service Pack 3</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=29596861-d9f0-4a10-9e1c-cda75dde017d">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Excel 2003 Service Pack 2</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=9567c583-556f-4379-80ba-3e0c8993c04c">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Excel 2003 Viewer</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=3c7f18ac-24bb-41cf-b8da-997706fdc44c">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Office Excel 2007</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ced9f11b-ce48-47a3-9288-bd11b80f3d85">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Word 2000 Service Pack 3</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=f25020f5-17c7-4a60-9088-944ffacb5f19">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Word 2002 Service Pack 3</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Word 2003 Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=6870245d-4618-4504-bffc-878635267059">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Word Viewer 2003</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=24547c65-c29a-4d0a-a015-f3f08b24331f">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">FrontPage 2000</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">FrontPage 2002</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">FrontPage 2003</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Publisher 2000</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Publisher 2002</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Publisher 2003</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Office Publisher 2007</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Pacote de Compatibilidade do Office para formatos de arquivos do Word, Excel e PowerPoint 2007</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=50a7924f-db51-438a-b27d-37e40a471e60">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Microsoft Office 2004 para Mac</td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/mac/">Importante</a></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/mac/">Importante</a></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/mac/">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Microsoft Works Suite 2004</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Microsoft Works Suite 2005</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Microsoft Works Suite 2006</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=0fe4f405-a568-4f15-b2c6-02d4a4b58e43">Importante</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Office SharePoint Designer 2007</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Expression Web</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><strong>[2]</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><strong>Outros Softwares da Microsoft Afetados:</strong></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Exchange 2000 Server Service Pack 3 com conjunto de atualizações do Exchange 2000 Post-Service Pack 3</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=21968843-4a81-4f1d-8207-5b0a710e3157">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Microsoft Exchange Server 2003 Service Pack 1</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=5e7939be-73d1-461c-8c79-eddb0f1459fc">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">Microsoft Exchange Server 2003 Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=1abf93da-d765-4876-96b5-acb2d2a48f8f">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Microsoft Exchange Server 2007</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=356874ef-c9c0-4842-99f0-e449e9940358">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">CAPICOM</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ca930018-4a66-4da6-a6c5-206df13af316">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">Platform SDK Redistributable: CAPICOM</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ca930018-4a66-4da6-a6c5-206df13af316">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;">BizTalk Server 2004 Service Pack 1</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ca930018-4a66-4da6-a6c5-206df13af316">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;">BizTalk Server 2004 Service Pack 2</td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"></td>
+<td style="border:1px solid black;"><a href="http://www.microsoft.com/downloads/details.aspx?familyid=ca930018-4a66-4da6-a6c5-206df13af316">Crítica</a></td>
+<td style="border:1px solid black;"></td>
+</tr>
+</tbody>
+</table>
+
+<p></p>
+
+  
+**Observações**
+  
+**<sup>[1]</sup>** Há uma atualização de segurança disponível para esse sistema operacional. Para obter mais detalhes, consulte o software ou o componente afetado na tabela e o boletim de segurança apropriado.
+  
+**<sup>[2]</sup>** Há uma atualização de segurança disponível para esse software. Para obter mais detalhes, consulte o software ou o componente afetado na tabela e o boletim de segurança apropriado.
+  
+Implantação  
+-----------
+  
+ 
+**Serviços de Atualização de Software:**
+  
+Usando o Microsoft Software Update Services (SUS), os administradores podem implantar de maneira rápida e confiável as últimas atualizações críticas e de segurança em servidores que executem o Windows 2000 e o Windows Server 2003 e em sistemas desktop que executem o Windows 2000 Professional ou o Windows XP Professional.
+  
+Para obter informações sobre como implantar esta atualização de segurança com o Software Update Services, visite [Software Update Services](http://www.microsoft.com/brasil/technet/seguranca/sus/).
+  
+**Windows Server Update Services**
+  
+Usando o WSUS (Windows Server Update Services), os administradores podem implantar de forma rápida e confiável as mais recentes atualizações críticas e de segurança dos sistemas operacionais Windows 2000 e posterior, Office XP e superior, Exchange Server 2003, e SQL Server 2000 nos sistemas operacionais Windows 2000 e superior.
+  
+Para obter mais informações sobre como implantar esta atualização de segurança usando o Windows Server Update Services, visite [Windows Server Update Services](http://www.microsoft.com/brasil/technet/seguranca/wsus/default.mspx).
+  
+**Systems Management Server:**
+  
+O SMS (Microsoft Systems Management Server) fornece uma solução corporativa altamente configurável para gerenciar atualizações. Ao usar o SMS, os administradores podem identificar os sistemas baseados no Windows que precisam de atualizações de segurança, bem como executar a implantação controlada dessas atualizações em toda a empresa com o mínimo de interrupção para os usuários. Para obter mais informações sobre como os administradores podem usar o SMS 2003 para implantar atualizações de segurança, visite [Gerenciamento de Patches de Segurança do SMS 2003](http://go.microsoft.com/fwlink/?linkid=22939). Os usuários do SMS 2.0 também podem usar o [Software Updates Service Feature Pack](http://go.microsoft.com/fwlink/?linkid=33340) (em inglês) para ajudar a implantar atualizações de segurança. Para obter informações sobre o SMS, visite [Microsoft Systems Management Server](http://www.microsoft.com/brasil/sms).
+  
+**Observação** O SMS usa o Microsoft Baseline Security Analyzer e a ferramenta de detecção do Microsoft Office para fornecer amplo suporte à detecção e à implantação de atualizações do boletim de segurança. Algumas atualizações de software podem não ser detectadas por essas ferramentas. Os administradores podem usar os recursos de inventário do SMS nesses casos para apontar as atualizações de sistemas específicos. Para obter mais informações sobre este procedimento, consulte [Implementando atualizações de software usando o Recurso Distribuição de Software do SMS](http://go.microsoft.com/fwlink/?linkid=33341). Algumas atualizações de segurança exigirão direitos administrativos quando o sistema for reiniciado. Os administradores podem usar a Elevated Rights Deployment Tool (disponível no [SMS 2003 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=33387) e no [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161)) (sites em inglês) para instalar essas atualizações.
+  
+A Microsoft lançou uma ferramenta de linha de comando chamada QChain.exe. Essa ferramenta permite aos administradores do sistema encadearem atualizações de segurança de forma segura. *Encadeamento* é quando você instala várias atualizações sem reinicializar entre cada instalação. Update.exe, usado nas atualizações descritas neste comunicado, possui a funcionalidade interna de encadeamento. Os clientes que usam Windows 2000 Service Pack 2 ou posterior, Windows XP ou Windows Server 2003, não precisam do Qchain.exe para encadear as atualizações. O Qchain.exe oferece suporte ao encadeamento de Atualizações do Windows, de modo que um administrador possa criar um script de implantação consistente em todas as plataformas. Para obter mais informações sobre o Qchain, visite este [site](http://go.microsoft.com/fwlink/?linkid=21156).
+  
+**Microsoft Baseline Security Analyzer:**
+  
+O MBSA (Microsoft Baseline Security Analyzer) permite aos administradores pesquisar, em sistemas locais e remotos, atualizações de segurança ausentes e problemas de configuração de segurança comuns. Para obter mais informações sobre o MBSA, visite [Microsoft Baseline Security Analyzer](http://www.microsoft.com/brasil/technet/seguranca/mbsa/).
+  
+**Orientação de detecção e implantação:**
+  
+A Microsoft oferece orientações adicionais de detecção e implantação para atualizações de segurança. Tais orientações também ajudarão os profissionais de TI a entender como eles podem usar as várias ferramentas para ajudar a implantar a atualização de segurança, tal como o Windows Update, Microsoft Update, Atualização do Office, as ferramentas MBSA (Microsoft Baseline Security Analyzer), Office Detection Tool, Microsoft Systems Management Server (SMS), Extended Security Update Inventory Tool e a EST (Enterprise Update Scan Tool). Para obter mais informações, consulte o [artigo 910723 da Base de Conhecimento Microsoft](http://support.microsoft.com/default.aspx?scid=kb;en-us;910723).
+  
+#### Outras informações
+  
+**Agradecimentos:**
+  
+A Microsoft [agradece](http://go.microsoft.com/fwlink/?linkid=21127) à pessoa citada abaixo por trabalhar conosco para ajudar a proteger os clientes:
+  
+-   Manuel Santamarina Suarez, que trabalha na [TippingPoint](http://www.tippingpoint.com/) e na [Zero Day Initiative](http://www.zerodayinitiative.com/), por reportar um problema descrito no boletim [MS07-023](http://technet.microsoft.com/security/bulletin/ms07-023).  
+-   Greg MacManus, da [iDefense Labs](http://labs.idefense.com/), por relatar um problema descrito no boletim [MS07-023](http://technet.microsoft.com/security/bulletin/ms07-023).  
+-   Craig Schmugar, da [McAfee Avert Labs](http://www.avertlabs.com/), por trabalhar conosco em um problema descrito no boletim [MS07-024](http://technet.microsoft.com/security/bulletin/ms07-024).  
+-   Andreas Marx, da [AV-Test](http://www.av-test.org/), por trabalhar conosco em um problema descrito no boletim [MS07-024](http://technet.microsoft.com/security/bulletin/ms07-024).  
+-   Jun Mao, que trabalha na [iDefense Labs](http://labs.idefense.com/), por relatar um problema descrito no boletim [MS07-024](http://technet.microsoft.com/security/bulletin/ms07-024).  
+-   Martijn Brinkers, da [Izecom](http://www.izecom.com/), por relatar um problema descrito no boletim [MS07-026](http://technet.microsoft.com/security/bulletin/ms07-026).  
+-   Alexander Sotirov, da [Determina Security Research](http://www.determina.com/security.research), por relatar um problema descrito no boletim [MS07-026](http://technet.microsoft.com/security/bulletin/ms07-026).  
+-   Joxean Koret, que trabalha no [iDefense](http://labs.idefense.com/) Vulnerability Contributor Program, por relatar um problema descrito no boletim [MS07-026](http://technet.microsoft.com/security/bulletin/ms07-026).  
+-   [TippingPoint](http://www.tippingpoint.com/) e [Zero Day Initiative](http://www.zerodayinitiative.com/) por relatar um problema descrito no boletim [MS07-027](http://technet.microsoft.com/security/bulletin/ms07-027).  
+-   JJ Reyes, da [Secunia Research](http://secunia.com/), por relatar um problema descrito no boletim [MS07-027](http://technet.microsoft.com/security/bulletin/ms07-027).  
+-   cocoruder, da [Fortinet Security Research](http://www.fortinet.com/), por relatar um problema descrito no boletim [MS07-027](http://technet.microsoft.com/security/bulletin/ms07-027).  
+-   Chris Ries, da [VigilantMinds Inc.](http://www.vigilantminds.com/), por relatar um problema descrito no boletim [MS07-028](http://technet.microsoft.com/security/bulletin/ms07-028).  
+-   Mark Hofman, da [SANS ISC Handlers](http://isc.sans.org/), por trabalhar conosco em um problema descrito no boletim [MS07-029](http://technet.microsoft.com/security/bulletin/ms07-029).  
+-   Bill O'Malley e o [departamento de segurança de informações da Carnegie Mellon University](http://www.cmu.edu/iso/) por trabalharem conosco no problema descrito no [MS07-029](http://technet.microsoft.com/security/bulletin/ms07-029).
+  
+**Ferramenta de Remoção de Software Mal-Intencionado do Microsoft Windows:**
+  
+A Microsoft lançou uma versão atualizada da Ferramenta de Remoção de Software Mal-Intencionado do Microsoft Windows em Windows Update, Microsoft Update, Windows Server Update Services e no Centro de Download.
+  
+Observe que essa ferramenta **não** é distribuída por meio do SUS (Software Update Services).
+  
+**Atualizações de alta prioridade que não são de segurança no MU, WU, WSUS e SUS:**
+  
+-   A Microsoft lançou seis atualizações de alta prioridade que **não são de segurança** no Microsoft Update (MU) e no WSUS (Windows Server Update Services).  
+-   A Microsoft lançou uma atualização de alta prioridade que **não são de segurança** para o Windows no Windows Update (WU) e no SUS (Software Update Services).
+  
+Observe que estas informações se referem **somente** a atualizações de alta prioridade que **não são de segurança** no Microsoft Update, Windows Update, Windows Server Update Services e Software Update Services lançadas no mesmo dia que o resumo do boletim de segurança. **Não** serão fornecidas informações sobre atualizações que **não são de segurança** lançadas em outros dias.
+  
+**Obtendo Outras Atualizações de Segurança:**
+  
+As atualizações para outros problemas de segurança estão disponíveis nos seguintes locais:
+  
+-   As atualizações de segurança estão disponíveis no [Centro de Download da Microsoft](http://go.microsoft.com/fwlink/?linkid=21129). Você poderá encontrá-las com mais facilidade, executando uma pesquisa com a palavra-chave "patch\_de\_segurança".  
+-   Atualizações para plataformas do cliente estão disponíveis no [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747).  
+-   É possível obter as atualizações de segurança oferecidas este mês no Windows Update, disponíveis no Centro de Download de arquivos de imagem ISO em CD contendo lançamentos críticos e de segurança. Para obter mais informações, consulte o [artigo 913086 (em inglês) da Base de Conhecimento Microsoft](http://support.microsoft.com/kb/913086).
+  
+**Suporte:**
+  
+-   Os clientes nos EUA e Canadá podem receber suporte técnico dos [Serviços de suporte ao produto Microsoft](http://go.microsoft.com/fwlink/?linkid=21131) pelo telefone 1-866-PCSAFETY. As ligações para obter suporte associado a atualizações de segurança são gratuitas.  
+-   Os clientes de outros países podem obter suporte nas subsidiárias locais da Microsoft. O suporte associado a atualizações de segurança é gratuito. Para obter mais informações sobre como entrar em contato com a Microsoft a fim de obter suporte a problemas, visite o site de [Ajuda e Suporte Internacional](http://go.microsoft.com/fwlink/?linkid=21155).
+  
+**Recursos de segurança:**
+  
+-   O site [TechNet Security Center](http://www.microsoft.com/brasil/technet/seguranca) fornece informações adicionais sobre segurança em produtos da Microsoft.  
+-   [Microsoft Software Update Services](http://www.microsoft.com/brasil/technet/seguranca/sus/)  
+-   [Microsoft Windows Server Update Services](http://www.microsoft.com/brasil/technet/seguranca/wsus/default.mspx)  
+-   [Microsoft Baseline Security Analyzer](http://www.microsoft.com/brasil/technet/seguranca/mbsa/) (MBSA)  
+-   [Microsoft Update](http://update.microsoft.com/microsoftupdate)  
+-   [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130)  
+-   Catálogo do Windows Update: Para obter mais informações sobre o Catálogo do Windows Update, consulte o [artigo 323166 (em inglês) da Base de Conhecimento Microsoft](http://support.microsoft.com/default.aspx?scid=kb;en-us;323166).  
+-   [Atualização do Office](http://go.microsoft.com/fwlink/?linkid=21135)
+  
+**Aviso de isenção de responsabilidade:**
+  
+As informações fornecidas na Base de Conhecimento Microsoft são apresentadas "no estado em que se encontram", sem garantia de qualquer tipo. A Microsoft se isenta de todas as garantias, expressas ou implícitas, inclusive as garantias de comercialização e adequação a um propósito específico. Em hipótese alguma a Microsoft Corporation ou seus fornecedores serão responsáveis por quaisquer danos, inclusive danos diretos, indiretos, incidentais, conseqüenciais, danos por lucros cessantes ou danos especiais, mesmo que a Microsoft Corporation ou seus fornecedores tenham sido alertados da possibilidade dos referidos danos. Como alguns estados não permitem a exclusão ou limitação de responsabilidade por danos conseqüenciais ou indiretos, a limitação acima pode não ser aplicável a você.
+  
+**Revisões:**
+  
+-   V1.0 (08 de maio de 2007): Resumo do boletim publicado.
+  
+*Built at 2014-04-18T01:50:00Z-07:00*

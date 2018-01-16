@@ -36,7 +36,13 @@ Para obter o certificado de licenciante servidor de uma instalação do RMS, é 
 1.  Abra o Analisador de Consultas SQL e conecte-se ao banco de dados de configuração do servidor raiz de certificação.
 2.  No menu **Consultar**, clique em **Resultados em Texto**.
 3.  No menu **Ferramentas**, clique em **Opções** para abrir a caixa de diálogo **Opções**. Clique na guia **Resultados** e defina **Máximo de caracteres por coluna** até **8192**.
-        ```
+
+```
+select DRMS_XrML_Certificate.s_certificate from DRMS_XrML_Certificate, DRMS_LicensorCertificate,       DRMS_ClusterConfiguration where DRMS_ClusterConfiguration.CurrentLicensorCertID = DRMS_LicensorCertificate.i_CertID and DRMS_LicensorCertificate.i_CertificateID = DRMS_XrML_Certificate.i_CertificateID
+
+```
+
+
 1.  Copie os resultados da janela **Resultados** e cole-os em um editor de texto, como o Bloco de Notas. Salve os resultados em um arquivo com uma extensão de nome de arquivo .xml.
 
 Para obter mais informações sobre como usar essas informações em uma lista de revogação, consulte a seção "[Criando listas de revogação](https://technet.microsoft.com/1ef75199-3344-4225-84de-a863a777696a)", mais adiante neste tema.
@@ -54,6 +60,6 @@ Depois que o certificado de licenciante servidor do cluster raiz de certificaç�
 
 Nos dois cenários (revogação pela Microsoft ou revogação por um terceiro), a lista de revogação tem efeito para todas as solicitações de vinculação, porque foi assinada pela chave particular de uma entidade na cadeia de confiança da licença de uso. Portanto, todas as solicitações de vinculação que envolvem licenças emitidas pela instalação do RMS usando o certificado de licenciante servidor revogado falharão.
 
-| ![](images/Cc747578.note(WS.10).gif)Observação                                     |
-|-----------------------------------------------------------------------------------------------------------------|
-| A Microsoft somente revogará um certificado de licenciante servidor quando isso for solicitado por um tribunal. |
+
+> [!NOTE]  
+> A Microsoft somente revogará um certificado de licenciante servidor quando isso for solicitado por um tribunal.

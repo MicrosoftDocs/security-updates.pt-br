@@ -1,0 +1,740 @@
+---
+TOCTitle: 'MS08-MAR'
+Title: Resumo do Boletim de Segurança da Microsoft de março 2008
+ms:assetid: 'ms08-mar'
+ms:contentKeyID: 61233641
+ms:mtpsurl: 'https://technet.microsoft.com/pt-BR/library/ms08-mar(v=Security.10)'
+---
+
+ 
+
+Resumo do Boletim de Segurança da Microsoft de março 2008
+=========================================================
+
+Publicado: terça-feira, 11 de março de 2008 | Atualizado: terça-feira, 11 de março de 2008
+
+**Versão:** 1.1
+
+Este resumo de boletins lista os boletins de segurança lançados em março de 2008.
+
+Com o lançamento dos boletins de março de 2008, este resumo de boletins substitui a notificação antecipada do boletim emitida originalmente em 6 de março de 2008. Para obter mais informações sobre o serviço de notificação antecipada de boletim, consulte [Notificação antecipada de Boletim de Segurança da Microsoft](http://technet.microsoft.com/security/bulletin/advance).
+
+Para obter informações sobre como receber notificações automáticas sempre que os boletins de segurança da Microsoft são emitidos, consulte as [notificações de segurança técnica da Microsoft](http://go.microsoft.com/fwlink/?linkid=21163).
+
+A Microsoft realizará um webcast para solucionar dúvidas dos clientes sobre esses boletins no dia 12 de março de 2008, às 11 horas - Hora do Pacífico (EUA e Canadá). [Registre-se agora para participar do Webcast do boletim de segurança de março](http://msevents.microsoft.com/cui/webcasteventdetails.aspx?eventid=1032357217&eventcategory=4&culture=en-us&countrycode=us). Depois dessa data, este webcast estará disponível sob demanda. Para obter mais informações, consulte [Webcasts e resumos dos boletins de segurança da Microsoft.](http://technet.microsoft.com/security/bulletin/summary)
+
+A Microsoft também fornece informações para ajudar os clientes a priorizar as atualizações mensais de segurança em relação a quaisquer atualizações de alta prioridade que não são de segurança que estejam sendo lançadas no mesmo dia que as atualizações mensais de segurança. Consulte a seção **Outras informações.**
+
+### Informações do boletim
+
+#### Sinopses
+
+Os boletins de segurança deste mês são como se segue, em ordem de gravidade:
+
+Crítica (4)
+-----------
+
+ 
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS08-014                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidades no Microsoft Excel podem permitir a execução remota de código (949029)**](http://technet.microsoft.com/security/bulletin/ms08-014)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Sinopse**                           | Esta atualização de segurança resolve várias vulnerabilidades relatadas publica e particularmente no Microsoft Office Excel que podem permitir a execução remota de código se um usuário abrir um arquivo do Excel especialmente criado. O invasor que explorar com êxito as vulnerabilidades poderá assumir o controle total de um sistema afetado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos. |
+| **Classificação Máxima de Gravidade** | [Crítica](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização não requererá reinicialização.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Softwares afetados**                | **Microsoft Office.** Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS08-015                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidade no Microsoft Word pode permitir a execução remota de código (949031)**](http://technet.microsoft.com/security/bulletin/ms08-015)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Sinopse**                           | Esta atualização de segurança resolve uma vulnerabilidade relatada em particular no Microsoft Office Outlook. A vulnerabilidade pode permitir a execução remota de código se o Outlook transmitir um URI mailto especialmente criado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos. Essa vulnerabilidade não pode ser explorada simplesmente visualizando um email no painel de visualização do Outlook. |
+| **Classificação Máxima de Gravidade** | [Crítica](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização não requererá reinicialização.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Softwares afetados**                | **Microsoft Office.** Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS08-016                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidades no Microsoft Office podem permitir a execução remota de código (949030)**](http://technet.microsoft.com/security/bulletin/ms08-016)                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sinopse**                           | Esta atualização de segurança elimina duas vulnerabilidades relatadas em particular no Microsoft Office que podem permitir a execução remota de código se um usuário abrir um arquivo do Office malformado. O invasor que explorar com êxito essa vulnerabilidade poderá assumir o controle total de um sistema afetado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos. |
+| **Classificação Máxima de Gravidade** | [Crítica](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização não requererá reinicialização.                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Softwares afetados**                | **Microsoft Office.** Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS08-017                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidades no Microsoft Office Web Components podem permitir a execução remota de código (933103)**](http://technet.microsoft.com/security/bulletin/ms08-017)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Sinopse**                           | Esta atualização crítica elimina duas vulnerabilidades relatadas em particular no Microsoft Office Web Components. Essas vulnerabilidades podem permitir a execução remota de código caso um usuário tenha exibido uma página da Web especialmente criada. O invasor que explorar com êxito essa vulnerabilidade poderá assumir o controle total de um sistema afetado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos. |
+| **Classificação Máxima de Gravidade** | [Crítica](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização pode requerer uma reinicialização.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Softwares afetados**                | **Microsoft Office Web Components.** Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+
+Softwares afetados e Locais de download
+---------------------------------------
+
+ 
+**Como devo usar a tabela?**  
+
+Use esta tabela para aprender sobre as atualizações de segurança que você talvez precise instalar. Você deve examinar cada programa ou componente de software listado para verificar se alguma atualização de segurança é necessária. Se houver um programa ou um componente de software listado, o impacto da vulnerabilidade estará relacionado e também haverá um hiperlink para a atualização de software disponível.
+
+**Observação** Talvez você tenha que instalar diversas atualizações de segurança para uma única vulnerabilidade. Examine a coluna inteira de cada identificador de boletim listado para verificar as atualizações que você deve instalar com base nos programas ou componentes instalados no sistema.
+
+**Softwares afetados e Locais de download**
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+Detalhes
+</th>
+<th style="border:1px solid black;" >
+Detalhes
+</th>
+<th style="border:1px solid black;" >
+Detalhes
+</th>
+<th style="border:1px solid black;" >
+Detalhes
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-014**](http://technet.microsoft.com/security/bulletin/ms08-014)
+</td>
+<td style="border:1px solid black;">
+[**MS08-015**](http://technet.microsoft.com/security/bulletin/ms08-015)
+</td>
+<td style="border:1px solid black;">
+[**MS08-016**](http://technet.microsoft.com/security/bulletin/ms08-016)
+</td>
+<td style="border:1px solid black;">
+[**MS08-017**](http://technet.microsoft.com/security/bulletin/ms08-017)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Classificação Máxima de Gravidade**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<th colspan="5">
+Pacotes do Office e software
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2000 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=72735aa1-e22c-40ed-8c79-38fba89979aa)
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office XP Service Pack 3
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=9cf8aafa-71a5-4017-b53c-4e80ef6e1188)
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Excel 2000 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=f7f90c30-1bfd-406b-a77f-612443e30185)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Excel 2002 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=907f96d5-d1e9-4471-b41c-3ac811e63038)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Excel 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=296e5f2c-f594-41c8-a20a-3e4c40ae3948)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Excel Viewer 2003
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=280bb2ac-b21a-46b5-8751-5a50fbebf107)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Excel Viewer 2003 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=9f25922c-d3c2-4ef1-b164-8a21a77d29aa)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Excel 2007
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=e7634cb5-9531-4284-9554-4168fc488e0c)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=e9251d71-9098-4125-ae91-7d4c83ea58ad)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Outlook 2000 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=714a49cd-5bca-4719-96a1-e1077f279533)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Outlook 2002 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=59853687-d885-4059-9460-ee403855dbd8)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Outlook 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=fccc7c4c-8496-4682-bd46-6590503c1bf2)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Outlook 2003 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=fccc7c4c-8496-4682-bd46-6590503c1bf2)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Outlook 2007
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=4e2baf00-88eb-4eb6-961a-54245b363c21)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office 2004 para Mac
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=95dceb37-b35f-46db-b280-db0f3b298aa9)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=95dceb37-b35f-46db-b280-db0f3b298aa9)
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2008 para Mac
+</td>
+<td style="border:1px solid black;">
+[Importante](http://www.microsoft.com/downloads/details.aspx?familyid=8fe8c32a-6d7a-482b-97c6-42562f089ee4)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+</tr>
+<tr>
+<th colspan="5">
+Outros softwares
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Web Components 2000  
+(KB931660)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=806c654a-35e3-4385-855a-4b803249bfcf)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Web Components 2000  
+(KB932031)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=f54d2a5e-c0ed-4f70-9746-38dd61c8e9d7)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Web Components 2000  
+(KB933367)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=d71b23fa-a873-406d-bad7-e38e565dee39)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Web Components 2000  
+(KB933369)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=2fe10ccd-40cb-4090-b83d-eae3d4eca174)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Web Components 2000  
+(KB939714)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=5fddd54f-7a33-4ea3-b68d-b96a9bae509d)   
+**<sup>[2]</sup>**
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Web Components 2000  
+(KB939714)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=5fddd54f-7a33-4ea3-b68d-b96a9bae509d)   
+**<sup>[3]</sup>**
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Web Components 2000  
+(KB941305)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=71de76ba-b62c-4a7a-a78a-9317f5255b13)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Web Components 2000  
+(KB948257)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+[Crítica](http://www.microsoft.com/downloads/details.aspx?familyid=526d87bd-c3da-412e-8765-c15987ae9b01)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Visual Studio .NET 2002 Service Pack 1  
+(KB933367)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Visual Studio .NET 2003 Service Pack 1  
+(KB933369)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft BizTalk Server 2000  
+(KB939714)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft BizTalk Server 2002  
+(KB939714)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Commerce Server 2000  
+(KB941305)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Internet Security and Acceleration Server 2000 Service Pack 2  
+(KB948257)
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+</td>
+<td style="border:1px solid black;">
+**<sup>[1]</sup>**
+</td>
+</tr>
+</table>
+
+<p></p>
+
+ 
+**Observações**
+
+**<sup>[1]</sup>** Há uma atualização de segurança disponível para esse software. Consulte o software ou o componente afetado na tabela e o boletim de segurança apropriado para obter mais detalhes.
+
+**<sup>[2]</sup>** Esta atualização de segurança está associada ao Microsoft BizTalk Server 2000. Consulte o boletim de segurança apropriado para obter detalhes.
+
+**<sup>[3]</sup>** Esta atualização de segurança está associada ao Microsoft BizTalk Server 2002. Consulte o boletim de segurança apropriado para obter detalhes.
+
+Orientação e ferramentas de detecção e implantação
+--------------------------------------------------
+
+ 
+**Central de Segurança**
+
+Gerencie as atualizações de software e segurança que você precisa instalar em servidores, computadores desktop e notebooks em sua organização. Para obter mais informações, consulte o [Centro de Gerenciamento de Atualização do Technet](http://go.microsoft.com/fwlink/?linkid=69903). O site [TechNet Security Center](http://go.microsoft.com/fwlink/?linkid=21171) fornece informações adicionais sobre segurança em produtos da Microsoft. Os consumidores podem visitar [Segurança em Casa](http://go.microsoft.com/fwlink/?linkid=85102), onde essa informação também está disponível, clicando em “Atualizações de Segurança mais Recentes”.
+
+As atualizações de segurança estão disponíveis no [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747), [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130) e [Office Update](http://go.microsoft.com/fwlink/?linkid=21135). As atualizações de segurança também estão disponíveis no [Centro de Download da Microsoft](http://go.microsoft.com/fwlink/?linkid=21129). Você poderá encontrá-las com mais facilidade, executando uma pesquisa com a palavra-chave "atualização de segurança".
+
+Por fim, as atualizações de segurança podem ser baixadas do [Microsoft Update Catalog](http://go.microsoft.com/fwlink/?linkid=96155). O Microsoft Update Catalog fornece um catálogo pesquisável de conteúdo disponibilizado por meio do Windows Update e Microsoft Update, incluindo atualizações de segurança, drivers e service packs. Ao pesquisar usando o número do boletim de segurança (como "MS07-036"), é possível adicionar todas as atualizações aplicáveis em sua cesta (incluindo idiomas diferentes para uma atualização) e baixá-las na pasta de sua escolha. Para obter mais informações sobre o Microsoft Update Catalog, consulte as [Perguntas Freqüentes sobre Microsoft Update Catalog.](http://go.microsoft.com/fwlink/?linkid=97900)
+
+**Orientação para detecção e implantação**
+
+A Microsoft está oferecendo uma orientação de detecção e implantação para as atualizações de segurança deste mês. Essa orientação também ajudará os profissionais de TI a entender como eles podem usar as várias ferramentas para ajudar a implantar a atualização de segurança, tal como o Windows Update, Microsoft Update, Atualização do Office, as ferramentas MBSA (Microsoft Baseline Security Analyzer), Office Detection Tool, Microsoft Systems Management Server (SMS) e a Ferramenta Extended Security Update Inventory (ESUIT). Para obter mais informações, consulte o [artigo 910723 da Microsoft Knowledge Base](http://support.microsoft.com/kb/910723).
+
+**Microsoft Baseline Security Analyzer**
+
+O MBSA (Microsoft Baseline Security Analyzer) permite aos administradores pesquisar, em sistemas locais e remotos, atualizações de segurança ausentes e problemas de configuração de segurança comuns. Para obter mais informações sobre o MBSA, visite [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?linkid=21134).
+
+**Windows Server Update Services**
+
+Usando o WSUS (Windows Server Update Services), os administradores podem implantar de forma rápida e confiável as mais recentes atualizações críticas e de segurança dos sistemas operacionais Windows 2000 e posterior, Office XP e superior, Exchange Server 2003, e SQL Server 2000 nos sistemas operacionais Windows 2000 e superior.
+
+Para obter mais informações sobre como implantar esta atualização de segurança usando o Windows Server Update Services, visite [Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=50120).
+
+**Systems Management Server**
+
+O SMS (Microsoft Systems Management Server) fornece uma solução corporativa altamente configurável para gerenciar atualizações. Ao usar o SMS, os administradores podem identificar os sistemas baseados no Windows que precisam de atualizações de segurança, bem como executar a implantação controlada dessas atualizações em toda a empresa com o mínimo de interrupção para os usuários. O próximo lançamento do SMS, System Center Configuration Manager 2007, já está disponível; consulte também [System Center Configuration Manager 2007](http://technet.microsoft.com/en-us/library/bb735860.aspx). Para obter mais informações sobre como os administradores podem usar o SMS 2003 para instalar atualizações de segurança, consulte [Gerenciamento de Patches de Segurança do SMS 2003.](http://go.microsoft.com/fwlink/?linkid=22939) Os usuários do SMS 2.0 também podem usar o [Software Updates Service Feature Pack](http://go.microsoft.com/fwlink/?linkid=33340) (em inglês) para ajudar a implantar atualizações de segurança. Para obter informações sobre o SMS, visite [Microsoft Systems Management Server](http://go.microsoft.com/fwlink/?linkid=21158).
+
+**Observação** O SMS usa o Microsoft Baseline Security Analyzer e a ferramenta de detecção do Microsoft Office para fornecer amplo suporte à detecção e à implantação de atualizações do boletim de segurança. Algumas atualizações de software podem não ser detectadas por essas ferramentas. Os administradores podem usar os recursos de inventário do SMS nesses casos para apontar as atualizações de sistemas específicos. Para obter mais informações sobre este procedimento, consulte [Implementando atualizações de software usando o Recurso Distribuição de Software do SMS](http://go.microsoft.com/fwlink/?linkid=33341). Algumas atualizações de segurança exigirão direitos administrativos quando o sistema for reiniciado. Os administradores podem usar a Elevated Rights Deployment Tool (disponível no [SMS 2003 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=33387) e no [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161)) (sites em inglês) para instalar essas atualizações.
+
+### Outras informações
+
+#### Ferramenta de Remoção de Software Mal-Intencionado do Microsoft Windows
+
+A Microsoft lançou uma versão atualizada da Ferramenta de Remoção de Software Mal-Intencionado do Microsoft Windows em Windows Update, Microsoft Update, Windows Server Update Services e no Centro de Download.
+
+#### Atualizações de alta prioridade que não são de segurança no MU, WU e WSUS:
+
+Durante este mês:
+
+-   A Microsoft lançou duas atualizações de alta prioridade que **não são de segurança** no Microsoft Update (MU) e no WSUS (Windows Server Update Services).
+-   A Microsoft lançou três atualizações de alta prioridade que **não são de segurança** para Windows no Windows Update (WU) e no WSUS.
+
+Observe que estas informações se referem **somente** a atualizações de alta prioridade que **não são de segurança** no Microsoft Update, Windows Update e Windows Server Update Services lançadas no mesmo dia que o resumo de boletins de segurança. **Não** serão fornecidas informações sobre atualizações que **não são de segurança** lançadas em outros dias.
+
+#### Comunidade e estratégias de segurança
+
+**Estratégias de Gerenciamento de Atualização**
+
+O site [Orientações de segurança para gerenciamento de atualizações](http://go.microsoft.com/fwlink/?linkid=21168) oferece informações adicionais sobre as práticas recomendadas pela Microsoft para a aplicação de atualizações de segurança.
+
+**Obtendo outras atualizações de segurança**
+
+As atualizações para outros problemas de segurança estão disponíveis nos seguintes locais:
+
+-   As atualizações de segurança estão disponíveis no [Centro de Download da Microsoft](http://go.microsoft.com/fwlink/?linkid=21129). Você poderá encontrá-las com mais facilidade, executando uma pesquisa com a palavra-chave "atualização de segurança".
+-   Atualizações para plataformas do cliente estão disponíveis no [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747).
+-   É possível obter as atualizações de segurança oferecidas este mês no Windows Update, disponíveis no Centro de Download de arquivos de imagem ISO em CD contendo lançamentos críticos e de segurança. Para obter mais informações, consulte o [artigo 913086 (em inglês) da Microsoft Knowledge Base](http://support.microsoft.com/kb/913086).
+
+**Comunidade de segurança de profissionais de TI**
+
+Aprenda a aumentar a segurança e a otimizar a infra-estrutura de TI e participe de discussões sobre os tópicos de segurança com outros profissionais de TI no site [IT Pro Security Community](http://go.microsoft.com/fwlink/?linkid=21164) (em inglês).
+
+#### Agradecimentos
+
+A Microsoft [agradece](http://go.microsoft.com/fwlink/?linkid=21127) à pessoa citada abaixo por trabalhar conosco para ajudar a proteger os clientes:
+
+-   Mike Scott, da [SAIC](http://www.saic.com/), por relatar um problema descrito no boletim MS08-014
+-   Matt Richard, da [VeriSign](http://www.verisign.com/), por relatar um problema descrito no boletim MS08-014
+-   Greg MacManus, da [iDefense Labs](http://labs.idefense.com/), por relatar um problema descrito no boletim MS08-014
+-   Yoshiya Sasaki, da [JFE Systems](http://www.jfe-systems.com/), por relatar um problema descrito no boletim MS08-014
+-   Bing Liu, da [Fortinet](http://www.fortinet.com/), por relatar um problema descrito no boletim MS08-014
+-   [iDefense Labs](http://labs.idefense.com/) por relatar um problema descrito no boletim MS08-014
+-   Cody Pierce, da [TippingPoint DVLabs](http://dvlabs.tippingpoint.com/), por relatar um problema descrito no boletim MS08-014
+-   Moti Joseph e Dan Hubbard, da [Websense Security Labs](http://www.websense.com/), por relatar um problema descrito no boletim MS08-014
+-   Greg MacManus, da [iDefense Labs](http://labs.idefense.com/), por relatar um problema descrito no boletim MS08-015
+-   Arnaud Dovi, que trabalha com a [Zero Day Initiative (ZDI](http://www.zerodayinitiative.com/)), por relatar um problema descrito no boletim MS08-016
+-   Um localizador anônimo por relatar um problema descrito no boletim MS08-016
+-   Chris Ries, da [VigilantMinds Inc.](http://www.vigilantminds.com/), por relatar um problema descrito no boletim MS08-017
+-   Xiao Hui, da [NCNIPC](http://www.nipc.org.cn/), por relatar um problema descrito no boletim MS08-017
+-   Yuval Ben-Itzhak, da [Finjan](http://www.finjan.com/), por relatar um problema descrito no boletim MS08-017
+
+#### Suporte
+
+-   O software afetado listado foi testado a fim de determinar que versões são afetadas. Outras versões pasaram seu ciclo de vida de suporte. Para determinar o ciclo de vida do suporte da sua versão de software, visite o site [Ciclo de Vida do Suporte Microsoft](http://go.microsoft.com/fwlink/?linkid=21742).
+-   Os clientes nos EUA e Canadá podem receber suporte técnico dos [Serviços de suporte ao produto Microsoft](http://go.microsoft.com/fwlink/?linkid=21131) pelo telefone 1-866-PCSAFETY. As ligações para obter suporte associado a atualizações de segurança são gratuitas.
+-   Os clientes de outros países podem obter suporte nas subsidiárias locais da Microsoft. O suporte associado a atualizações de segurança é gratuito. Para obter mais informações sobre como entrar em contato com a Microsoft a fim de obter suporte a problemas, visite o site de [Ajuda e Suporte Internacional](http://go.microsoft.com/fwlink/?linkid=21155).
+
+#### Aviso de isenção de responsabilidade
+
+As informações fornecidas na Microsoft Knowledge Base são apresentadas "no estado em que se encontram", sem garantia de qualquer tipo. A Microsoft se isenta de todas as garantias, expressas ou implícitas, inclusive as garantias de comercialização e adequação a um propósito específico. Em hipótese alguma a Microsoft Corporation ou seus fornecedores serão responsáveis por quaisquer danos, inclusive danos diretos, indiretos, incidentais, conseqüenciais, danos por lucros cessantes ou danos especiais, mesmo que a Microsoft Corporation ou seus fornecedores tenham sido alertados da possibilidade dos referidos danos. Como alguns estados não permitem a exclusão ou limitação de responsabilidade por danos conseqüenciais ou indiretos, a limitação acima pode não ser aplicável a você.
+
+#### Revisões
+
+-   V1.0 (11 de março de 2008): Resumo de boletins publicados.
+-   V1.1 (11 de março de 2008): Resumo de boletins atualizado para refletir novo link de download para o Microsoft Office Web Components 2000 para BizTalk Server 2000 e 2002.
+
+*Built at 2014-04-18T01:50:00Z-07:00*

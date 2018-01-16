@@ -25,9 +25,8 @@ A Etapa 7 é composta pelos seguintes procedimentos:
 
 4.  Na lista **Configurações de aprovação de grupo das atualizações selecionadas**, clique em **Instalar** na lista na coluna **Aprovação** para o grupo Teste e, em seguida, clique em **OK**.
 
-| ![](images/Cc720504.note(WS.10).gif)Observação                                                                                                                                                                                              |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Há várias opções associadas à aprovação de atualizações, como a configuração de prazos e a desinstalação de atualizações. Esses assuntos são tratados no informe oficial “Microsoft Windows Server Update Services Operations Guide” (o documento pode estar em inglês). |
+> [!NOTE]  
+> Há várias opções associadas à aprovação de atualizações, como a configuração de prazos e a desinstalação de atualizações. Esses assuntos são tratados no informe oficial “Microsoft Windows Server Update Services Operations Guide” (o documento pode estar em inglês). 
 
 Depois de 24 horas, você poderá usar o recurso de relatório do WSUS para determinar se essas atualizações foram implantadas nos computadores.
 
