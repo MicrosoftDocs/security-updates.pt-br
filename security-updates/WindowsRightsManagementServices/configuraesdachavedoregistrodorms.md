@@ -11,9 +11,8 @@ Configurações da chave do Registro do RMS
 
 É possível modificar as configurações da chave do Registro para testar determinados aspectos da implantação, assim como para gerenciar o desempenho.
 
-| ![](images/Cc747740.Caution(WS.10).gif)Cuidado                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Editar o Registro incorretamente pode causar sérios danos ao sistema. Antes de alterar o Registro, faça backup dos dados importantes que estão no computador. |
+> [!Caution]  
+> Editar o Registro incorretamente pode causar sérios danos ao sistema. Antes de alterar o Registro, faça backup dos dados importantes que estão no computador.
 
 Esta seção inclui:
 
