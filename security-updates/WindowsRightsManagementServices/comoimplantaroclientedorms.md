@@ -15,9 +15,8 @@ Várias organizações optam por controlar a implantação do software cliente n
 
 Antes de começar a implantação, consulte [http://go.microsoft.com/fwlink/?LinkId=67736](http://go.microsoft.com/fwlink/?linkid=67736) para baixar o cliente do RMS (a página pode estar em inglês).
 
-| ![](images/Cc747749.Important(WS.10).gif)Importante                          |
-|-----------------------------------------------------------------------------------------------------------|
-| O cliente do RMS foi integrado ao Windows Vista. Portanto, não é necessário fazer uma instalação à parte. |
+> [!Important]  
+> O cliente do RMS foi integrado ao Windows Vista. Portanto, não é necessário fazer uma instalação à parte.
 
 Extraindo os arquivos de instalação
 -----------------------------------
@@ -32,16 +31,15 @@ onde &lt;path&gt; é o diretório de destino no qual você deseja colocar os arq
 
 Ao executar esse comando, os seguintes arquivos serão extraídos para o diretório de destino especificado:
 
--   Bootstrap.exe
+-   Bootstrap.exe  
     Trata-se de um arquivo de invólucro usado pelo arquivo executável para instalar os outros arquivos incluídos. Ele não é usado na instalação do cliente do RMS com SP2 ao usar o SMS ou a Diretiva de Grupo.
--   MSDrmClient.msi
+-   MSDrmClient.msi  
     Esse é o arquivo de instalação do cliente do RMS com SP2. Essa instalação desinstala qualquer versão anterior do cliente do RMS existente no computador. Este programa deve ser instalado primeiramente nos computadores clientes.
--   RMClientBackCompat.msi
+-   RMClientBackCompat.msi  
     Esse é o arquivo de instalação que identifica o novo cliente do RMS com SP2 para aplicativos habilitados para RMS (como o Microsoft Office Professional 2003 ou o 2007 Microsoft Office System) que dependem da versão anterior do cliente do RMS para que o cliente do RMS com SP2 possa ser usado. Este programa deve ser instalado nos computadores clientes após a instalação bem-sucedida do MSDrmClient.msi.
 
-| ![](images/Cc747749.note(WS.10).gif)Observação                                                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Qualquer que seja o método de instalação que você escolha implementar, os dois arquivos do Windows Installer devem ser instalados com êxito. Se ocorrer um erro que impeça a instalação do MSDrmClient.msi, não instale o arquivo RMClientBackCompat.msi. |
+> [!Note]  
+> Qualquer que seja o método de instalação que você escolha implementar, os dois arquivos do Windows Installer devem ser instalados com êxito. Se ocorrer um erro que impeça a instalação do MSDrmClient.msi, não instale o arquivo RMClientBackCompat.msi.
 
 Implantar o cliente do RMS usando uma instalação autônoma
 ---------------------------------------------------------
@@ -52,9 +50,8 @@ A extração dos arquivos para instalar os arquivos do Windows Installer é opci
 
 Esse comando inicia a instalação autônoma do cliente do RMS.
 
-| ![](images/Cc747749.note(WS.10).gif)Observação                                                                                                               |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Como se trata de uma instalação autônoma, o instalador não informa quando o processo é concluído. Geralmente as instalações autônomas são executadas em um arquivo em lotes ou de script. |
+> [!Note]  
+> Como se trata de uma instalação autônoma, o instalador não informa quando o processo é concluído. Geralmente as instalações autônomas são executadas em um arquivo em lotes ou de script.
 
 Implantar o cliente do RMS usando o SMS
 ---------------------------------------
@@ -70,11 +67,10 @@ Implantar o cliente do RMS usando o SMS
 
     **Geral**:
 
-    -   Em **Linha de Comando**, digite o seguinte:
+    -   Em **Linha de Comando**, digite o seguinte:  
         `msiexec.exe /q ALLUSERS=2 /m MSIDGHOG /i "<file_name>.msi"`
-        | ![](images/Cc747749.note(WS.10).gif)Observação                                                      |
-        |----------------------------------------------------------------------------------------------------------------------------------|
-        | MSIDGHOG é um valor aleatório. Substitua &lt;file\_name&gt; pelo nome do arquivo do Windows Installer que o pacote vai instalar. |
+        > [!Note]  
+        > MSIDGHOG é um valor aleatório. Substitua &lt;file\_name&gt; pelo nome do arquivo do Windows Installer que o pacote vai instalar.
 
     -   Em **Executar**, selecione a opção **Oculto**.
     -   Em **Após executar**, selecione a opção **Nenhuma ação necessária**.
@@ -140,14 +136,34 @@ O procedimento a seguir fornece um guia rápido para administradores que não es
 
 11. Repita as etapas 5 a 10 para criar um GPO que instale o arquivo RMClientBackCompat.msi.
 
-| ![](images/Cc747749.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                                                                                                                                |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Essas etapas são fornecidas apenas como orientação para os usuários que não têm experiência no uso de Diretiva de Grupo. Se você for um administrador experiente de Diretiva de Grupo, poderá adotar os seus próprios procedimentos operacionais para distribuir o pacote MSDrmClient.msi. Além disso, essas etapas são para um controlador de domínio que execute o Windows Server 2003 — o processo e a terminologia podem ser diferentes em um domínio de Windows 2000. |
+> [!Note]  
+> Essas etapas são fornecidas apenas como orientação para os usuários que não têm experiência no uso de Diretiva de Grupo. Se você for um administrador experiente de Diretiva de Grupo, poderá adotar os seus próprios procedimentos operacionais para distribuir o pacote MSDrmClient.msi. Além disso, essas etapas são para um controlador de domínio que execute o Windows Server 2003 — o processo e a terminologia podem ser diferentes em um domínio de Windows 2000.
 
 Atualizando de uma versão anterior
 ----------------------------------
 
-        ```
-| ![](images/Cc747749.note(WS.10).gif)Observação                                   |
-|---------------------------------------------------------------------------------------------------------------|
-| Esse script não funciona com o Windows Vista porque o cliente do RMS está incorporado ao sistema operacional. |
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")
+Set objWindowsInstaller = Wscript.CreateObject("WindowsInstaller.Installer") 
+Set colProducts = objWindowsInstaller.Products 
+
+For Each product In colProducts 
+strProductName = objWindowsInstaller.ProductInfo (product, "ProductName")
+
+if strProductName = "Windows Rights Management Client with Service Pack 2" then
+strInstallFlag = "False"
+Exit For
+else
+strInstallFlag = "True"
+end if
+Next
+
+if strInstallFlag = "True" then
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q "
+else
+wscript.echo "No installation required"
+end if
+
+```
+> [!Note]  
+> Esse script não funciona com o Windows Vista porque o cliente do RMS está incorporado ao sistema operacional.
