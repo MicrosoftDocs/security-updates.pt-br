@@ -41,14 +41,14 @@ Use the following steps to migrate the WSUS database from a Windows Internal Dat
     -   Right-click **Update Services**, and then click **Stop**.
 3.  Detach the WSUS database (SUSDB) from the Windows Internal Database instance. You will need to use the sqlcmd utility, which can be downloaded from [Feature Pack for Microsoft SQL Server 2005] (http://go.microsoft.com/fwlink/?LinkId=70728). For more information about the sqlcmd utility, see [sqlcmd Utility] (http://go.microsoft.com/fwlink/?LinkId=81183).  
 
-    ```
-        sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query
-        use master
-        alter database SUSDB set single_user with rollback immediate
-        go
-        sp_detach_db SUSDB
-        go
-    ```
+```
+    sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query
+    use master
+    alter database SUSDB set single_user with rollback immediate
+    go
+    sp_detach_db SUSDB
+    go
+```
 1.  Attach **SUSDB** to the destination SQL instance.
     -   In SQL Server Management Studio, under the instance node, right-click **Databases**, select **Properties**, and then click **Attach**.
     -   In the **Attach Databases** box, under **Databases to attach**, browse to the location of the susdb.mdf file (by default this is **C:\\WSUS\\UpdateServicesDbFiles** if you installed Windows Internal Database), and then click **OK**.
