@@ -56,9 +56,8 @@ A configuração é o processo de preparação de um site com o RMS para que os 
     Se tiver selecionado Offline em Conectividade com a Internet do Servidor na Etapa 4, complete o procedimento "Registrar manualmente um servidor raiz de certificação" antes de continuar.
 7.  Na **Home Page de Administração**, clique no link Ponto de conexão de serviço do RMS.
 
-| ![](images/Cc747735.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                                                                            |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A próxima etapa deste procedimento — o registro de um ponto de conexão de serviço — requer o uso de uma conta de domínio que tenha privilégios suficientes para criar um objeto de recipiente abaixo do recipiente Serviços no recipiente de configuração da floresta do Active Directory. O grupo de segurança predefinido, **Administradores de Empresa**, é um exemplo de uma conta com os privilégios necessários. |
+> [!Note]  
+> A próxima etapa deste procedimento — o registro de um ponto de conexão de serviço — requer o uso de uma conta de domínio que tenha privilégios suficientes para criar um objeto de recipiente abaixo do recipiente Serviços no recipiente de configuração da floresta do Active Directory. O grupo de segurança predefinido, **Administradores de Empresa**, é um exemplo de uma conta com os privilégios necessários. 
 
 1.  Na página **Ponto de conexão de serviço do RMS**, clique no botão **Registrar URL**. Isso registra o ponto de conexão de serviço do RMS no Active Directory, para que aplicativos habilitados para RMS possam descobrir serviços de licenciamento, proxy de ativação e certificação do RMS. 
 
