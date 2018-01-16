@@ -38,7 +38,7 @@ Para avaliar como essa estimativa funciona, considere uma organização com 5.00
 
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="33%" />

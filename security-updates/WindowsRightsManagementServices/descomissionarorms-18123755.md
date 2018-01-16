@@ -13,13 +13,11 @@ Para executar esse procedimento, é preciso estar conectado localmente ao site d
 
 Para abrir a página **Administração Global**, clique em **Iniciar**, aponte para **Todos os Programas**, aponte para **Windows RMS** e clique em **Administração do Windows RMS**.
 
-| ![](images/Cc747665.Warning(WS.10).gif)Aviso                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| Quando você encerra um servidor, ele não pode ser restaurado para uma configuração RMS padrão. Esse procedimento é irreversível. |
+> [!Warning]  
+> Quando você encerra um servidor, ele não pode ser restaurado para uma configuração RMS padrão. Esse procedimento é irreversível.
 
-| ![](images/Cc747665.Warning(WS.10).gif)Aviso                                                                                                 |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Depois de você descomissionar o RMS, ele deve ser totalmente removido usando-se Adicionar ou Remover Programas, antes que você tente instalar uma outra instância do RMS. |
+> [!Warning]  
+> Depois de você descomissionar o RMS, ele deve ser totalmente removido usando-se Adicionar ou Remover Programas, antes que você tente instalar uma outra instância do RMS.
 
 Descomissionando o RMS
 ----------------------

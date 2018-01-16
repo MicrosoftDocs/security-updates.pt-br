@@ -23,6 +23,5 @@ http://*nome\_do\_servidor*/\_wmcs/Certification/Activation.asmx
 
 Os clientes que estão em execução fora da rede corporativa usam UDDI para a descoberta de serviços, a fim de localizar o serviço de ativação. Para obter mais informações, consulte "[Publicação dos serviços hospedados pela Microsoft](https://technet.microsoft.com/7ee8cb4d-1b46-48be-8a4c-5ff6a458231a)", já mencionado neste tema.
 
-| ![](images/Cc747697.note(WS.10).gif)Observação                 |
-|---------------------------------------------------------------------------------------------|
-| Se você habilitou a SSL no servidor RMS, essas URLs usarão o protocolo de conexão https://. |
+> [!Note]  
+> Se você habilitou a SSL no servidor RMS, essas URLs usarão o protocolo de conexão https://.

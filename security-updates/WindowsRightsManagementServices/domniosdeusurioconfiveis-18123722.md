@@ -13,9 +13,8 @@ Por padrão, o RMS não emite licenças de uso para usuários cujos certificados
 
 Você pode configurar o RMS de modo que ele processe esse tipo de solicitação importando o certificado de licenciante para servidor de um outro domínio de usuário e adicionando-o à lista de domínios de usuário confiáveis. Quando isso é feito, os usuários cujos certificados de conta foram emitidos pelo domínio de usuário confiáveis podem enviar solicitações de licenças de uso para sua instalação. Essas licenças de uso serão processadas como se fossem solicitações de usuários internos.
 
-| ![](images/Cc747618.note(WS.10).gif)Observação                                                                                    |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| O cluster raiz de certificação é automaticamente incluído na lista de domínios de usuário confiáveis de todos os servidores RMS que estão na mesma instalação. |
+> [!Note]  
+> O cluster raiz de certificação é automaticamente incluído na lista de domínios de usuário confiáveis de todos os servidores RMS que estão na mesma instalação.
 
 Você pode permitir que usuários de diferentes domínios compartilhem conteúdo protegido. Isso é descrito nos exemplos a seguir:
 

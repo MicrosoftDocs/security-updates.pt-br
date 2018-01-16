@@ -13,13 +13,11 @@ Para executar esse procedimento, é preciso estar conectado localmente ao site d
 
 O computador em que você está instalando o RMS deve ser um servidor membro em um domínio ou deve ser um controlador de domínio. Não é possível implantar o RMS em um servidor autônomo em um grupo de trabalho.
 
-| ![](images/Cc747689.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Não configure o RMS em outro servidor sem antes ter concluído a instalação e a configuração do primeiro servidor raiz de certificação. Para obter instruções, consulte "[Configurar o primeiro servidor raiz de certificação](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2)", "[Configurar um servidor de licenciamento](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e)" ou "[Adicionar um servidor a um cluster](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733)", mais adiante neste tema. |
+> [!Important]  
+> Não configure o RMS em outro servidor sem antes ter concluído a instalação e a configuração do primeiro servidor raiz de certificação. Para obter instruções, consulte "[Configurar o primeiro servidor raiz de certificação](https://technet.microsoft.com/debc42f3-74ff-4c99-b7a4-4921fccdabc2)", "[Configurar um servidor de licenciamento](https://technet.microsoft.com/4d67b898-0ba9-4eef-ab7d-ee0ca55a688e)" ou "[Adicionar um servidor a um cluster](https://technet.microsoft.com/db635238-5528-4bec-9cc6-8244e2b3d733)", mais adiante neste tema. 
 
-| ![](images/Cc747689.Important(WS.10).gif)Importante                                                                                                                                                                        |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| O RMS SP1 pode ser instalado em um servidor que está executando no momento a versão anterior do RMS. No entanto, se você encerrar o RMS, ele deverá ser totalmente removido, usando Adicionar ou Remover Programas, antes de tentar instalar o RMS SP1. |
+> [!Important]  
+> O RMS SP1 pode ser instalado em um servidor que está executando no momento a versão anterior do RMS. No entanto, se você encerrar o RMS, ele deverá ser totalmente removido, usando Adicionar ou Remover Programas, antes de tentar instalar o RMS SP1. 
 
 Instalando o RMS com Service Pack 1
 -----------------------------------
@@ -38,8 +36,7 @@ Instalando o RMS com Service Pack 1
 
 6.  Quando a caixa de diálogo **Instalação Concluída** aparecer, clique em **Fechar**.
 
-    | ![](images/Cc747689.note(WS.10).gif)Observação                                                         |
-    |-------------------------------------------------------------------------------------------------------------------------------------|
-    | Se a mensagem de erro "Reiniciando aplicativo" aparecer, atualize a página **Administração Global** no Microsoft Internet Explorer. |
+    > [!Note]  
+    > Se a mensagem de erro "Reiniciando aplicativo" aparecer, atualize a página **Administração Global** no Microsoft Internet Explorer. 
 
 Você também pode instalar o RMS a partir de um prompt de comando. Para obter instruções, consulte "[Instalação a partir do prompt de comando do servidor do RMS](https://technet.microsoft.com/b55b1e2a-dd14-4168-a37f-9cdedbec660b)", mais adiante neste tema.

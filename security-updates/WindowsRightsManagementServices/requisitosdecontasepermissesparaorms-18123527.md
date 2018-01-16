@@ -43,6 +43,5 @@ Em implantações de um único servidor em que o banco de dados fica no mesmo co
 </tbody>
 </table>
   
-| ![](images/Cc720178.note(WS.10).gif)Observação                                                                                                                                                                                                                                                     |  
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| A conta usada para fazer logon no servidor RMS não requer participação adicional em nenhum grupo de domínio, como Admins. do Domínio. Entretanto, algumas tarefas administrativas específicas, como registrar o ponto de conexão do serviço e modificar as diretivas de segurança, exigem uma conta com privilégios adicionais. |
+> [!NOTE]  
+> A conta usada para fazer logon no servidor RMS não requer participação adicional em nenhum grupo de domínio, como Admins. do Domínio. Entretanto, algumas tarefas administrativas específicas, como registrar o ponto de conexão do serviço e modificar as diretivas de segurança, exigem uma conta com privilégios adicionais.

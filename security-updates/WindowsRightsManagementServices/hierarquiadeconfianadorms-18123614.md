@@ -17,7 +17,7 @@ Para o RMS, a raiz de confiança, ou a "âncora de confiança", é um par de cha
 
 O diagrama a seguir exibe a hierarquia de confiança em uma organização. A cadeia de confiança retorna até os serviços Microsoft que emitiram os certificados básicos.
 
-![](images/Cc720232.6c169175-94fb-4ec0-93bc-12748aae3ac4(WS.10).gif)
+![](images/Cc720232.6c169175-94fb-4ec0-93bc-12748aae3ac4(WS.10).gif)  
 1.  Para cada computador cliente, é emitido um cofre exclusivo que contém a chave pública da raiz da Microsoft.
 2.  Ao receber uma solicitação de licença, o RMS valida as entidades, seguindo o caminho que está na hierarquia de confiança até a raiz de confiança.
 3.  O RMS verifica a autenticidade da entidade confiável indicada na licença.

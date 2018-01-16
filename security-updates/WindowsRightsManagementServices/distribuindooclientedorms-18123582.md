@@ -13,9 +13,8 @@ O cliente do RMS é incorporado ao sistema operacional Windows Vista®, portant
 
 O processo de ativação estabelece um cofre e um certificado de computador para o usuário que está conectado no momento. A ativação é um processo local e não exige uma conexão de rede. Se a ativação for bem-sucedida, a primeira solicitação para uma licença de uso por um aplicativo habilitado para RMS obterá um certificado de usuário para o usuário. O cliente do RMS pode ser instalado em cada computador cliente da organização usando-se a Diretiva de Grupo, o Windows Update ou um script administrativo.
 
-| ![](images/Cc720266.note(WS.10).gif)Observação                                                                                                                                                                                                                                              |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Qualquer que seja o método de distribuição de cliente usado, o cliente do RMS utiliza uma porta (por padrão, a porta 80 ou 443) para se comunicar com o servidor do RMS. Verifique se o computador cliente é capaz de fazer solicitações de saída para os clusters raiz e somente de licenciamento do RMS nessas portas. |
+> [!Note]  
+> Qualquer que seja o método de distribuição de cliente usado, o cliente do RMS utiliza uma porta (por padrão, a porta 80 ou 443) para se comunicar com o servidor do RMS. Verifique se o computador cliente é capaz de fazer solicitações de saída para os clusters raiz e somente de licenciamento do RMS nessas portas.
 
 **Usando a Diretiva de Grupo**
 
@@ -29,7 +28,12 @@ O Windows Update fornece o modo mais simples de instalar o cliente do RMS em um 
 
 A fim de ter o nível mais alto de controle sobre o processo de instalação do cliente, você pode adquirir o software e depois validar sua integridade a cada etapa do processo de instalação, executando um script. Esse script pode ser criado e adicionado a um GPO (Objeto de Diretiva de Grupo) como um script de inicialização. Com esse método, o usuário não precisa ser um administrador local no computador, e o cliente do RMS é instalado automaticamente na reinicialização.
 
-        ```
+Um exemplo de script é mostrado abaixo:
+
+```
+Set objShell = Wscript.CreateObject("Wscript.Shell")  
+objShell.run "WindowsRightsManagementServicesSP2-KB917275-Client-ENU.exe -override 1 /I MsDrmClient.msi REBOOT=ReallySuppress /q -override 2 /I RmClientBackCompat.msi REBOOT=ReallySuppress /q"
+```
 Para obter informações básicas sobre como distribuir o cliente do RMS usando a Diretiva de Grupo, consulte [Configurando o SMS ou a Diretiva de Grupo para oferecer suporte à implantação do cliente](https://technet.microsoft.com/9e37c27b-8cc1-40c6-adb7-0937aa64c8db), mais adiante neste tópico.
 
 Para obter orientação sobre os procedimentos usados na implantação do cliente do RMS, consulte [Como implantar o cliente do RMS](https://technet.microsoft.com/c84f1724-cf71-4385-9003-ff68bc23c927), mais adiante neste tópico.
