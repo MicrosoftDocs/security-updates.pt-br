@@ -39,27 +39,26 @@ The WSUS 3.0 server can be configured to send e-mail notifications of new update
 > If both the WSUS administrative console and the WSUS server have the same settings for Daylight Savings Time adjustments, notifications will appear at the correct time. If the adjustments for Daylight Savings Time are different, then notifications will be off by the difference in the Daylight Savings Time adjustment.
 
 **Set up the e-mail server**
-1.  Click the **E-Mail Server** tab.
+1. Click the **E-Mail Server** tab.
 
-2.  In the **Outgoing e-mail server (SMTP)** box, type the name of your SMTP server.
+2. In the **Outgoing e-mail server (SMTP)** box, type the name of your SMTP server.
 
-3.  In the **Port number** box, type the server's SMTP port (25 by default).
+3. In the **Port number** box, type the server's SMTP port (25 by default).
 
-4.  In the **Sender name** box, type the sender's e-mail display name. Generally this will be the name of the WSUS administrator.
+4. In the **Sender name** box, type the sender's e-mail display name. Generally this will be the name of the WSUS administrator.
 
-5.  In the **E-mail address** box, type the sender's e-mail address.
+5. In the **E-mail address** box, type the sender's e-mail address.
 
-6.  If the SMTP server requires logon information, select the **My SMTP server requires authentication** check box.
+6. If the SMTP server requires logon information, select the **My SMTP server requires authentication** check box.
 
-7.  Enter the user name and password in the respective boxes.
-
+7. Enter the user name and password in the respective boxes.
     
-    > [!NOTE]  
-    > You can change authentication credentials only on a WSUS server, not from a remote administration console.
+  > [!NOTE]  
+  > You can change authentication credentials only on a WSUS server, not from a remote administration console.
 
-8.  Click **Apply** to save this information.
+8. Click **Apply** to save this information.
 
-9.  After saving the e-mail server information, test your configuration by clicking **Test**. The Event Viewer will show any issues related to sending the e-mail.
+9. After saving the e-mail server information, test your configuration by clicking **Test**. The Event Viewer will show any issues related to sending the e-mail.
 
 10. If your e-mail notification is not working properly, one place to look is the SoftwareDistribution.log file (found in your WSUS directory, usually …\\Program Files\\Update Services\\LogFiles). One error message that is symptomatic of an incorrect SMTP configuration is the following:
 
