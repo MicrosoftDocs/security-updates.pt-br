@@ -17,11 +17,10 @@ Para que os usuários possam começar a usar o serviço de descomissionamento, o
 
 1.  Abra o Editor do Registro.
 2.  Navegue até`HKEY_CURRENT_USER\Software\Microsoft\Office\11,0\Common\DRM` e adicione uma nova chave nomeada `Descomissionamento`.
-3.  Na chave Descomissionamento, adicione a seguinte nova entrada **Valor de seqüência**, substituindo *seu-servidor-licença* pelo nome do seu servidor RMS:
+3.  Na chave Descomissionamento, adicione a seguinte nova entrada **Valor de seqüência**, substituindo *seu-servidor-licença* pelo nome do seu servidor RMS:  
     `http://`*seu-servidor-licença*`/_wmcs/licensing`
-4.  Em seguida, clique com o botão direito do mouse na entrada e selecione **Modificar** para especificar os dados de valores para apontar para o serviço de descomissionamento:
+4.  Em seguida, clique com o botão direito do mouse na entrada e selecione **Modificar** para especificar os dados de valores para apontar para o serviço de descomissionamento:  
     `http://`*seu-servidor-licença*`/_wmcs/decommission`
 
-| ![](images/Cc747549.note(WS.10).gif)Observação                                                              |
-|------------------------------------------------------------------------------------------------------------------------------------------|
-| Poderá haver várias entradas para essa chave quando vários servidores RMS estiverem no modo de descomissionamento dentro da organização. |
+> [!Note]  
+> Poderá haver várias entradas para essa chave quando vários servidores RMS estiverem no modo de descomissionamento dentro da organização.
