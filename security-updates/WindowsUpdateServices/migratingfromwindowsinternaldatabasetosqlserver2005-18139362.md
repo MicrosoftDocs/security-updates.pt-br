@@ -39,7 +39,7 @@ Use the following steps to migrate the WSUS database from a Windows Internal Dat
     -   Click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Services**.
     -   Right-click **IIS Admin Service**, and then click **Stop**.
     -   Right-click **Update Services**, and then click **Stop**.
-        ```
+      
 1.  Attach **SUSDB** to the destination SQL instance.
     -   In SQL Server Management Studio, under the instance node, right-click **Databases**, select **Properties**, and then click **Attach**.
     -   In the **Attach Databases** box, under **Databases to attach**, browse to the location of the susdb.mdf file (by default this is **C:\\WSUS\\UpdateServicesDbFiles** if you installed Windows Internal Database), and then click **OK**.

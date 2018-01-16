@@ -95,7 +95,8 @@ This procedure migrates the WSUS database to a SQL Server 2000 instance running 
 
 11. In this step you will verify that the database migration has been successful by opening the WSUS console by using Internet Explorer.
 
-    -   In Internet Explorer, in the **Address** box, type **http://\[ServerName\]/WSUSAdmin**.
+    -   In Internet Explorer, in the **Address** box, type **http://\[ServerName\]/WSUSAdmin**.  
+
         > [!NOTE]  
         > You might have to restart the server for these settings to take effect.
 
@@ -162,7 +163,7 @@ This section contains two procedures. The first procedure installs WSUS on the b
 
     \[LocalContentCacheLocationValue\] is the path to the folder on Server 1 where update files are stored. For example, C:\\WSUS\\WSUSContent.
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Do not use a network location or a UNC path. Do not add a trailing backslash (\\).
 
 3.  If you chose remote storage on Microsoft Update, at a command prompt, type
