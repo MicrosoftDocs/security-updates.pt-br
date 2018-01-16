@@ -15,19 +15,19 @@ Você pode instalar o RMS com Service Pack 2 (SP2) via prompt de comando, o que
 
 Para instalar usando os arquivos do Windows® Installer (.msi), primeiro você deve extrair os arquivos msi do arquivo executável do RMS com SP2. O seguinte comando pode ser executado em um prompt de comando para extrair os arquivos msdrmclient.msi e RmClientBackCompat.msi:
 
-**WindowsRightsManagementServiceSP2-KB917275-Server-ENU.exe /X:C:\\***Install\_Location*
+**WindowsRightsManagementServiceSP2-KB917275-Server-ENU.exe /X:C:\\** *Install\_Location*
 
 Depois de extrair os arquivos .msi, você poderá usar os seguintes comandos para instalar o RMS:
 
-**msiexec.exe /I MSDrmClient.msi /qn ALLUSERS=2 /m MSIDHOG /lei logfile.log DISPLYPAGE="NO" TARGETDIR=c:\\***Install\_Location*
+**msiexec.exe /I MSDrmClient.msi /qn ALLUSERS=2 /m MSIDHOG /lei logfile.log DISPLYPAGE="NO" TARGETDIR=c:\\** *Install\_Location*
 
-**msiexec.exe /I RMClientBackCompat.msi /qn ALLUSERS=2 /m MSIDHOG /lei logfile.log DISPLYPAGE="NO" TARGETDIR=c:\\***Install\_Location*
+**msiexec.exe /I RMClientBackCompat.msi /qn ALLUSERS=2 /m MSIDHOG /lei logfile.log DISPLYPAGE="NO" TARGETDIR=c:\\** *Install\_Location*
 
 A tabela a seguir descreve a sintaxe de cada comando.
 
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -63,6 +63,5 @@ A tabela a seguir descreve a sintaxe de cada comando.
 </tbody>
 </table>
   
-| ![](images/Cc747733.note(WS.10).gif)Observação                                                                                                                                                                                                         |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Qualquer que seja o método de instalação que você escolha implementar, é preciso certificar-se de que os dois arquivos .msi sejam instalados com sucesso. Se ocorrer um erro que impeça a instalação do MSDrmClient.msi, o arquivo RMClientBackCompat.msi não deverá ser instalado. |
+> [!Note]  
+> Qualquer que seja o método de instalação que você escolha implementar, é preciso certificar-se de que os dois arquivos .msi sejam instalados com sucesso. Se ocorrer um erro que impeça a instalação do MSDrmClient.msi, o arquivo RMClientBackCompat.msi não deverá ser instalado. 

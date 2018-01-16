@@ -11,9 +11,8 @@ Habilitando o serviço de descomissionamento
 
 O descomissionamento do sistema RMS requer a chave particular usada para proteger todas as informações publicadas. Essa chave particular é armazenada no banco de dados de configuração, criptografada pela DPAPI (Data Protection API) e baseia-se na senha digitada durante a configuração. Se a chave particular do RMS estiver armazenada em um módulo de segurança de hardware (HSM), a chave particular estará armazenada no HSM e não no banco de dados de configuração.
 
-| ![](images/Cc720261.Caution(WS.10).gif)Cuidado                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Antes de descomissionar o sistema RMS, verifique se você possui a senha da chave particular. Caso não saiba essa senha, redefina a senha da chave particular antes de descomissionar o servidor do RMS. |
+> [!Caution]  
+> Antes de descomissionar o sistema RMS, verifique se você possui a senha da chave particular. Caso não saiba essa senha, redefina a senha da chave particular antes de descomissionar o servidor do RMS. 
 
 A primeira etapa para remover o sistema RMS é descomissionar os servidores do cluster. Como o descomissionamento é uma função de licenciamento, um servidor existente em um cluster somente de licenciamento do RMS com sub-registro pode ser descomissionado sem afetar o cluster raiz do RMS ou qualquer outro cluster somente de licenciamento RMS com sub-registro. Portanto, você precisa descomissionar separadamente o cluster raiz do RMS e quaisquer outros clusters somente de licenciamento porque cada cluster somente de licenciamento armazena sua própria chave particular usada para criar licenças de publicação.
 
