@@ -18,9 +18,8 @@ Antes de começar a migração do banco de dados de configuração, verifique se
 -   O nome e a senha da conta usada originalmente para provisionar os servidores do cluster do RMS que usam esse banco de dados.
 -   Se um provedor de serviços de criptografia (CSP) baseado em software for usado para armazenar a chave particular do RMS, a senha dessa chave, especificada originalmente durante o provisionamento. Se um módulo de segurança de hardware (HSM) for usado para armazenar a senha da chave particular do RMS, essa etapa não será necessária.
 
-| ![](images/Cc747607.note(WS.10).gif)Observação                                                                                                                                                        |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A migração do banco de dados de configuração não requer um novo certificado de licenciante para servidor nem uma nova chave particular de servidor, pois o RMS mantém as configurações do banco de dados de configuração original. |
+> [!Note]  
+> A migração do banco de dados de configuração não requer um novo certificado de licenciante para servidor nem uma nova chave particular de servidor, pois o RMS mantém as configurações do banco de dados de configuração original. 
 
 Faça backup dos bancos de dados do RMS antes de executar qualquer ação no servidor de banco de dados. Se isso não for possível, no mínimo, exporte seu certificado de licenciante para servidor. Para obter mais informações sobre como exportar o certificado de licenciante para servidor, consulte [Exportar seu certificado de licenciante para servidor para um arquivo](https://technet.microsoft.com/d683a629-71b3-4b11-932b-4ab0317334af). Se ocorrer um erro quando os bancos de dados forem migrados, você poderá importar o certificado de licenciante para servidor para uma nova instalação do RMS e consumir conteúdo protegido por direitos na instalação anterior.
 
@@ -29,9 +28,8 @@ Para migrar um banco de dados de configuração, execute as seguintes etapas:
 -   Atualize o banco de dados de configuração do RMS para refletir o nome do novo servidor de banco de dados.
 -   Atualize os arquivos web.config e do Registro em cada servidor no cluster do RMS para usar o nome do novo servidor de banco de dados
 
-| ![](images/Cc747607.Important(WS.10).gif)Importante                                                                          |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Este tópico pressupõe que os bancos de dados do RMS já tenham sido copiados para o novo servidor de banco de dados que hospeda os bancos de dados do RMS. |
+> [!Important]  
+> Este tópico pressupõe que os bancos de dados do RMS já tenham sido copiados para o novo servidor de banco de dados que hospeda os bancos de dados do RMS. 
 
 Atualize o banco de dados de configuração do RMS para usar o nome do novo servidor de banco de dados
 ----------------------------------------------------------------------------------------------------
@@ -49,7 +47,7 @@ Para atualizar o nome do servidor de banco de dados do RMS usando o Editor de Co
 
 4.  Na caixa **Servidor**, digite o nome do novo servidor que hospeda o banco de dados de configuração do RMS e clique em **Ir**.
 
-5.  Na caixa **Banco de dados**, clique em **DRMS\_Config\_***&lt;Nome do cluster do RMS&gt;***\_***&lt;Porta&gt;*, em que *&lt;Nome do cluster do RMS&gt;* é o nome do cluster do RMS e *&lt;Porta&gt;* é a porta TCP em que o RMS se comunica e, em seguida, clique em **Ir**.
+5.  Na caixa **Banco de dados**, clique em **DRMS\_Config\_** *&lt;Nome do cluster do RMS&gt;\_&lt;Porta&gt;*, em que *&lt;Nome do cluster do RMS&gt;* é o nome do cluster do RMS e *&lt;Porta&gt;* é a porta TCP em que o RMS se comunica e, em seguida, clique em **Ir**.
 
 6.  Clique em **DRMS\_ClusterPolicies**.
 
@@ -130,9 +128,8 @@ Para atualizar os arquivos web.config em cada servidor no cluster do RMS:
 
 Finalmente, atualize o Registro em cada servidor no cluster do RMS para o nome do novo servidor de banco de dados:
 
-| ![](images/Cc747607.Caution(WS.10).gif)Cuidado                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A edição incorreta do Registro pode causar danos graves ao sistema. Antes de alterar o Registro, faça backup de todos os dados importantes do computador. |
+> [!Caution]  
+> A edição incorreta do Registro pode causar danos graves ao sistema. Antes de alterar o Registro, faça backup de todos os dados importantes do computador. 
 
 **Para atualizar o Registro em cada servidor no cluster do RMS**
 1.  Faça logon em um servidor no cluster do RMS como membro do grupo local Administradores.

@@ -1331,7 +1331,7 @@ The following table shows WUA error codes.
 </tr>
 <tr class="odd">
 <td style="border:1px solid black;">0x8024F002</td>
-<td style="border:1px solid black;">WU_E_REPORTER_
+<td style="border:1px solid black;">WU_E_REPORTER_<br/>
 EVENTNAMESPACEPARSEFAILED</td>
 <td style="border:1px solid black;">The XML in the event namespace descriptor could not be parsed.</td>
 </tr>

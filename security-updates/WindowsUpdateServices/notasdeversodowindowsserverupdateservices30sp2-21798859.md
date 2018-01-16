@@ -128,22 +128,8 @@ A seguinte lista contém requisitos mínimos de hardware necessários para uma i
 -   Mínimo de 20 GB de espaço livre necessários no volume no qual o conteúdo está armazenado, 30 GB são recomendados.
 
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">O WSUS 3.0 SP2 não pode ser instalado em unidades compactadas.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> style="border:1px solid black 
  
 
 Pré-requisitos de Configuração e Práticas Recomendadas para o Servidor do WSUS
@@ -440,22 +426,8 @@ Esta tabela mostra as propriedades de linha de comando do WSUS 3.0 SP2.
 WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instala em modo silencioso usando a porta 8530) WSUSSetup.exe /q /u (desinstala o WSUS)  
 ```
  
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939886.Important(WS.10).gif" />Importante</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Se você instalar o WSUS 3.0 SP2 no modo silencioso (/q) e a máquina não tiver todos os pré-requisitos instalados, a instalação gerará um arquivo denominado WSUSPreReqCheck.xml e o salvará no diretório %TEMP%.
-</td>
-</tr>
-</tbody>
-</table>
+> [!IMPORTANT]  
+> style="border:1px solid black 
  
 
 <span id="BKMK_KnownIssues"></span>
