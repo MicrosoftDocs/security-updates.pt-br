@@ -30,4 +30,4 @@ Configurando um grupo de superusuários
 
     Para desabilitar os direitos do grupo de superusuários, clique em **Desabilitar**.
 
-Para obter mais informações sobre como desempenhar esse procedimento, consulte "[Usando o grupo de superusuários](https://technet.microsoft.com/0febcb3e-7124-4e51-971a-1013b928d33b)", já mencionado neste tema.
+Para obter mais informações sobre como desempenhar esse procedimento, consulte "[Usando o grupo de superusuários](https://technet.microsoft.com/0febcb3e-7124-4e51-971a-1013b928d33b)", já mencionado neste tema. 
