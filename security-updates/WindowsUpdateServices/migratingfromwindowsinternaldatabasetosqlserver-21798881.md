@@ -148,7 +148,6 @@ Back end server starting configuration:
     2.  Right-click **IIS Admin Service**, and then click **Start**.
     3.  Right-click **Update Services**, and then click **Start**.
 9.  On the front end server: Verify that the database migration was successful by opening the WSUS administrative console. (Click **Start**, click **Administrative Tools**, and then click **Microsoft Windows Server Update Services 3.0**).
-
         > [!NOTE]
         > You might have to restart the front end server in order for these settings to take effect.
     

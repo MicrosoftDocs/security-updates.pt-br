@@ -210,9 +210,6 @@ Microsoft Small Business Server
 <li>Security Updates<br />
 <br />
 </li>
-<li><br />
-<br />
-</li>
 </ul></td>
 <td style="border:1px solid black;"><ul>
 <li>None at this time<br />
