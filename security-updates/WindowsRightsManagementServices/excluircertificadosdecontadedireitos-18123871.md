@@ -31,12 +31,10 @@ Excluindo certificados de conta de direitos
     -   Para excluir o certificado de conta por nome de usuário, clique em **Nome de usuário** do certificado de conta de direitos a ser excluído, digite o nome do usuário a ser excluído (na forma *nome\_usuário*@*nome\_domínio*.com) e depois clique em **Adicionar**. Utilize essa opção para excluir os certificados de conta de usuários internos que têm contas de usuário do Active Directory.
     -   Para excluir um certificado de conta por chave pública, clique em **Seqüência de caracteres da chave pública** para o certificado de conta a ser excluída:, digite a série de chave pública do certificado de conta de direitos apropriada e depois clique em **Adicionar**. Utilize essa opção para excluir os certificados de conta de usuários externos que não têm contas de usuário do Active Directory.
 
-    | ![](images/Cc747785.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                  |
-    |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Para excluir um certificado de conta da lista de exclusão, clique no certificado de conta de direitos excluído na lista e clique em **Excluir as chaves públicas selecionadas da lista de exclusão**. O usuário que tiver esse certificado de conta específico não conseguirá uma licença para o conteúdo protegido pelo RMS desse servidor. |
+    > [!Note]  
+    > Para excluir um certificado de conta da lista de exclusão, clique no certificado de conta de direitos excluído na lista e clique em **Excluir as chaves públicas selecionadas da lista de exclusão**. O usuário que tiver esse certificado de conta específico não conseguirá uma licença para o conteúdo protegido pelo RMS desse servidor.
 
-    | ![](images/Cc747785.note(WS.10).gif)Observação                   |
-    |-----------------------------------------------------------------------------------------------|
-    | Para desabilitar a exclusão dos certificados de conta de direitos, clique em **Desabilitar**. |
+    > [!Note]  
+    > Para desabilitar a exclusão dos certificados de conta de direitos, clique em **Desabilitar**.
 
 Para obter mais informações sobre a execução desse procedimento, consulte "[Excluindo certificados de conta de direitos](https://technet.microsoft.com/cba5e901-942c-4d06-9865-e6c4648c95e6)", já mencionado neste tema.

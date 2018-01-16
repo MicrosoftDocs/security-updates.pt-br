@@ -15,6 +15,6 @@ Por padrão, o grupo de superusuários não possui membros, nem mesmo administra
 
 Para obter informações sobre como especificar um grupo de superusuários para o RMS, consulte [Configurar um grupo de superusuários](https://technet.microsoft.com/f2ef847e-2824-471f-9079-5c343094aba8), mais adiante neste tema.
 
-| ![](images/Cc720198.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Para designar um grupo como o grupo de superusuários do RMS, o grupo precisa existir na mesma floresta do Active Directory que a instalação do RMS. As propriedades desse grupo devem incluir um endereço de email, incluindo um nome de domínio totalmente qualificado que seja igual ao nome da conta. O endereço de email deve estar no formato *nome\_grupo*@*nome\_domínio*. |
+
+> [!NOTE]  
+> Para designar um grupo como o grupo de superusuários do RMS, o grupo precisa existir na mesma floresta do Active Directory que a instalação do RMS. As propriedades desse grupo devem incluir um endereço de email, incluindo um nome de domínio totalmente qualificado que seja igual ao nome da conta. O endereço de email deve estar no formato *nome\_grupo*@*nome\_domínio*.

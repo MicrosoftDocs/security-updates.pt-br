@@ -71,9 +71,8 @@ Ao instalar o WSUS 3.0 SP1, você pode precisar desabilitar programas antivírus
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Essa solução temporária pode tornar o computador ou a rede mais vulnerável a ataques de usuários ou softwares mal-intencionados, como vírus. Não recomendamos essa solução temporária, mas fornecemos esta informação para que você possa implementá-la a seu próprio critério. Use essa solução temporária por sua própria conta e risco. |
 
-| ![](images/Cc708525.note(WS.10).gif)Observação                                                                                                                                                                                                    |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Um programa antivírus é projetado para ajudar a proteger o computador contra vírus. Você não deve baixar nem abrir arquivos de fontes não confiáveis, visitar sites da Web em que você não confie ou abrir anexos de email quando seu programa antivírus estiver desabilitado. |
+> [!NOTE]  
+> Um programa antivírus é projetado para ajudar a proteger o computador contra vírus. Você não deve baixar nem abrir arquivos de fontes não confiáveis, visitar sites da Web em que você não confie ou abrir anexos de email quando seu programa antivírus estiver desabilitado. 
 
 #### O WSUS 3.0 SP1 requer que a opção de disparadores aninhados esteja ativada no SQL Server
 
@@ -177,9 +176,8 @@ Verifique se o servidor WSUS 3.0 SP1 atende a esta lista de requisitos antes de 
 </tbody>
 </table>
   
-| ![](images/Cc708525.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                            |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Se o WSUS 2.0 tiver sido instalado anteriormente e estiver utilizando o SQL Server 2000, SQL Server Desktop Engine 2000 ou qualquer banco de dados do SQL Server anterior ao SQL Server 2005 SP1 (ou SQL Server 2005 SP2 no Windows Server 2008), o programa de instalação do WSUS 3.0 SP1 instalará o Windows® Internal Database e migrará o banco de dados para ele. |
+> [!NOTE]  
+> Se o WSUS 2.0 tiver sido instalado anteriormente e estiver utilizando o SQL Server 2000, SQL Server Desktop Engine 2000 ou qualquer banco de dados do SQL Server anterior ao SQL Server 2005 SP1 (ou SQL Server 2005 SP2 no Windows Server 2008), o programa de instalação do WSUS 3.0 SP1 instalará o Windows® Internal Database e migrará o banco de dados para ele. 
   
 Requisitos mínimos de espaço em disco para instalação do servidor WSUS 3.0 SP1  
 ------------------------------------------------------------------------------

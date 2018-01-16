@@ -20,9 +20,8 @@ Desinstalando o RMS
 
 1.  Faça logon no servidor no qual você deseja desinstalar o Windows RMS.
 
-    | ![](images/Cc747587.Important(WS.10).gif)Importante                                                                                                                                                                                                               |
-    |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | Se estiver removendo o RMS de um servidor no cluster raiz de certificação, primeiro é preciso desconfigurá-lo indo até a página **Administração Global** e clicando em **Remover o RMS deste site**. Não é preciso desconfigurar um servidor de licenciamento antes de desinstalar o RMS dele. |
+    > [!Important]  
+    > Se estiver removendo o RMS de um servidor no cluster raiz de certificação, primeiro é preciso desconfigurá-lo indo até a página **Administração Global** e clicando em **Remover o RMS deste site**. Não é preciso desconfigurar um servidor de licenciamento antes de desinstalar o RMS dele.
 
 2.  Abra **Adicionar ou Remover Programas** no **Painel de Controle**.
 

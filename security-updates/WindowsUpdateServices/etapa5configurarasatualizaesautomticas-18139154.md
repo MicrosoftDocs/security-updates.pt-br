@@ -51,9 +51,8 @@ Para exibir as configurações da diretiva para gerenciar o WSUS, verifique se o
 
 4.  Clique em **OK**.
 
-| ![](images/Cc720532.note(WS.10).gif)Observação                                                                                                          |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| A opção **Permitir que o administrador local escolha a configuração** será exibida somente se as Atualizações Automáticas tiverem se atualizado para a versão compatível com o WSUS. |
+> [!NOTE]  
+> A opção **Permitir que o administrador local escolha a configuração** será exibida somente se as Atualizações Automáticas tiverem se atualizado para a versão compatível com o WSUS. 
 
 **Para direcionar o computador cliente ao servidor do WSUS**
 1.  No Editor de Objeto de Diretiva de Grupo, expanda **Configuração de Computadores**, expanda **Modelos Administrativos**, expanda **Componentes do Windows** e clique em **Windows Update**.
@@ -62,9 +61,8 @@ Para exibir as configurações da diretiva para gerenciar o WSUS, verifique se o
 
 3.  Clique em **Habilitado** e digite a URL HTTP do mesmo servidor do WSUS nas caixas **Configurar o serviço de atualização da intranet para detectar atualizações** e **Configure as estatísticas do servidor intranet**. Por exemplo, digite *http://nome\_do\_servidor* em ambas caixas e clique em **OK**.
 
-| ![](images/Cc720532.note(WS.10).gif)Observação                                                                                                                                                                                                                   |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se você estiver usando o GPO local para direcionar esse computador ao WSUS, essa configuração entrará em vigor imediatamente e esse computador deverá aparecer no console administrativo do WSUS em pouco tempo. Você pode agilizar esse processo iniciando manualmente um ciclo de detecção. |
+> [!NOTE]  
+> Se você estiver usando o GPO local para direcionar esse computador ao WSUS, essa configuração entrará em vigor imediatamente e esse computador deverá aparecer no console administrativo do WSUS em pouco tempo. Você pode agilizar esse processo iniciando manualmente um ciclo de detecção. 
 
 Depois de definir um computador cliente, serão necessários alguns minutos até que ele seja exibido na página **Computadores** do console do WSUS. Nos computadores cliente configurados com uma Diretiva de Grupo baseada no domínio, esse tempo será de aproximadamente 20 minutos depois que a Diretiva de Grupo for atualizada (ou seja, depois que ela aplicar todas as novas configurações de diretiva ao computador cliente). Por padrão, a Diretiva de Grupo é atualizada em segundo plano a cada 90 minutos, com uma diferença aleatória entre 0 e 30 minutos. Se você desejar atualizar a Diretiva de Grupo antes, vá para o prompt de comando do computador cliente e digite: **gpupdate /force**.
 

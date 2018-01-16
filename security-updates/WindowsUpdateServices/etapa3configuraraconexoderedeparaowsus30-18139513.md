@@ -21,9 +21,8 @@ Antes de iniciar o processo de configuração, assegure-se de que você saiba as
 
 Por padrão, o WSUS é configurado para usar o Microsoft Update como o local a partir do qual obter as atualizações. Se você tiver um servidor proxy na rede, configure o WSUS para usar o servidor proxy. Se houver um firewall corporativo entre o WSUS e a Internet, talvez seja necessário configurar o firewall para garantir que o WSUS possa obter as atualizações.
 
-| ![](images/Cc708602.note(WS.10).gif)Observação                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Embora seja preciso ter conexão com a Internet para baixar as atualizações do Microsoft Update, o WSUS oferece um recurso para importar as atualizações para redes que não estejam conectadas à Internet. |
+> [!NOTE]  
+> Embora seja preciso ter conexão com a Internet para baixar as atualizações do Microsoft Update, o WSUS oferece um recurso para importar as atualizações para redes que não estejam conectadas à Internet. 
 
 **A Etapa 3 contém os seguintes procedimentos**:
 
@@ -48,9 +47,8 @@ Por padrão, o WSUS é configurado para usar o Microsoft Update como o local a p
     -   http://wustat.windows.com
     -   http://ntservicepack.microsoft.com
 
-| ![](images/Cc708602.note(WS.10).gif)Observação                                                                                                                                                                 |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| As instruções para configurar o firewall destinam-se a um firewall corporativo posicionado entre o WSUS e a Internet. Como o WSUS inicia todo o seu tráfego de rede, não é necessário configurar o Firewall do Windows no servidor do WSUS. |
+> [!NOTE]  
+> As instruções para configurar o firewall destinam-se a um firewall corporativo posicionado entre o WSUS e a Internet. Como o WSUS inicia todo o seu tráfego de rede, não é necessário configurar o Firewall do Windows no servidor do WSUS. 
 
 Embora a conexão entre o Microsoft Update e o WSUS exija que as portas 80 e 443 estejam abertas, você pode configurar vários servidores do WSUS para sincronização com uma porta personalizada.
 
@@ -81,9 +79,8 @@ Os dois procedimentos seguintes supõem que você esteja usando o snap-in de Adm
 **Para iniciar o console de administração do WSUS**
 -   Para iniciar o console de administração do WSUS, clique em **Iniciar**, aponte para **Todos os Programas**, aponte para **Ferramentas Administrativas** e clique em **Microsoft Windows Server Update Services 3.0**.
 
-| ![](images/Cc708602.note(WS.10).gif)Observação                                                                                                                                                                                                                                      |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Para usar todos os recursos do console do WSUS, você deve ser membro dos grupos de segurança Administradores do WSUS ou Administradores locais no servidor no qual o WSUS está instalado. No entanto, os membros do grupo de segurança Relatores do WSUS têm acesso somente leitura ao console de administração. |
+> [!NOTE]  
+> Para usar todos os recursos do console do WSUS, você deve ser membro dos grupos de segurança Administradores do WSUS ou Administradores locais no servidor no qual o WSUS está instalado. No entanto, os membros do grupo de segurança Relatores do WSUS têm acesso somente leitura ao console de administração. 
 
 **Para especificar uma origem da atualização e o servidor proxy**
 1.  No console do WSUS, clique em **Opções** no painel esquerdo sob o nome do servidor e clique em **Origem da Atualização e Servidor Proxy** no painel central.

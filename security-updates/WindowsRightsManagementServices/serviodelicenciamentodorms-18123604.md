@@ -13,9 +13,9 @@ O serviço de licenciamento, que emite licenças de uso, é executado no cluster
 
 O arquivo do aplicativo do serviço de licenciamento, License.asmx, está localizado no diretório virtual de licenciamento que está no IIS.
 
-| ![](images/Cc720278.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Você pode implantar um cluster somente de licenciamento à parte para descarregar as solicitações de licenciamento provenientes do cluster raiz. Também é possível implantar um servidor ou cluster de licença para um departamento, por exemplo, para permitir que o departamento a estabeleça suas próprias diretivas de direitos. Para obter mais informações sobre essas considerações, consulte "Identificando os principais componentes" em "RMS: planejamento e arquitetura " nesta coleção de documentos. |
+
+> [!NOTE]  
+> Você pode implantar um cluster somente de licenciamento à parte para descarregar as solicitações de licenciamento provenientes do cluster raiz. Também é possível implantar um servidor ou cluster de licença para um departamento, por exemplo, para permitir que o departamento a estabeleça suas próprias diretivas de direitos. Para obter mais informações sobre essas considerações, consulte "Identificando os principais componentes" em "RMS: planejamento e arquitetura " nesta coleção de documentos.
 
 A lista de controle de acesso padrão desse serviço é mostrada na seguinte tabela:
 

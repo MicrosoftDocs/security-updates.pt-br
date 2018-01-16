@@ -25,9 +25,8 @@ Estas notas de versão descrevem problemas conhecidos que afetam o Microsoft® W
 -   WSUS 3.0 no Windows Server® 2008
 -   WSUS 3.0 no Windows Small Business Server 2003
 
-| ![](images/Cc708491.note(WS.10).gif)Observação                                                                                                                                                                |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uma cópia deste documento está disponível para download no [Centro de Download da Microsoft](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)). |
+> [!NOTE]  
+> Uma cópia deste documento está disponível para download no [Centro de Download da Microsoft](http://go.microsoft.com/fwlink/?linkid=71220) ([http://go.microsoft.com/fwlink/?LinkId=71220](http://go.microsoft.com/fwlink/?linkid=71220)). 
 
 Problema importante de configuração: É necessário substituir a senha do servidor proxy no assistente de configuração
 --------------------------------------------------------------------------------------------------------------------
@@ -82,9 +81,8 @@ Ao instalar o WSUS 3.0, pode ser necessário desabilitar os programas antivírus
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Essa solução alternativa pode tornar seu computador ou a rede mais vulnerável a ataques por usuários ou softwares mal-intencionados, como vírus. Não recomendamos essa solução alternativa, mas fornecemos estas informações para que você possa implementar essa solução alternativa se desejar. Use essa solução alternativa por seu próprio risco. |
 
-| ![](images/Cc708491.note(WS.10).gif)Observação                                                                                                                                                                                      |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Um programa antivírus é projetado para ajudar a proteger o computador contra vírus. Você não deve baixar nem abrir arquivos de origens não confiáveis, visitar sites não confiáveis, nem abrir anexos de email quando o programa antivírus estiver desabilitado. |
+> [!NOTE]  
+> Um programa antivírus é projetado para ajudar a proteger o computador contra vírus. Você não deve baixar nem abrir arquivos de origens não confiáveis, visitar sites não confiáveis, nem abrir anexos de email quando o programa antivírus estiver desabilitado. 
 
 #### o WSUS 3.0 requer que a opção de disparadores aninhados esteja ativada no SQL Server
 
@@ -200,9 +198,8 @@ Consulte o Problema 1: o IIS deve estar instalado.</td>
 </tbody>
 </table>
   
-| ![](images/Cc708491.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                      |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Se o WSUS 2.0 tiver sido instalado anteriormente e estiver usando o SQL Server 2000, o SQL Server Desktop Engine 2000 ou qualquer banco de dados do SQL Server anterior ao SQL Server 2005 SP1 (ou SQL Server 2005 SP2 no )Windows Server 2008, o programa de instalação do WSUS 3.0 instalará o Windows® Internal Database e migrará o banco de dados para ele. |
+> [!NOTE]  
+> Se o WSUS 2.0 tiver sido instalado anteriormente e estiver usando o SQL Server 2000, o SQL Server Desktop Engine 2000 ou qualquer banco de dados do SQL Server anterior ao SQL Server 2005 SP1 (ou SQL Server 2005 SP2 no )Windows Server 2008, o programa de instalação do WSUS 3.0 instalará o Windows® Internal Database e migrará o banco de dados para ele. 
   
 Requisitos mínimos de espaço em disco para a instalação do servidor WSUS 3.0  
 ----------------------------------------------------------------------------
