@@ -19,6 +19,5 @@ Proceda de uma das seguintes maneiras:
 
 Se precisar restaurar os dados do modelo de diretiva de direitos do banco de dados de configuração, extraia as informações sobre GUID e TemplateData da tabela DRMS\_RightsTemplate na cópia de backup do banco de dados de configuração ou simplesmente importe os dados do arquivo de texto. Para obter mais informações sobre como executar essas tarefas, consulte a documentação do SQL Server.
 
-| ![](images/Cc747625.note(WS.10).gif)Observação                                      |
-|------------------------------------------------------------------------------------------------------------------|
-| Para estabelecer um plano de backup dos modelos de diretiva de direitos, consulte o administrador do SQL Server. |
+> [!Note]  
+> Para estabelecer um plano de backup dos modelos de diretiva de direitos, consulte o administrador do SQL Server. 
