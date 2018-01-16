@@ -52,23 +52,8 @@ Você executará os primeiros dois procedimentos no GPO baseado em domínio de s
 
 2.  Clique em **Habilitado** e digite a URL HTTP do mesmo servidor do WSUS nas caixas **Configurar o serviço de atualização da intranet para detectar atualizações** e **Configure as estatísticas do servidor intranet**. Por exemplo, digite *http://nome\_do\_servidor* em ambas caixas e clique em **OK**.
 
- 
-<table style="border:1px solid black;">
-<colgroup>
-<col width="100%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th style="border:1px solid black;" ><img src="images/Dd939830.note(WS.10).gif" />Observação</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="border:1px solid black;">Se você estiver usando o objeto Diretiva de Grupo Local para direcionar o computador ao WSUS, essa configuração entrará em vigor imediatamente e esse computador será exibido no console administrativo do WSUS em pouco tempo.Você pode agilizar esse processo iniciando manualmente um ciclo de detecção.
-</td>
-</tr>
-</tbody>
-</table>
+> [!NOTE]
+> Se você estiver usando o objeto Diretiva de Grupo Local para direcionar o computador ao WSUS, essa configuração entrará em vigor imediatamente e esse computador será exibido no console administrativo do WSUS em pouco tempo.Você pode agilizar esse processo iniciando manualmente um ciclo de detecção.
  
 
 Após configurar um computador cliente, levará vários minutos antes que o computador apareça na página **Computadores** no Console de Administração WSUS. Para computadores clientes configurados com uma diretiva de grupo baseada em domínio, pode levar até 20 minutos para a atualização da diretiva (ou seja, para aplicação de qualquer nova política ao computador cliente). Por padrão, a diretiva de grupo é atualizada em segundo plano a cada 90 minutos, com um deslocamento aleatório de 0 a 30 minutos. Se você quiser atualizar a diretiva de grupo mais cedo, vá até o prompt de comando no computador cliente e digite **gpupdate /force**.

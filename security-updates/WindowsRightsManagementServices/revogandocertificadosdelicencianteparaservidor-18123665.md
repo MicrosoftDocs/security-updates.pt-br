@@ -37,6 +37,8 @@ Para obter o certificado de licenciante servidor de uma instalação do RMS, é 
 2.  No menu **Consultar**, clique em **Resultados em Texto**.
 3.  No menu **Ferramentas**, clique em **Opções** para abrir a caixa de diálogo **Opções**. Clique na guia **Resultados** e defina **Máximo de caracteres por coluna** até **8192**.
 
+4.  Na caixa de diálogo Consultar, digite as seguintes seqüências de consulta:
+
 ```
 select DRMS_XrML_Certificate.s_certificate from DRMS_XrML_Certificate, DRMS_LicensorCertificate,       DRMS_ClusterConfiguration where DRMS_ClusterConfiguration.CurrentLicensorCertID = DRMS_LicensorCertificate.i_CertID and DRMS_LicensorCertificate.i_CertificateID = DRMS_XrML_Certificate.i_CertificateID
 

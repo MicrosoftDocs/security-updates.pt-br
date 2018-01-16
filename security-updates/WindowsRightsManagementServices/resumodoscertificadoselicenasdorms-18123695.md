@@ -54,7 +54,8 @@ O certificado de licenciante para servidor que é emitido para o cluster raiz de
 <br />
 </li>
 </ul></td>
-<td style="border:1px solid black;">O certificado de licenciante para servidor que é emitido para um servidor de licença contém a chave pública do servidor de licença.
+<td style="border:1px solid black;">O certificado de licenciante para servidor que é emitido para um servidor de licença contém a chave pública do servidor de licença.  
+
 
 O certificado de licenciante para servidor que é emitido para um servidor raiz de certificação contém a chave pública do servidor raiz de certificação.</td>
 </tr>

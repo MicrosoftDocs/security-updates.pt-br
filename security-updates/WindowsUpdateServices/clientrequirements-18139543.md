@@ -12,7 +12,11 @@ Client Requirements
 Automatic Updates is the WSUS client software. Other than a network connection, Automatic Updates requires no particular hardware configuration. It can be used with WSUS on any computer that runs any of the following operating systems:
 
 -   Windows Vista
+
 -   Windows Server 2008
+
 -   Microsoft Windows Server 2003, any edition
+
 -   Microsoft Windows XP Professional SP 2
+
 -   Microsoft Windows 2000 Professional with Service Pack 4 (SP4), Windows 2000 Server with SP3 or SP4, or Windows 2000 Advanced Server with SP3 or SP4

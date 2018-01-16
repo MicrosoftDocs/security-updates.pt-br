@@ -70,9 +70,13 @@ If client computers are not running the WSUS-compatible version of Automatic Upd
     3.  Click **Default Web Site**.
     4.  Click **Virtual Server Management**, and then click **Define managed paths**.
     5.  In the **Add a new path**box, set the type to excluded path. Under **Path**, type the following:
+
         **"/iuident.cab"**
+
         **"/wutrack.bin"**
+
         **"/clientwebservice"**
+        
         **"/Selfupdate"**
 
 #### Check network connectivity on the WSUS client computer

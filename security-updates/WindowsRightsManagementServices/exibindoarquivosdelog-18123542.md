@@ -15,7 +15,7 @@ Uma entrada típica de log tem cerca de 300 bytes. A tabela a seguir descreve os
 
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

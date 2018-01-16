@@ -17,7 +17,7 @@ Atualmente, estamos desenvolvendo o conteúdo para esta Trilha do Aprendizado. I
 
 ##### Nesta página
 
-[](#ebaa)[Recursos](#ebaa)
+[](#ebaa)[Recursos](#ebaa)  
 [](#eaaa)[Tipo de Conteúdo e Definições de Níveis](#eaaa)
 
 ### Recursos
@@ -25,13 +25,6 @@ Atualmente, estamos desenvolvendo o conteúdo para esta Trilha do Aprendizado. I
 **Nível 100**
  
 <table style="border:1px solid black;">
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Nome do Curso</th>
@@ -95,13 +88,6 @@ Atualmente, estamos desenvolvendo o conteúdo para esta Trilha do Aprendizado. I
 **Nível 200**
  
 <table style="border:1px solid black;">
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Nome do Curso</th>
@@ -575,13 +561,6 @@ Atualmente, estamos desenvolvendo o conteúdo para esta Trilha do Aprendizado. I
 **Nível 300**
  
 <table style="border:1px solid black;">
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Nome do Curso</th>
@@ -807,13 +786,6 @@ Atualmente, estamos desenvolvendo o conteúdo para esta Trilha do Aprendizado. I
 **Nível 400**
  
 <table style="border:1px solid black;">
-<colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-<col width="20%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th style="border:1px solid black;" >Nome do Curso</th>

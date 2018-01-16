@@ -19,5 +19,5 @@ Como nos outros tipos de exclusão, você deve configurar a exclusão de aplicat
 
 Quando você aplica esta diretiva de exclusão em seu servidor, os clientes não podem usar o aplicativo excluído para solicitar e vincular novas licenças de uso ao conteúdo protegido pelo RMS. No entanto, os clientes podem continuar a usar o aplicativo excluído para consumir arquivos licenciados anteriormente.
 
-| ![](images/Cc747644.note(WS.10).gif)Observação                                                                                                                                                > [!Note]  
+> [!Note]  
 > O RMS exige que a versão do aplicativo seja especificada em um formato de 4 dígitos delimitados por pontos (\#.\#.\#.\# ). No entanto, alguns aplicativos especificam sua versão com números de 2 ou 3 dígitos delimitados por pontos. Nesse caso, você deve acrescentar um .0, se necessário, para fazer com que o número da versão corresponda ao formato exigido pelo RMS.
