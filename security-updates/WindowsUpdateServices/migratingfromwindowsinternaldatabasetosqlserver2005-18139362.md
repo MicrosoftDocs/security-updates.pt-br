@@ -89,6 +89,8 @@ This step will enable you to use the SQL Server Enterprise Manager on FE.
 -   Right-click **IIS Admin Service**, and then click **Stop**.
 -   Right-click **Update Services**, and then click **Stop**.
 
+#### Step 3 [on FE]: Detach the WSUS database.
+
     ```
         sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query 
         use master
