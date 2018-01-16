@@ -75,7 +75,7 @@ Essa seção descreve os requisitos de software e hardware necessários para a i
 -   Console de Gerenciamento Microsoft 3.0
 -   Microsoft Report Viewer Redistributable 2008
 
-> [!Importante]  
+> [!IMPORTANT]  
 > O Windows Server 2008 R2 exige o WSUS 3.0 SP2. Se você instalar o Windows Server 2008 R2, deverá instalar o WSUS 3.0 SP2. Não instale o WSUS 3.0 SP1 no Windows Server 2008 R2.
 
 ### Pré-requisitos de Software do Console de Administração do WSUS
@@ -368,19 +368,18 @@ Esta tabela mostra as propriedades de linha de comando do WSUS 3.0 SP2.
 ```  
     WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (instala em modo silencioso usando a porta 8530) WSUSSetup.exe /q /u (desinstala o WSUS)  
 ```
- 
-> [!IMPORTANT]  
 
 Problemas Conhecidos
 --------------------
 
--   Depois da conclusão com êxito do Assistente de Instalação do WSUS, o usuário é orientado a clicar em **Concluir**. Em casos raros, uma caixa de diálogo de erro é exibida contendo a seguinte mensagem: "**Ocorreu um erro de comunicação com o servidor e este assistente deve ser fechado. Você pode reiniciar o Assistente de Configuração do Servidor do WSUS da página Opções no console do WSUS.**" Para certificar-se de que suas seleções de instalação foram salvas, abra a página **Opções** no console de administração do WSUS e confirme as configurações em cada seção.
+-   Depois da conclusão com êxito do Assistente de Instalação do WSUS, o usuário é orientado a clicar em **Concluir**.  
+Em casos raros, uma caixa de diálogo de erro é exibida contendo a seguinte mensagem: "**Ocorreu um erro de comunicação com o servidor e este assistente deve ser fechado. Você pode reiniciar o Assistente de Configuração do Servidor do WSUS da página Opções no console do WSUS.**" Para certificar-se de que suas seleções de instalação foram salvas, abra a página **Opções** no console de administração do WSUS e confirme as configurações em cada seção.
 -   **Versões localizadas de cliente do Windows Update Agent (WUA) serão lançadas após o lançamento do WSUS 3.0 SP2**.  
     Isso é devido a uma dependência da agenda de localização do Windows 7. Durante o período entre o lançamento do WSUS 3.0 SP2 e o lançamento da versão localizada de cliente do WUA, esse último terá suporte para apenas cinco idiomas (inglês, alemão, francês, espanhol e japonês).
 -   **Os novos relatórios Atualização e Status do Computador que foram apresentados nessa versão do SP2 não são funcionais um ambiente em que servidores downstream do WSUS 3.0 SP1 são gerenciados de um servidor do WSUS 3.0 SP2**.         Se os novos relatórios forem executados para um servidor do SP1, a seguinte mensagem de erro será exibida: "Erro ao gerar o relatório. Tente executar o relatório novamente ou entre em contato com o administrador da rede se o problema persistir." A execução do relatório novamente não irá resolver o problema e também não há relação com problema de rede. Os novos relatórios dependem da funcionalidade de API que não existe no SP1, entretanto o Console de Administração do SP2 não bloqueia os novos relatórios ao gerenciar um servidor do SP1.
--   **A atualização para o WSUS 3.0 SP2 falha quando o SSL é configurado sem nome de certificado**.   
+-   **A atualização para o WSUS 3.0 SP2 falha quando o SSL é configurado sem nome de certificado**.  
     É necessário um nome de certificado para configurar o SSL. 
--   **O WSUS 3.0 SP2 que executa Windows Internal Database instalado em Windows Server 2008 impede a atualização para Windows Server 2008 R2**.   
+-   **O WSUS 3.0 SP2 que executa Windows Internal Database instalado em Windows Server 2008 impede a atualização para Windows Server 2008 R2**.  
     Antes de você continuar com a atualização para Windows Server 2008 R2, uma mensagem de erro do Relatório de Compatibilidade será exibida com instruções para desativar o Windows Internal Database. É necessário atualizar Windows Internal Database antes da atualização para Windows Server 2008 R2 poder continuar. Consulte o link [Como obter o pacote de serviços mais recente para o Windows Internal Database](http://go.microsoft.com/fwlink/?linkid=162104) (http://go.microsoft.com/fwlink/?LinkId=162104) para obter mais instruções e informações sobre atualização Windows Internal Database.
 
 Aviso de Direitos Autorais

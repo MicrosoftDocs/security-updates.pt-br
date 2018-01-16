@@ -209,7 +209,7 @@ Estes são os requisitos mínimos de espaço em disco para instalar o Windows Se
 -   2 GB para o volume no qual os arquivos do banco de dados serão armazenados  
 -   20 GB para o volume no qual o conteúdo está armazenado
   
-> [!IMPORTANTE]
+> [!IMPORTANT]  
 > O WSUS 3.0 não pode ser instalado em unidades compactadas. Verifique se a unidade escolhida não está compactada.
   
 Requisitos de atualização do WSUS 3.0  
