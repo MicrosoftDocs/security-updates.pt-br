@@ -18,10 +18,9 @@ You can configure different aspects of the way WSUS server information is displa
 
 3.  Click **OK**.
 
- 
 > [!IMPORTANT]  
-> style="border:1px solid black 
- 
+> Computer and update status will roll up from downstream replica servers only. It is not possible to get rolled-up status from a downstream autonomous server.
+
 
 **To display validation errors as pop-up windows**
 1.  From the WSUS Administration console, click **Options**, and then click **Personalization**.

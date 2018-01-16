@@ -77,9 +77,8 @@ Se houver dois ou mais sites em execução na porta 80 (por exemplo, o Windows®
 
 Ao instalar o WSUS 3.0, pode ser necessário desabilitar os programas antivírus antes de poder executar a instalação com êxito. Após desabilitar o programa antivírus, reinicie o computador antes de iniciar a instalação do WSUS. Esse procedimento impede que os arquivos estejam bloqueados quando o processo de instalação precisar acessá-los. Após a conclusão da instalação, habilite o programa antivírus novamente. Visite o site do fornecedor do programa antivírus para obter as etapas exatas para desabilitar e reabilitar o programa antivírus e a versão.
 
-| ![](images/Cc708491.Caution(WS.10).gif)Cuidado                                                                                                                                                                                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Essa solução alternativa pode tornar seu computador ou a rede mais vulnerável a ataques por usuários ou softwares mal-intencionados, como vírus. Não recomendamos essa solução alternativa, mas fornecemos estas informações para que você possa implementar essa solução alternativa se desejar. Use essa solução alternativa por seu próprio risco. |
+> [!CAUTION]  
+> Essa solução alternativa pode tornar seu computador ou a rede mais vulnerável a ataques por usuários ou softwares mal-intencionados, como vírus. Não recomendamos essa solução alternativa, mas fornecemos estas informações para que você possa implementar essa solução alternativa se desejar. Use essa solução alternativa por seu próprio risco. 
 
 > [!NOTE]  
 > Um programa antivírus é projetado para ajudar a proteger o computador contra vírus. Você não deve baixar nem abrir arquivos de origens não confiáveis, visitar sites não confiáveis, nem abrir anexos de email quando o programa antivírus estiver desabilitado. 
@@ -210,9 +209,8 @@ Estes são os requisitos mínimos de espaço em disco para instalar o Windows Se
 -   2 GB para o volume no qual os arquivos do banco de dados serão armazenados  
 -   20 GB para o volume no qual o conteúdo está armazenado
   
-| ![](images/Cc708491.Important(WS.10).gif)Importante                                 |  
-|------------------------------------------------------------------------------------------------------------------|  
-| O WSUS 3.0 não pode ser instalado em unidades compactadas. Verifique se a unidade escolhida não está compactada. |
+> [!IMPORTANTE]
+> O WSUS 3.0 não pode ser instalado em unidades compactadas. Verifique se a unidade escolhida não está compactada.
   
 Requisitos de atualização do WSUS 3.0  
 -------------------------------------
@@ -363,11 +361,11 @@ Esta tabela mostra as propriedades de linha de comando para o WSUS 3.0.
 #### Exemplo de Uso
   
 ```  
-WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
-```  
-| ![](images/Cc708491.Important(WS.10).gif)Importante                                                                                                                                |  
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Se o WSUS 3.0 for instalado em modo silencioso (/q) e a máquina não tiver todos os pré-requisitos instalados, a instalação gerará um arquivo denominado WSUSPreReqCheck.xml que será salvo no diretório %TEMP%. |
+    WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
+```
+
+> [!IMPORTANT]
+> Se o WSUS 3.0 for instalado em modo silencioso (/q) e a máquina não tiver todos os pré-requisitos instalados, a instalação gerará um arquivo denominado WSUSPreReqCheck.xml que será salvo no diretório %TEMP%. 
   
 Problemas de instalação  
 -----------------------
@@ -409,12 +407,18 @@ Se você alterar o nome do computador após instalar o WSUS 2.0 e antes de atual
   
 Use o script a seguir para remover e adicionar novamente os grupos Administradores do ASPNET e do WSUS. Em seguida, execute a atualização novamente.
   
-Será preciso substituir *&lt;Local\_do\_BD&gt;* pela pasta onde o banco de dados está instalado e *&lt;Diretório\_de\_Conteúdo&gt;* pela pasta do armazenamento local.
+Será preciso substituir *<Local\_do\_BD>* pela pasta onde o banco de dados está instalado e *<Diretório\_de\_Conteúdo>* pela pasta do armazenamento local.
   
-```  
-sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,@wsusadminslogin"   sqlcmd.exe -S *&lt;DBLocation&gt;* -E -Q "backup database SUSDB to disk=N'*&lt;ContentDirectory&gt;*\\SUSDB.Dat' with init"  
 ```
-  
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp_revokedbaccess @asplogin"
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp_revokedbaccess @wsusadminslogin"
+    
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=HOST_NAME()+'\ASPNET' EXEC sp_grantlogin @asplogin EXEC sp_grantdbaccess @asplogin EXEC sp_addrolemember webService,@asplogin"
+    sqlcmd.exe -S <DBLocation> -E -Q "USE SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST_NAME()+'\WSUS Administrators' EXEC sp_grantlogin @wsusadminslogin EXEC sp_grantdbaccess @wsusadminslogin EXEC sp_addrolemember webService,@wsusadminslogin"
+    
+    sqlcmd.exe -S <DBLocation> -E -Q "backup database SUSDB to disk=N'<ContentDirectory>\SUSDB.Dat' with init"
+```
+
 #### a instalação pode substituir um backup de banco de dados anterior
   
 A instalação do WSUS 3.0 adicionará o banco de dados ao diretório especificado durante a instalação. Por padrão, esse diretório é *%unidade\_do\_sistema%*\\WSUS\\UpdateServicesDbFiles. Se houver um backup de banco de dados anterior nesse diretório, ele será substituído pelo novo banco de dados. Os administradores devem fazer backup dos arquivos do banco de dados antes de aplicar atualizações no computador em que está o banco de dados.
@@ -484,7 +488,7 @@ Se você tiver configurado o IIS para usar SSL pela instalação de um certifica
   
 #### a importação do site de catálogo pode falhar sem as permissões de leitura/gravação para a pasta %windir%\\TEMP
   
-Ao executar uma importação do site de catálogo, se a conta Serviço de Rede não tiver permissão de leitura/gravação para a pasta %windir%\\TEMP, a importação poderá falhar com uma mensagem de erro como a seguinte: "O servidor não pôde processar a solicitação. ---&gt; Não foi possível localizar o arquivo 'C:\\WINDOWS\\TEMP\\*Nome\_do\_Arquivo\_temp*.dll'."
+Ao executar uma importação do site de catálogo, se a conta Serviço de Rede não tiver permissão de leitura/gravação para a pasta %windir%\\TEMP, a importação poderá falhar com uma mensagem de erro como a seguinte: "O servidor não pôde processar a solicitação. ---> Não foi possível localizar o arquivo 'C:\\WINDOWS\\TEMP\\*Nome\_do\_Arquivo\_temp*.dll'."
   
 #### o desempenho pode estar lento durante a sincronização entre o WSUS 3.0 e o servidor downstream de réplica executando o WSUS 2.0
   
@@ -596,14 +600,14 @@ Antes de executar o WSUS 3.0 no Windows Server 2008, o arquivo de configuraçã
   
 1. Abra o arquivo de configuração do IIS: %WINDIR%\\system32\\inetsrv\\applicationhost.config
   
-2. Na marca &lt;System.webServer&gt;&lt;modules&gt;, remova &lt;add name="CustomErrorMode"&gt;, se existir.
+2. Na marca <System.webServer><modules>, remova <add name="CustomErrorMode">, se existir.
   
-3. Na marca &lt;System.webServer&gt;&lt;modules&gt;, adicione &lt;remove name="CustomErrorMode"&gt;.
+3. Na marca <System.webServer><modules>, adicione <remove name="CustomErrorMode">.
   
 A marca resultante deve se parecer com:
   
 ```  
- &lt;System.webServer&gt; &lt;modules&gt; &lt;remove name="CustomErrorMode"&gt; &lt;/modules&gt; &lt;/System.webServer&gt;  
+    <System.webServer> <modules> <remove name="CustomErrorMode"> </modules> </System.webServer>  
 ```
   
 #### Problema 2: Se você instalar o WSUS 3.0 na porta personalizada no Windows Server 2008 Beta 3, deverá pré-criar o site

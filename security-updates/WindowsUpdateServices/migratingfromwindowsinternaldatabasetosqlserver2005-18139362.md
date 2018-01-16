@@ -39,7 +39,7 @@ Use the following steps to migrate the WSUS database from a Windows Internal Dat
     -   Click **Start**, point to **Programs**, point to **Administrative Tools**, and then click **Services**.
     -   Right-click **IIS Admin Service**, and then click **Stop**.
     -   Right-click **Update Services**, and then click **Stop**.
-        ```
+      
 1.  Attach **SUSDB** to the destination SQL instance.
     -   In SQL Server Management Studio, under the instance node, right-click **Databases**, select **Properties**, and then click **Attach**.
     -   In the **Attach Databases** box, under **Databases to attach**, browse to the location of the susdb.mdf file (by default this is **C:\\WSUS\\UpdateServicesDbFiles** if you installed Windows Internal Database), and then click **OK**.
@@ -89,7 +89,14 @@ This step will enable you to use the SQL Server Enterprise Manager on FE.
 -   Right-click **IIS Admin Service**, and then click **Stop**.
 -   Right-click **Update Services**, and then click **Stop**.
 
-        ```
+    ```
+        sqlcmd -S np:\\.\pipe\MSSQL$MICROSOFT##SSEE\sql\query 
+        use master
+        alter database SUSDB set single_user with rollback immediate
+        go
+        sp_detach_db ‘SUSDB’
+        go
+    ```
 
 #### Step 4: Copy the SUSDB.mdf and SUSDB\_log.ldf files from FE to BE.
 
