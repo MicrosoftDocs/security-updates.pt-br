@@ -28,13 +28,12 @@ This can be done by using the ADSI Edit tool. ADSI Edit is available with Window
 First, follow these steps to install ADSI Edit:
 
 **To install Windows Server 2003 Support Tools**
-1.  Log on to a domain controller with an account that has rights to modify the Active Directory schema.
+1. Log on to a domain controller with an account that has rights to modify the Active Directory schema.
 
-2.  Insert the Windows Server 2003 product CD and navigate to Support\\Tools.
-
-    
-    > [!CAUTION]  
-    > In a production environment, the Windows Server 2003 Support Tools should be installed on a client computer that is joined to the domain.
+2. Insert the Windows Server 2003 product CD and navigate to Support\\Tools.
+ 
+ > [!CAUTION]  
+ > In a production environment, the Windows Server 2003 Support Tools should be installed on a client computer that is joined to the domain.
 
 3.  Double-click suptools.msi to start the installation.
 
