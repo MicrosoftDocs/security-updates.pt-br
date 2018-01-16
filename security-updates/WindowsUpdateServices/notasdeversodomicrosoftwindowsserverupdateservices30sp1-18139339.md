@@ -346,7 +346,7 @@ Esta tabela apresenta as propriedades de linha de comando para o WSUS 3.0 SP1.
 ```  
     WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
-> [!Importante]  
+> [!IMPORTANT]  
 > Se você instalar o WSUS 3.0 SP1 no modo silencioso (/q) e a máquina não tiver todos os pré-requisitos instalados, a instalação irá gerar um arquivo denominado WSUSPreReqCheck.xml e salvá-lo no diretório %TEMP%. |
   
 Problemas de configuração  
