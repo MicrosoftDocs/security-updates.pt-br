@@ -344,7 +344,8 @@ Esta tabela apresenta as propriedades de linha de comando para o WSUS 3.0 SP1.
 #### Exemplo de uso
   
 ```  
-    WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530) WSUSSetup.exe /q /u (uninstall WSUS)  
+    WSUSSetup.exe /q DEFAULT\_WEBSITE=0 (install in quiet mode using port 8530)   
+    WSUSSetup.exe /q /u (uninstall WSUS)  
 ```  
 > [!IMPORTANT]  
 > Se você instalar o WSUS 3.0 SP1 no modo silencioso (/q) e a máquina não tiver todos os pré-requisitos instalados, a instalação irá gerar um arquivo denominado WSUSPreReqCheck.xml e salvá-lo no diretório %TEMP%. |
@@ -393,7 +394,7 @@ Use o script a seguir para remover e readicionar os grupos de administradores AS
 Será necessário substituir *<DBLocation>* pela pasta onde o banco de dados está instalado e *<ContentDirectory>* pela pasta de armazenamento local.
   
 ```  
-    sqlcmd.exe -S *<DBLocation>* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *<DBLocation>* -E -Q "USE  SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *<DBLocation>* -E -Q "USE SUSDB  DECLARE @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *<DBLocation>* -E -Q "USE  SUSDB DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,  @wsusadminslogin"   sqlcmd.exe -S *<DBLocation>* -E -Q "backup database SUSDB to disk=N'*<ContentDirectory>*\\SUSDB.Dat' with init"  
+    sqlcmd.exe -S *<DBLocation>* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *<DBLocation>* -E -Q "USE  SUSDB   DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *<DBLocation>* -E -Q "USE SUSDB  DECLARE   @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *<DBLocation>* -E -Q "USE  SUSDB DECLARE  @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,  @wsusadminslogin"   sqlcmd.exe -S *<DBLocation>* -E -Q "backup database SUSDB to disk=N'*<ContentDirectory>*\\SUSDB.Dat' with init"  
 ```
   
 #### A configuração substituirá um backup de banco de dados anterior
