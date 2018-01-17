@@ -608,7 +608,10 @@ Antes de executar o WSUS 3.0 no Windows Server 2008, o arquivo de configuraçã
 A marca resultante deve se parecer com:
   
 ```  
-    <System.webServer> <modules> <remove name="CustomErrorMode"> </modules> </System.webServer>  
+    <System.webServer> 
+    <modules> 
+    <remove name="CustomErrorMode">
+     </modules> </System.webServer>  
 ```
   
 #### Problema 2: Se você instalar o WSUS 3.0 na porta personalizada no Windows Server 2008 Beta 3, deverá pré-criar o site
