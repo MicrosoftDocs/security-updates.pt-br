@@ -26,14 +26,12 @@ Quando o RMS cria esses arquivos, as DACLs deles são definidas para somente per
 
 Depois de criar o grupo, você poderá modificar a DACL do arquivo ServerCertification.asmx para conceder ao grupo permissão para Ler e Executar no serviço. Você também deve adicionar o Grupo de Serviço RMS à DACL com a permissão Ler e Executar.
 
-| ![](images/Cc747593.note(WS.10).gif)Observação                                                                      |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se houver mais de um servidor do RMS no cluster, será necessário alterar a DACL do arquivo ServerCertification.asmx em cada servidor do cluster. |
+> [!Note]  
+> Se houver mais de um servidor do RMS no cluster, será necessário alterar a DACL do arquivo ServerCertification.asmx em cada servidor do cluster. 
 
 No Microsoft Exchange Server 2007, o objeto de computador do Active Directory de cada servidor bridgehead do Exchange deve ser adicionado ao grupo de serviços do servidor. Se isso não for feito, o servidor bridgehead do Exchange não conseguirá solicitar licenças em nome dos usuários que receberam o email.
 
 No caso do Office SharePoint Server 2007, você deve adicionar o objeto de computador do Active Directory do servidor que executa o Office SharePoint Server 2007 ao grupo de serviços do servidor. Se o servidor do Office SharePoint Server 2007 estiver configurado para usar o servidor padrão no Active Directory, você deverá adicionar o Grupo de Serviço RMS e o grupo criado para serviços de servidor ao arquivo ServiceLocater.asmx e conceder permissão para Ler e Executar.
 
-| ![](images/Cc747593.Important(WS.10).gif)Importante                                                                                                                                                       |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| É necessário reiniciar o IIS (Serviços de Informações da Internet) depois de alterar a DACL nos arquivos ServerCertification.asmx e ServiceLocater.asmx. Para redefinir o IIS, execute o comando **iisreset** em um prompt de comando. |
+> [!Important]  
+> É necessário reiniciar o IIS (Serviços de Informações da Internet) depois de alterar a DACL nos arquivos ServerCertification.asmx e ServiceLocater.asmx. Para redefinir o IIS, execute o comando **iisreset** em um prompt de comando. 

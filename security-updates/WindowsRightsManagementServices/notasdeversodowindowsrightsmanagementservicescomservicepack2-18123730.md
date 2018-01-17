@@ -22,7 +22,7 @@ Os requisitos de hardware para executar o RMS com SP2 estão listados na tabela 
 
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -50,15 +50,14 @@ Os requisitos de hardware para executar o RMS com SP2 estão listados na tabela 
 </tbody>
 </table>
   
-| ![](images/Cc747637.note(WS.10).gif)Observação                                                                                |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| O servidor do RMS com SP2 foi desenvolvido para computadores de 32 bits. Se instalado em um computador de 64 bits, ele será executado no modo de emulação. |
+> [!Note]  
+> O servidor do RMS com SP2 foi desenvolvido para computadores de 32 bits. Se instalado em um computador de 64 bits, ele será executado no modo de emulação. 
   
 Os requisitos de software para servidores que executam o RMS com SP2 estão listados na tabela a seguir.
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -101,15 +100,14 @@ Os requisitos de software para servidores que executam o RMS com SP2 estão list
 </table>
  
 
-| ![](images/Cc747637.note(WS.10).gif)Observação                                                                                                                      |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se você configurar o RMS com SP2 para permitir a administração remota, o computador que se conectar ao serviço de Administração do RMS com SP2 deverá usar o Internet Explorer 6.0 ou posterior. |
+> [!Note]  
+> Se você configurar o RMS com SP2 para permitir a administração remota, o computador que se conectar ao serviço de Administração do RMS com SP2 deverá usar o Internet Explorer 6.0 ou posterior. 
 
 Os requisitos de infra-estrutura para servidores que executam o RMS com SP2 estão listados na tabela a seguir.
 
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -148,7 +146,7 @@ A tabela a seguir lista os direitos e as permissões de usuário exigidos para r
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -188,15 +186,14 @@ A tabela a seguir lista os direitos e as permissões de usuário exigidos para r
 </tbody>
 </table>
   
-| ![](images/Cc747637.note(WS.10).gif)Observação                                                                                                                                                                                                                     |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Para obter mais informações sobre a configuração do Windows Server, o Active Directory, o Enfileiramento de Mensagens, o IIS e sistemas de arquivos, consulte o Windows Server 2003 TechCenter em [http://go.microsoft.com/fwlink/?LinkId=78135](http://go.microsoft.com/fwlink/?linkid=78135). |
+> [!Note]  
+> Para obter mais informações sobre a configuração do Windows Server, o Active Directory, o Enfileiramento de Mensagens, o IIS e sistemas de arquivos, consulte o Windows Server 2003 TechCenter em [http://go.microsoft.com/fwlink/?LinkId=78135](http://go.microsoft.com/fwlink/?linkid=78135). 
   
 Se você estiver usando o RMS em uma implantação de cluster, deverá atender aos itens listados na tabela a seguir.
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -224,17 +221,15 @@ Se você estiver usando o RMS em uma implantação de cluster, deverá atender a
 </tbody>
 </table>
   
-| ![](images/Cc747637.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                                                                                                                                                                       |  
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Se o registro do DNS não for feito para a intranet, as solicitações de licença dos clientes internos não serão bem-sucedidas. Se você não conseguir modificar as configurações do DNS, a tabela de hosts de cada servidor do cluster poderá ser modificada para mapear a URL do cluster para o endereço IP virtual do cluster. O registro do DNS precisa ser feito antes do provisionamento do RMS. Se você já tiver provisionado o serviço, deverá remover o RMS do servidor e repetir o processo de provisionamento. |
+> [!Important]  
+> Se o registro do DNS não for feito para a intranet, as solicitações de licença dos clientes internos não serão bem-sucedidas. Se você não conseguir modificar as configurações do DNS, a tabela de hosts de cada servidor do cluster poderá ser modificada para mapear a URL do cluster para o endereço IP virtual do cluster. O registro do DNS precisa ser feito antes do provisionamento do RMS. Se você já tiver provisionado o serviço, deverá remover o RMS do servidor e repetir o processo de provisionamento. 
   
 #### Clientes com suporte nesta versão
   
 O cliente do RMS sem service pack, o cliente do RMS com SP1 ou o cliente do RMS com SP2 pode ser instalado em qualquer computador que execute o Microsoft Windows 2000, Windows XP e Windows Server 2003. As versões anteriores de sistemas operacionais Windows não têm suporte nesta versão.
   
-| ![](images/Cc747637.Caution(WS.10).gif)Cuidado                                                                        |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Se você estiver usando o cliente do RMS sem service pack, o cliente não poderá usar a publicação online para um servidor RMS com SP1 ou posterior. |
+> [!Caution]  
+> Se você estiver usando o cliente do RMS sem service pack, o cliente não poderá usar a publicação online para um servidor RMS com SP1 ou posterior. 
   
 Alterações na funcionalidade  
 ----------------------------
@@ -265,17 +260,15 @@ O novo protocolo de expansão de relação de confiança entre florestas vai mel
   
 Antes do RMS com SP2, a expansão de grupo entre florestas era feita através de chamadas remotas do .NET. Nesta versão, o protocolo de expansão de grupo entre florestas foi alterado para um serviço Web do ASP.NET que usa solicitações SOAP/HTTP para o pipeline de expansão de grupo de relação de confiança entre florestas.
   
-| ![](images/Cc747637.note(WS.10).gif)Observação                                                                                                                                                                                                            |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Para fins de compatibilidade com versões anteriores, ainda há suporte para chamadas remotas do .NET no RMS com SP2. Entretanto, para tirar o máximo proveito do novo protocolo de expansão de grupo entre florestas, todos os clusters do RMS devem executar pelo menos o RMS com SP2. |
+> [!Note]  
+> Para fins de compatibilidade com versões anteriores, ainda há suporte para chamadas remotas do .NET no RMS com SP2. Entretanto, para tirar o máximo proveito do novo protocolo de expansão de grupo entre florestas, todos os clusters do RMS devem executar pelo menos o RMS com SP2. 
   
 #### Que configurações foram adicionadas ou alteradas no RMS com SP2?
   
 Por padrão, o novo pipeline de expansão de grupo do RMS tem as mais seguras configurações no RMS com SP2, ao qual somente os grupos Serviço e Administradores do RMS locais têm acesso. Para conceder acesso a uma conta, é preciso alterar a lista de controle de acesso no pipeline de expansão de grupo disponível em wwwroot\\\_wmcs\\GroupExpansion\\GroupExpansion.asmx.
   
-| ![](images/Cc747637.Important(WS.10).gif)Importante                                                                                                                                                                                                                                                                                                                                              |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Verifique se a conta de serviço do RMS em cada floresta do Active Directory tem acesso ao pipeline de expansão de grupo em cada servidor do RMS do cluster. Se as contas não tiverem acesso, a expansão de grupo não será bem-sucedida. Se preferir, você pode criar a mesma conta em cada floresta e atribuir a mesma senha a cada conta. Nesse caso, você só teria de adicionar uma conta ao pipeline de expansão de grupo. |
+> [!Important]  
+> Verifique se a conta de serviço do RMS em cada floresta do Active Directory tem acesso ao pipeline de expansão de grupo em cada servidor do RMS do cluster. Se as contas não tiverem acesso, a expansão de grupo não será bem-sucedida. Se preferir, você pode criar a mesma conta em cada floresta e atribuir a mesma senha a cada conta. Nesse caso, você só teria de adicionar uma conta ao pipeline de expansão de grupo. 
   
 Novos eventos foram adicionados ao RMS com SP2 para informá-lo sobre mensagens de problema que não chegam ao serviço de Enfileiramento de Mensagens. Esses novos logs de eventos incluem eventos que avisam quando uma mensagem não pode ser assinada digitalmente ou se não é possível validar a mensagem. Alguns exemplos de problemas de validação incluem mensagens incorretas, um hash ou uma assinatura faltando ou até mesmo um hash ou uma assinatura incorretos.
   
@@ -321,9 +314,8 @@ Os lotes do RMS permitem que uma única solicitação seja emitida para o pipeli
   
 Nas versões do RMS anteriores ao RMS com SP2, o cluster do RMS tinha suporte para um tamanho máximo de lote de 1. Se o tamanho máximo fosse definido como um número maior que 1, o cluster o ignorava. No RMS com SP2, esse tamanho máximo de lote pode ser de até 100.
   
-| ![](images/Cc747637.note(WS.10).gif)Observação       |  
-|-----------------------------------------------------------------------------------|  
-| Apenas o pipeline AcquireLicense do RMS inclui suporte para solicitações em lote. |
+> [!Note]  
+> Apenas o pipeline AcquireLicense do RMS inclui suporte para solicitações em lote. 
   
 Os relatórios de erros foram aprimorados no RMS com SP2 para incluir as solicitações em lote. Por exemplo, se você enviar um lote de dez solicitações e a segunda ou terceira solicitação não for bem-sucedida, será gravado no log de eventos um evento para cada falha.
   
@@ -346,9 +338,8 @@ Nas versões anteriores do RMS, os tipos de dados de alguns dos parâmetros util
   
 Nas versões do RMS anteriores ao RMS com SP2, as instruções SQL RAISERROR eram usadas para notificar o usuário do RMS de que havia ocorrido um erro. A instrução RAISERROR consulta a tabela sysmessages para recuperar as mensagens de erro do RMS armazenadas nela. O RMS com SP2 usa outra técnica para propagar erros de SQL para que não haja mais dependência da tabela sysmessages.
   
-| ![](images/Cc747637.note(WS.10).gif)Observação                                                                                                                                                                                                                     |  
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Se você estiver atualizando do RMS com SP1 para o RMS com SP2, a tabela sysmessages não será mais consultada em busca de mensagens de erro, mas as mensagens propriamente ditas permanecerão na tabela. Uma instalação limpa do RMS com SP2 não adicionará novas entradas à tabela sysmessages. |
+> [!Note]  
+> Se você estiver atualizando do RMS com SP1 para o RMS com SP2, a tabela sysmessages não será mais consultada em busca de mensagens de erro, mas as mensagens propriamente ditas permanecerão na tabela. Uma instalação limpa do RMS com SP2 não adicionará novas entradas à tabela sysmessages. 
   
 Problemas conhecidos  
 --------------------
@@ -387,9 +378,8 @@ Quando o RMS é implantando em um ambiente onde os níveis de infra-estrutura do
   
 Há situações (por exemplo, banco de dados inativo, problemas de conectividade de rede, etc.) em que o serviço de ouvinte de log não pode acessar o banco de dados. Nesse caso, as mensagens são enviadas para uma Fila de Mensagens Mortas. A única maneira de recuperar essas mensagens (ou seja, enviá-las para o banco de dados de log) é usar a ferramenta de Recuperação de Fila do RMS fornecida com o Kit de Ferramentas de Administração do RMS. Para baixar o Kit de Ferramentas de Administração do RMS, consulte [http://go.microsoft.com/fwlink/?LinkId=33841](http://go.microsoft.com/fwlink/?linkid=33841).
   
-| ![](images/Cc747637.note(WS.10).gif)Observação                                                                                                                                                                                    |  
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-| Os parâmetros Recover e RecoverandPurge foram removidos de LogRecoveryCmd. Isso assegurará que todas as mensagens sejam encaminhadas de volta pelo serviço de Enfileiramento de Mensagens e autenticadas antes de serem enviadas para o banco de dados de log. |
+> [!Note]  
+> Os parâmetros Recover e RecoverandPurge foram removidos de LogRecoveryCmd. Isso assegurará que todas as mensagens sejam encaminhadas de volta pelo serviço de Enfileiramento de Mensagens e autenticadas antes de serem enviadas para o banco de dados de log. 
   
 #### É preciso atualizar para o RMS com SP2 antes de atualizar para o Microsoft SQL Server 2005
   

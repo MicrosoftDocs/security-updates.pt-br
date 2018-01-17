@@ -15,8 +15,7 @@ If you use WSUS to update Microsoft Office on your network computers, consider t
 
  
 > [!IMPORTANT]  
-> style="border:1px solid black 
- 
+> Administrative Install Points are relevant only to Office XP and Office 2003. They are not used with Office 2007.
 
 -   If you have purchased a "per user" license agreement for Office or have installed Office per user, WSUS will not update Office.
 -   Users can access the public Microsoft Office Online Web site to look for updates to their Office installation through the Microsoft Office Update wizard. Using Group Policy, you might want to create policies that prevent users from getting their own Office updates from Microsoft Office Online.

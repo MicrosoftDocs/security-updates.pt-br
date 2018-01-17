@@ -20,9 +20,8 @@ O banco de dados do log do RMS contém logs que podem fornecer soluções de pro
 
 Se estiver usando um módulo de segurança de hardware para proteger as chaves particulares do RMS, você deve também fazer backup da configuração do módulo de segurança de hardware. Para obter mais informações sobre como fazer backup e restaurar a configuração do módulo de segurança do hardware, consulte a documentação do módulo de segurança do hardware.
 
-| ![](images/Cc747745.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                          |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se você usou um provedor de serviços de criptografia baseado em software diferente do provedor padrão baseado em software para criptografar chaves particulares do RMS, certifique-se de que possui práticas organizacionais de gerenciamento de chaves (como procedimentos de backup e de restauração) implementados para esse provedor, antes de usá-lo com o RMS. |
+> [!Note]  
+> Se você usou um provedor de serviços de criptografia baseado em software diferente do provedor padrão baseado em software para criptografar chaves particulares do RMS, certifique-se de que possui práticas organizacionais de gerenciamento de chaves (como procedimentos de backup e de restauração) implementados para esse provedor, antes de usá-lo com o RMS. 
 
 Planejando restaurar um sistema RMS
 -----------------------------------

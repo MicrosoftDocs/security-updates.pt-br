@@ -20,6 +20,5 @@ Na página da Web Administração, você pode exibir as seguintes propriedades d
 -   Data de vencimento do certificado de licenciante servidor
 -   A hierarquia de chaves RMS à qual esse servidor pertence.
 
-| ![](images/Cc747677.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| As informações exibidas na página de Administração são as mesmas para todos os servidores que estão em um cluster porque todos eles precisam ter a mesma configuração. Para obter informações sobre como obter acesso à página Administração, consulte a seção "[Usando a Home page de Administração](https://technet.microsoft.com/6c155977-bd0e-47d6-ac65-1746cddb505e)", mais adiante neste tema. |
+> [!Note]  
+> As informações exibidas na página de Administração são as mesmas para todos os servidores que estão em um cluster porque todos eles precisam ter a mesma configuração. Para obter informações sobre como obter acesso à página Administração, consulte a seção "[Usando a Home page de Administração](https://technet.microsoft.com/6c155977-bd0e-47d6-ac65-1746cddb505e)", mais adiante neste tema. 
