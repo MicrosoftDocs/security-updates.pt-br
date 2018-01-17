@@ -50,7 +50,7 @@ Use a lista de verificação a seguir para implantar um único servidor RMS.
 
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -99,7 +99,7 @@ Use a lista de verificação a seguir para implantar os clusters raiz de certifi
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -162,7 +162,7 @@ Use a lista de verificação a seguir para implantar o RMS raiz entre florestas.
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -211,7 +211,7 @@ Use a lista de verificação a seguir para implementar um modelo de diretiva de 
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -252,7 +252,7 @@ Use a lista de verificação a seguir para implantar uma nova versão do cliente
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -285,7 +285,7 @@ Use a lista de verificação a seguir para adicionar um domínio de usuário con
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />
@@ -318,7 +318,7 @@ Use a lista de verificação a seguir para adicionar um domínio de publicação
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="50%" />

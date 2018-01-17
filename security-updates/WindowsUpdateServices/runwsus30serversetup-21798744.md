@@ -15,9 +15,8 @@ If you want to do an unattended installation, see [Appendix A: Unattended Instal
 
  
 > [!IMPORTANT]  
-> style="border:1px solid black 
+> As a best practice, review the Release Notes for WSUS 3.0 SP2. Release notes contain important information about the release. Look for the WSUS Release Notes on the <a href="http://go.microsoft.com/fwlink/?LinkId=139840">Windows Server Update Services</a> Web site (http://go.microsoft.com/fwlink/?LinkId=139840).
  
-
 Before you begin
 ----------------
 

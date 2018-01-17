@@ -79,13 +79,11 @@ Um sistema RMS usa os seguintes certificados e licenças que são salvos em XrML
     Prefixo do nome do arquivo: EUL
     Local: %USERPROFILE%\\Local Settings\\Application Data\\Microsoft\\DRM
 
-| ![](images/Cc747725.note(WS.10).gif)Observação                                                                                      |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Uma conta de usuário possui um único certificado de máquina, um único arquivo GIC e um único arquivo CLC, mas diversos arquivos EUL para cada conteúdo acessado. |
+> [!Note]  
+> Uma conta de usuário possui um único certificado de máquina, um único arquivo GIC e um único arquivo CLC, mas diversos arquivos EUL para cada conteúdo acessado. 
 
-| ![](images/Cc747725.note(WS.10).gif)Observação                                 |
-|-------------------------------------------------------------------------------------------------------------|
-| Para o cliente do RMS integrado ao Windows Vista®, o local é %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. |
+> [!Note]  
+> Para o cliente do RMS integrado ao Windows Vista®, o local é %USERPROFILE%\\AppData\\Local\\Microsoft\\DRM. 
 
 <span id="BKMK_17"></span>
 #### Onde o par de chaves particulares/públicas da máquina é armazenado?

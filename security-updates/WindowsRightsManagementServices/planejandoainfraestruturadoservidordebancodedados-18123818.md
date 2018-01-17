@@ -28,9 +28,8 @@ O provedor de banco de dados deve ser capaz de:
 
 Se você usa o RMS em qualquer outra configuração, entre em contato com o fornecedor de banco de dados ou provedor de soluções apropriado, cujo provedor de banco de dados esteja sendo usado na sua implantação personalizada.
 
-| ![](images/Cc747731.Caution(WS.10).gif)Cuidado                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Por padrão, todos os bancos de dados do RMS são criados com recuperação Completa, mas não há trabalhos de backup de registro de transações. Isto pode fazer com que o disco rígido do seu servidor fique cheio e assim causar uma falha no servidor de banco de dados. Recomenda-se a recuperação completa para o banco de dados DRMS\_configuration; os demais bancos de dados DRMS podem ser configurados para usar um modelo de recuperação diferente, conforme apropriado para a organização. |
+> [!Caution]  
+> Por padrão, todos os bancos de dados do RMS são criados com recuperação Completa, mas não há trabalhos de backup de registro de transações. Isto pode fazer com que o disco rígido do seu servidor fique cheio e assim causar uma falha no servidor de banco de dados. Recomenda-se a recuperação completa para o banco de dados DRMS\_configuration; os demais bancos de dados DRMS podem ser configurados para usar um modelo de recuperação diferente, conforme apropriado para a organização. 
 
 Esta seção inclui:
 
