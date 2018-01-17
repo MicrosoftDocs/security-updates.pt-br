@@ -29,14 +29,12 @@ Como esses cenários exigem licenças em nome de seus usuários, você deve exig
 
 É recomendável que você habilite o SSL e exija a criptografia de 128 bits em cada arquivo de serviços Web do RMS. Esses arquivos possuem a extensão de nome de arquivo .asmx e estão localizados nos diretórios virtuais Licenciamento, Certificação e Admin. O SSL exige que o seu servidor tenha um certificado SSL válido instalado para o site. Se você aplicar o SSL à pasta \_wmcs da instalação do RMS, as subpastas e os arquivos herdarão a configuração. Para obter mais informações sobre os arquivos dos serviços Web e os diretórios virtuais, consulte "IIS (Serviços de Informações da Internet)" na seção "RMS: referência técnica" desta coleção de documentos.
 
-| ![](images/Cc720291.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                                                                                          |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se você quiser abrir as páginas da Web de Administração do Windows RMS no navegador de um computador remoto, deverá habilitar o SSL. Entretanto, mesmo com o SSL habilitado, você não poderá abrir a página **Administração Global** em um computador remoto. Para obter mais informações sobre a administração remota do RMS, consulte "Usando a home page de Administração" na seção "RMS: operações" desta coleção de documentos. |
+> [!Note]  
+> Se você quiser abrir as páginas da Web de Administração do Windows RMS no navegador de um computador remoto, deverá habilitar o SSL. Entretanto, mesmo com o SSL habilitado, você não poderá abrir a página **Administração Global** em um computador remoto. Para obter mais informações sobre a administração remota do RMS, consulte "Usando a home page de Administração" na seção "RMS: operações" desta coleção de documentos. 
 
 **Definindo uma senha forte para a chave particular**
 
 A senha da chave particular é usada para gerar e armazenar a chave particular com segurança no banco de dados de configuração do RMS. É recomendável uma senha de alta segurança para garantir o máximo de segurança. Se precisar anotar a senha, guarde-a em um local fisicamente protegido.
 
-| ![](images/Cc720291.Caution(WS.10).gif)Cuidado                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se a senha da chave particular for perdida ou esquecida e o servidor do RMS ficar offline repentinamente, você terá de descriptografar todos os documentos do RMS, recriar o ambiente do RMS e criptografar tudo novamente com a nova chave particular. |
+> [!Caution]  
+> Se a senha da chave particular for perdida ou esquecida e o servidor do RMS ficar offline repentinamente, você terá de descriptografar todos os documentos do RMS, recriar o ambiente do RMS e criptografar tudo novamente com a nova chave particular. 
