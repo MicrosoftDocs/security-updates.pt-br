@@ -393,8 +393,9 @@ Use o script a seguir para remover e readicionar os grupos de administradores AS
   
 Será necessário substituir *<DBLocation>* pela pasta onde o banco de dados está instalado e *<ContentDirectory>* pela pasta de armazenamento local.
   
-```  
-    sqlcmd.exe -S *<DBLocation>* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *<DBLocation>* -E -Q "USE  SUSDB   DECLARE @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *<DBLocation>* -E -Q "USE SUSDB  DECLARE   @asplogin varchar(200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *<DBLocation>* -E -Q "USE  SUSDB DECLARE   @wsusadminslogin varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,  @wsusadminslogin"   sqlcmd.exe -S *<DBLocation>* -E -Q "backup database SUSDB to disk=N'*<ContentDirectory>*\\SUSDB.Dat' with init"  
+``` 
+    sqlcmd.exe -S *<DBLocation>* -E -Q "USE SUSDB DECLARE @asplogin varchar(200) SELECT @asplogin=name from sysusers WHERE name like '%ASPNET' EXEC sp\_revokedbaccess @asplogin" sqlcmd.exe -S *<DBLocation>* -E -Q "USE  SUSDB   DECLARE  
+    @wsusadminslogin varchar(200) SELECT @wsusadminslogin=name from sysusers WHERE name like '%WSUS Administrators' EXEC sp\_revokedbaccess @wsusadminslogin"   sqlcmd.exe -S *<DBLocation>* -E -Q "USE SUSDB  DECLARE   @asplogin   varchar  (200) SELECT @asplogin=HOST\_NAME()+'\\ASPNET' EXEC sp\_grantlogin @asplogin EXEC sp\_grantdbaccess @asplogin EXEC sp\_addrolemember webService,@asplogin" sqlcmd.exe -S *<DBLocation>* -E -Q "USE  SUSDB DECLARE   @wsusadminslogin  varchar(200) SELECT @wsusadminslogin=HOST\_NAME()+'\\WSUS Administrators' EXEC sp\_grantlogin @wsusadminslogin EXEC sp\_grantdbaccess @wsusadminslogin EXEC sp\_addrolemember webService,  @wsusadminslogin"   sqlcmd.exe -S  *<DBLocation>* -E -Q "backup database SUSDB to disk=N'*<ContentDirectory>*\\SUSDB.Dat' with init"  
 ```
   
 #### A configuração substituirá um backup de banco de dados anterior
@@ -483,12 +484,12 @@ Se for necessário desinstalar o Windows Internal Database, os seguintes comando
 (em plataformas de 32 bits)
   
 ```  
-msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe  
+    msiexec /x {CEB5780F-1A70-44A9-850F-DE6C4F6AA8FB} callerid=ocsetup.exe  
 ```  
 (em plataformas de 64 bits)
   
 ```  
-msiexec /x {BDD79957-5801-4A2D-B09E-852E7FA64D01} callerid=ocsetup.exe  
+    msiexec /x {BDD79957-5801-4A2D-B09E-852E7FA64D01} callerid=ocsetup.exe  
 ```  
 Se quiser desinstalar o Windows Internal Database Service Pack 2 do Windows Server 2008, pode fazer isso utilizando o Gerenciador de Servidor.
   
