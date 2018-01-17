@@ -19,9 +19,8 @@ Se o banco de dados de registro ficar muito grande, você pode movê-lo para out
     -   Altere o valor da diretiva LoggingDatabaseServer de modo a refletir o nome do novo servidor do banco de dados.
     -   Altere o valor da diretiva LoggingDatabaseName para refletir o nome do novo banco de dados.
 
-    | ![](images/Cc720238.note(WS.10).gif)Observação                                                                                                                                                                            |
-    |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | O SQL Server Enterprise Manager não trabalha com campos db\_variant, portanto, não é possível usá-lo para essa tarefa. Para isso, você pode usar o Analisador de Consultas fornecido com o SQL Server ou outra ferramenta de edição de banco de dados. |
+    > [!Note]  
+    > O SQL Server Enterprise Manager não trabalha com campos db\_variant, portanto, não é possível usá-lo para essa tarefa. Para isso, você pode usar o Analisador de Consultas fornecido com o SQL Server ou outra ferramenta de edição de banco de dados. 
 
 4.  Reinicie o IIS em todos os servidores que estão no cluster.
 5.  Ative o registro novamente.
