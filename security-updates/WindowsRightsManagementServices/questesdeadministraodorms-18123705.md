@@ -101,13 +101,19 @@ Você pode restaurar um banco de dados de backup usando o procedimento apresenta
 4.  Se o banco de dados em fase de restauração for para um único servidor raiz de certificação, modifique a seguinte chave do Registro antes de tentar reconfigurar o serviço:
 
     -   Em computadores que executam a versão de 32 bits do Windows Server 2003
-        `HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0\`
+        ```
+        HKEY_LOCAL_MACHINE\Software\Microsoft\DRMS\1.0\
+        ```
     -   Em computadores que executam a versão de 64 bits do Windows Server 2003
-        `HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0\`
+        ```
+        HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\DRMS\1.0\
+        ```
 
     Adicione a seguinte entrada como um valor de seqüência e deixe o valor em branco:
 
-    `GicURL`
+    ```
+    GicURL
+    ```
 
     Isto substitui a descoberta do Active Directory do servidor raiz de certificação e permite que você obtenha acesso às páginas de configuração do servidor raiz de certificação.
 
@@ -115,8 +121,10 @@ Você pode restaurar um banco de dados de backup usando o procedimento apresenta
 
 6.  Siga uma destas etapas:
 
-    -   Para restaurar o banco de dados para um único servidor, e não para um cluster, clique em Configurar o RMS neste site ao lado do site onde deseja configurar o RMS.
+    -   Para restaurar o banco de dados para um único servidor, e não para um cluster, clique em Configurar o RMS neste site ao lado do site onde deseja configurar o RMS.  
+        
         -ou-
+
     -   Para restaurar o banco de dados para um cluster, clique em Adicionar este servidor a um cluster ao lado do site em que deseja configurar o RMS.
 
 7.  Especifique a conta do serviço RMS que foi usada para configurar o servidor originalmente.
@@ -143,9 +151,8 @@ Restaurando uma instalação anterior do RMS
 
 Se ocorrer uma falha no hardware ou no software do servidor RMS, você poderá restaurar um servidor RMS usando um banco de dados de configuração previamente instalado para configurar uma nova instância do servidor.
 
-| ![](images/Cc747605.note(WS.10).gif)Observação                                                                                                                                                                                                                                                                                                                    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Esse procedimento só poderá ser utilizado se ocorrer uma falha no servidor que está executando o RMS. Se ocorrer uma falha no servidor que está executando o banco de dados de configuração, consulte "Restaurando o banco de dados de configuração". Se o servidor RMS também for o servidor do banco de dados, será necessário restaurar o servidor inteiro a partir de uma cópia de backup. |
+> [!Note]  
+> Esse procedimento só poderá ser utilizado se ocorrer uma falha no servidor que está executando o RMS. Se ocorrer uma falha no servidor que está executando o banco de dados de configuração, consulte "Restaurando o banco de dados de configuração". Se o servidor RMS também for o servidor do banco de dados, será necessário restaurar o servidor inteiro a partir de uma cópia de backup. 
 
 Utilize o procedimento a seguir para apontar para o mesmo banco de dados de configuração usado para a instalação original.
 
@@ -186,20 +193,20 @@ Por padrão, componentes como o RMS, executados em uma página ASP, são criados
 
 Para contornar esse problema, você pode usar o Editor do Registro para modificar a chave do Registro que controla esse comportamento.
 
-| ![](images/Cc747605.Caution(WS.10).gif)Cuidado                                                                                   |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Editar o Registro incorretamente pode causar sérios danos ao sistema. Antes de alterar o Registro, faça backup dos dados importantes que estão no computador. |
+> [!Caution]  
+> Editar o Registro incorretamente pode causar sérios danos ao sistema. Antes de alterar o Registro, faça backup dos dados importantes que estão no computador. 
 
 Defina a seguinte chave do Registro com 0 em vez de 1 e depois reinicie o computador para que as alterações entrem em vigor:
 
-`HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Application`
+```
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\Application
+```
 
 Nome: `RestrictGuestAccess`
 
 Tipo: `REG_DWORD`
 
-| ![](images/Cc747605.note(WS.10).gif)Observação            |
-|----------------------------------------------------------------------------------------|
-| Isso permite que todas as contas de convidados gravem no log de eventos do aplicativo. |
+> [!Note]  
+> Isso permite que todas as contas de convidados gravem no log de eventos do aplicativo. 
 
 Para obter mais informações sobre o motivo desse erro, leia o artigo sobre a permissão de log em páginas ASP, na [Microsoft Knowledge Base](http://go.microsoft.com/fwlink/?linkid=44167).
