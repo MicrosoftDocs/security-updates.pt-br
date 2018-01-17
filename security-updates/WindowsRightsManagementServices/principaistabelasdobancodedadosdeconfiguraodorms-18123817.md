@@ -18,7 +18,7 @@ A tabela a seguir lista informações sobre aplicativos excluídos.
 
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -123,7 +123,7 @@ A tabela a seguir lista as informações sobre o enfileiramento de mensagens.
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -174,7 +174,7 @@ A tabela a seguir lista informações sobre o tipo de certificado emitido para o
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -225,7 +225,7 @@ A tabela a seguir lista informações sobre o certificado de licenciante para se
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -270,7 +270,7 @@ A tabela a seguir lista informações sobre os locais onde se armazenam as diret
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -327,7 +327,7 @@ A tabela a seguir lista informações sobre os servidores que estão no cluster.
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -378,7 +378,7 @@ A tabela a seguir lista informações sobre os certificados de conta de direitos
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -447,7 +447,7 @@ A tabela a seguir lista informações sobre o certificado de licenciante para se
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -510,7 +510,7 @@ A tabela a seguir contém informações sobre a chave particular do certificado 
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -597,7 +597,7 @@ A tabela a seguir lista informações sobre as contas do Microsoft® .NET Passpo
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -648,7 +648,7 @@ A tabela a seguir lista as informações sobre plug-in.
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -747,7 +747,7 @@ A tabela a seguir lista informações sobre as versões de plug-in que podem par
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -792,7 +792,7 @@ A tabela a seguir lista informações sobre as propriedades do plug-in.
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -855,7 +855,7 @@ A tabela a seguir lista informações sobre o tipo de plug-in.
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -906,7 +906,7 @@ A tabela a seguir lista informações sobre os modelos de diretiva de direitos.
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -957,7 +957,7 @@ A tabela a seguir lista informações sobre as autoridades de certificação con
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1020,7 +1020,7 @@ A tabela a seguir lista informações sobre os domínios de email que são confi
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1065,7 +1065,7 @@ A tabela a seguir lista informações sobre os domínios de usuário confiáveis
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
@@ -1146,7 +1146,7 @@ A tabela a seguir lista informações sobre os certificados de licenciante para 
   
 ###  
 
- 
+<p> </p>
 <table style="border:1px solid black;">
 <colgroup>
 <col width="25%" />
