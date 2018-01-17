@@ -84,19 +84,26 @@ Como o RMS foi criado usando-se o Microsoft® .NET Framework, você pode ativar 
 Você pode implementar o rastreamento se modificar o arquivo Web.config ou Machine.config. Quando você implementa o rastreamento no arquivo Machine.config, o rastreamento é executado em cada componente de software que está no computador; no entanto, se você implementar o rastreamento no arquivo Web.config, somente os eventos que ocorrerem nos serviços Web serão rastreados.
 
 **Habilitar o rastreamento**
-1.  Abra o arquivo Machine.config ou Web.config e adicione as seguintes linhas à seção &lt;system.diagnostics&gt; do arquivo:
-
-    
-        ```
+1.  Abra o arquivo Machine.config ou Web.config e adicione as seguintes linhas à seção &lt;system.diagnostics&gt; do arquivo:  
+        
+     ```
+        <system.diagnostics>
+        <switches>
+        <add name="Microsoft Windows Rights Management Services-Global" value="4" />
+        <add name="Microsoft Windows Rights Management Services-TimeStamps" value="1" /> 
+        <add name="Microsoft Windows Rights Management Services-Indents" value="0" /> 
+        </switches>
+        <trace autoflush="false" indentsize="4"/>
+        </system.diagnostics>
+    ```
 2.  Reinicie o IIS executando IISRESET de um prompt de comando.
 
 3.  Após coletar os dados necessários, remova as linhas do arquivo .config adicionadas na etapa 1.
 
 4.  Reinicie o IIS executando IISRESET de um prompt de comando.
 
-| ![](images/Cc747547.Important(WS.10).gif)Importante                                                                                                                                                                                                                                       |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Quando você usa rastreamento em um servidor RMS, podem ocorrer problemas de desempenho, como atrasos maiores nas aquisições de licenças de uso e na emissão de certificados de conta de direitos. Use o rastreamento somente em circunstâncias limitadas para ajudá-lo a diagnosticar e resolver problemas existentes. |
+> [!Important]  
+> Quando você usa rastreamento em um servidor RMS, podem ocorrer problemas de desempenho, como atrasos maiores nas aquisições de licenças de uso e na emissão de certificados de conta de direitos. Use o rastreamento somente em circunstâncias limitadas para ajudá-lo a diagnosticar e resolver problemas existentes. 
 
 <span id="BKMK_9"></span>
 #### O que é defasagem horária e como eu devo administrá-la?

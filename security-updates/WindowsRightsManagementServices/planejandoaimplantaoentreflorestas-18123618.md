@@ -18,4 +18,6 @@ Pode-se implementar o suporte à expansão de grupos entre florestas para o RMS 
 
 Se desejar usar o RMS em uma única floresta, você poderá otimizar o processo de emissão de licenças de uso modificando as diretivas de cluster **MaxCrossForestCalls** no banco de dados de configuração do RMS. Essa diretiva especifica o número máximo de vezes que a participação de um grupo pode atravessar os limites da floresta. O valor padrão é 10. Para alterar esse valor para 0, use o seguinte comando SQL:
 
-`update DRMS_ClusterPolicies set PolicyData=0 where PolicyName='MaxCrossForestCalls'`
+```
+update DRMS_ClusterPolicies set PolicyData=0 where PolicyName='MaxCrossForestCalls'
+```
