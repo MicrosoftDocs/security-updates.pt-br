@@ -32,14 +32,6 @@ Para obter detalhes sobre os softwares afetados, consulte a próxima seção, **
 <p></p>
 
 <table style="width:100%;border:1px solid black;" >
-<colgroup>
-<col width="16%" />
-<col width="16%" />
-<col width="16%" />
-<col width="16%" />
-<col width="16%" />
-<col width="16%" />
-</colgroup>
 <tbody>
 <tr class="odd">
 <td style="border:1px solid black;"><strong>ID do Boletim</strong></td>
