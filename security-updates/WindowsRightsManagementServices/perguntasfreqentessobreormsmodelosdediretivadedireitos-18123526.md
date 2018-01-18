@@ -33,9 +33,8 @@ A localização dos modelos é determinada pelo aplicativo habilitado para RMS. 
 
 **HKEY\_CURRENT\_USER\\Software\\Microsoft\\Office\\12,0\\Common\\DRM\\AdminTemplatePath** para Microsoft Office 2007.
 
-| ![](images/Cc720175.note(WS.10).gif)Observação                                                                                                                                                                       |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se essa entrada apontar para uma pasta local no cliente, os arquivos de modelo deverão ser copiados para o cliente. Se a entrada apontar para uma pasta compartilhada da rede, os modelos estarão indisponíveis quando o usuário estiver offline. |
+> [!Note]  
+> Se essa entrada apontar para uma pasta local no cliente, os arquivos de modelo deverão ser copiados para o cliente. Se a entrada apontar para uma pasta compartilhada da rede, os modelos estarão indisponíveis quando o usuário estiver offline. 
 
 <span id="BKMK_59"></span>
 #### Quando os modelos são criados, os alias dos usuários e as listas de distribuição estão vinculados a eles. Como uma organização com diversos departamentos pode fornecer modelos com os mesmos direitos básicos, mas conceder esses direitos a grupos diferentes dependendo do conteúdo?
