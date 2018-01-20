@@ -2853,3 +2853,16 @@
     items:
     - name: MS04-032
       href: ./SecurityBulletins/2004/MS04-032.md
+- name: Acknowledgments
+  href: ./Acknowledgments/acknowledgments
+  items:
+  - name: 2017
+    href: ./Acknowledgments/2017/acknowledgments2017
+  - name: 2016
+    href: ./Acknowledgments/2016/acknowledgments2016
+  - name: 2015
+    href: ./Acknowledgments/2015/acknowledgments2015
+  - name: 2014
+    href: ./Acknowledgments/2014/acknowledgments2014
+- name: Glossary
+  href: ./Glossary/glossary     
