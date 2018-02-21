@@ -1,0 +1,1163 @@
+---
+TOCTitle: 'MS08-SEP'
+Title: Resumo do Boletim de Segurança da Microsoft de setembro 2008
+ms:assetid: 'ms08-sep'
+ms:contentKeyID: 61233645
+ms:mtpsurl: 'https://technet.microsoft.com/pt-BR/library/ms08-sep(v=Security.10)'
+---
+
+ 
+
+Resumo do Boletim de Segurança da Microsoft de setembro 2008
+============================================================
+
+Publicado: terça-feira, 9 de setembro de 2008 | Atualizado: terça-feira, 9 de dezembro de 2008
+
+**Versão:** 3.0
+
+Este resumo de boletins lista os boletins de segurança lançados em setembro de 2008.
+
+Com o lançamento dos boletins de setembro de 2008, este resumo de boletins substitui a notificação antecipada de boletins lançada originalmente em 4 de setembro de 2008. Para obter mais informações sobre o serviço de notificação antecipada de boletins, consulte [Notificação antecipada dos boletins de segurança da Microsoft](http://technet.microsoft.com/security/bulletin/advance).
+
+Para obter informações sobre como receber notificações automáticas sempre que os boletins de segurança da Microsoft são emitidos, consulte as [notificações de segurança técnica da Microsoft](http://go.microsoft.com/fwlink/?linkid=21163).
+
+A Microsoft realizará um webcast para solucionar dúvidas dos clientes sobre esses boletins no dia 10 de setembro de 2008, às 11 horas - Hora do Pacífico (EUA e Canadá). [Registre-se agora para participar do Webcast do boletim de segurança de setembro](http://msevents.microsoft.com/cui/webcasteventdetails.aspx?eventid=1032374633&eventcategory=4&culture=en-us&countrycode=us). Depois dessa data, este webcast estará disponível sob demanda. Para obter mais informações, consulte [Webcasts e resumos dos boletins de segurança da Microsoft.](http://technet.microsoft.com/security/bulletin/summary)
+
+A Microsoft também fornece informações para ajudar os clientes a priorizar as atualizações mensais de segurança em relação a quaisquer atualizações de alta prioridade que não são de segurança que estejam sendo lançadas no mesmo dia que as atualizações mensais de segurança. Consulte a seção **Outras informações.**
+
+### Informações do boletim
+
+#### Sinopses
+
+Os boletins de segurança deste mês são como se segue, em ordem de gravidade:
+
+Crítica (4)
+-----------
+
+ 
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS08-054                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidade no Windows Media Player pode permitir a execução remota de código (954154)**](http://technet.microsoft.com/security/bulletin/ms08-054)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Sinopse**                           | Esta atualização de segurança elimina uma vulnerabilidade relatada em particular no Windows Media Player que pode permitir a execução remota de código quando um arquivo de áudio especialmente criado é executado em um servidor Windows Media. Se um usuário tiver feito logon com direitos administrativos, o invasor que explorar com êxito essa vulnerabilidade poderá ter o controle total do sistema afetado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos. |
+| **Classificação Máxima de Gravidade** | [Crítica](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização não requer reinicialização.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Softwares afetados**                | **Microsoft Windows.** Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS08-052                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidades no GDI+ podem permitir a execução remota de código (944593)**](http://technet.microsoft.com/security/bulletin/ms08-052)                                                                                                                                                                                                                                                                                                                                                                |
+| **Sinopse**                           | Esta atualização de segurança elimina várias vulnerabilidades relatadas em particular no Microsoft Windows GDI+. Estas vulnerabilidades podem permitir a execução remota de código se um usuário visualizar um arquivo de imagem especialmente criado usando software afetado ou procurar um site que contenha conteúdo especialmente criado. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos. |
+| **Classificação Máxima de Gravidade** | [Crítica](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização requer reinicialização.                                                                                                                                                                                                                                                                                                                                                         |
+| **Softwares afetados**                | **Microsoft Windows, Internet Explorer, .NET Framework, Office, SQL Server, Visual Studio.** Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                                                                                                                                                                                                                                                                                      |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS08-053                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidade no Codificador do Windows Media 9 pode permitir execução remota de código (954156)**](http://technet.microsoft.com/security/bulletin/ms08-053)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Sinopse**                           | Esta atualização de segurança elimina uma vulnerabilidade reportada em particular no Codificador do Windows Media 9 Series. A vulnerabilidade pode permitir a execução remota de código caso um usuário tenha exibido uma página da Web especialmente criada. Se um usuário tiver feito logon com direitos administrativos, o invasor que explorar com êxito essa vulnerabilidade poderá ter o controle total do sistema afetado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos. |
+| **Classificação Máxima de Gravidade** | [Crítica](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. A atualização pode requerer uma reinicialização.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **Softwares afetados**                | **Microsoft Windows.** Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+
+
+
+<p></p>
+<p></p>
+<p></p>
+
+| Identificador do Boletim              | Boletim de Segurança da Microsoft MS08-055                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|---------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Título do Boletim**                 | [**Vulnerabilidade no Microsoft Office pode permitir a execução remota de código (955047)**](http://technet.microsoft.com/security/bulletin/ms08-055)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Sinopse**                           | Esta atualização de segurança elimina uma vulnerabilidade relatada em particular no Microsoft Office. A vulnerabilidade pode permitir a execução remota de código se um usuário clicar em um URL do OneNote especialmente criado. O invasor que explorar com êxito essa vulnerabilidade poderá assumir o controle total de um sistema afetado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos. |
+| **Classificação Máxima de Gravidade** | [Crítica](http://go.microsoft.com/fwlink/?linkid=21140)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Impacto da Vulnerabilidade**        | Execução Remota de Código                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Detecção**                          | O Microsoft Baseline Security Analyzer pode detectar se seu sistema de computador precisa desta atualização. Na maior parte das vezes, a atualização não requer reinicialização.                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Softwares afetados**                | **Microsoft Office.** Para obter mais informações, consulte as seções Softwares afetados e Locais de download.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+
+Softwares afetados e Locais de download
+---------------------------------------
+
+ 
+**Como devo usar a tabela?**  
+
+Use esta tabela para aprender sobre as atualizações de segurança que você talvez precise instalar. Você deve examinar cada programa ou componente de software listado para verificar se alguma atualização de segurança é necessária. Se um programa de software ou componente estiver listado, haverá também um hiperlink para a atualização de software disponível e a classificação de gravidade da atualização de software também estará listada.
+
+**Observação** Talvez você tenha que instalar diversas atualizações de segurança para uma única vulnerabilidade. Examine a coluna inteira de cada identificador de boletim listado para verificar as atualizações que você deve instalar com base nos programas ou componentes instalados no sistema.
+
+#### Componentes e sistema operacional Windows
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="4">
+Microsoft Windows 2000
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-054**](http://technet.microsoft.com/security/bulletin/ms08-054)
+</td>
+<td style="border:1px solid black;">
+[**MS08-052**](http://technet.microsoft.com/security/bulletin/ms08-052)
+</td>
+<td style="border:1px solid black;">
+[**MS08-053**](http://technet.microsoft.com/security/bulletin/ms08-053)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Boletim com classificação de gravidade máxima**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a860d2d9-653d-4ddb-bbff-323d3ccdb866)  
+(KB938464)  
+(Crítica)  
+[Microsoft .NET Framework 1.0 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=c7cbcd19-acc1-4a89-adfa-99b2f431510d)  
+(KB947739)  
+(Nenhuma classificação de gravidade)  
+[Microsoft .NET Framework 1.1 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=6013f866-3ea1-4672-b1bf-e516204c3a7a)  
+(KB947742)  
+(Nenhuma classificação de gravidade)  
+[Microsoft .NET Framework 2.0](http://www.microsoft.com/downloads/details.aspx?familyid=7f1cd013-2c4b-4582-9114-cb840a96124a)  
+(KB947746)  
+(Nenhuma classificação de gravidade)  
+[Microsoft .NET Framework 2.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=215b73a3-46ab-44a8-a0fb-6d37bd1c39b8)  
+(KB947748)  
+(Nenhuma classificação de gravidade)
+</td>
+<td style="border:1px solid black;">
+[Codificador do Windows Media 9 Series](http://www.microsoft.com/downloads/details.aspx?familyid=0cabfbc0-db5d-4a6a-a4cd-e6df89ac2b25)  
+(Crítica)
+</td>
+</tr>
+<tr>
+<th colspan="4">
+Windows XP (site em inglês)
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-054**](http://go.microsoft.com/fwlink/?linkid=121739)
+</td>
+<td style="border:1px solid black;">
+[**MS08-052**](http://technet.microsoft.com/security/bulletin/ms08-052)
+</td>
+<td style="border:1px solid black;">
+[**MS08-053**](http://technet.microsoft.com/security/bulletin/ms08-053)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Boletim com classificação de gravidade máxima**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows XP Service Pack 2 e Windows XP Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?familyid=d5891180-5dd1-49ec-bcc6-3030a544202c)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Service Pack 2 e Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=e0bd6fbe-f46e-4961-9a79-49ec77d39439)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Codificador do Windows Media 9 Series](http://www.microsoft.com/downloads/details.aspx?familyid=57bcb3c2-49d3-4f18-8d03-36abd03d7403)  
+(Crítica)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows XP Professional x64 Edition e Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?familyid=caf8a45e-a9f8-4e91-98fd-87eddbeae64c)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows XP Professional x64 Edition e Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=c5d26771-1f49-4bbf-902c-bf92e527cadb)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Codificador do Windows Media 9 Series](http://www.microsoft.com/downloads/details.aspx?familyid=18efea9e-b103-46de-90d9-5e295854cec3)  
+(Crítica)  
+[Codificador do Windows Media 9 Series x64 Edition](http://www.microsoft.com/downloads/details.aspx?familyid=ebc1737c-6e78-4244-a1b2-a56d031f16e9)  
+(Crítica)
+</td>
+</tr>
+<tr>
+<th colspan="4">
+Windows Server 2003
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-054**](http://go.microsoft.com/fwlink/?linkid=121739)
+</td>
+<td style="border:1px solid black;">
+[**MS08-052**](http://technet.microsoft.com/security/bulletin/ms08-052)
+</td>
+<td style="border:1px solid black;">
+[**MS08-053**](http://technet.microsoft.com/security/bulletin/ms08-053)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Boletim com classificação de gravidade máxima**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 Service Pack 1 e Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 Service Pack 1 e Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=ac03f138-eca4-46e1-9782-e811820e547f)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Codificador do Windows Media 9 Series](http://www.microsoft.com/downloads/details.aspx?familyid=54ce1080-94cf-4e4f-8e09-a7dbab2757c5)  
+(Moderada)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2003 x64 Edition e Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 x64 Edition e Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=93f1451b-5b62-47e5-8f0c-b720b957999a)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Codificador do Windows Media 9 Series](http://www.microsoft.com/downloads/details.aspx?familyid=c83011cd-90b8-494c-9cad-fa055e101992)  
+(Moderada)  
+[Codificador do Windows Media 9 Series x64 Edition](http://www.microsoft.com/downloads/details.aspx?familyid=d8f1b782-136b-443f-b5f2-63aa4d1fd94a)  
+(Moderada)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 com SP1 para sistemas baseados no Itanium e Windows Server 2003 com SP2 para sistemas baseados no Itanium
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 com SP1 para sistemas baseados no Itanium e Windows Server 2003 com SP2 para sistemas baseados no Itanium](http://www.microsoft.com/downloads/details.aspx?familyid=14e99f8a-cdd4-40d7-8cfc-73ae6bd6dfad)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<th colspan="4">
+Windows Vista
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-054**](http://go.microsoft.com/fwlink/?linkid=121739)
+</td>
+<td style="border:1px solid black;">
+[**MS08-052**](http://technet.microsoft.com/security/bulletin/ms08-052)
+</td>
+<td style="border:1px solid black;">
+[**MS08-053**](http://technet.microsoft.com/security/bulletin/ms08-053)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Boletim com classificação de gravidade máxima**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Vista e Windows Vista Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?familyid=2f4118fd-1ffb-46da-b922-cd4ca4f9d84e)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Vista e Windows Vista Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=16f3ad21-ed77-4c32-93df-3b650b2b32a5)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Codificador do Windows Media 9 Series](http://www.microsoft.com/downloads/details.aspx?familyid=99beebc4-553a-46f8-8245-e3d932306c93)  
+(Crítica)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Vista x64 Edition e Windows Vista x64 Edition Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?familyid=334352e7-d41f-494f-866d-f1f1745ffd17)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Vista x64 Edition e Windows Vista x64 Edition Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=aa47d016-f5c9-4586-8876-f1f4f255f54d)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Codificador do Windows Media 9 Series](http://www.microsoft.com/downloads/details.aspx?familyid=99beebc4-553a-46f8-8245-e3d932306c93)  
+(Crítica)  
+[Codificador do Windows Media 9 Series x64 Edition](http://www.microsoft.com/downloads/details.aspx?familyid=54d1279a-7f26-4727-a39d-5505bcd4fc53)  
+(Crítica)
+</td>
+</tr>
+<tr>
+<th colspan="4">
+Windows Server 2008
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-054**](http://go.microsoft.com/fwlink/?linkid=121739)
+</td>
+<td style="border:1px solid black;">
+[**MS08-052**](http://technet.microsoft.com/security/bulletin/ms08-052)
+</td>
+<td style="border:1px solid black;">
+[**MS08-053**](http://technet.microsoft.com/security/bulletin/ms08-053)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Boletim com classificação de gravidade máxima**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas de 32 bits
+</td>
+<td style="border:1px solid black;">
+[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?familyid=72fc6028-6af4-44ec-8d2a-28c53807d6bc)\*  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 para sistemas de 32 bits](http://www.microsoft.com/downloads/details.aspx?familyid=23bd3be5-cc66-46f8-9420-49d65d8afe1d)\*  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Codificador do Windows Media 9 Series](http://www.microsoft.com/downloads/details.aspx?familyid=5434ca66-5a6b-4517-92fb-72dea0a172ec)\*  
+(Moderada)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas baseados no Itanium
+</td>
+<td style="border:1px solid black;">
+[Windows Media Player 11](http://www.microsoft.com/downloads/details.aspx?familyid=3906512b-26db-473e-b522-3883ff34a21c)\*  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 para sistemas baseados em x64](http://www.microsoft.com/downloads/details.aspx?familyid=7f1e0f05-6c9d-4ad1-9b19-50ee4fa7bd7e)\*  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Codificador do Windows Media 9 Series](http://www.microsoft.com/downloads/details.aspx?familyid=5434ca66-5a6b-4517-92fb-72dea0a172ec)\*  
+(Moderada)  
+[Codificador do Windows Media 9 Series x64 Edition](http://www.microsoft.com/downloads/details.aspx?familyid=e30f9427-26d0-4e86-b9b8-bc637c3b5734)\*  
+(Moderada)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas baseados no Itanium
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 para sistemas baseados no Itanium](http://www.microsoft.com/downloads/details.aspx?familyid=5159bdba-3825-4816-a2be-ab035332b9e2)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+</table>
+
+<p></p>
+
+ 
+**\*Instalação do núcleo de servidor do Windows Server 2008 não afetada.** As vulnerabilidades abordadas por estas atualizações não afetam as edições com suporte do Windows Server 2008 se o Windows Server 2008 foi instalado usando a opção de instalação Núcleo do Servidor, mesmo que os arquivos afetados por estas vulnerabilidades possam estar presentes no sistema. No entanto, esta atualização ainda será oferecida aos usuários com arquivos afetados porque os arquivos de atualização são mais novos (com números de versão mais altos) que os arquivos que estão atualmente no seu sistema. Para obter mais informações sobre essa opção de instalação, consulte [Núcleo do Servidor](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Observe que a opção de instalação de Núcleo do Servidor não se aplica a certas edições do Windows Server 2008. Consulte [Comparar opções de instalação de Núcleo do Servidor](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
+
+#### Microsoft Office Suites e software
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="3">
+Microsoft Office Suites, sistemas e componentes
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-052**](http://technet.microsoft.com/security/bulletin/ms08-052)
+</td>
+<td style="border:1px solid black;">
+[**MS08-055**](http://technet.microsoft.com/security/bulletin/ms08-055)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Boletim com classificação de gravidade máxima**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office XP Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=ef3de64c-fc17-4500-9da4-a3bba97fda6d)  
+(KB953405)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=ef3de64c-fc17-4500-9da4-a3bba97fda6d)  
+(KB953405)  
+(Importante)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office 2003 Service Pack 2 e Microsoft Office 2003 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e9f8e309-d721-4bab-b485-5eede8d49eb8)  
+(KB954478)  
+(Importante)  
+[Microsoft Office 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=e9f8e309-d721-4bab-b485-5eede8d49eb8)  
+(KB954478)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=e670ad22-d3c1-41f7-ba30-6a67139feaa3)  
+(KB953404)  
+(Importante)  
+[Microsoft Office 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=e670ad22-d3c1-41f7-ba30-6a67139feaa3)  
+(KB953404)  
+(Importante)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Sistema Microsoft Office 2007 e Sistema Microsoft Office 2007 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office System 2007](http://www.microsoft.com/downloads/details.aspx?familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+(KB954326)  
+(Importante)  
+[2007 Microsoft Office System Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+(KB954326)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office System 2007](http://www.microsoft.com/downloads/details.aspx?familyid=fb457536-26c5-428b-97e4-1fc13718266e)  
+(KB951944)  
+(Importante)  
+[2007 Microsoft Office System Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=fb457536-26c5-428b-97e4-1fc13718266e)  
+(KB951944)  
+(Importante)
+</td>
+</tr>
+<tr>
+<th colspan="3">
+Outros softwares do Office
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-052**](http://technet.microsoft.com/security/bulletin/ms08-052)
+</td>
+<td style="border:1px solid black;">
+[**MS08-055**](http://technet.microsoft.com/security/bulletin/ms08-055)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Boletim com classificação de gravidade máxima**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Project 2002 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Project 2002 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=ef3de64c-fc17-4500-9da4-a3bba97fda6d)  
+(KB953405)\*  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Visio 2002 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Microsoft Visio 2002 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=a6d9d3ef-f087-4f61-9ec1-522b7d4b9c48)  
+(KB954479)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Word Viewer, Microsoft Word Viewer 2003, Microsoft Word Viewer 2003 Service Pack 3, Microsoft Office Excel Viewer 2003, Microsoft Office Excel Viewer 2003 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Word Viewer, Microsoft Word Viewer 2003, Microsoft Word Viewer 2003 Service Pack 3, Microsoft Office Excel Viewer 2003, Microsoft Office Excel Viewer 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=e9f8e309-d721-4bab-b485-5eede8d49eb8)  
+(KB954478)\*\*  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office PowerPoint Viewer 2003
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office PowerPoint Viewer 2003](http://www.microsoft.com/downloads/details.aspx?familyid=cd503f08-1831-45ff-bdf4-dd918ca40505)  
+(KB956500)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Excel Viewer, Microsoft Office PowerPoint Viewer 2007, Microsoft Office PowerPoint Viewer 2007 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Excel Viewer, Microsoft Office PowerPoint Viewer 2007, Microsoft Office PowerPoint Viewer 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+(KB954326)\*\*\*  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007 e Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007 e Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+(KB954326)\*\*\*  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Expression Web e Microsoft Expression Web 2
+</td>
+<td style="border:1px solid black;">
+[Microsoft Expression Web e Microsoft Expression Web 2](http://www.microsoft.com/downloads/details.aspx?familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+(KB954326)\*\*\*  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Groove 2007 e Microsoft Office Groove 2007 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Groove 2007 e Microsoft Office Groove 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=4b656fe8-6253-490c-a81a-e4e8f0bb58d2)  
+(KB954326)\*\*\*  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Works
+</td>
+<td style="border:1px solid black;">
+[Microsoft Works 8](http://www.microsoft.com/downloads/details.aspx?familyid=eb0d224e-a517-40d9-9fc6-2345fa12a841)  
+(KB956483)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Digital Image Suite 2006
+</td>
+<td style="border:1px solid black;">
+[Microsoft Digital Image Suite 2006](http://www.microsoft.com/downloads/details.aspx?familyid=04afd760-8173-4069-9e82-d3bf053d9eae)  
+(KB955992)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office OneNote 2007
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office OneNote 2007](http://www.microsoft.com/downloads/details.aspx?familyid=8ac3576c-7873-4ac6-8bbc-033f6a7bb395)  
+(KB950130)  
+(Crítica)  
+[Microsoft Office OneNote 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=8ac3576c-7873-4ac6-8bbc-033f6a7bb395)  
+(KB950130)  
+(Crítica)
+</td>
+</tr>
+</table>
+
+<p></p>
+
+ 
+\*A atualização para este software afetado é a mesma do Microsoft Office XP Service Pack 3.
+
+\*\*A atualização para esses softwares afetados é a mesma que a do Microsoft Office 2003 Service Pack 2 e do Microsoft Office 2003 Service Pack 3.
+
+\*\*\*A atualização para esses softwares afetados é a mesma que a do 2007 Microsoft Office System e do 2007 Microsoft Office System Service Pack 1.
+
+#### Microsoft Server Software
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="2">
+Microsoft SQL Server
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-052**](http://technet.microsoft.com/security/bulletin/ms08-052)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Boletim com classificação de gravidade máxima**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+SQL Server 2000 Reporting Services Service Pack 2
+</td>
+<td style="border:1px solid black;">
+Atualização de GDR:  
+Não Aplicável  
+Atualização de QFE:  
+[SQL Server 2000 Reporting Services Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5f9e7f78-7439-414b-a9dc-a779b89427db)  
+(KB954609)  
+(Crítica)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+SQL Server 2005 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+Atualização de GDR:  
+[SQL Server 2005 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4603c722-2468-4adb-b945-2ed0458b8f47)  
+(KB954606)  
+(Crítica)  
+Atualização de QFE:  
+[SQL Server 2005 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5148b887-f323-4adb-9721-61e1c0cfd213)  
+(KB954607)  
+(Crítica)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+SQL Server 2005 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+Atualização de GDR:  
+[SQL Server 2005 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4603c722-2468-4adb-b945-2ed0458b8f47)  
+(KB954606)  
+(Crítica)  
+Atualização de QFE:  
+[SQL Server 2005 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5148b887-f323-4adb-9721-61e1c0cfd213)  
+(KB954607)  
+(Crítica)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+SQL Server 2005 para sistemas baseados no Itanium Service Pack 2
+</td>
+<td style="border:1px solid black;">
+Atualização de GDR:  
+[SQL Server 2005 para sistemas baseados no Itanium Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=4603c722-2468-4adb-b945-2ed0458b8f47)  
+(KB954606)  
+(Crítica)  
+Atualização de QFE:  
+[SQL Server 2005 para sistemas baseados no Itanium Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5148b887-f323-4adb-9721-61e1c0cfd213)  
+(KB954607)  
+(Crítica)
+</td>
+</tr>
+</table>
+
+<p></p>
+
+ 
+
+#### Software e ferramentas para desenvolvedor da Microsoft
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="2">
+Microsoft Visual Studio
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-052**](http://technet.microsoft.com/security/bulletin/ms08-052)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Boletim com classificação de gravidade máxima**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Visual Studio .NET 2002 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Microsoft Visual Studio .NET 2002 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=7848a652-4025-44bb-9c98-37a078b56d01)  
+(KB947736)  
+(Nenhuma classificação de gravidade)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Visual Studio .NET 2003 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Microsoft Visual Studio .NET 2003 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=9bc1e8f8-6c30-4aa0-90f5-fbb0ad5fd90e)  
+(KB947737)  
+(Nenhuma classificação de gravidade)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Visual Studio 2005 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Microsoft Visual Studio 2005 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a7bf790b-3249-4ee8-9440-fa911ebbc08a)  
+(KB947738)  
+(Nenhuma classificação de gravidade)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Visual Studio 2008
+</td>
+<td style="border:1px solid black;">
+[Microsoft Visual Studio 2008](http://www.microsoft.com/downloads/details.aspx?familyid=a8c80b29-6d00-4949-a005-5d706122919a)  
+(KB952241)  
+(Nenhuma classificação de gravidade)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Report Viewer 2005 Service Pack 1 Redistributable Package
+</td>
+<td style="border:1px solid black;">
+[Microsoft Report Viewer 2005 Service Pack 1 Redistributable Package](http://www.microsoft.com/downloads/details.aspx?familyid=82833f27-081d-4b72-83ef-2836360a904d)  
+(KB954765)  
+(Crítica)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Report Viewer 2008 Redistributable Package
+</td>
+<td style="border:1px solid black;">
+[Microsoft Report Viewer 2008 Redistributable Package](http://www.microsoft.com/downloads/details.aspx?familyid=6ae0aa19-3e6c-474c-9d57-05b2347456b1)  
+(KB954766)  
+(Crítica)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Visual FoxPro 8.0 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Microsoft Visual FoxPro 8.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=1f4371b9-b8be-4455-94d2-2304ee340543) quando instalado no Microsoft Windows 2000 Service Pack 4  
+(KB955368)  
+(Nenhuma classificação de gravidade)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Visual FoxPro 9.0 Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Microsoft Visual FoxPro 9.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=49b21e30-722d-446e-9020-aceb3870db69) quando instalado no Microsoft Windows 2000 Service Pack 4  
+(KB955369)  
+(Nenhuma classificação de gravidade)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Visual FoxPro 9.0 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Microsoft Visual FoxPro 9.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=36957f47-9d8b-477d-bd60-5959e5a2eafa) quando instalado no Microsoft Windows 2000 Service Pack 4  
+(KB955370)  
+(Nenhuma classificação de gravidade)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Platform SDK Redistributable: GDI+
+</td>
+<td style="border:1px solid black;">
+[Microsoft Platform SDK Redistributable: GDI+](http://www.microsoft.com/downloads/details.aspx?familyid=6a63ab9c-df12-4d41-933c-be590feaa05a)  
+(Nenhuma classificação de gravidade)
+</td>
+</tr>
+</table>
+
+<p></p>
+
+ 
+
+#### Software de segurança da Microsoft
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="2">
+Microsoft Forefront Security
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-052**](http://technet.microsoft.com/security/bulletin/ms08-052)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Boletim com classificação de gravidade máxima**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Forefront Client Security 1.0
+</td>
+<td style="border:1px solid black;">
+[Microsoft Forefront Client Security 1.0](http://www.microsoft.com/downloads/details.aspx?familyid=1eb1a79f-44ca-499e-90bb-ac51894e9d1e) quando instalado no Microsoft Windows 2000 Service Pack 4  
+(KB957177)  
+(Importante)
+</td>
+</tr>
+</table>
+
+<p></p>
+
+ 
+
+Orientação e ferramentas de detecção e implantação
+--------------------------------------------------
+
+ 
+**Central de Segurança**
+
+Gerencie as atualizações de software e segurança que você precisa instalar em servidores, computadores desktop e notebooks em sua organização. Para obter mais informações, consulte o [Centro de Gerenciamento de Atualização do Technet](http://go.microsoft.com/fwlink/?linkid=69903). O site [TechNet Security Center](http://go.microsoft.com/fwlink/?linkid=21171) fornece informações adicionais sobre segurança em produtos da Microsoft. Os consumidores podem visitar [Segurança em Casa](http://go.microsoft.com/fwlink/?linkid=85102), onde essa informação também está disponível, clicando em “Atualizações de Segurança mais Recentes”.
+
+As atualizações de segurança estão disponíveis no [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747), [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130) e [Office Update](http://go.microsoft.com/fwlink/?linkid=21135). As atualizações de segurança também estão disponíveis no [Centro de Download da Microsoft](http://go.microsoft.com/fwlink/?linkid=21129). Você poderá encontrá-las com mais facilidade, executando uma pesquisa com a palavra-chave "atualização de segurança".
+
+Por fim, as atualizações de segurança podem ser baixadas do [Microsoft Update Catalog](http://go.microsoft.com/fwlink/?linkid=96155). O Microsoft Update Catalog fornece um catálogo pesquisável de conteúdo disponibilizado por meio do Windows Update e Microsoft Update, incluindo atualizações de segurança, drivers e service packs. Ao pesquisar usando o número do boletim de segurança (como "MS07-036"), é possível adicionar todas as atualizações aplicáveis em sua cesta (incluindo idiomas diferentes para uma atualização) e baixá-las na pasta de sua escolha. Para obter mais informações sobre o Microsoft Update Catalog, consulte as [Perguntas Freqüentes sobre Microsoft Update Catalog.](http://go.microsoft.com/fwlink/?linkid=97900)
+
+**Orientação para detecção e implantação**
+
+A Microsoft está oferecendo uma orientação de detecção e implantação para as atualizações de segurança deste mês. Essa orientação também ajudará os profissionais de TI a entender como eles podem usar as várias ferramentas para ajudar a implantar a atualização de segurança, tal como o Windows Update, Microsoft Update, Atualização do Office, as ferramentas MBSA (Microsoft Baseline Security Analyzer), Office Detection Tool, Microsoft Systems Management Server (SMS) e a Ferramenta Extended Security Update Inventory (ESUIT). Para obter mais informações, consulte o [Artigo 910723 (em inglês) da Microsoft Knowledge Base](http://support.microsoft.com/kb/910723).
+
+**Microsoft Baseline Security Analyzer**
+
+O MBSA (Microsoft Baseline Security Analyzer) permite aos administradores pesquisar, em sistemas locais e remotos, atualizações de segurança ausentes e problemas de configuração de segurança comuns. Para obter mais informações sobre o MBSA, visite [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?linkid=21134).
+
+**Windows Server Update Services**
+
+Usando o WSUS (Windows Server Update Services), os administradores podem implantar de forma rápida e confiável as mais recentes atualizações críticas e de segurança dos sistemas operacionais Windows 2000 e posterior, Office XP e superior, Exchange Server 2003, e SQL Server 2000 nos sistemas operacionais Windows 2000 e superior.
+
+Para obter mais informações sobre como implantar esta atualização de segurança usando o Windows Server Update Services, visite [Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=50120).
+
+**Systems Management Server**
+
+O SMS (Microsoft Systems Management Server) fornece uma solução corporativa altamente configurável para gerenciar atualizações. Ao usar o SMS, os administradores podem identificar os sistemas baseados no Windows que precisam de atualizações de segurança, bem como executar a implantação controlada dessas atualizações em toda a empresa com o mínimo de interrupção para os usuários. O próximo lançamento do SMS, System Center Configuration Manager 2007, já está disponível; consulte também [System Center Configuration Manager 2007](http://technet.microsoft.com/en-us/library/bb735860.aspx). Para obter mais informações sobre como os administradores podem usar o SMS 2003 para instalar atualizações de segurança, consulte [Gerenciamento de Patches de Segurança do SMS 2003.](http://go.microsoft.com/fwlink/?linkid=22939) Os usuários do SMS 2.0 também podem usar o [Software Updates Service Feature Pack](http://go.microsoft.com/fwlink/?linkid=33340) (em inglês) para ajudar a implantar atualizações de segurança. Para obter informações sobre o SMS, visite [Microsoft Systems Management Server](http://go.microsoft.com/fwlink/?linkid=21158).
+
+**Observação** O SMS usa o Microsoft Baseline Security Analyzer e a ferramenta de detecção do Microsoft Office para fornecer amplo suporte à detecção e à implantação de atualizações do boletim de segurança. Algumas atualizações de software podem não ser detectadas por essas ferramentas. Os administradores podem usar os recursos de inventário do SMS nesses casos para apontar as atualizações de sistemas específicos. Para obter mais informações sobre este procedimento, consulte [Implementando atualizações de software usando o Recurso Distribuição de Software do SMS](http://go.microsoft.com/fwlink/?linkid=33341). Algumas atualizações de segurança exigirão direitos administrativos quando o sistema for reiniciado. Os administradores podem usar a Elevated Rights Deployment Tool (disponível no [SMS 2003 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=33387) e no [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161)) (sites em inglês) para instalar essas atualizações.
+
+**Avaliador de Compatibilidade com Atualizações e Kit de Ferramentas de Compatibilidade de Aplicativo**
+
+As atualizações freqüentemente gravam nos mesmos arquivos e configurações do Registro necessários à execução dos aplicativos. Isto pode gerar incompatibilidades e aumentar o tempo necessário à implantação de atualizações de segurança. É possível usar os componentes do [Avaliador de compatibilidade com atualizações](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true) incluídos no [Kit de ferramentas de compatibilidade de aplicativos 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) para agilizar o teste e a validação de atualizações do Windows com relação aos aplicativos instalados.
+
+O Kit de ferramentas de compatibilidade de aplicativos (ACT) contém as ferramentas e a documentação necessárias para avaliar e atenuar problemas de compatibilidade com aplicativos antes da implantação do Microsoft Windows Vista, de uma atualização do Windows, de uma atualização de segurança da Microsoft ou de uma nova versão do Windows Internet Explorer em seu ambiente.
+
+### Outras informações
+
+#### Ferramenta de Remoção de Software Mal-Intencionado do Microsoft Windows
+
+A Microsoft lançou uma versão atualizada da Ferramenta de Remoção de Software Mal-Intencionado do Microsoft Windows em Windows Update, Microsoft Update, Windows Server Update Services e no Centro de Download.
+
+#### Atualizações de alta prioridade que não são de segurança no MU, WU e WSUS:
+
+Para obter informações sobre versões não seguras no Windows Update e Microsoft Update, consulte:
+
+-   [Artigo 894199 (em inglês) da Microsoft Knowledge Base](http://support.microsoft.com/kb/894199): Descrição dos serviços de atualização de software e de alterações nos serviços do Windows Server no conteúdo para 2008. Inclui todo o conteúdo do Windows.
+-   [Atualizações novas, revisadas e liberadas para produtos da Microsoft que não sejam o Microsoft Windows](http://technet.microsoft.com/en-us/wsus/bb466214.aspx).
+
+#### Comunidade e estratégias de segurança
+
+**Estratégias de Gerenciamento de Atualização**
+
+O site [Orientações de segurança para gerenciamento de atualizações](http://go.microsoft.com/fwlink/?linkid=21168) oferece informações adicionais sobre as práticas recomendadas pela Microsoft para a aplicação de atualizações de segurança.
+
+**Obtendo outras atualizações de segurança**
+
+As atualizações para outros problemas de segurança estão disponíveis nos seguintes locais:
+
+-   As atualizações de segurança estão disponíveis no [Centro de Download da Microsoft](http://go.microsoft.com/fwlink/?linkid=21129). Você poderá encontrá-las com mais facilidade, executando uma pesquisa com a palavra-chave "atualização de segurança".
+-   Atualizações para plataformas do cliente estão disponíveis no [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747).
+-   É possível obter as atualizações de segurança oferecidas este mês no Windows Update, disponíveis no Centro de Download de arquivos de imagem ISO em CD contendo lançamentos críticos e de segurança. Para obter mais informações, consulte o [Artigo 913086 (em inglês) da Microsoft Knowledge Base](http://support.microsoft.com/kb/913086).
+
+**Comunidade de segurança de profissionais de TI**
+
+Aprenda a aumentar a segurança e a otimizar a infra-estrutura de TI e participe de discussões sobre os tópicos de segurança com outros profissionais de TI no site [IT Pro Security Community](http://go.microsoft.com/fwlink/?linkid=21164) (em inglês).
+
+#### Agradecimentos
+
+A Microsoft [agradece](http://go.microsoft.com/fwlink/?linkid=21127) à pessoa citada abaixo por trabalhar conosco para ajudar a proteger os clientes:
+
+-   Greg MacManus, da [VeriSign iDefense Labs](http://labs.idefense.com/) por relatar um problema descrito no boletim MS08-052
+-   Bing Liu da [FortiGuard Global Security Research Team](http://www.fortiguardcenter.com/) da Fortinet por relatar um problema descrito no boletim MS08-052
+-   Peter Winter-Smith da [NGSSoftware](http://www.ngssoftware.com/) e Ivan Fratric, que trabalha na [Zero Day Initiative](http://www.zerodayinitiative.com/), por relatarem um problema descrito no boletim MS08-052
+-   [Equipe de pesquisa de vulnerabilidade da Assurent Secure Technologies](http://www.assurent.com/), por relatar um problema descrito no boletim MS08-052
+-   Um pesquisador anônimo que trabalha na [Zero Day Initiative](http://www.zerodayinitiative.com/) por reportar um problema descrito no boletim MS08-052
+-   Nguyen Minh Duc e Le Manh Tung, com [Bach Khoa Internetwork Security Center (BKIS) Hanoi University of Technology (Vietnã)](http://security.bkis.vn/), por relatarem um problema descrito no boletim MS08-053
+-   Brett Moore da [Insomnia Security](http://www.insomniasec.com/) por relatar um problema descrito no boletim MS08-055
+
+#### Suporte
+
+-   O software afetado listado foi testado a fim de determinar que versões são afetadas. Outras versões passaram seu ciclo de vida de suporte. Para determinar o ciclo de vida do suporte da sua versão de software, visite o site [Ciclo de Vida do Suporte Microsoft](http://go.microsoft.com/fwlink/?linkid=21742).
+-   Os clientes nos EUA e Canadá podem receber suporte técnico dos [Serviços de suporte ao produto Microsoft](http://go.microsoft.com/fwlink/?linkid=21131) pelo telefone 1-866-PCSAFETY. As ligações para obter suporte associado a atualizações de segurança são gratuitas.
+-   Os clientes de outros países podem obter suporte nas subsidiárias locais da Microsoft. O suporte associado a atualizações de segurança é gratuito. Para obter mais informações sobre como entrar em contato com a Microsoft a fim de obter suporte a problemas, visite o site de [Ajuda e Suporte Internacional](http://go.microsoft.com/fwlink/?linkid=21155).
+
+#### Aviso de isenção de responsabilidade
+
+As informações fornecidas na Microsoft Knowledge Base são apresentadas "no estado em que se encontram", sem garantia de qualquer tipo. A Microsoft se isenta de todas as garantias, expressas ou implícitas, inclusive as garantias de comercialização e adequação a um propósito específico. Em hipótese alguma a Microsoft Corporation ou seus fornecedores serão responsáveis por quaisquer danos, inclusive danos diretos, indiretos, incidentais, conseqüenciais, danos por lucros cessantes ou danos especiais, mesmo que a Microsoft Corporation ou seus fornecedores tenham sido alertados da possibilidade dos referidos danos. Como alguns estados não permitem a exclusão ou limitação de responsabilidade por danos conseqüenciais ou indiretos, a limitação acima pode não ser aplicável a você.
+
+#### Revisões
+
+-   V1.0 (9 de setembro de 2008): Resumo do boletim publicado.
+-   V2.0 (9 de setembro de 2008): Resumo dos boletins atualizado para o Microsoft Office Project 2002 Service Pack 2, todos os softwares Viewer do Office para Microsoft Office 2003 e todos os softwares Viewer para Microsoft Office System 2007 como Software afetado no boletim MS08-052.
+-   V2.1 (17 de setembro de 2008): Resumo do boletim atualizado para alterar o Microsoft Office Project 2002 Service Pack 2 na tabela de Softwares afetados para Microsoft Office Project 2002 Service Pack 1. Isso é apenas uma alteração de nome. Não houve nenhuma alteração ao binário ou à detecção.
+-   V2.2 (29 de outubro de 2008): Resumo do boletim atualizado para remover o Microsoft Visio 2003 Viewer, Microsoft Visio 2007 Viewer e Microsoft Visio 2007 Viewer Service Pack 1 como software afetado do boletim MS08-052.
+-   V3.0 (9 de dezembro de 2008): O resumo de boletins foi atualizado para adicionar o Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007 e o Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007 Service Pack 1, o Microsoft Expression Web e o Microsoft Expression Web 2, e o Microsoft Office Groove 2007 e o Microsoft Office Groove 2007 Service Pack 1 como softwares afetados do MS08-052.
+
+*Built at 2014-04-18T01:50:00Z-07:00*

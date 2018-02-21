@@ -1,0 +1,1823 @@
+---
+TOCTitle: 'MS08-DEC'
+Title: Resumo do Boletim de Segurança da Microsoft de dezembro 2008
+ms:assetid: 'ms08-dec'
+ms:contentKeyID: 61233636
+ms:mtpsurl: 'https://technet.microsoft.com/pt-BR/library/ms08-dec(v=Security.10)'
+---
+
+ 
+
+Resumo do Boletim de Segurança da Microsoft de dezembro 2008
+============================================================
+
+Publicado: terça-feira, 9 de dezembro de 2008 | Atualizado: quarta-feira, 29 de abril de 2009
+
+**Versão:** 6.0
+
+Este resumo de boletins lista os boletins de segurança lançados em dezembro de 2008.
+
+Com o lançamento dos boletins de dezembro de 2008, este resumo de boletins substitui a notificação prévia de boletim lançada originalmente em 4 de dezembro de 2008. Para obter mais informações sobre o serviço de notificação prévia de boletim, consulte [Notificação prévia do Boletim de Segurança da Microsoft](http://technet.microsoft.com/security/bulletin/advance).
+
+Para obter informações sobre como receber notificações automáticas sempre que os boletins de segurança da Microsoft são emitidos, consulte as [notificações de segurança técnica da Microsoft](http://go.microsoft.com/fwlink/?linkid=21163).
+
+A Microsoft realizará um webcast para solucionar dúvidas dos clientes sobre esses boletins no dia 10 de dezembro de 2008, às 11 horas - Hora do Pacífico (EUA e Canadá). [Registre-se agora para participar do Webcast do boletim de segurança de dezembro.](http://msevents.microsoft.com/cui/webcasteventdetails.aspx?eventid=1032374647) Depois dessa data, este webcast estará disponível sob demanda. Para obter mais informações, consulte [Webcasts e resumos dos boletins de segurança da Microsoft.](http://technet.microsoft.com/security/bulletin/summary)
+
+Para obter o boletim de segurança desvinculado adicionado à versão 3.0 deste resumo de boletins, MS08-078, a Microsoft está oferecendo dois Webcasts para abordar perguntas dos clientes sobre estes boletins: em 17 de dezembro de 2008, às 13 horas - Hora do Pacífico (EUA e Canadá), e em 18 de dezembro de 2008, às 11 horas - Hora do Pacífico. Registre-se agora para participar do [Webcast em 17 de dezembro](http://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032399448&culture=en-us) e do [Webcast em 18 de dezembro](http://msevents.microsoft.com/cui/eventdetail.aspx?eventid=1032399449&culture=en-us). Depois dessas datas, os webcasts estarão disponíveis sob demanda. Para obter mais informações, consulte [Webcasts e resumos dos boletins de segurança da Microsoft.](http://technet.microsoft.com/security/bulletin/summary)
+
+A Microsoft também fornece informações para ajudar os clientes a priorizar as atualizações mensais de segurança em relação a quaisquer atualizações de alta prioridade que não são de segurança que estejam sendo lançadas no mesmo dia que as atualizações mensais de segurança. Consulte a seção **Outras informações.**
+
+### Informações do boletim
+
+Sinopses
+--------
+
+ 
+A tabela a seguir traz um resumo dos boletins de segurança deste mês em ordem de gravidade.
+
+Para obter detalhes sobre os softwares afetados, consulte a próxima seção, **Software afetado e locais de download**.
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >ID do Boletim</th>
+<th style="border:1px solid black;" >Título do boletim e Sinopse</th>
+<th style="border:1px solid black;" >Classificação máxima de gravidade e impacto da vulnerabilidade</th>
+<th style="border:1px solid black;" >Necessidade de Reinicialização</th>
+<th style="border:1px solid black;" >Softwares afetados</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-071">MS08-071</a></td>
+<td style="border:1px solid black;"><strong>Vulnerabilidades no GDI podem permitir a execução remota de código (956802)</strong><br />
+<br />
+Esta atualização de segurança elimina duas vulnerabilidades reportadas em particular no GDI. A exploração de qualquer uma dessas vulnerabilidades pode permitir a execução remota de código se um usuário abrir um arquivo de imagem WMF especialmente criado. O invasor que explorar com êxito as vulnerabilidades poderá assumir o controle total de um sistema afetado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Crítica</a><br />
+Execução Remota de Código</td>
+<td style="border:1px solid black;">Exige reinicialização</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-075">MS08-075</a></td>
+<td style="border:1px solid black;"><strong>Vulnerabilidades no Windows Search podem permitir a execução remota de código (959349)</strong><br />
+<br />
+Esta atualização de segurança elimina duas vulnerabilidades relatadas em particular no Windows Search. Essas vulnerabilidades podem permitir a execução remota de código se um usuário abrir e salvar um arquivo de pesquisa especialmente criado no Windows Explorer ou se um usuário clicar em um URL de pesquisa especialmente criado. O invasor que explorar com êxito as vulnerabilidades poderá assumir o controle total de um sistema afetado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Crítica</a><br />
+Execução Remota de Código</td>
+<td style="border:1px solid black;">Exige reinicialização</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-073">MS08-073</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança cumulativa para Internet Explorer (958215)</strong><br />
+<br />
+Esta atualização de segurança elimina quatro vulnerabilidades relatadas em particular. As vulnerabilidades podem permitir a execução remota de código se um usuário exibir uma página da Web especialmente criada usando o Internet Explorer. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Crítica</a><br />
+Execução Remota de Código</td>
+<td style="border:1px solid black;">Exige reinicialização</td>
+<td style="border:1px solid black;">Microsoft Windows, Internet Explorer</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-078">MS08-078</a></td>
+<td style="border:1px solid black;"><strong>Atualização de segurança para o Internet Explorer (960714)</strong><br />
+<br />
+Esta atualização de segurança elimina uma vulnerabilidade divulgada publicamente. A vulnerabilidade pode permitir a execução remota de código se um usuário exibir uma página da Web especialmente criada usando o Internet Explorer. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Crítica</a><br />
+Execução Remota de Código</td>
+<td style="border:1px solid black;">Pode exigir reinicialização</td>
+<td style="border:1px solid black;">Microsoft Windows, Internet Explorer</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-070">MS08-070</a></td>
+<td style="border:1px solid black;"><strong>Vulnerabilidades nos arquivos estendidos de tempo de execução do Visual Basic 6.0 (controles ActiveX) podem permitir a execução remota de código (932349)</strong><br />
+<br />
+Esta atualização de segurança elimina cinco vulnerabilidades relatadas em particular e uma vulnerabilidade divulgada publicamente nos controles ActiveX dos arquivos estendidos de tempo de execução do Microsoft Visual Basic 6.0. Essas vulnerabilidades podem permitir a execução remota de código se um usuário navegar em um site que tenha conteúdo especialmente criado. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Crítica</a><br />
+Execução Remota de Código</td>
+<td style="border:1px solid black;">Exige reinicialização</td>
+<td style="border:1px solid black;">Software e ferramentas para desenvolvedor da Microsoft, Microsoft Office</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-072">MS08-072</a></td>
+<td style="border:1px solid black;"><strong>Vulnerabilidades nos filtros do Microsoft Office Word podem permitir a execução remota de código (957173)</strong><br />
+<br />
+Esta atualização de segurança elimina oito vulnerabilidades relatadas em particular no Microsoft Office Word e Microsoft Office Outlook que podem permitir a execução remota de código se um usuário abrir um arquivo do Word ou RTF especialmente criado. O invasor que explorar com êxito as vulnerabilidades poderá assumir o controle total de um sistema afetado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Crítica</a><br />
+Execução Remota de Código</td>
+<td style="border:1px solid black;">Pode exigir reinicialização</td>
+<td style="border:1px solid black;">Microsoft Office</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-074">MS08-074</a></td>
+<td style="border:1px solid black;"><strong>Vulnerabilidades no Microsoft Office Excel podem permitir a execução remota de código (959070)</strong><br />
+<br />
+Esta atualização de segurança elimina três vulnerabilidades reportadas em particular no Microsoft Office Excel que podem permitir a execução remota de código se um usuário abrir um arquivo do Excel especialmente criado. O invasor que explorar com êxito as vulnerabilidades poderá assumir o controle total de um sistema afetado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Crítica</a><br />
+Execução Remota de Código</td>
+<td style="border:1px solid black;">Pode exigir reinicialização</td>
+<td style="border:1px solid black;">Microsoft Office</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-077">MS08-077</a></td>
+<td style="border:1px solid black;"><strong>Vulnerabilidade no Microsoft Office SharePoint Server pode causar elevação de privilégio (957175)</strong><br />
+<br />
+Esta atualização de segurança elimina uma vulnerabilidade relatada em particular. A vulnerabilidade pode permitir elevação de privilégio se um invasor ignorar a autenticação, navegando para um URL administrativo em um site do SharePoint. Um ataque bem-sucedido que leva à elevação de privilégio pode resultar em negação de serviço ou divulgação de informações.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Importante</a><br />
+Elevação de privilégio</td>
+<td style="border:1px solid black;">Pode exigir reinicialização</td>
+<td style="border:1px solid black;">Microsoft Office, Microsoft Server Software</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-076">MS08-076</a></td>
+<td style="border:1px solid black;"><strong>Vulnerabilidades no Windows Media Components podem permitir a execução remota de código (959807)</strong><br />
+<br />
+Esta atualização de segurança elimina duas vulnerabilidades relatadas em particular nos seguintes componentes do Windows Media: Windows Media Player, Tempo de Execução do Windows Media Format e Windows Media Services. A vulnerabilidade mais grave pode permitir a execução remota de código. Se um usuário tiver feito logon com direitos administrativos, o invasor que explorar com êxito essa vulnerabilidade poderá ter o controle total do sistema afetado. O invasor poderá instalar programas; exibir, alterar ou excluir dados; ou criar novas contas com direitos totais de usuário. Os usuários cujas contas são configuradas com poucos direitos de usuário no sistema correm menos riscos do que aqueles que possuem direitos administrativos.</td>
+<td style="border:1px solid black;"><a href="http://go.microsoft.com/fwlink/?linkid=21140">Importante</a><br />
+Execução Remota de Código</td>
+<td style="border:1px solid black;">Pode exigir reinicialização</td>
+<td style="border:1px solid black;">Microsoft Windows</td>
+</tr>
+</tbody>
+</table>
+
+<p></p>
+
+  
+Índice de exploração  
+--------------------
+  
+ 
+**Como devo usar a tabela?**  
+  
+Use esta tabela para conhecer a probabilidade de o código de exploração em funcionamento ser lançado em 30 dias contados do lançamento do boletim de segurança, para cada uma das atualizações de segurança que você possa precisar instalar. Você deve revisar cada uma das avaliações abaixo, de acordo com sua configuração específica, para dar prioridade a sua implantação. Para obter mais informações sobre o que estas avaliações significam e como são determinadas, consulte o [Microsoft Exploitability Index](http://technet.microsoft.com/en-us/security/cc998259.aspx).
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<thead>
+<tr class="header">
+<th style="border:1px solid black;" >ID do Boletim</th>
+<th style="border:1px solid black;" >Título do Boletim</th>
+<th style="border:1px solid black;" >ID do CVE</th>
+<th style="border:1px solid black;" >Avaliação do índice de exploração</th>
+<th style="border:1px solid black;" >Principais observações</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-070">MS08-070</a></td>
+<td style="border:1px solid black;">As vulnerabilidades nos arquivos estendidos de tempo de execução do Visual Basic 6.0 (controles ActiveX) podem permitir a execução remota de código (932349)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-3704">CVE-2008-3704</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">Um código de exploração consistente está publicamente disponível</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-070">MS08-070</a></td>
+<td style="border:1px solid black;">As vulnerabilidades nos arquivos estendidos de tempo de execução do Visual Basic 6.0 (controles ActiveX) podem permitir a execução remota de código (932349)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4252">CVE-2008-4252</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-070">MS08-070</a></td>
+<td style="border:1px solid black;">As vulnerabilidades nos arquivos estendidos de tempo de execução do Visual Basic 6.0 (controles ActiveX) podem permitir a execução remota de código (932349)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4256">CVE-2008-4256</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-070">MS08-070</a></td>
+<td style="border:1px solid black;">As vulnerabilidades nos arquivos estendidos de tempo de execução do Visual Basic 6.0 (controles ActiveX) podem permitir a execução remota de código (932349)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4253">CVE-2008-4253</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-070">MS08-070</a></td>
+<td style="border:1px solid black;">As vulnerabilidades nos arquivos estendidos de tempo de execução do Visual Basic 6.0 (controles ActiveX) podem permitir a execução remota de código (932349)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4254">CVE-2008-4254</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-070">MS08-070</a></td>
+<td style="border:1px solid black;">As vulnerabilidades nos arquivos estendidos de tempo de execução do Visual Basic 6.0 (controles ActiveX) podem permitir a execução remota de código (932349)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4255">CVE-2008-4255</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">Os sistemas Windows 2000 são os que correm mais risco. É improvável que o Windows XP SP2, o Windows Server 2003 SP1 e sistemas operacionais posteriores sejam afetados por código de exploração funcional devido a proteções mais reforçados do heap.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-071">MS08-071</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no GDI podem permitir a execução remota de código (956802)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-3465">CVE-2008-3465</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-071">MS08-071</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no GDI podem permitir a execução remota de código (956802)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-2249">CVE-2008-2249</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Código de exploração em funcionamento improvável</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-072">MS08-072</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Microsoft Office Word podem permitir a execução remota de código (957173)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4024">CVE-2008-4024</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-072">MS08-072</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Microsoft Office Word podem permitir a execução remota de código (957173)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4025">CVE-2008-4025</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-072">MS08-072</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Microsoft Office Word podem permitir a execução remota de código (957173)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4026">CVE-2008-4026</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-072">MS08-072</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Microsoft Office Word podem permitir a execução remota de código (957173)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4027">CVE-2008-4027</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-072">MS08-072</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Microsoft Office Word podem permitir a execução remota de código (957173)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4028">CVE-2008-4028</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-072">MS08-072</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Microsoft Office Word podem permitir a execução remota de código (957173)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4030">CVE-2008-4030</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-072">MS08-072</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Microsoft Office Word podem permitir a execução remota de código (957173)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4837">CVE-2008-4837</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-072">MS08-072</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Microsoft Office Word podem permitir a execução remota de código (957173)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4031">CVE-2008-4031</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>3</strong></a> - Código de exploração em funcionamento improvável</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-073">MS08-073</a></td>
+<td style="border:1px solid black;">Atualização de segurança cumulativa para Internet Explorer (958215)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4258">CVE-2008-4258</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-073">MS08-073</a></td>
+<td style="border:1px solid black;">Atualização de segurança cumulativa para Internet Explorer (958215)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4259">CVE-2008-4259</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-073">MS08-073</a></td>
+<td style="border:1px solid black;">Atualização de segurança cumulativa para Internet Explorer (958215)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4261">CVE-2008-4261</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-073">MS08-073</a></td>
+<td style="border:1px solid black;">Atualização de segurança cumulativa para Internet Explorer (958215)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4260">CVE-2008-4260</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-074">MS08-074</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Microsoft Office Excel podem permitir a execução remota de código (959070)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4265">CVE-2008-4265</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-074">MS08-074</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Microsoft Office Excel podem permitir a execução remota de código (959070)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4266">CVE-2008-4266</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-074">MS08-074</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Microsoft Office Excel podem permitir a execução remota de código (959070)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4264">CVE-2008-4264</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-075">MS08-075</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Windows Search podem permitir a execução remota de código (959349)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4269">CVE-2008-4269</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-075">MS08-075</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Windows Search podem permitir a execução remota de código (959349)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4268">CVE-2008-4268</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>2</strong></a> - Possível código de exploração inconsistente</td>
+<td style="border:1px solid black;">(Nenhum)</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-076">MS08-076</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Windows Media Components podem permitir a execução remota de código (959807)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-3009">CVE-2008-3009</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">Código de exploração consistente pode ser criado para este problema. No entanto, a natureza limitada dos cenários de ataque significa que ataques reais são improváveis.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-076">MS08-076</a></td>
+<td style="border:1px solid black;">Vulnerabilidades no Windows Media Components podem permitir a execução remota de código (959807)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-3010">CVE-2008-3010</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">Código de exploração consistente pode ser criado para este problema. No entanto, a natureza limitada dos cenários de ataque significa que ataques reais são improváveis.</td>
+</tr>
+<tr class="even">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-077">MS08-077</a></td>
+<td style="border:1px solid black;">Vulnerabilidade no Microsoft Office SharePoint Server pode causar elevação de privilégio (957175)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4032">CVE-2008-4032</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente</td>
+<td style="border:1px solid black;">Código de exploração consistente pode ser criado para este problema. No entanto, ataques que explorem esta vulnerabilidade provavelmente resultarão somente em divulgação não autorizada de informações, e não na execução remota de código.</td>
+</tr>
+<tr class="odd">
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/security/bulletin/ms08-078">MS08-078</a></td>
+<td style="border:1px solid black;">Atualização de segurança para o Internet Explorer (960714)</td>
+<td style="border:1px solid black;"><a href="http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2008-4844">CVE-2008-4844</a></td>
+<td style="border:1px solid black;"><a href="http://technet.microsoft.com/en-us/security/cc998259.aspx"><strong>1</strong></a> - Possível código de exploração consistente<br />
+(Pública no lançamento do boletim)</td>
+<td style="border:1px solid black;">Código de exploração consistente foi descoberto em ataques ativos. No entanto, o Internet Explorer é executado no Modo Protegido em instalações padrão do Windows Vista e do Windows Server 2008, oferecendo obstáculos à exploração.</td>
+</tr>
+</tbody>
+</table>
+
+<p></p>
+
+  
+Softwares afetados e Locais de download  
+---------------------------------------
+  
+ 
+**Como devo usar a tabela?**  
+  
+Use esta tabela para aprender sobre as atualizações de segurança que você talvez precise instalar. Você deve examinar cada programa ou componente de software listado para verificar se alguma atualização de segurança é necessária. Se um programa de software ou componente estiver listado, haverá também um hiperlink para a atualização de software disponível e a classificação de gravidade da atualização de software também estará listada.
+  
+**Observação** Talvez você tenha que instalar diversas atualizações de segurança para uma única vulnerabilidade. Examine a coluna inteira de cada identificador de boletim listado para verificar as atualizações que você deve instalar com base nos programas ou componentes instalados no sistema.
+  
+#### Componentes e sistema operacional Windows
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="6">
+Microsoft Windows 2000  
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-071**](http://technet.microsoft.com/security/bulletin/ms08-071)
+</td>
+<td style="border:1px solid black;">
+[**MS08-075**](http://technet.microsoft.com/security/bulletin/ms08-075)
+</td>
+<td style="border:1px solid black;">
+[**MS08-073**](http://technet.microsoft.com/security/bulletin/ms08-073)
+</td>
+<td style="border:1px solid black;">
+[**MS08-078**](http://technet.microsoft.com/security/bulletin/ms08-078)
+</td>
+<td style="border:1px solid black;">
+[**MS08-076**](http://technet.microsoft.com/security/bulletin/ms08-076)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Avaliação de gravidade agregada**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Nenhuma
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Windows 2000 Service Pack 4
+</td>
+<td style="border:1px solid black;">
+[Microsoft Windows 2000 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=3b775fb1-1077-455d-af4a-4ccb5237974f)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 5.01 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=c242ba42-556b-4c87-bf33-9d99166ff096)  
+(Crítica)  
+[Microsoft Internet Explorer 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=c0583745-7e57-4265-9429-c3415cb8465f)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 5.01 Service Pack 4](http://www.microsoft.com/downloads/details.aspx?familyid=d3e18732-47f1-40ce-999c-d1fd283bf138)  
+(Crítica)  
+[Microsoft Internet Explorer 6 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=124c14b6-9323-4f6f-902b-727aa56444bc)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Media Player 6.4](http://www.microsoft.com/downloads/details.aspx?familyid=c33d558e-45f9-4e85-b48c-03bd0e8cb4bc)  
+(KB954600)  
+(Importante)  
+[Tempo de Execução do Windows Media Format 7.1 e Tempo de Execução do Windows Media Format 9.0](http://www.microsoft.com/downloads/details.aspx?familyid=6a459497-0ab8-41cb-87d0-b551631d8d8a)  
+(KB952069)  
+(Importante)  
+[Windows Media Services 4.1](http://www.microsoft.com/downloads/details.aspx?familyid=58b7d241-cef6-48fa-aa52-017695f71db1)  
+(KB952068)  
+(Importante)
+</td>
+</tr>
+<tr>
+<th colspan="6">
+Windows XP (site em inglês)
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-071**](http://technet.microsoft.com/security/bulletin/ms08-071)
+</td>
+<td style="border:1px solid black;">
+[**MS08-075**](http://technet.microsoft.com/security/bulletin/ms08-075)
+</td>
+<td style="border:1px solid black;">
+[**MS08-073**](http://technet.microsoft.com/security/bulletin/ms08-073)
+</td>
+<td style="border:1px solid black;">
+[**MS08-078**](http://technet.microsoft.com/security/bulletin/ms08-078)
+</td>
+<td style="border:1px solid black;">
+[**MS08-076**](http://technet.microsoft.com/security/bulletin/ms08-076)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Avaliação de gravidade agregada**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Nenhuma
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows XP Service Pack 2 e Windows XP Service Pack 3
+</td>
+<td style="border:1px solid black;">
+[Windows XP Service Pack 2 e Windows XP Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=2151fbba-c464-4d1e-82d4-5b096e82bed0)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=af9a6cb0-725d-490c-9858-16ec40e98560)  
+(Crítica)  
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=1b582695-b3cc-4c65-bc4b-d673c9a6d82a)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=1d83e0af-46fa-4bfc-ba57-635435a7ef2d)  
+(Crítica)  
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=0190a289-164e-41a7-8c01-fa1aaed3f531)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Media Player 6.4](http://www.microsoft.com/downloads/details.aspx?familyid=99241309-e644-4088-a8f3-38837fab4037)  
+(KB954600)  
+(Importante)  
+[Tempo de Execução do Windows Media Format 9.0, Tempo de Execução do Windows Media Format 9.5 e Tempo de Execução do Windows Media Format 11](http://www.microsoft.com/downloads/details.aspx?familyid=504f816c-f554-4b93-ac28-b085574d9bac)  
+(Windows XP Service Pack 2 somente)  
+(KB952069)  
+(Importante)  
+[Tempo de Execução do Windows Media Format 9.0, Tempo de Execução do Windows Media Format 9.5 e Tempo de Execução do Windows Media Format 11](http://www.microsoft.com/downloads/details.aspx?familyid=ad76fcf3-a2f9-4e36-bd1b-c1536749173c)  
+(Windows XP Service Pack 3 somente)  
+(KB952069)  
+(Importante)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows XP Professional x64 Edition e Windows XP Professional x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows XP Professional x64 Edition e Windows XP Professional x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=2247f6a5-aa33-4c68-9ea8-a63488d126d3)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=60bf9851-24fe-4658-8333-d353e82063c7)  
+(Crítica)  
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=107cf54b-29d4-4c54-b091-2b5b3ffbf49d)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=a585cb73-2c1a-4fa8-862a-ad6aeaeaf2f8)  
+(Crítica)  
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=9ba71e23-8cef-4399-b215-983b0dcf5cb5)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Media Player 6.4](http://www.microsoft.com/downloads/details.aspx?familyid=946d47c9-b208-4fab-8ef6-774413d61bc8)  
+(KB954600)  
+(Importante)  
+[Tempo de Execução do Windows Media Format 9.5](http://www.microsoft.com/downloads/details.aspx?familyid=644ef023-ee40-45b0-9c9d-c76d9fab0005)  
+(KB952069)  
+(Importante)  
+[Tempo de Execução do Windows Media Format 9.5 x64 Edition](http://www.microsoft.com/downloads/details.aspx?familyid=ae9e8b07-5354-42f3-a226-ba2193244524)  
+(KB952069)  
+(Importante)  
+[Tempo de Execução do Windows Media Format 11](http://www.microsoft.com/downloads/details.aspx?familyid=2dadc017-2be5-4240-ab8f-0291756dca6b)  
+(KB952069)  
+(Importante)
+</td>
+</tr>
+<tr>
+<th colspan="6">
+Windows Server 2003
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-071**](http://technet.microsoft.com/security/bulletin/ms08-071)
+</td>
+<td style="border:1px solid black;">
+[**MS08-075**](http://technet.microsoft.com/security/bulletin/ms08-075)
+</td>
+<td style="border:1px solid black;">
+[**MS08-073**](http://technet.microsoft.com/security/bulletin/ms08-073)
+</td>
+<td style="border:1px solid black;">
+[**MS08-078**](http://technet.microsoft.com/security/bulletin/ms08-078)
+</td>
+<td style="border:1px solid black;">
+[**MS08-076**](http://technet.microsoft.com/security/bulletin/ms08-076)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Avaliação de gravidade agregada**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Nenhuma
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 Service Pack 1 e Windows Server 2003 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 Service Pack 1 e Windows Server 2003 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=0c396796-0929-4cd2-99e8-3c0f7075a89e)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=d53adf6f-9501-4862-a1ca-57eb4d40cd75)  
+(Moderada)  
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=9cdd4f9e-c578-405c-af9e-628f2d77fdf4)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=d81e9cf9-ce0c-463a-a359-49a348cb89ae)  
+(Crítica)  
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=388847ec-817e-45cf-8fa7-32c7e1f57f80)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Media Player 6.4](http://www.microsoft.com/downloads/details.aspx?familyid=2315ce20-2f46-42c2-bb40-045f003409d7)  
+(KB954600)  
+(Importante)  
+[Tempo de Execução do Windows Media Format 9.5](http://www.microsoft.com/downloads/details.aspx?familyid=d8958248-c889-499e-a6a9-3b394cdb27ea)  
+(KB952069)  
+(Importante)  
+[Windows Media Services 9 Series](http://www.microsoft.com/downloads/details.aspx?familyid=e71abc2d-d60e-444a-9b7b-062c5805fe9e)  
+(KB952068)  
+(Importante)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2003 x64 Edition e Windows Server 2003 x64 Edition Service Pack 2
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 x64 Edition e Windows Server 2003 x64 Edition Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=6d5c7d2f-1a82-4cdf-b3f2-b2c2390c6a64)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=5e37cb34-32be-4bbe-87f3-c4e1974e4d00)  
+(Moderada)  
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=7c36f92c-d8a0-4b70-b85f-83588a0299a0)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=015df302-d79f-43a1-b5c5-32ac04de0510)  
+(Crítica)  
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=2ae17caf-6204-470e-8480-380d3d505657)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Media Player 6.4](http://www.microsoft.com/downloads/details.aspx?familyid=4c29bed9-1b88-4d2f-80a5-305c2bedd89f)  
+(KB954600)  
+(Importante)  
+[Tempo de Execução do Windows Media Format 9.5](http://www.microsoft.com/downloads/details.aspx?familyid=2278022e-a716-46c0-bedf-d626933bd815)  
+(KB952069)  
+(Importante)  
+[Tempo de Execução do Windows Media Format 9.5 x64 Edition](http://www.microsoft.com/downloads/details.aspx?familyid=ae9e8b07-5354-42f3-a226-ba2193244524)  
+(KB952069)  
+(Importante)  
+[Windows Media Services 9 Series](http://www.microsoft.com/downloads/details.aspx?familyid=e0030155-1a9a-46cc-bbc8-6d0d1ed65c1f)  
+(KB952068)  
+(Importante)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2003 com SP1 para sistemas baseados no Itanium e Windows Server 2003 com SP2 para sistemas baseados no Itanium
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2003 com SP1 para sistemas baseados no Itanium e Windows Server 2003 com SP2 para sistemas baseados no Itanium](http://www.microsoft.com/downloads/details.aspx?familyid=1edb62b4-3d0f-4891-b4b3-8f8bc4e7bdfe)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=0da4e424-4682-4401-a226-7d8f1be19d44)  
+(Moderada)  
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=3811030d-5958-4b91-b5b8-20587dc7c4d6)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Internet Explorer 6](http://www.microsoft.com/downloads/details.aspx?familyid=18016305-7f72-47f6-ab4c-94282289bf5f)  
+(Crítica)  
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=97d6c093-f68d-4ddf-8e3c-f29662a1940f)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<th colspan="6">
+Windows Vista
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-071**](http://technet.microsoft.com/security/bulletin/ms08-071)
+</td>
+<td style="border:1px solid black;">
+[**MS08-075**](http://technet.microsoft.com/security/bulletin/ms08-075)
+</td>
+<td style="border:1px solid black;">
+[**MS08-073**](http://technet.microsoft.com/security/bulletin/ms08-073)
+</td>
+<td style="border:1px solid black;">
+[**MS08-078**](http://technet.microsoft.com/security/bulletin/ms08-078)
+</td>
+<td style="border:1px solid black;">
+[**MS08-076**](http://technet.microsoft.com/security/bulletin/ms08-076)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Avaliação de gravidade agregada**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Vista e Windows Vista Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Windows Vista e Windows Vista Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=cddf9cf6-bdeb-4429-823a-879387a428d7)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Vista e Windows Vista Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=0dcc5373-0435-42d5-864d-298e5bb122d9)  
+(KB958623)  
+(Importante)  
+[Windows Vista e Windows Vista Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5b1b65f0-6848-47c6-bdd5-be3c0621b323)  
+(KB958624)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=3f62030a-9ce2-4c92-b948-143a6881921e)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=7887111d-4fac-4823-bdd2-a18d9468fdf0)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Tempo de Execução do Windows Media Format 11](http://www.microsoft.com/downloads/details.aspx?familyid=1fcdc8dd-26d9-4d1a-8b3f-7b6a21a95999)  
+(KB952069)  
+(Importante)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Vista x64 Edition e Windows Vista x64 Edition Service Pack 1
+</td>
+<td style="border:1px solid black;">
+[Windows Vista x64 Edition e Windows Vista x64 Edition Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=73dc3775-b6f0-40f1-bd36-6b5fb80eb2fa)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Vista x64 Edition e Windows Vista x64 Edition Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=2112c5c8-7c9f-4491-b127-b1093085e105)  
+(KB958623)  
+(Importante)  
+[Windows Vista x64 Edition e Windows Vista x64 Edition Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=eb1d0ffe-1644-457b-9e82-768bd4c7f7ab)  
+(KB958624)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=d8800493-fba4-41f8-bde5-a53eeaf89d54)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=69979d92-8d45-47fe-ac4c-c2f1f23cf1fb)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Tempo de Execução do Windows Media Format 11](http://www.microsoft.com/downloads/details.aspx?familyid=8839f6cd-dfbf-448c-bf1e-1da9bb5f3f25)  
+(KB952069)  
+(Importante)
+</td>
+</tr>
+<tr>
+<th colspan="6">
+Windows Server 2008
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-071**](http://technet.microsoft.com/security/bulletin/ms08-071)
+</td>
+<td style="border:1px solid black;">
+[**MS08-075**](http://technet.microsoft.com/security/bulletin/ms08-075)
+</td>
+<td style="border:1px solid black;">
+[**MS08-073**](http://technet.microsoft.com/security/bulletin/ms08-073)
+</td>
+<td style="border:1px solid black;">
+[**MS08-078**](http://technet.microsoft.com/security/bulletin/ms08-078)
+</td>
+<td style="border:1px solid black;">
+[**MS08-076**](http://technet.microsoft.com/security/bulletin/ms08-076)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Avaliação de gravidade agregada**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas de 32 bits
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 para sistemas de 32 bits](http://www.microsoft.com/downloads/details.aspx?familyid=bbed9e8b-e75e-44ef-ba1d-fd6f852c1f67)\*  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 para sistemas de 32 bits](http://www.microsoft.com/downloads/details.aspx?familyid=90ab7e6f-5ae7-4f55-8838-868fc98d8a16)\*\*\*  
+(KB958623)  
+(Importante)  
+[Windows Server 2008 para sistemas de 32 bits](http://www.microsoft.com/downloads/details.aspx?familyid=470d506f-77ae-4a44-8598-df645f484295)\*\*\*  
+(KB958624)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=45a0de3c-c7d1-4314-a456-1f7428b7c90a)\*\*  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=5552e564-dd1c-4e2a-9a42-6317522c884d)\*\*  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Tempo de Execução do Windows Media Format 11](http://www.microsoft.com/downloads/details.aspx?familyid=91ec4195-bc1c-444e-a7b0-ebde46c088fa)  
+(KB952069)  
+(Importante)  
+[Windows Media Services 2008](http://www.microsoft.com/downloads/details.aspx?familyid=ffb5d945-7f98-4849-b020-ed4873fa42df)\*  
+(KB952068)  
+(Importante)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas de 32 bits Service Pack 2
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Windows Media Services 2008](http://www.microsoft.com/downloads/details.aspx?familyid=ffb5d945-7f98-4849-b020-ed4873fa42df)\*  
+(KB952068)  
+(Importante)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas baseados no Itanium
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 para sistemas baseados em x64](http://www.microsoft.com/downloads/details.aspx?familyid=48aecf4c-1296-490d-ba37-a28e3ec19bd6)\*  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 para sistemas baseados em x64](http://www.microsoft.com/downloads/details.aspx?familyid=e1deab57-ada2-4b12-9157-5615e7b0071d)\*\*\*  
+(KB958623)  
+(Importante)  
+[Windows Server 2008 para sistemas baseados em x64](http://www.microsoft.com/downloads/details.aspx?familyid=e41f23e4-6a2f-4ebb-b425-d241a08da316)\*\*\*  
+(KB958624)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=405b28db-47d7-4d6b-90e6-834c0a409323)\*\*  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=889c6eb1-7d1f-4e60-b637-535cb6e4e443)\*\*  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Tempo de Execução do Windows Media Format 11](http://www.microsoft.com/downloads/details.aspx?familyid=8cab6fe8-161d-4d8c-9772-eb3174a2c3c3)  
+(KB952069)  
+(Importante)  
+[Windows Media Services 2008](http://www.microsoft.com/downloads/details.aspx?familyid=0204a366-5641-4036-9cb0-a46d04af9d72)\*  
+(KB952068)  
+(Importante)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas baseados em x64 Service Pack 2
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Windows Media Services 2008](http://www.microsoft.com/downloads/details.aspx?familyid=0204a366-5641-4036-9cb0-a46d04af9d72)\*  
+(KB952068)  
+(Importante)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Windows Server 2008 para sistemas baseados no Itanium
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 para sistemas baseados no Itanium](http://www.microsoft.com/downloads/details.aspx?familyid=9bfe15cd-02ff-45cf-85c8-5ff1e6c1a871)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Server 2008 para sistemas baseados no Itanium](http://www.microsoft.com/downloads/details.aspx?familyid=48bed90d-c243-4969-8e54-326d9a7af343)  
+(KB958623)  
+(Importante)  
+[Windows Server 2008 para sistemas baseados no Itanium](http://www.microsoft.com/downloads/details.aspx?familyid=83de2263-de2a-4c13-96ba-ecfebdaf0bb9)  
+(KB958624)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=f0d4f321-941e-4da7-958f-582c75542ee8)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Windows Internet Explorer 7](http://www.microsoft.com/downloads/details.aspx?familyid=06cb502a-6818-4599-aa24-6eddb83e4b84)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+</table>
+
+<p></p>
+
+ 
+**Observação para o boletim MS08-078**
+
+A vulnerabilidade tratada no boletim MS08-078 foi relatada depois do lançamento do Windows Internet Explorer 8 Beta 2. Recomendamos aos clientes que estejam executando o Windows Internet Explorer 8 Beta 2 baixar e aplicar a atualização a seus sistemas.
+
+As atualizações de segurança estão disponíveis no [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747) e no [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130). As atualizações de segurança também estão disponíveis no [Centro de Download da Microsoft](http://go.microsoft.com/fwlink/?linkid=21129). Você poderá encontrá-las com mais facilidade executando uma pesquisa com a palavra-chave "atualização de segurança".
+
+**Observações para o Windows Server 2008**
+
+**\*Instalação do núcleo de servidor do Windows Server 2008 afetada.** Essa atualização se aplica às edições do Windows Server 2008 com suporte, com a mesma classificação de gravidade, se o Windows Server 2008 tiver sido instalado usando a opção de instalação de Núcleo de Servidor. Para obter mais informações sobre essa opção de instalação, consulte [Núcleo do Servidor](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Observe que a opção de instalação de Núcleo do Servidor não se aplica a certas edições do Windows Server 2008. Consulte [Comparar opções de instalação de Núcleo do Servidor](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
+
+**\*\*Instalação do núcleo de servidor do Windows Server 2008 não afetada.** As vulnerabilidades abordadas por esta atualização não afetam as edições do Windows Server 2008 com suporte se o Windows Server 2008 for instalado usando a opção de instalação Núcleo do Servidor. Para obter mais informações sobre essa opção de instalação, consulte [Núcleo do Servidor](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Observe que a opção de instalação de Núcleo do Servidor não se aplica a certas edições do Windows Server 2008. Consulte [Comparar opções de instalação de Núcleo do Servidor](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
+
+**\*\*\*Instalação do núcleo de servidor do Windows Server 2008 não afetada.** As vulnerabilidades abordadas por estas atualizações não afetam as edições com suporte do Windows Server 2008 se o Windows Server 2008 foi instalado usando a opção de instalação Núcleo do Servidor, mesmo que os arquivos afetados por essas vulnerabilidades possam estar presentes no sistema. No entanto, esta atualização ainda será oferecida aos usuários com arquivos afetados porque os arquivos de atualização são mais novos (com números de versão mais altos) que os arquivos que estão atualmente no seu sistema. Para obter mais informações sobre essa opção de instalação, consulte [Núcleo do Servidor](http://msdn.microsoft.com/en-us/library/ms723891(vs.85).aspx). Observe que a opção de instalação de Núcleo do Servidor não se aplica a certas edições do Windows Server 2008. Consulte [Comparar opções de instalação de Núcleo do Servidor](http://www.microsoft.com/windowsserver2008/en/us/compare-core-installation.aspx).
+
+#### Microsoft Office Suites e software
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="5">
+Microsoft Office Suites, sistemas e componentes
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-070**](http://technet.microsoft.com/security/bulletin/ms08-070)
+</td>
+<td style="border:1px solid black;">
+[**MS08-072**](http://technet.microsoft.com/security/bulletin/ms08-072)
+</td>
+<td style="border:1px solid black;">
+[**MS08-074**](http://technet.microsoft.com/security/bulletin/ms08-074)
+</td>
+<td style="border:1px solid black;">
+[**MS08-077**](http://technet.microsoft.com/security/bulletin/ms08-077)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Avaliação de gravidade agregada**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Nenhuma
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2000 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Word 2000 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=43e8c4d8-307b-48f6-ac99-a9617421d40a)  
+(KB956328)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Excel 2000 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=f39d2a49-f861-4f2d-bf91-94a8a85af40c)  
+(KB958435)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office XP Service Pack 3
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Word 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=3ef41412-50b3-4077-b0e3-9a3704d2f876)  
+(KB956329)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Excel 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=72076e21-2aa3-48e8-883a-c3cb756fc72a)  
+(KB958372)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2003 Service Pack 3
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Word 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=45c81c60-4b1b-4246-839b-198ebc4eeae2)  
+(KB956357)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Excel 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=6c0771e5-fcd4-4365-b903-1a3bd95d9e66)  
+(KB958436)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+2007 Microsoft Office System
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Word 2007](http://www.microsoft.com/downloads/details.aspx?familyid=5b51cb5e-3899-4257-82cf-7e92fa619c37)  
+(KB956358)  
+(Importante)  
+[Microsoft Office Outlook 2007](http://www.microsoft.com/downloads/details.aspx?familyid=5b51cb5e-3899-4257-82cf-7e92fa619c37)  
+(KB956358)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Excel 2007](http://www.microsoft.com/downloads/details.aspx?familyid=68bb8d99-f28b-4efd-9314-3eee0bb00ccf)  
+(KB958437)\*\*\*\*  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+2007 Microsoft Office System Service Pack 1
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Word 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5b51cb5e-3899-4257-82cf-7e92fa619c37)  
+(KB956358)  
+(Importante)  
+[Microsoft Office Outlook 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=5b51cb5e-3899-4257-82cf-7e92fa619c37)  
+(KB956358)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Excel 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=68bb8d99-f28b-4efd-9314-3eee0bb00ccf)  
+(KB958437)\*\*\*\*  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office FrontPage
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office FrontPage 2002 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=0a6130ae-c5b4-43cb-afe3-ab6a55b9d9ea)\*  
+(KB957797)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Project
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Project 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=89a44042-a629-40f3-800a-0bb45fc36591)  
+(KB949045)  
+(Crítica)  
+[Microsoft Office Project 2007](http://www.microsoft.com/downloads/details.aspx?familyid=2fbf6a5b-ff35-4a2d-9fa0-4e62b6486fe6)  
+(KB949046)  
+(Crítica)  
+[Microsoft Office Project 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=2fbf6a5b-ff35-4a2d-9fa0-4e62b6486fe6)  
+(KB949046)  
+(Crítica)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<th colspan="5">
+Microsoft Office para Mac
+</th>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-070**](http://technet.microsoft.com/security/bulletin/ms08-070)
+</td>
+<td style="border:1px solid black;">
+[**MS08-072**](http://technet.microsoft.com/security/bulletin/ms08-072)
+</td>
+<td style="border:1px solid black;">
+[**MS08-074**](http://technet.microsoft.com/security/bulletin/ms08-074)
+</td>
+<td style="border:1px solid black;">
+[**MS08-077**](http://technet.microsoft.com/security/bulletin/ms08-077)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Avaliação de gravidade agregada**
+</td>
+<td style="border:1px solid black;">
+Nenhuma
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+Nenhuma
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office 2004 para Mac
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2004 for Mac](http://www.microsoft.com/downloads/details.aspx?familyid=eca13ad8-62ae-41a8-b308-41e2d1773820)\*\*  
+(KB960402)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2004 for Mac](http://www.microsoft.com/downloads/details.aspx?familyid=eca13ad8-62ae-41a8-b308-41e2d1773820)\*\*  
+(KB960402)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office 2008 para Mac
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2008 for Mac](http://www.microsoft.com/downloads/details.aspx?familyid=ab31a564-43d2-45bd-98bf-19e9ca477b62)\*\*  
+(KB960401)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office 2008 for Mac](http://www.microsoft.com/downloads/details.aspx?familyid=ab31a564-43d2-45bd-98bf-19e9ca477b62)\*\*  
+(KB960401)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Open XML File Format Converter for Mac
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Open XML File Format Converter for Mac](http://www.microsoft.com/downloads/details.aspx?familyid=edb6cd8f-832c-4123-8982-ac0c601ea0a7)\*\*  
+(KB960403)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+[Open XML File Format Converter for Mac](http://www.microsoft.com/downloads/details.aspx?familyid=edb6cd8f-832c-4123-8982-ac0c601ea0a7)\*\*  
+(KB960403)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<th colspan="5">
+Outros softwares do Office
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-070**](http://technet.microsoft.com/security/bulletin/ms08-070)
+</td>
+<td style="border:1px solid black;">
+[**MS08-072**](http://technet.microsoft.com/security/bulletin/ms08-072)
+</td>
+<td style="border:1px solid black;">
+[**MS08-074**](http://technet.microsoft.com/security/bulletin/ms08-074)
+</td>
+<td style="border:1px solid black;">
+[**MS08-077**](http://technet.microsoft.com/security/bulletin/ms08-077)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Avaliação de gravidade agregada**
+</td>
+<td style="border:1px solid black;">
+Nenhuma
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Works
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Works 8](http://www.microsoft.com/downloads/details.aspx?familyid=1537d181-90d9-4bb5-b5ae-8d9990a349af)\*\*\*  
+(KB959487)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Office Excel Viewer
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Excel Viewer 2003](http://www.microsoft.com/downloads/details.aspx?familyid=4b3989ef-02b8-4bd2-b2ab-c3716079936e)  
+(KB958434)  
+(Importante)  
+[Microsoft Office Excel Viewer 2003 Service Pack 3](http://www.microsoft.com/downloads/details.aspx?familyid=4b3989ef-02b8-4bd2-b2ab-c3716079936e)  
+(KB958434)  
+(Importante)  
+[Microsoft Office Excel Viewer](http://www.microsoft.com/downloads/details.aspx?familyid=9dbb35c1-aa7a-481b-a330-8ba916ddd443)  
+(KB958442)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office Word Viewer
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office Word Viewer 2003 Service Pack 3 e Microsoft Office Word Viewer](http://www.microsoft.com/downloads/details.aspx?familyid=70de7c3c-519f-4f4a-a03f-027f80b5415c)  
+(KB956366)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007](http://www.microsoft.com/downloads/details.aspx?familyid=55430121-4476-48b8-9f6f-4a60fa0b2970)  
+(KB956828)  
+(Importante)  
+[Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=55430121-4476-48b8-9f6f-4a60fa0b2970)  
+(KB956828)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+[Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007](http://www.microsoft.com/downloads/details.aspx?familyid=99cca4ed-f1f9-4cfd-a986-edbec82ced4f)  
+(KB958439)  
+(Importante)  
+[Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=99cca4ed-f1f9-4cfd-a986-edbec82ced4f)  
+(KB958439)  
+(Importante)
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Office SharePoint Server 2007
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+Não Aplicável
+</td>
+<td style="border:1px solid black;">
+[Microsoft Office SharePoint Server 2007 (edições de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=f8f73997-6f4c-4b43-aa50-5c8276e83d3e)  
+(KB956716)  
+(Importante)  
+[Microsoft Office SharePoint Server 2007 Service Pack 1 (edições de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=f8f73997-6f4c-4b43-aa50-5c8276e83d3e)  
+(KB956716)  
+(Importante)  
+[Microsoft Office SharePoint Server 2007 (edições de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=a7fda284-273c-42ab-8188-433beaacca86)  
+(KB956716)  
+(Importante)  
+[Microsoft Office SharePoint Server 2007 Service Pack 1 (edições de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=a7fda284-273c-42ab-8188-433beaacca86)  
+(KB956716)  
+(Importante)
+</td>
+</tr>
+</table>
+
+<p></p>
+
+ 
+**Observação para o boletim MS08-070**  
+Consulte também a próxima seção, **Software e ferramentas para desenvolvedor da Microsoft** para obter mais arquivos de atualização. Este boletim abrange o Microsoft Office e o Software e ferramentas para desenvolvedor da Microsoft.
+
+**Observação para o boletim MS08-077**  
+Consulte também a seção **Microsoft Server Software** para obter mais arquivos de atualização. Este boletim abrange os Microsoft Office Suites e Software e Microsoft Server Software.
+
+**Observação para o Microsoft Office Frontpage no boletim MS08-070**  
+\*Esta atualização se aplica somente às versões do FrontPage 2002 Service Pack 3 em chinês simplificado (China), chinês pan (Hong Kong), chinês tradicional (Taiwan) e coreano.
+
+**Observação para o Microsoft Office for Mac nos boletins MS08-072 e MS08-074**  
+\*\*As atualizações correspondentes são idênticas nos boletins MS08-072 e MS08-074. Uma vez que as vulnerabilidades estão nos mesmos arquivos, essas atualizações são iguais nesses boletins.
+
+**Observação para o Works 8 no boletim MS08-072**  
+\*\*\*A fim de receber esta atualização de segurança, os clientes que estejam executando o Microsoft Works 8.0 devem primeiro atualizar para o Works 8.5, conforme descrito no [Microsoft Works Update](http://www.microsoft.com/products/works/international/update_1001.mspx). Isso inclui todos os clientes que estejam usando o Microsoft Works 8.0, o Works Suite 2004 e o Works Suite 2005. Para clientes que executam o Works Suite 2006, o Works 8.5 já está incluído.
+
+**Observação para o Microsoft Office Excel 2007 e o Microsoft Office Excel 2007 Service Pack 1 no MS08-074**  
+\*\*\*\*Para o Microsoft Office Excel 2007 e o Microsoft Office Excel 2007 Service Pack 1, além do pacote de atualização de segurança KB958437, os clientes também devem instalar a atualização de segurança para o [Pacote de compatibilidade do Microsoft Office para formatos de arquivos do Word, Excel e PowerPoint 2007](http://www.microsoft.com/downloads/details.aspx?familyid=99cca4ed-f1f9-4cfd-a986-edbec82ced4f) (KB958439) para proteger-se das vulnerabilidades descritas no boletim MS08-074. Os clientes que já instalaram os pacotes de atualização KB958437 e KB958439 com êxito não precisam reinstalá-los.
+
+#### Software e ferramentas para desenvolvedor da Microsoft
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="2">
+Visual Studio
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-070**](http://technet.microsoft.com/security/bulletin/ms08-070)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Avaliação de gravidade agregada**
+</td>
+<td style="border:1px solid black;">
+[**Crítica**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Visual Basic
+</td>
+<td style="border:1px solid black;">
+[Arquivos estendidos de tempo de execução do Microsoft Visual Basic 6.0](http://www.microsoft.com/downloads/details.aspx?familyid=e27eebcb-095d-43ec-a19e-4a46e591715c)  
+(KB926857)  
+(Crítica)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+Microsoft Visual Studio .NET
+</td>
+<td style="border:1px solid black;">
+[Microsoft Visual Studio .NET 2002 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=afad980d-7f27-49d9-aa23-b762c7b94cd6)  
+(KB958392)  
+(Crítica)  
+[Microsoft Visual Studio .NET 2003 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=6ac7cf8f-d046-43a8-b4ef-253153d65aed)  
+(KB958393)  
+(Crítica)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Visual FoxPro
+</td>
+<td style="border:1px solid black;">
+[Microsoft Visual FoxPro 8.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=a6977f81-f7f6-486b-96ad-8d296d79f205)  
+(KB958369)  
+(Crítica)  
+[Microsoft Visual FoxPro 9.0 Service Pack 1](http://www.microsoft.com/downloads/details.aspx?familyid=386d27a6-b2c7-4acc-bf3e-edcbc7358172)  
+(KB958370)  
+(Crítica)  
+[Microsoft Visual FoxPro 9.0 Service Pack 2](http://www.microsoft.com/downloads/details.aspx?familyid=5b1f28a9-da8d-463a-8ae4-dfc8fcc6c41a)  
+(KB958371)  
+(Crítica)
+</td>
+</tr>
+</table>
+
+<p></p>
+
+ 
+**Observação para o boletim MS08-070**  
+Consulte também a seção anterior, **Software e ferramentas para desenvolvedor da Microsoft** para obter mais arquivos de atualização. Este boletim abrange os Microsoft Office Suites e Software e Software e ferramentas para desenvolvedor da Microsoft.
+
+#### Microsoft Server Software
+
+ 
+<p></p>
+
+<table style="border:1px solid black;">
+<tr class="thead">
+<th style="border:1px solid black;" >
+</th>
+<th style="border:1px solid black;" >
+</th>
+</tr>
+<tr>
+<th colspan="2">
+Search Server
+</th>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+**Identificador do Boletim**
+</td>
+<td style="border:1px solid black;">
+[**MS08-077**](http://technet.microsoft.com/security/bulletin/ms08-077)
+</td>
+</tr>
+<tr class="alternateRow">
+<td style="border:1px solid black;">
+**Avaliação de gravidade agregada**
+</td>
+<td style="border:1px solid black;">
+[**Importante**](http://go.microsoft.com/fwlink/?linkid=21140)
+</td>
+</tr>
+<tr>
+<td style="border:1px solid black;">
+Microsoft Search Server
+</td>
+<td style="border:1px solid black;">
+[Microsoft Search Server 2008 (edições de 32 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=f8f73997-6f4c-4b43-aa50-5c8276e83d3e)\*  
+(KB956716)  
+(Importante)  
+[Microsoft Search Server 2008 (edições de 64 bits)](http://www.microsoft.com/downloads/details.aspx?familyid=a7fda284-273c-42ab-8188-433beaacca86)\*\*  
+(KB956716)  
+(Importante)
+</td>
+</tr>
+</table>
+
+<p></p>
+
+ 
+**Observações para o boletim MS08-077**
+
+\*Inclui o Microsoft Search Server 2008 Express (32 bits)
+
+\*\*Inclui o Microsoft Search Server 2008 Express (64 bits)
+
+Consulte também a seção, **Microsoft Office Suites e Software** para obter mais arquivos de atualização. Este boletim abrange os Microsoft Office Suites e Software e Microsoft Server Software.
+
+Orientação e ferramentas de detecção e implantação
+--------------------------------------------------
+
+ 
+**Central de Segurança**
+
+Gerencie as atualizações de software e segurança que você precisa instalar em servidores, computadores desktop e notebooks em sua organização. Para obter mais informações, consulte o [Centro de Gerenciamento de Atualização do Technet](http://go.microsoft.com/fwlink/?linkid=69903). O site [TechNet Security Center](http://go.microsoft.com/fwlink/?linkid=21171) fornece informações adicionais sobre segurança em produtos da Microsoft. Os consumidores podem visitar [Segurança em Casa](http://go.microsoft.com/fwlink/?linkid=85102), onde essa informação também está disponível, clicando em “Atualizações de Segurança mais Recentes”.
+
+As atualizações de segurança estão disponíveis no [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747), [Windows Update](http://go.microsoft.com/fwlink/?linkid=21130) e [Office Update](http://go.microsoft.com/fwlink/?linkid=21135). As atualizações de segurança também estão disponíveis no [Centro de Download da Microsoft](http://go.microsoft.com/fwlink/?linkid=21129). Você poderá encontrá-las com mais facilidade, executando uma pesquisa com a palavra-chave "atualização de segurança".
+
+Por fim, as atualizações de segurança podem ser baixadas do [Microsoft Update Catalog](http://go.microsoft.com/fwlink/?linkid=96155). O Microsoft Update Catalog fornece um catálogo pesquisável de conteúdo disponibilizado por meio do Windows Update e Microsoft Update, incluindo atualizações de segurança, drivers e service packs. Ao pesquisar usando o número do boletim de segurança (como "MS07-036"), é possível adicionar todas as atualizações aplicáveis em sua cesta (incluindo idiomas diferentes para uma atualização) e baixá-las na pasta de sua escolha. Para obter mais informações sobre o Microsoft Update Catalog, consulte as [Perguntas Frequentes sobre Microsoft Update Catalog.](http://go.microsoft.com/fwlink/?linkid=97900)
+
+**Orientação para detecção e implantação**
+
+A Microsoft está oferecendo uma orientação de detecção e implantação para as atualizações de segurança deste mês. Essa orientação também ajudará os profissionais de TI a entender como eles podem usar as várias ferramentas para ajudar a implantar a atualização de segurança, tal como o Windows Update, Microsoft Update, Atualização do Office, as ferramentas MBSA (Microsoft Baseline Security Analyzer), Office Detection Tool, Microsoft Systems Management Server (SMS) e a Ferramenta Extended Security Update Inventory (ESUIT). Para obter mais informações, consulte o [Artigo 910723 (em inglês) da Microsoft Knowledge Base](http://support.microsoft.com/kb/910723).
+
+**Microsoft Baseline Security Analyzer**
+
+O MBSA (Microsoft Baseline Security Analyzer) permite aos administradores pesquisar, em sistemas locais e remotos, atualizações de segurança ausentes e problemas de configuração de segurança comuns. Para obter mais informações sobre o MBSA, visite [Microsoft Baseline Security Analyzer](http://go.microsoft.com/fwlink/?linkid=21134).
+
+**Windows Server Update Services**
+
+Usando o WSUS (Windows Server Update Services), os administradores podem implantar de forma rápida e confiável as mais recentes atualizações críticas e de segurança dos sistemas operacionais Windows 2000 e posterior, Office XP e superior, Exchange Server 2003, e SQL Server 2000 nos sistemas operacionais Windows 2000 e superior.
+
+Para obter mais informações sobre como implantar esta atualização de segurança usando o Windows Server Update Services, visite [Windows Server Update Services](http://go.microsoft.com/fwlink/?linkid=50120).
+
+**Systems Management Server**
+
+O SMS (Microsoft Systems Management Server) fornece uma solução corporativa altamente configurável para gerenciar atualizações. Ao usar o SMS, os administradores podem identificar os sistemas baseados no Windows que precisam de atualizações de segurança, bem como executar a implantação controlada dessas atualizações em toda a empresa com o mínimo de interrupção para os usuários. O próximo lançamento do SMS, System Center Configuration Manager 2007, já está disponível; consulte também [System Center Configuration Manager 2007](http://technet.microsoft.com/en-us/library/bb735860.aspx). Para obter mais informações sobre como os administradores podem usar o SMS 2003 para instalar atualizações de segurança, consulte [Gerenciamento de Patches de Segurança do SMS 2003.](http://go.microsoft.com/fwlink/?linkid=22939) Os usuários do SMS 2.0 também podem usar o [Software Updates Service Feature Pack](http://go.microsoft.com/fwlink/?linkid=33340) (em inglês) para ajudar a implantar atualizações de segurança. Para obter informações sobre o SMS, visite [Microsoft Systems Management Server](http://go.microsoft.com/fwlink/?linkid=21158).
+
+**Observação** O SMS usa o Microsoft Baseline Security Analyzer e a ferramenta de detecção do Microsoft Office para fornecer amplo suporte à detecção e à implantação de atualizações do boletim de segurança. Algumas atualizações de software podem não ser detectadas por essas ferramentas. Os administradores podem usar os recursos de inventário do SMS nesses casos para apontar as atualizações de sistemas específicos. Para obter mais informações sobre este procedimento, consulte [Implementando atualizações de software usando o Recurso Distribuição de Software do SMS](http://go.microsoft.com/fwlink/?linkid=33341). Algumas atualizações de segurança exigirão direitos administrativos quando o sistema for reiniciado. Os administradores podem usar a Elevated Rights Deployment Tool (disponível no [SMS 2003 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=33387) e no [SMS 2.0 Administration Feature Pack](http://go.microsoft.com/fwlink/?linkid=21161)) (sites em inglês) para instalar essas atualizações.
+
+**Avaliador de Compatibilidade com Atualizações e Kit de Ferramentas de Compatibilidade de Aplicativo**
+
+As atualizações frequentemente gravam nos mesmos arquivos e configurações do Registro necessários à execução dos aplicativos. Isto pode gerar incompatibilidades e aumentar o tempo necessário à implantação de atualizações de segurança. É possível usar os componentes do [Avaliador de compatibilidade com atualizações](http://technet2.microsoft.com/windowsvista/en/library/4279e239-37a4-44aa-aec5-4e70fe39f9de1033.mspx?mfr=true) incluídos no [Kit de ferramentas de compatibilidade de aplicativos 5.0](http://www.microsoft.com/downloads/details.aspx?familyid=24da89e9-b581-47b0-b45e-492dd6da2971&displaylang=en) para agilizar o teste e a validação de atualizações do Windows com relação aos aplicativos instalados.
+
+O Kit de ferramentas de compatibilidade de aplicativos (ACT) contém as ferramentas e a documentação necessárias para avaliar e atenuar problemas de compatibilidade com aplicativos antes da implantação do Microsoft Windows Vista, de uma atualização do Windows, de uma atualização de segurança da Microsoft ou de uma nova versão do Windows Internet Explorer em seu ambiente.
+
+### Outras informações
+
+#### Ferramenta de Remoção de Software Mal-Intencionado do Microsoft Windows
+
+A Microsoft lançou uma versão atualizada da Ferramenta de Remoção de Software Mal-Intencionado do Microsoft Windows em Windows Update, Microsoft Update, Windows Server Update Services e no Centro de Download.
+
+#### Atualizações de alta prioridade que não são de segurança no MU, WU e WSUS:
+
+Para obter informações sobre versões não seguras no Windows Update e Microsoft Update, consulte o site:
+
+-   [Artigo 894199 (em inglês) da Microsoft Knowledge Base](http://support.microsoft.com/kb/894199): Descrição dos serviços de atualização de software e de alterações nos serviços do Windows Server no conteúdo para 2008. Inclui todo o conteúdo do Windows.
+-   [Atualizações novas, revisadas e liberadas para produtos da Microsoft que não sejam o Microsoft Windows](http://technet.microsoft.com/en-us/wsus/bb466214.aspx).
+
+#### Microsoft Active Protections Program (MAPP)
+
+Para melhorar as proteções de segurança para os clientes, a Microsoft fornece informações sobre vulnerabilidades aos principais fornecedores de software de segurança antes do lançamento de cada atualização de segurança mensal. Assim, os fornecedores de software de segurança podem usar essas informações sobre vulnerabilidades para fornecer proteções atualizadas aos clientes por meio de seus softwares ou dispositivos de segurança, como antivírus, sistemas de detecção de invasões baseados em rede ou sistemas de prevenção de invasões baseados em host. Para determinar se os fornecedores de software de segurança estão disponibilizando proteções ativas, visite os sites de proteções ativas fornecidos pelos parceiros do programa, listados em [Parceiros do MAPP (Microsoft Active Protections Program)](http://www.microsoft.com/security/msrc/mapp/partners.mspx).
+
+#### Comunidade e estratégias de segurança
+
+**Estratégias de Gerenciamento de Atualização**
+
+O site [Orientações de segurança para gerenciamento de atualizações](http://go.microsoft.com/fwlink/?linkid=21168) oferece informações adicionais sobre as práticas recomendadas pela Microsoft para a aplicação de atualizações de segurança.
+
+**Obtendo outras atualizações de segurança**
+
+As atualizações para outros problemas de segurança estão disponíveis nos seguintes locais:
+
+-   As atualizações de segurança estão disponíveis no [Centro de Download da Microsoft](http://go.microsoft.com/fwlink/?linkid=21129). Você poderá encontrá-las com mais facilidade, executando uma pesquisa com a palavra-chave "atualização de segurança".
+-   Atualizações para plataformas do cliente estão disponíveis no [Microsoft Update](http://go.microsoft.com/fwlink/?linkid=40747).
+-   É possível obter as atualizações de segurança oferecidas este mês no Windows Update, disponíveis no Centro de Download de arquivos de imagem ISO em CD contendo lançamentos críticos e de segurança. Para obter mais informações, consulte o [Artigo 913086 (em inglês) da Microsoft Knowledge Base](http://support.microsoft.com/kb/913086).
+
+**Comunidade de segurança de profissionais de TI**
+
+Aprenda a aumentar a segurança e a otimizar a infra-estrutura de TI e participe de discussões sobre os tópicos de segurança com outros profissionais de TI no site [IT Pro Security Community](http://go.microsoft.com/fwlink/?linkid=21164) (em inglês).
+
+#### Agradecimentos
+
+A Microsoft [agradece](http://go.microsoft.com/fwlink/?linkid=21127) à pessoa citada abaixo por trabalhar conosco para ajudar a proteger os clientes:
+
+-   ADLab da [VenusTech](http://www.venustech.com.cn/) por relatar vários problemas descritos no boletim MS08-070
+-   Jason Medeiros da [Affiliated Computer Services](http://www.acs-inc.com/) por relatar um problema descrito no boletim MS08-070
+-   Carsten Eiram da [Secunia Research](http://secunia.com/) por relatar um problema descrito no boletim MS08-070
+-   Mark Dowd, que trabalha na [McAfee Avert Labs,](http://www.avertlabs.com/) por relatar um problema descrito no boletim MS08-070
+-   Brett Moore da [Insomnia Security](http://www.insomniasec.com/) por relatar um problema descrito no boletim MS08-070
+-   CHkr\_D591, que trabalha com a [TippingPoint](http://www.tippingpoint.com/) e a [Zero Day Initiative](http://www.zerodayinitiative.com/), por relatar um problema descrito no boletim MS08-070
+-   Michal Bucko, que trabalha na [CERT/CC](http://www.cert.org/), por relatar um problema descrito no boletim MS08-070
+-   A [Security Intelligence Analysis Team](http://www.symantec.com/) da Symantec por trabalhar conosco em um problema descrito no boletim MS08-070
+-   Jun Mao da [VeriSign iDefense Labs](http://labs.idefense.com/) por relatar um problema descrito no boletim MS08-071
+-   Juan Caballero, que trabalha no [grupo Bitblaze da Carnegie Mellon University/UC Berkeley](http://bitblaze.cs.berkeley.edu/), por relatar um problema descrito no boletim MS08-071
+-   Ricardo Narvaja, da [Core Security Technologies](http://www.coresecurity.com/), por informar um problema descrito no MS08-072
+-   Dyon Balding, da [Secunia Research](http://secunia.com/), por relatar um problema descrito no boletim MS08-072
+-   Yamata Li da [Palo Alto Networks](http://www.paloaltonetworks.com/) por relatar um problema descrito no boletim MS08-072
+-   Wushi, que trabalha com a [TippingPoint](http://www.tippingpoint.com/) e a [Zero Day Initiative](http://www.zerodayinitiative.com/), por relatar um problema descrito no boletim MS08-072
+-   Aaron Portnoy, da [TippingPoint DVLabs](http://dvlabs.tippingpoint.com/), por relatar problemas descritos no boletim MS08-072
+-   Wushi, da [team509](http://www.team509.com/), que trabalha na [Zero Day Initiative](http://www.zerodayinitiative.com/), por relatar um problema descrito no boletim MS08-072
+-   Wushi e Ling, que trabalham com a [TippingPoint](http://www.tippingpoint.com/) e a [Zero Day Initiative](http://www.zerodayinitiative.com/), por relatarem um problema descrito no boletim MS08-072
+-   Carlo Di Dato (também conhecido como shinnai) por relatar um problema descrito no boletim MS08-073
+-   Brett Moore, que trabalha com a [TippingPoint](http://www.tippingpoint.com/) e a [Zero Day Initiative](http://www.zerodayinitiative.com/), por relatar um problema descrito no boletim MS08-073
+-   Chris Weber da [Casaba Security](http://www.casabasecurity.com/) por relatar um problema descrito no boletim MS08-073
+-   Jun Mao da [VeriSign iDefense Labs](http://labs.idefense.com/) por relatar um problema descrito no boletim MS08-073
+-   Joshua J. Drake, da [VeriSign iDefense Labs](http://labs.idefense.com/), por relatar um problema descrito no boletim MS08-074
+-   Claes M Nyberg da [signedness.org](http://www.signedness.org/) por relatar um problema descrito no boletim MS08-074
+-   Dyon Balding, da [Secunia](http://secunia.com/), por relatar um problema descrito no boletim MS07-074
+-   Andre Protas da [eEye Digital Security](http://www.eeye.com/) por relatar um problema descrito no boletim MS08-075
+-   Nate McFeters por relatar um problema descrito no boletim MS08-075
+-   Um localizador anônimo por relatar um problema descrito no boletim MS08-077
+
+#### Suporte
+
+-   O software afetado listado foi testado a fim de determinar que versões são afetadas. Outras versões passaram seu ciclo de vida de suporte. Para determinar o ciclo de vida do suporte da sua versão de software, visite o site [Ciclo de Vida do Suporte Microsoft](http://go.microsoft.com/fwlink/?linkid=21742).
+-   Os clientes nos EUA e Canadá podem receber suporte técnico dos [Serviços de suporte ao produto Microsoft](http://go.microsoft.com/fwlink/?linkid=21131) pelo telefone 1-866-PCSAFETY. As ligações para obter suporte associado a atualizações de segurança são gratuitas.
+-   Os clientes de outros países podem obter suporte nas subsidiárias locais da Microsoft. O suporte associado a atualizações de segurança é gratuito. Para obter mais informações sobre como entrar em contato com a Microsoft a fim de obter suporte a problemas, visite o site de [Ajuda e Suporte Internacional](http://go.microsoft.com/fwlink/?linkid=21155).
+
+#### Aviso de isenção de responsabilidade
+
+As informações fornecidas na Microsoft Knowledge Base são apresentadas "no estado em que se encontram", sem garantia de qualquer tipo. A Microsoft se isenta de todas as garantias, expressas ou implícitas, inclusive as garantias de comercialização e adequação a um propósito específico. Em hipótese alguma a Microsoft Corporation ou seus fornecedores serão responsáveis por quaisquer danos, inclusive danos diretos, indiretos, incidentais, consequenciais, danos por lucros cessantes ou danos especiais, mesmo que a Microsoft Corporation ou seus fornecedores tenham sido alertados da possibilidade dos referidos danos. Como alguns estados não permitem a exclusão ou limitação de responsabilidade por danos consequenciais ou indiretos, a limitação acima pode não ser aplicável a você.
+
+#### Revisões
+
+-   V1.0 (9 de dezembro de 2008): Resumo do boletim publicado.
+-   V2.0 (10 de dezembro de 2008): Softwares afetados do MS08-076 foram corrigidos de forma a listar o Tempo de Execução do Windows Media Format 9.5 e o Tempo de Execução do Windows Media Format 11 como atualizações separadas no Windows XP Professional x64 Edition e no Windows XP Professional x64 Edition Service Pack 2. Também foram removidas do MS08-076 referências incorretas ao Tempo de Execução do Windows Media Format 11 x64 Edition no Windows XP Professional x64 Edition, Windows XP Professional x64 Edition Service Pack 2, Windows Server 2003 x64 Edition e Windows Server 2003 x64 Edition Service Pack 2.
+-   V3.0 (17 de dezembro de 2008): Atualização de segurança para o Internet Explorer (960714) adicionada ao Boletim de Segurança da Microsoft MS08-078 Adicionados também os links ao Webcast para este boletim de segurança desvinculado.
+-   V3.1 (18 de dezembro de 2008): Anotação sobre o núcleo de servidor não afetado adicionada ao MS08-078 para o Windows Internet Explorer 7 no Windows Server 2008 para sistemas de 32 bits e no Windows Server 2008 para sistemas baseados em x64.
+-   V3.2 (7 de janeiro de 2009): O Microsoft Office Word Viewer 2003 foi removido dos softwares afetados do MS08-072.
+-   V4.0 (13 de janeiro de 2009): A Microsoft relançou o boletim MS08-076 para oferecer novos pacotes de atualização para o Tempo de Execução do Windows Media Format 9.5 no Windows XP Service Pack 2 (KB952069) e no Windows XP Service Pack 3 (KB952069). Os clientes que estiverem executando todas as outras versões com suporte e afetadas dos Windows Media Components que já tiverem aplicado os pacotes de atualização de segurança originais MS08-076 não precisam tomar nenhuma providência. Além disso, o Windows Media Player 6.4 e o Windows Media Services 4.1 foram listados como softwares afetados pelo MS08-076 em todas as edições do Microsoft Windows 2000 Service Pack 4. Os clientes a quem esta atualização – KB954600 para Windows Media Player 6.4 ou KB952068 para Windows Media Services 4.1 – foi oferecida, mas que não a aplicaram, precisam fazê-lo. Por fim, o Microsoft Office Word Viewer foi listado como software afetado pelo MS08-072. Os clientes que tiverem instalado com êxito a atualização de segurança KB956366 não precisam reinstalá-la.
+-   V5.0 (28 de janeiro de 2009): Adicionada uma nota de rodapé à tabela de **Softwares afetados** no MS08-074 pertinentes aos pacotes de atualizações de segurança KB958437 e KB958439 para versões com suporte do Microsoft Office Excel 2007. Não houve nenhuma alteração à detecção ou aos binários da atualização de segurança. Os clientes com Microsoft Office Excel 2007 ou Microsoft Office Excel 2007 Service Pack 1 que já instalaram as atualizações KB958437 e KB958439 com êxito não precisam reinstalá-las.
+-   V6.0 (29 de abril de 2009): Windows Media Services 2008 (KB952068) adicionado como software afetado às edições de 32 bits e baseadas em x-64 do Windows Server 2008 Service Pack 2 no MS08-076. Esta é apenas uma alteração de detecção; não houve nenhuma alteração aos binários. Os clientes que já instalaram a atualização KB952068 com êxito não necessitam reinstalá-la.
+
+*Built at 2014-04-18T01:50:00Z-07:00*
